@@ -1,0 +1,39 @@
+ideologies = {
+
+	socialism= {
+		
+		types = {
+			
+		socialism_1 = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_REACTIONARY_1"
+			"FACTION_NAME_REACTIONARY_2"
+			"FACTION_NAME_REACTIONARY_3"
+			"FACTION_NAME_REACTIONARY_4"
+			"FACTION_NAME_REACTIONARY_5"
+			"FACTION_NAME_REACTIONARY_6"
+		}
+		
+		color = { 255 145 120 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+
+}
