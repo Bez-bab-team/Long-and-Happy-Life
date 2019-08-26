@@ -1,0 +1,18 @@
+state={
+	id=791
+	name="STATE_791" # Kabarda
+	manpower = 438890
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+		}
+		owner = RGD
+		add_core_of = RGD
+	}
+
+	provinces={
+		714 9649 11664 6692
+	}
+}

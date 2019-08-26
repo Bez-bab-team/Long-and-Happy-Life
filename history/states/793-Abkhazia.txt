@@ -1,0 +1,19 @@
+
+state={
+	id=793
+	name="STATE_793" # Sochi
+	manpower = 438890
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+		}
+		owner = RGD
+		add_core_of = RGD
+	}
+
+	provinces={
+			11647 11617 672 11599
+	}
+}

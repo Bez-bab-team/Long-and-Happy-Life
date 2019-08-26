@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = SOV
+		owner = RST
 		victory_points = {
 			3529 30.0
 		}
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 1
 			air_base = 1
 		}
-		add_core_of = SOV
+		add_core_of = RST
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
@@ -26,6 +26,6 @@ state={
 	}
 
 	provinces={
-		498 520 3503 3517 3529 3555 6479 6503 6527 6541 6575 9442 9459 9474 9504 9530 11395 11447 11474 11484 
+		520 3503 3517 3529 3555 6479 6503 6527 6541 6575 9459 9474 9504 9530 11395 11474 11484 
 	}
 }

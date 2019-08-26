@@ -4,8 +4,9 @@ ideologies = {
 		
 		types = {
 		
-			hegemonies_1 = {
-			}		
+			right_wing_authoritarianism = {
+			}	
+					
 		}
 		
 		dynamic_faction_names = {

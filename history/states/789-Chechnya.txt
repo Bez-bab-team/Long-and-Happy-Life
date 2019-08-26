@@ -1,0 +1,19 @@
+state={
+	id=789
+	name="STATE_789" # Chechnya
+	manpower = 438890
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			3672 30
+		}
+		owner = CHE
+		add_core_of = CHE
+	}
+
+	provinces={
+		6689 683 11632 3672 666 670 3667 1455
+	}
+}

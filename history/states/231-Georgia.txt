@@ -3,7 +3,7 @@ state={
 	name="STATE_231"
 
 	history={
-		owner = SOV
+		owner = GEO
 		victory_points = {
 			1599 5 
 		}
@@ -21,7 +21,6 @@ state={
 			}
 
 		}
-		add_core_of = SOV
 		add_core_of = GEO
 		1939.1.1 = {
 			buildings = {
@@ -34,7 +33,7 @@ state={
 	}
 
 	provinces={
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 11599 11617 12309 
+		654 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 9626 9702 12309 
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000

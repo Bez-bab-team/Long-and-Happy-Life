@@ -1,0 +1,19 @@
+state={
+	id=790
+	name="STATE_790" # Osetia
+	manpower = 238890
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			9628 20
+		}
+		owner = RGD
+		add_core_of = RGD
+	}
+
+	provinces={
+		9628 9647 11614 11609 9632
+	}
+}

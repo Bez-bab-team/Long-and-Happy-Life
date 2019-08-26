@@ -3,7 +3,7 @@ ideologies = {
 	left_authoritarianism = {
 		
 		types = {
-			left_authoritarianism_1 = {}	
+			paternalism = {}	
 		}
 		
 		dynamic_faction_names = {
