@@ -1,0 +1,85 @@
+ideas = {
+
+political_advisor = {
+	xenia_sobchak = {
+		
+		picture = xenia_sobchak
+		allowed = {
+			original_tag = "COU"
+		}		
+
+		traits = { silent_workhorse }
+
+		do_effect = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	vasilij_topolev = {
+		
+		picture = vasilij_topolev
+		allowed = {
+			original_tag = "COU"
+		}		
+
+		traits = { vatoadmin }
+
+		do_effect = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	andrej_rudoj = {
+		
+		picture = andrej_rudoj
+		allowed = {
+			original_tag = "COU"
+		}		
+
+		traits = { priest_slayer }
+
+		do_effect = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+		anatolij_mizzengendler = {
+		
+		picture = anatolij_mizzengendler
+		allowed = {
+			original_tag = "COU"
+		}		
+
+		traits = { spider }
+
+		do_effect = {
+			NOT = {
+				has_government = fascism
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	}	
+}

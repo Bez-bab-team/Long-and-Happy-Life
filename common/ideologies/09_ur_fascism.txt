@@ -5,7 +5,9 @@ ideologies = {
 		types = {
 		
 			theocracy = {
-			}		
+			}	
+			charismatic_dictatorship = {
+			}
 		}
 		
 		dynamic_faction_names = {

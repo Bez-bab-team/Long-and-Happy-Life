@@ -1,9 +1,5 @@
 #reload countrycolors
 
-NSU = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 215 5 15 }
-
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -156,6 +152,10 @@ CHL = {
 COL = {
 	color = rgb { 222 187 91 }
 	color_ui = rgb { 255 243 118 }
+}
+COS = {
+	color = rgb { 152 128 43 }
+	color_ui = rgb { 152 128 43 }
 }
 ECU = {
 	color = rgb { 249 146 98 }

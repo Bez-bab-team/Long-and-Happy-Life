@@ -6,7 +6,8 @@ ideologies = {
 		
 			right_wing_authoritarianism = {
 			}	
-					
+			absolute_monarchy= {
+			}		
 		}
 		
 		dynamic_faction_names = {

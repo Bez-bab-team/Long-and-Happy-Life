@@ -5,6 +5,8 @@ ideologies = {
 		types = {
 		
 			anprim = {
+			}	
+			odalism = {
 			}		
 		}
 		

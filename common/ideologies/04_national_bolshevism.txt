@@ -4,7 +4,7 @@ ideologies = {
 		
 		types = {
 		
-			national_bolshevism_1 = {
+			juche = {
 			}
 			
 		}
