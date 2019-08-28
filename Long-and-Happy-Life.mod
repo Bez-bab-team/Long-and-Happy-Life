@@ -2,6 +2,7 @@
 path="mod/Long-and-Happy-Life"
 user_dir = "Long-and-Happy-Life"
 replace_path = "common/bookmarks"
+replace_path = "common/ideas"
 replace_path = "common/ideologies"
 
 tags={
