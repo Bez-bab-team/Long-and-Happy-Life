@@ -4,6 +4,7 @@ user_dir = "Long-and-Happy-Life"
 replace_path = "common/bookmarks"
 replace_path = "common/ideas"
 replace_path = "common/ideologies"
+# replace_path = "history"
 
 tags={
 	"Balance"
