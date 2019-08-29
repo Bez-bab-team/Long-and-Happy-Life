@@ -1,0 +1,42 @@
+bookmarks = {
+	bookmark = {
+		name = "LHLBOOKMARK_NAME"
+		desc = "LHLBOOKMARK_DESC"
+		date = 2019.8.29.12
+		picture = "GFX_select_date_1939"
+		default_country = "JAP"
+	
+		JAP = {
+			history = JAP_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		# minors from DLC ####
+		"POL"={
+			minor = yes
+			history = "POL_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
