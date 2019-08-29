@@ -1,0 +1,176 @@
+focus_tree = {
+	id = medvedev_focus_tree
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = COU
+		}
+	}
+
+	default = no
+
+	# Base
+	focus = {
+		id = medved_focus_1
+		text = medved_focus_1
+		icon = GFX_medved_focus_1
+		cost = 10
+		x = 11
+		y = 0
+	}
+	focus = {
+		id = medved_focus_2
+		text = medved_focus_2
+		icon = GFX_medved_focus_2
+		cost = 10
+		prerequisite = { focus = medved_focus_1 }
+		x = 11
+		y = 1
+	}
+	focus = {
+		id = medved_focus_3
+		text = medved_focus_3
+		icon = GFX_medved_focus_3
+		cost = 10
+		prerequisite = { focus = medved_focus_2 }
+		x = 11
+		y = 2
+	}
+	focus = {
+		id = medved_focus_4
+		text = medved_focus_4
+		icon = GFX_medved_focus_4
+		cost = 10
+		prerequisite = { focus = medved_focus_3 }
+		x = 11
+		y = 3
+	}
+
+	# Army
+	focus = {
+		id = medved_army_focus_1
+		text = medved_army_focus_1
+		icon = GFX_medved_army_focus_1
+		cost = 10
+		prerequisite = { focus = medved_focus_4 }
+		x = 11
+		y = 4
+	}
+	focus = {
+		id = medved_army_focus_2
+		text = medved_army_focus_2
+		icon = GFX_medved_army_focus_2
+		cost = 10
+		prerequisite = { focus = medved_army_focus_1 }
+		x = 11
+		y = 5
+	}
+	focus = {
+		id = medved_army_focus_3
+		text = medved_army_focus_3
+		icon = GFX_medved_army_focus_3
+		cost = 10
+		prerequisite = { focus = medved_army_focus_2 }
+		x = 11
+		y = 6
+	}
+	focus = {
+		id = medved_army_focus_4
+		text = medved_army_focus_4
+		icon = GFX_medved_army_focus_4
+		cost = 10
+		prerequisite = { focus = medved_army_focus_3 }
+		x = 11
+		y = 7
+	}
+
+	# Diplomacy
+	focus = {
+		id = medved_dip_focus_1
+		text = medved_dip_focus_1
+		icon = GFX_medved_dip_focus_1
+		cost = 10
+		prerequisite = { focus = medved_focus_4 }
+		x = 8
+		y = 4
+	}
+	focus = {
+		id = medved_dip_focus_2
+		text = medved_dip_focus_2
+		icon = GFX_medved_dip_focus_2
+		cost = 10
+		prerequisite = { focus = medved_dip_focus_1 }
+		x = 8
+		y = 5
+	}
+	focus = {
+		id = medved_dip_focus_3
+		text = medved_dip_focus_3
+		icon = GFX_medved_dip_focus_3
+		cost = 10
+		prerequisite = { focus = medved_dip_focus_2 }
+		x = 8
+		y = 6
+	}
+	focus = {
+		id = medved_dip_focus_4
+		text = medved_dip_focus_4
+		icon = GFX_medved_dip_focus_4
+		cost = 10
+		prerequisite = { focus = medved_dip_focus_3 }
+		x = 8
+		y = 7
+	}
+
+	# Administration
+	focus = {
+		id = medved_opr_focus_1
+		text = medved_opr_focus_1
+		icon = GFX_medved_opr_focus_1
+		cost = 10
+		prerequisite = { focus = medved_focus_4}
+		x = 14
+		y = 4
+	}
+	focus = {
+		id = medved_opr_focus_2
+		text = medved_opr_focus_2
+		icon = GFX_medved_opr_focus_2
+		cost = 10
+		prerequisite = { focus = medved_opr_focus_1 }
+		x = 14
+		y = 5
+	}
+	focus = {
+		id = medved_opr_focus_3
+		text = medved_opr_focus_3
+		icon = GFX_medved_opr_focus_3
+		cost = 10
+		prerequisite = { focus = medved_opr_focus_2 }
+		x = 14
+		y = 6
+	}
+	focus = {
+		id = medved_opr_focus_4
+		text = medved_opr_focus_4
+		icon = GFX_medved_opr_focus_4
+		cost = 10
+		prerequisite = { focus = medved_opr_focus_3 }
+		x = 14
+		y = 7
+	}
+
+	# Grand finale
+	focus = {
+		id = medved_focus_9
+		text = medved_focus_9
+		icon = GFX_medved_focus_9
+		cost = 10
+		prerequisite = { focus = medved_dip_focus_4 focus = medved_army_focus_4 focus = medved_opr_focus_4 }
+		x = 11
+		y = 8
+
+	}
+}
