@@ -1,0 +1,81 @@
+spriteTypes = {
+
+	#### Medved
+	# Base
+	SpriteType = {
+		name = "GFX_medved_focus_1"
+		texturefile = "gfx/interface/goals/medved/goal_medved_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_focus_2"
+		texturefile = "gfx/interface/goals/medved/goal_medved_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_focus_3"
+		texturefile = "gfx/interface/goals/medved/goal_medved_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_focus_4"
+		texturefile = "gfx/interface/goals/medved/goal_medved_4.dds"
+	}
+
+	# Diplomacy
+	SpriteType = {
+		name = "GFX_medved_dip_focus_1"
+		texturefile = "gfx/interface/goals/medved/goal_medved_dip_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_dip_focus_2"
+		texturefile = "gfx/interface/goals/medved/goal_medved_dip_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_dip_focus_3"
+		texturefile = "gfx/interface/goals/medved/goal_medved_dip_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_dip_focus_4"
+		texturefile = "gfx/interface/goals/medved/goal_medved_dip_4.dds"
+	}
+
+	# Admin
+	SpriteType = {
+		name = "GFX_medved_opr_focus_1"
+		texturefile = "gfx/interface/goals/medved/goal_medved_opr_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_opr_focus_2"
+		texturefile = "gfx/interface/goals/medved/goal_medved_opr_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_opr_focus_3"
+		texturefile = "gfx/interface/goals/medved/goal_medved_opr_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_opr_focus_4"
+		texturefile = "gfx/interface/goals/medved/goal_medved_opr_4.dds"
+	}
+
+	# Army
+	SpriteType = {
+		name = "GFX_medved_army_focus_1"
+		texturefile = "gfx/interface/goals/medved/goal_medved_army_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_army_focus_2"
+		texturefile = "gfx/interface/goals/medved/goal_medved_army_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_army_focus_3"
+		texturefile = "gfx/interface/goals/medved/goal_medved_army_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_medved_army_focus_4"
+		texturefile = "gfx/interface/goals/medved/goal_medved_army_4.dds"
+	}
+
+	# Fin
+	SpriteType = {
+		name = "GFX_medved_focus_9"
+		texturefile = "gfx/interface/goals/medved/goal_medved_9.dds"
+	}
+}
