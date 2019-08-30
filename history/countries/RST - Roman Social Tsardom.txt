@@ -76,22 +76,22 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neo_bolshevism 
+	ruling_party = millenarism 
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neo_bolshevism  = 100
+	millenarism  = 100
 }
 
 
 create_country_leader = {
-	name = "Dmitrij Puchkov"
-	desc = "POLITICS_PUCHKOV_DESC"
-	picture = "Portrait_NSU_Dmitrij_Puchkov.dds"
+	name = "Sergej Kurginjan"
+	desc = "POLITICS_KURGINJAN_DESC"
+	picture = "Portrait_RST_KURGINJAN.dds"
 	expire = "1953.3.1"
-	ideology = neo_bolshevism_1
+	ideology = essence_of_time
 	traits = {
 		
 	}

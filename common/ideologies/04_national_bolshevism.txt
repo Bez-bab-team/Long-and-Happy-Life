@@ -6,7 +6,8 @@ ideologies = {
 		
 			juche = {
 			}
-			
+			nazbol_gang = {
+			}
 		}
 		
 		dynamic_faction_names = {

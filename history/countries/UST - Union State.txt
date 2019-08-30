@@ -1,0 +1,43 @@
+﻿capital = 537 
+
+oob = "SAH_2019"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = national_bolshevism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	national_bolshevism = 100
+}
+
+create_country_leader = {
+	name = "Viktor Tsoj"
+	desc = ""
+	picture = "Portrait_Viktor_Tsoj.dds"
+	expire = "1965.1.1"
+	ideology = nazbol_gang
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Hideo Kojima"
+		picture = "Portrait_Sakhalin_Hideo_Kojima.dds"
+	traits = { trickster commando guerilla_fighter }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
