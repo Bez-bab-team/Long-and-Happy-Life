@@ -72,9 +72,9 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Andrej Tkachyov"
+	name = "Dmitrij Medvedev"
 	desc = "POLITICS_TKACHYOV_DESC"
-	picture = "Portrait_COU_Andrej_Tkachyov.dds"
+	picture = "Portrait_COU_Medvedev.dds"
 	expire = "1953.3.1"
 	ideology = theocracy 
 	traits = {

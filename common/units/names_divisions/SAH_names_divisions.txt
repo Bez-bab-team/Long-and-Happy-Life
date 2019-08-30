@@ -1,0 +1,38 @@
+﻿SAH_INF_01 = 
+{
+	name = "Resistance Regiment"
+
+	for_countries = { SAH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "%d. Resistance Regiment"
+
+	ordered =
+	{
+		21 = { "Resistance Regiment" }
+		27 = { "Resistance Regiment" }
+		22 = { "Resistance Regiment" }
+		4 = { "Resistance Regiment" }	
+	}
+}
+
+SAH_INF_02 = 
+{
+	name = "Private Military Company"
+
+	for_countries = { SAH }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Private Military Company"
+
+	ordered =
+	{
+		1 = { "Militaires Sans Frontières" }
+	}
+}

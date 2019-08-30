@@ -2,6 +2,15 @@ leader_traits = {
 
 	### IDEA TRAITS ###
 
+	first_oprichnik = {
+		war_support_factor = 0.05
+		stability_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	vatoadmin = {
 		production_factory_max_efficiency_factor = 0.10
 		

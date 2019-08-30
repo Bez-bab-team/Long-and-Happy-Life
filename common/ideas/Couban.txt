@@ -1,7 +1,45 @@
 ideas = {
-
+	
 	political_advisor = {
 
+		jevgenij_ponasenkov = {
+
+			picture = jevgenij_ponasenkov
+			allowed = {
+				original_tag = "COU"
+			}
+
+			traits = { prince_of_terror popular_figurehead financial_expert compassionate_gentleman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		vladimir_sorokin = {
+
+			picture = vladimir_sorokin
+			allowed = {
+				original_tag = "COU"
+			}
+
+			traits = { first_oprichnik }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+	
+	
 		xenia_sobchak = {
 
 			picture = xenia_sobchak

@@ -6,6 +6,9 @@ ideologies = {
 		
 			the_path = {
 			}	
+
+			essence_of_time = {
+			}
 		}
 		
 		dynamic_faction_names = {
