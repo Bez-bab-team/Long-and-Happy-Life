@@ -8,6 +8,8 @@ ideologies = {
 			}	
 			charismatic_dictatorship = {
 			}
+			aeternal_monarchy = {
+			}
 		}
 		
 		dynamic_faction_names = {

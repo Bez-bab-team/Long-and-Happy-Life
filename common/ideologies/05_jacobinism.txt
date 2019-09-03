@@ -6,6 +6,8 @@ ideologies = {
 		
 			oligarchy = {
 			}
+			libertarianism = {
+			}
 		}
 		
 		dynamic_faction_names = {
