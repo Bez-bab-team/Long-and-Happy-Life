@@ -1,7 +1,7 @@
 ﻿l_english:
  ###Party###
  DON_millenarism_party:0 "Party "Party""
- COS_hegemonism_party:0 "Cossack Circle"
+ ACH_hegemonism_party:0 "Cossack Circle"
  KAL_ur_fascism_party:0 "Sangha"
  COU_ur_fascism_party:0 "Russian Orthodox Church"
  LUH_left_authoritarianism_party:0 "People's Council"

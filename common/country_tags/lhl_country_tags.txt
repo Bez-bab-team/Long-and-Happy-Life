@@ -1,7 +1,7 @@
 NSU = "countries/lhl_countries/Neo Soviet.txt"
 RGD = "countries/lhl_countries/Rosgvardia.txt"
 COU = "countries/lhl_countries/Couban.txt"
-COS = "countries/lhl_countries/Cossacks.txt"
+ACH = "countries/lhl_countries/Cossacks.txt"
 KAL = "countries/lhl_countries/Kalmykia.txt" 
 CHE = "countries/lhl_countries/Chechnya.txt"
 LUH = "countries/lhl_countries/Luhansk.txt"
