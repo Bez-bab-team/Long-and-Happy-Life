@@ -29,3 +29,7 @@ create_country_leader = {
 		warrior_code
 	}
 }
+
+create_faction = eurasian_armed_forces
+add_to_faction = MON
+

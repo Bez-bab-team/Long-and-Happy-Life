@@ -25,6 +25,6 @@ create_country_leader = {
 	picture = "Portrait_Baron_Michael_von_Ungern_Sternberg.dds"
 	expire = "1960.1.1"
 	ideology = aeternal_monarchy
-	traits = {
+	traits = { spirit_of_genghis
 	}
 }
