@@ -51,7 +51,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Heydər Cahid oglu Camal"
+	name = "Heydar Cahid oglu Camal"
 	picture = "MOS_Gejdar_Dzhemal'.dds"
 	expire = "1953.3.1"
 	ideology = revolution_of_the_prophets  
