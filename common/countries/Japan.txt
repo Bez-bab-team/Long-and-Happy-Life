@@ -1,5 +1,7 @@
 
+
 graphical_culture = asian_gfx
 graphical_culture_2d = asian_2d
 
-color = { 215  172  52 }
+color = hsv { 0.05 0.3 1 }
+color_ui = hsv { 0.05 0.25 1.2 }

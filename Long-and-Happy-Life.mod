@@ -6,8 +6,10 @@ replace_path = "common/countries"
 #replace_path = "common/country_tags"
 #replace_path = "common/ideas"
 replace_path = "common/ideologies"
+#replace_path = "common/national_focus"
 replace_path = "events"
-replace_path = "history"
+replace_path = "history/countries"
+replace_path = "history/states"
 
 tags={
 	"Balance"

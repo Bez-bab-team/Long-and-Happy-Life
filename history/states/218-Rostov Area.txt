@@ -7,7 +7,9 @@ state={
 	state_category = city
 
 	history={
-		owner = COS
+		owner = ACH
+		add_core_of = ACH
+
 		victory_points = {
 			9417 15 
 		}
@@ -20,7 +22,6 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = COS
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

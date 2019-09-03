@@ -60,19 +60,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = national_bolshevism     
+	ruling_party = hegemonism     
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	national_bolshevism = 100
+	hegemonism = 100
 }
 
 create_country_leader = {
 	name = "Nikolaj Kozitsyn"
 	desc = "POLITICS_KOS_DESC"
-	picture = "Portrait_COS_NIKOLAJ.dds"
+	picture = "Portrait_ACH_NIKOLAJ.dds"
 	expire = "1953.3.1"
 	ideology = right_wing_authoritarianism 
 	traits = {

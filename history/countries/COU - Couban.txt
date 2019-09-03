@@ -83,7 +83,7 @@ create_country_leader = {
 }
 
 create_faction = sanitary_cordon
-add_to_faction = COS
+add_to_faction = ACH
 add_to_faction = KAL
 add_to_faction = KHA
 add_to_faction = LUH
