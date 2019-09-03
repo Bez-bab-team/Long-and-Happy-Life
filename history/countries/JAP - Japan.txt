@@ -119,11 +119,12 @@ create_country_leader = {
 	ideology = absolute_monarchy
 	traits = {
 	}
+}
 
 create_country_leader = {
 	name = "Shinzō Abe"
 	picture = "Portrait_Japan_Abe.dds"
-	ideology = right_populism 
+	ideology = right_populism
 	traits = {
 	}
 }
