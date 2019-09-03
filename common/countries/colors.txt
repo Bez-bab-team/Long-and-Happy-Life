@@ -258,9 +258,8 @@ USA = {
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
-	#color = HSV { 0.1 0.15 0.4 }
-	color = rgb { 108 140 42 }
-	color_ui = rgb { 209 247 133 }
+	color = rgb { 130 145 60 }
+	color_ui = rgb { 50 10 90 }
 }
 MEN = {
 	color = rgb { 185  255  152 }

@@ -1,0 +1,41 @@
+﻿capital = 206
+
+oob = "POD_2019"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_politics = {
+	ruling_party = hegemonism 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	hegemonism = 100
+}
+
+create_country_leader = {
+	name = "Mikhail Denisenko"
+	desc = ""
+	picture = "Portrait_Mikhail_Denisenko.dds"
+	expire = "1965.1.1"
+	ideology = right_wing_authoritarianism 
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = " Maria Devi Christos"
+	desc = ""
+	picture = "Portrait_Tsvigun.dds"
+	expire = "1965.1.1"
+	ideology = the_path 
+	traits = {
+		#
+	}
+}

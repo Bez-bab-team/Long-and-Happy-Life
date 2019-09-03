@@ -1,0 +1,22 @@
+state={
+	id=796
+	name="STATE_796"
+	provinces={
+		6380 6414 6348  
+	}
+	manpower=1000000
+
+	state_category = city
+	history={
+		victory_points = {
+			378 5
+		}
+		owner = 
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		owner = MSC
+		add_core_of = MSC
+	}
+}

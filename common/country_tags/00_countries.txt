@@ -1,3 +1,6 @@
 JAP = "countries/lhl_countries/Japan.txt"
 KOR = "countries/lhl_countries/Korea.txt"
 MAN = "countries/lhl_countries/Manchukou.txt"
+MON = "countries/lhl_countries/Mongolia.txt"
+
+

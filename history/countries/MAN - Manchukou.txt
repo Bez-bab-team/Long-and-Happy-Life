@@ -21,8 +21,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Aisin Gioro Shunzhi"
-	picture = "Portrait_Shunzhi.dds"
+	name = "Aisin Gioro Qixing"
+	picture = "Portrait_Aisin_Gioro_Qixing.dds"
 	expire = "1960.1.1"
 	ideology = absolute_monarchy
 	traits = {
