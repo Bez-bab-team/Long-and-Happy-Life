@@ -103,13 +103,13 @@ set_convoys = 400
 
 
 set_politics = {
-	ruling_party = hegemonism 
+	ruling_party = natpop
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	hegemonism  = 100
+	natpop = 100
 }
 
 create_country_leader = {
@@ -118,6 +118,12 @@ create_country_leader = {
 	picture = "Portrait_Japan_Naruhito.dds"
 	ideology = absolute_monarchy
 	traits = {
-		warrior_code
+	}
+
+create_country_leader = {
+	name = "Shinzō Abe"
+	picture = "Portrait_Japan_Abe.dds"
+	ideology = right_populism 
+	traits = {
 	}
 }
