@@ -1,5 +1,25 @@
 leader_traits = {
 
+	spiritual_leader = {
+		random = no
+		surrender_limit = +0.50
+		army_core_defence_factor = 0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	qaysar_i_rum = {
+		random = no
+		war_support_factor = 0.05
+		army_morale_Factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	black_lenin = {
 		random = no
 		war_support_factor = 0.05
