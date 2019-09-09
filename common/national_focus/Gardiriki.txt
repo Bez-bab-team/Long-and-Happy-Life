@@ -14,7 +14,6 @@ focus_tree = {
 		cost = 10
 		x = 18
 		y = 0
-
 	}
 	focus = {
 		id = NRU_destroy_moscow_loyalists
@@ -25,7 +24,6 @@ focus_tree = {
 		}
 		x = 16
 		y = 1
-
 	}
 	focus = {
 		id = NRU_vikings_of_a_new_era
@@ -36,7 +34,6 @@ focus_tree = {
 		}
 		x = 18
 		y = 1
-
 	}
 	focus = {
 		id = NRU_runes_are_still_alive
@@ -47,7 +44,6 @@ focus_tree = {
 		}
 		x = 20
 		y = 1
-
 	}
 	focus = {
 		id = NRU_sverddans
@@ -64,7 +60,6 @@ focus_tree = {
 		}
 		x = 18
 		y = 2
-
 	}
 	focus = {
 		id = NRU_dunkelheit
@@ -75,7 +70,6 @@ focus_tree = {
 		}
 		x = 18
 		y = 3
-
 	}
 	focus = {
 		id = NRU_wolf_age
@@ -86,7 +80,6 @@ focus_tree = {
 		}
 		x = 15
 		y = 4
-
 	}
 	focus = {
 		id = NRU_seek_help
@@ -97,7 +90,6 @@ focus_tree = {
 		}
 		x = 18
 		y = 4
-
 	}
 	focus = {
 		id = NRU_heathens_international
@@ -108,7 +100,6 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
-
 	}
 	focus = {
 		id = NRU_baltic_volunteers
@@ -119,7 +110,6 @@ focus_tree = {
 		}
 		x = 17
 		y = 6
-
 	}
 	focus = {
 		id = NRU_caucasian_volunteers
@@ -130,7 +120,6 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
-
 	}
 	focus = {
 		id = NRU_odin_hour
@@ -141,7 +130,6 @@ focus_tree = {
 		}
 		x = 21
 		y = 4
-
 	}
 	focus = {
 		id = NRU_valgrind
@@ -152,7 +140,6 @@ focus_tree = {
 		}
 		x = 21
 		y = 5
-
 	}
 	focus = {
 		id = NRU_smash_the_qahal
@@ -163,7 +150,6 @@ focus_tree = {
 		}
 		x = 21
 		y = 6
-
 	}
 	focus = {
 		id = NRU_redistribution
@@ -174,7 +160,6 @@ focus_tree = {
 		}
 		x = 21
 		y = 8
-
 	}
 	focus = {
 		id = NRU_revival_of_old_customs
@@ -185,7 +170,6 @@ focus_tree = {
 		}
 		x = 23
 		y = 6
-
 	}
 	focus = {
 		id = NRU_sacrifice
@@ -196,7 +180,6 @@ focus_tree = {
 		}
 		x = 22
 		y = 7
-
 	}
 	focus = {
 		id = NRU_slavery
@@ -207,7 +190,6 @@ focus_tree = {
 		}
 		x = 24
 		y = 7
-
 	}
 	focus = {
 		id = NRU_aryan
@@ -221,7 +203,6 @@ focus_tree = {
 		}
 		x = 23
 		y = 8
-
 	}
 	focus = {
 		id = NRU_deepening
@@ -235,7 +216,6 @@ focus_tree = {
 		}
 		x = 22
 		y = 9
-
 	}
 	focus = {
 		id = NRU_towards_ragnarok
@@ -246,7 +226,6 @@ focus_tree = {
 		}
 		x = 22
 		y = 10
-
 	}
 	focus = {
 		id = NRU_axe_age
@@ -257,7 +236,6 @@ focus_tree = {
 		}
 		x = 15
 		y = 5
-
 	}
 	focus = {
 		id = NRU_nature_revolt
@@ -268,7 +246,6 @@ focus_tree = {
 		}
 		x = 15
 		y = 6
-
 	}
 	focus = {
 		id = NRU_preparing
@@ -279,7 +256,6 @@ focus_tree = {
 		}
 		x = 15
 		y = 7
-
 	}
 	focus = {
 		id = NRU_punish
@@ -290,7 +266,6 @@ focus_tree = {
 		}
 		x = 15
 		y = 8
-
 	}
 	focus = {
 		id = NRU_cold_hand
@@ -304,7 +279,6 @@ focus_tree = {
 		}
 		x = 14
 		y = 9
-
 	}
 	focus = {
 		id = NRU_we_rule
@@ -315,7 +289,6 @@ focus_tree = {
 		}
 		x = 14
 		y = 10
-
 	}
 	focus = {
 		id = NRU_hero_cult
@@ -326,7 +299,6 @@ focus_tree = {
 		}
 		x = 12
 		y = 6
-
 	}
 	focus = {
 		id = NRU_oldbelivers
@@ -340,7 +312,6 @@ focus_tree = {
 		}
 		x = 13
 		y = 7
-
 	}
 	focus = {
 		id = NRU_dechristianisation
@@ -354,7 +325,6 @@ focus_tree = {
 		}
 		x = 11
 		y = 7
-
 	}
 	focus = {
 		id = NRU_nordic_id
@@ -366,6 +336,5 @@ focus_tree = {
 		}
 		x = 12
 		y = 8
-
 	}
 }

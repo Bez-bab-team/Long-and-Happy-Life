@@ -59,6 +59,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_baltic_volunteers_shine"
@@ -88,6 +89,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_caucasian_volunteers_shine"
@@ -117,6 +119,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_cold_hand_shine"
@@ -146,6 +149,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_dechristianisation_shine"
@@ -175,6 +179,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_deepening_shine"
@@ -204,6 +209,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_dunkelheit_shine"
@@ -233,6 +239,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_heathens_dream_shine"
@@ -262,6 +269,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_heathens_international_shine"
@@ -291,6 +299,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_hero_cult_shine"
@@ -320,6 +329,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_nature_revolt_shine"
@@ -349,6 +359,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_nordic_id_shine"
@@ -378,6 +389,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_odin_hour_shine"
@@ -407,6 +419,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_preparing_shine"
@@ -436,6 +449,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_oldbelivers_shine"
@@ -465,6 +479,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_sacrifice_shine"
@@ -494,6 +509,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_aryan_shine"
@@ -553,6 +569,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_slavery_shine"
@@ -582,6 +599,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_smash_the_qahal_shine"
@@ -611,6 +629,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_sverddans_shine"
@@ -640,6 +659,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_valgrind_shine"
@@ -669,6 +689,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_vikings_of_a_new_era_shine"
@@ -698,6 +719,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_we_rule_shine"
@@ -727,6 +749,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_wolf_age_shine"
@@ -756,6 +779,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_punish_shine"
@@ -785,13 +809,14 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 	SpriteType = {
 		name = "GFX_NRU_towards_ragnarok_shine"
-		texturefile = "gfx/interface/goals/NRU/GFX_NRU_towards_ragnarok.dds"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_towards_ragnarok.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/NRU/GFX_NRU_towards_ragnarok.dds"
+			animationmaskfile = "gfx/interface/goals/NRU/goal_NRU_towards_ragnarok.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -803,7 +828,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		animation = {
-			animationmaskfile = "gfx/interface/goals/NRU/GFX_NRU_towards_ragnarok.dds"
+			animationmaskfile = "gfx/interface/goals/NRU/goal_NRU_towards_ragnarok.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -814,6 +839,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
+		legacy_lazy_load = no
 	}
 
 }
