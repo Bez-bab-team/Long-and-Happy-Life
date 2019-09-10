@@ -87,7 +87,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Igor Kolomojskij"
+	name = "Igor' Kolomojskij"
 	desc = "POLITICS_KOLOMOJSKIJ_DESC"
 	picture = "Portrait_KHA_Igor_Kolomojskij.dds"
 	expire = "1953.3.1"
