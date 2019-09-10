@@ -1,5 +1,15 @@
 leader_traits = {
 
+	barking_buffoon = {
+		random = no
+		political_power_factor = 0.05
+		army_morale_Factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	han_som_reiste = {
 		random = no
 		attrition = -0.05
