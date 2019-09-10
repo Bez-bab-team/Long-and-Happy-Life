@@ -1,6 +1,6 @@
 capital = 237
 
-oob = "KAL_1936"
+oob = "NRU_2019"
 
 if = {
 	limit= { has_dlc = "Man the Guns" }
@@ -69,14 +69,20 @@ set_popularities = {
 	regressionism = 100
 }
 
-
 create_country_leader = {
 	name = "Louis Cachet"
 	desc = "POLITICS_LOUIS_CACHET_DESC"
-	picture = "Portrait_NRU_Goblin_Slayer.dds"
-	expire = "1953.3.1"
+	picture = "Portrait_NRU_Louis_Cachet.dds"
 	ideology = odalism 
-	traits = {
-		
+	traits = { han_som_reiste	
+	}
+}
+
+create_country_leader = {
+	name = "Dobroslav"
+	desc = "POLITICS_DOBROSLAV_DESC"
+	picture = "Portrait_NRU_Dobroslav.dds"
+	ideology = revolution_of_the_prophets
+	traits = { gestumblindi	
 	}
 }

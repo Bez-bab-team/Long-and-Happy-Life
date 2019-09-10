@@ -1,0 +1,340 @@
+focus_tree = {
+	id = Gardiriki
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NRU
+		}
+	}
+	default = no
+	focus = {
+		id = NRU_heathens_dream
+		icon = GFX_NRU_heathens_dream
+		cost = 10
+		x = 18
+		y = 0
+	}
+	focus = {
+		id = NRU_destroy_moscow_loyalists
+		icon = GFX_medved_dip_focus_1
+		cost = 10
+		prerequisite = {
+			focus = NRU_heathens_dream
+		}
+		x = 16
+		y = 1
+	}
+	focus = {
+		id = NRU_vikings_of_a_new_era
+		icon = GFX_NRU_vikings_of_a_new_era
+		cost = 10
+		prerequisite = {
+			focus = NRU_heathens_dream
+		}
+		x = 18
+		y = 1
+	}
+	focus = {
+		id = NRU_runes_are_still_alive
+		icon = GFX_NRU_runes_are_still_alive
+		cost = 10
+		prerequisite = {
+			focus = NRU_heathens_dream
+		}
+		x = 20
+		y = 1
+	}
+	focus = {
+		id = NRU_sverddans
+		icon = GFX_NRU_sverddans
+		cost = 10
+		prerequisite = {
+			focus = NRU_destroy_moscow_loyalists
+		}
+		prerequisite = {
+			focus = NRU_vikings_of_a_new_era
+		}
+		prerequisite = {
+			focus = NRU_runes_are_still_alive
+		}
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = NRU_dunkelheit
+		icon = GFX_NRU_dunkelheit
+		cost = 10
+		prerequisite = {
+			focus = NRU_sverddans
+		}
+		x = 18
+		y = 3
+	}
+	focus = {
+		id = NRU_wolf_age
+		icon = GFX_NRU_wolf_age
+		cost = 10
+		prerequisite = {
+			focus = NRU_dunkelheit
+		}
+		x = 15
+		y = 4
+	}
+	focus = {
+		id = NRU_seek_help
+		icon = GFX_NRU_seek_help
+		cost = 10
+		prerequisite = {
+			focus = NRU_dunkelheit
+		}
+		x = 18
+		y = 4
+	}
+	focus = {
+		id = NRU_heathens_international
+		icon = GFX_NRU_heathens_international
+		cost = 10
+		prerequisite = {
+			focus = NRU_seek_help
+		}
+		x = 18
+		y = 5
+	}
+	focus = {
+		id = NRU_baltic_volunteers
+		icon = GFX_NRU_baltic_volunteers
+		cost = 10
+		prerequisite = {
+			focus = NRU_heathens_international
+		}
+		x = 17
+		y = 6
+	}
+	focus = {
+		id = NRU_caucasian_volunteers
+		icon = GFX_NRU_caucasian_volunteers
+		cost = 10
+		prerequisite = {
+			focus = NRU_heathens_international
+		}
+		x = 19
+		y = 6
+	}
+	focus = {
+		id = NRU_odin_hour
+		icon = GFX_NRU_odin_hour
+		cost = 10
+		prerequisite = {
+			focus = NRU_dunkelheit
+		}
+		x = 21
+		y = 4
+	}
+	focus = {
+		id = NRU_valgrind
+		icon = GFX_NRU_valgrind
+		cost = 10
+		prerequisite = {
+			focus = NRU_odin_hour
+		}
+		x = 21
+		y = 5
+	}
+	focus = {
+		id = NRU_smash_the_qahal
+		icon = GFX_NRU_smash_the_qahal
+		cost = 10
+		prerequisite = {
+			focus = NRU_valgrind
+		}
+		x = 21
+		y = 6
+	}
+	focus = {
+		id = NRU_redistribution
+		icon = GFX_NRU_redistribution
+		cost = 10
+		prerequisite = {
+			focus = NRU_smash_the_qahal
+		}
+		x = 21
+		y = 8
+	}
+	focus = {
+		id = NRU_revival_of_old_customs
+		icon = GFX_NRU_revival_of_old_customs
+		cost = 10
+		prerequisite = {
+			focus = NRU_valgrind
+		}
+		x = 23
+		y = 6
+	}
+	focus = {
+		id = NRU_sacrifice
+		icon = GFX_NRU_sacrifice
+		cost = 10
+		prerequisite = {
+			focus = NRU_revival_of_old_customs
+		}
+		x = 22
+		y = 7
+	}
+	focus = {
+		id = NRU_slavery
+		icon = GFX_NRU_slavery
+		cost = 10
+		prerequisite = {
+			focus = NRU_revival_of_old_customs
+		}
+		x = 24
+		y = 7
+	}
+	focus = {
+		id = NRU_aryan
+		icon = GFX_NRU_aryan
+		cost = 10
+		prerequisite = {
+			focus = NRU_sacrifice
+		}
+		prerequisite = {
+			focus = NRU_slavery
+		}
+		x = 23
+		y = 8
+	}
+	focus = {
+		id = NRU_deepening
+		icon = GFX_NRU_deepening
+		cost = 10
+		prerequisite = {
+			focus = NRU_redistribution
+		}
+		prerequisite = {
+			focus = NRU_aryan
+		}
+		x = 22
+		y = 9
+	}
+	focus = {
+		id = NRU_towards_ragnarok
+		icon = GFX_NRU_towards_ragnarok
+		cost = 10
+		prerequisite = {
+			focus = NRU_deepening
+		}
+		x = 22
+		y = 10
+	}
+	focus = {
+		id = NRU_axe_age
+		icon = GFX_NRU_axe_age
+		cost = 10
+		prerequisite = {
+			focus = NRU_wolf_age
+		}
+		x = 15
+		y = 5
+	}
+	focus = {
+		id = NRU_nature_revolt
+		icon = GFX_NRU_nature_revolt
+		cost = 10
+		prerequisite = {
+			focus = NRU_axe_age
+		}
+		x = 15
+		y = 6
+	}
+	focus = {
+		id = NRU_preparing
+		icon = GFX_NRU_preparing
+		cost = 10
+		prerequisite = {
+			focus = NRU_nature_revolt
+		}
+		x = 15
+		y = 7
+	}
+	focus = {
+		id = NRU_punish
+		icon = GFX_NRU_punish
+		cost = 10
+		prerequisite = {
+			focus = NRU_preparing
+		}
+		x = 15
+		y = 8
+	}
+	focus = {
+		id = NRU_cold_hand
+		icon = GFX_NRU_cold_hand
+		cost = 10
+		prerequisite = {
+			focus = NRU_punish
+		}
+		prerequisite = {
+			focus = NRU_nordic_id
+		}
+		x = 14
+		y = 9
+	}
+	focus = {
+		id = NRU_we_rule
+		icon = GFX_NRU_we_rule
+		cost = 10
+		prerequisite = {
+			focus = NRU_cold_hand
+		}
+		x = 14
+		y = 10
+	}
+	focus = {
+		id = NRU_hero_cult
+		icon = GFX_NRU_hero_cult
+		cost = 10
+		prerequisite = {
+			focus = NRU_axe_age
+		}
+		x = 12
+		y = 6
+	}
+	focus = {
+		id = NRU_oldbelivers
+		icon = GFX_NRU_oldbelivers
+		cost = 10
+		prerequisite = {
+			focus = NRU_hero_cult
+		}
+		mutually_exclusive = {
+			focus = NRU_dechristianisation
+		}
+		x = 13
+		y = 7
+	}
+	focus = {
+		id = NRU_dechristianisation
+		icon = GFX_NRU_dechristianisation
+		cost = 10
+		prerequisite = {
+			focus = NRU_hero_cult
+		}
+		mutually_exclusive = {
+			focus = NRU_oldbelivers
+		}
+		x = 11
+		y = 7
+	}
+	focus = {
+		id = NRU_nordic_id
+		icon = GFX_NRU_nordic_id
+		cost = 10
+		prerequisite = {
+			focus = NRU_dechristianisation
+			focus = NRU_oldbelivers
+		}
+		x = 12
+		y = 8
+	}
+}
