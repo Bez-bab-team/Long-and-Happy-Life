@@ -2,8 +2,7 @@
 state={
 	id=560
 	name="STATE_560" # Nikolayevsk
-	manpower = 97663
-	
+	manpower = 26145 	
 	state_category = rural
 	resources={
 		steel=18 # was: 24
