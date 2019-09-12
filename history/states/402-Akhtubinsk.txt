@@ -6,14 +6,13 @@ state={
 	}
 
 	history={
-		owner = SOV
+		owner = KAZ
 		add_core_of = KAZ
+
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = SOV
-
 	}
 
 	provinces={
