@@ -1,0 +1,122 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_NRU_aryan"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_aryan.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_axe_age"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_axe_age.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_baltic_volunteers"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_baltic_volunteers.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_caucasian_volunteers"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_caucasian_volunteers.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_cold_hand"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_cold_hand.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_dechristianisation"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_dechristianisation.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_deepening"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_deepening.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_dunkelheit"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_dunkelheit.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_heathens_dream"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_heathens_dream.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_heathens_international"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_heathens_international.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_hero_cult"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_hero_cult.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_nature_revolt"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_nature_revolt.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_nordic_id"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_nordic_id.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_odin_hour"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_odin_hour.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_preparing"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_preparing.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_oldbelivers"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_oldbelivers.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_redistribution"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_redistribution.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_revival_of_old_customs"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_revival_of_old_customs.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_runes_are_still_alive"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_runes_are_still_alive.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_sacrifice"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_sacrifice.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_seek_help"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_seek_help.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_slavery"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_slavery.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_smash_the_qahal"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_smash_the_qahal.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_sverddans"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_sverddans.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_valgrind"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_valgrind.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_vikings_of_a_new_era"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_vikings_of_a_new_era.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_we_rule"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_we_rule.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_wolf_age"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_wolf_age.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_punish"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_punish.dds"
+	}
+	SpriteType = {
+		name = "GFX_NRU_towards_ragnarok"
+		texturefile = "gfx/interface/goals/NRU/goal_NRU_towards_ragnarok.dds"
+	}
+}

@@ -168,9 +168,10 @@ focus_tree = {
 		text = medved_focus_9
 		icon = GFX_medved_focus_9
 		cost = 10
-		prerequisite = { focus = medved_dip_focus_4 focus = medved_army_focus_4 focus = medved_opr_focus_4 }
+		prerequisite = { focus = medved_dip_focus_4 }
+		prerequisite = { focus = medved_army_focus_4 }
+		prerequisite = { focus = medved_opr_focus_4 }
 		x = 11
 		y = 8
-
 	}
 }

@@ -1,24 +1,23 @@
-state={
+state = {
 	id=788
 	name="STATE_788" # Petrograd area
 	manpower = 5383890
 	
 	state_category = metropolis
 
-	history={
-		victory_points = {
-			3151 30
-		}
+	history = {
 		owner = NSU
-		3151 ={
-			naval_base = 10
-			coastal_bunker = 5
-		}
 		add_core_of = NSU
 
+		victory_points = { 3151 30 }
+
+		buildings = {
+			3151 ={
+				naval_base = 10
+				coastal_bunker = 5
+			}
+		}
 	}
 
-	provinces={
-		3151
-	}
+	provinces = { 3151 }
 }
