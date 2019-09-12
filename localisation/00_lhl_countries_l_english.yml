@@ -60,6 +60,12 @@ GEO_ur_fascism:0 "Georgia"
 GEO_ur_fascism_DEF:0 "Kingdom of Georgia"
 UPR_regressionism:0 "Ukrainian Peasant Republic"
 UPR_regressionism_DEF:0 "Ukrainian Peasant Republic"
+
+###Malorossija###
+UPR_regressionism:0 "Ukrainian Peasant Republic"
+UPR_regressionism_DEF:0 "Ukrainian Peasant Republic"
+
+
 ###Fractions###
 eurasian_armed_forces:0 "Eurasian Armed Forces"
 sanitary_cordon:0 "Sanitary cordon"
