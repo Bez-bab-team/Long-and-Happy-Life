@@ -28,14 +28,3 @@ create_country_leader = {
 		#
 	}
 }
-
-create_corps_commander = {
-	name = "Hideo Kojima"
-		picture = "Portrait_Sakhalin_Hideo_Kojima.dds"
-	traits = { trickster commando guerilla_fighter }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}

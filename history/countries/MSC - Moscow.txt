@@ -11,21 +11,6 @@ set_war_support = 0.5
 set_technology = {
  	infantry_weapons = 1
 	infantry_weapons1 = 1	
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	basic_heavy_tank = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
 }
 
 set_politics = {
@@ -54,14 +39,14 @@ create_country_leader = {
 	name = "Heydar Cahid oglu Camal"
 	picture = "MOS_Gejdar_Dzhemal'.dds"
 	expire = "1953.3.1"
-	ideology = revolution_of_the_prophets  
+	ideology = religious_millennialism  
 }
 
 create_country_leader = {
 	name = "Aleksandr Dugin"
 	picture = "MOS_Aleksandr_Dugin.dds"
 	expire = "1953.3.1"
-	ideology = integral_traditionalism 
+	ideology = neo_feudalism 
 }
 
 create_country_leader = {

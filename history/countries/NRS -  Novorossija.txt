@@ -1,6 +1,6 @@
 capital = 789
 
-oob = "CHE_1936"
+oob = "NRS_1936"
 
 set_research_slots = 3
 
@@ -24,11 +24,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ramzan Kadyrov"
-	desc = "POLITICS_RAMZAN_DESC"
-	picture = "Portrait_CHE_RAMZAN.dds"
+	name = "Vadim Krasnosel'skij"
+	desc = "POLITICS_KRASNOSELSKIJ_DESC"
+	picture = "Portrait_NRS_KRASNOSELSKIJ.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_republic 
+	ideology = limited_monarchy 
 	traits = {
 	}
 }

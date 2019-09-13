@@ -4,19 +4,16 @@ ideologies = {
 		
 		types = {
 		
-			right_wing_authoritarianism = {
+			republican_dictatorship = {
 			}	
-			absolute_monarchy= {
-			}		
+			absolute_monarchy = {
+			}	
+			stratocracy = {
+			}				
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_PROGRESSIVE_1"
-			"FACTION_NAME_PROGRESSIVE_2"
-			"FACTION_NAME_PROGRESSIVE_3"
-			"FACTION_NAME_PROGRESSIVE_4"
-			"FACTION_NAME_PROGRESSIVE_5"
-			"FACTION_NAME_PROGRESSIVE_6"
+			"FACTION_NAME_hegemonism_1"
 		}
 		
 		color = { 90 135 200 }

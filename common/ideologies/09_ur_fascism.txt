@@ -4,21 +4,16 @@ ideologies = {
 		
 		types = {
 		
-			theocracy = {
+			ur_monarchism = {
 			}	
 			charismatic_dictatorship = {
 			}
-			aeternal_monarchy = {
+			clerical_fascism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_PROGRESSIVE_1"
-			"FACTION_NAME_PROGRESSIVE_2"
-			"FACTION_NAME_PROGRESSIVE_3"
-			"FACTION_NAME_PROGRESSIVE_4"
-			"FACTION_NAME_PROGRESSIVE_5"
-			"FACTION_NAME_PROGRESSIVE_6"
+			"FACTION_ur_fascism_1"
 		}
 		
 		color = { 0 30 45 }

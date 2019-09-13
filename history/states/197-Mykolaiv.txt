@@ -10,12 +10,12 @@ state={
 		victory_points = {
 			11683 3
 		}
-		owner = KHA
+		owner = NRS
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
 		}
-		add_core_of = KHA
+		add_core_of = NRS
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
@@ -24,6 +24,6 @@ state={
 	}
 
 	provinces={
-		574 3755 11546 11683 3738 11703 3575 
+		574 3755 11546 11683 3738 11703 3575 6597 
 	}
 }

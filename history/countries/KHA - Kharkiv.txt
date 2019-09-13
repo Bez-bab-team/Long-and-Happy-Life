@@ -15,13 +15,13 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = natpop
+	ruling_party = right_populism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	jacobinism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
@@ -29,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_Dobkin_DESC"
 	picture = "Portrait_KHA_DOBKIN.dds"
 	expire = "1953.3.1"
-	ideology = right_populism 
+	ideology = national_populism 
 	traits = {
 		
 	}
@@ -51,7 +51,7 @@ create_country_leader = {
 	desc = "POLITICS_SAAKASHVILI_DESC"
 	picture = "Portrait_KHA_SAAKASHVILI.dds"
 	expire = "1953.3.1"
-	ideology = juche 
+	ideology = accelerationist_nazbol 
 	traits = {
 		
 	}
@@ -62,7 +62,7 @@ create_country_leader = {
 	desc = "POLITICS_MUZYCHKO_DESC"
 	picture = "Portrait_KHA_MUZYCHKO.dds"
 	expire = "1953.3.1"
-	ideology = right_wing_authoritarianism  
+	ideology = republican_dictatorship  
 	traits = {
 		
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	desc = "POLITICS_KERNES_DESC"
 	picture = "Portrait_KHA_KERNES.dds"
 	expire = "1953.3.1"
-	ideology = oligarchy    
+	ideology = statecorporation    
 	traits = {
 		
 	}

@@ -1,21 +1,22 @@
 ideologies = {
 
-	neo_bolshevism = {
-	
+	right_populism = {
+		
 		types = {
 		
-			neo_bolshevism_1 = {
-			}	
+			national_populism = {
+			}		
+			limited_monarchy = {
+			}		
+			authoritarian_republic = {
+			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_TRADITIONALIST_1"
+			"FACTION_NAME_natpop_1"
 		}
 		
-		color = { 215 5 15 }
-		
-		war_impact_on_world_tension = 2
-		faction_impact_on_world_tension = 2
+		color = { 170 200 225 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

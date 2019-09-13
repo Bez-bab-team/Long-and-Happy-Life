@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Mikhail_Denisenko.dds"
 	expire = "1965.1.1"
-	ideology = right_wing_authoritarianism 
+	ideology = republican_dictatorship 
 	traits = {
 		#
 	}
@@ -33,8 +33,7 @@ create_country_leader = {
 	name = " Maria Devi Christos"
 	desc = ""
 	picture = "Portrait_Tsvigun.dds"
-	expire = "1965.1.1"
-	ideology = the_path 
+	ideology = religious_millennialism 
 	traits = {
 		#
 	}

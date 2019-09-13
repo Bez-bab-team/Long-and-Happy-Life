@@ -8,8 +8,8 @@ state={
 
 	state_category = rural
 	history={
-		owner = TUR
-		add_core_of = TUR
+		owner = UPA
+		add_core_of = UPA
 
 		buildings = {
 			infrastructure = 6

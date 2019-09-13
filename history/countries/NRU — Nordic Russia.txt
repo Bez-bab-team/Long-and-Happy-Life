@@ -19,44 +19,7 @@ set_war_support = 0.5
 set_technology = {
  	infantry_weapons = 1
 	infantry_weapons1 = 1	
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	basic_heavy_tank = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
-}
 
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-	}
-	set_naval_oob = "KAL_1936_naval_legacy"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-	}
-	set_naval_oob = "KAL_1936_naval_mtg"
 }
 
 set_politics = {
@@ -73,7 +36,7 @@ create_country_leader = {
 	name = "Louis Cachet"
 	desc = "POLITICS_LOUIS_CACHET_DESC"
 	picture = "Portrait_NRU_Louis_Cachet.dds"
-	ideology = odalism 
+	ideology = neoluddism 
 	traits = { han_som_reiste	
 	}
 }
@@ -82,7 +45,7 @@ create_country_leader = {
 	name = "Dobroslav"
 	desc = "POLITICS_DOBROSLAV_DESC"
 	picture = "Portrait_NRU_Dobroslav.dds"
-	ideology = revolution_of_the_prophets
+	ideology = religious_millennialism
 	traits = { gestumblindi	
 	}
 }

@@ -9,21 +9,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = jacobinism  
+	ruling_party = neocameralism  
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	jacobinism = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
-	name = "Mikhail Sovetov"
+	name = "Mikhail Svetov"
 	desc = ""
 	picture = "Portrait_Mikhail_Sovetov.dds"
 	expire = "1965.1.1"
-	ideology = libertarianism 
+	ideology = hoppean_libertarianism 
 	traits = {
 		#
 	}

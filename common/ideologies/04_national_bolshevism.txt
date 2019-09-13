@@ -4,7 +4,7 @@ ideologies = {
 		
 		types = {
 		
-			juche = {
+			national_maoism = {
 			}
 			nazbol_gang = {
 			}
@@ -13,12 +13,7 @@ ideologies = {
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+			"FACTION_NAME_national_bolshevism_1"
 		}
 		
 		color = { 150 75 5 }

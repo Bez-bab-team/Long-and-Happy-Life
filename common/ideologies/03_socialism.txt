@@ -1,20 +1,18 @@
 ideologies = {
 
-	socialism= {
+	socialism = {
 		
 		types = {
-			
 		progressivism = {
+			}
+		labor_socialism = {
+			}		
+		agrarian_socialism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_REACTIONARY_1"
-			"FACTION_NAME_REACTIONARY_2"
-			"FACTION_NAME_REACTIONARY_3"
-			"FACTION_NAME_REACTIONARY_4"
-			"FACTION_NAME_REACTIONARY_5"
-			"FACTION_NAME_REACTIONARY_6"
+			"FACTION_NAME_socialism_1"
 		}
 		
 		color = { 255 145 120 }

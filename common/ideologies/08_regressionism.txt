@@ -4,23 +4,16 @@ ideologies = {
 		
 		types = {
 		
-			anprim = {
+			neoluddism  = {
 			}	
-			odalism = {
-			}
-			integral_traditionalism = {
+			ecofascism  = {
 			}	
 			neo_feudalism = {
 			}	
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_PROGRESSIVE_1"
-			"FACTION_NAME_PROGRESSIVE_2"
-			"FACTION_NAME_PROGRESSIVE_3"
-			"FACTION_NAME_PROGRESSIVE_4"
-			"FACTION_NAME_PROGRESSIVE_5"
-			"FACTION_NAME_PROGRESSIVE_6"
+			"FACTION_NAME_regressionism_1"
 		}
 		
 		color = { 0 75 140 }

@@ -4,18 +4,18 @@ ideologies = {
 		
 		types = {
 		
-			the_path = {
+			religious_millennialism = {
 			}	
 
-			essence_of_time = {
+			transhumanism = {
 			}
 
-			revolution_of_the_prophets = {
+			ethical_millennialism = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_TRADITIONALIST_1"
+			"FACTION_NAME_MILLENARISM_1"
 		}
 		
 		color = { 175 25 25 }

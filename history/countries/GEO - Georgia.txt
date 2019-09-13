@@ -23,7 +23,7 @@ create_country_leader = {
 	desc = "POLITICS_Elijah_DESC"
 	picture = "Portrait_Elijah.dds"
 	expire = "1953.3.1"
-	ideology = theocracy 
+	ideology = clerical_fascism 
 	traits = {
 	spiritual_leader }
 }

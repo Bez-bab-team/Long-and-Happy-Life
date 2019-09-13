@@ -1,21 +1,22 @@
 ideologies = {
 
-	neo_bolshevism = {
-	
+	neocameralism = {
+		
 		types = {
 		
-			neo_bolshevism_1 = {
-			}	
+			statecorporation = {
+			}
+			authoritarian_technocracy = {
+			}
+			hoppean_libertarianism  = {
+			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_TRADITIONALIST_1"
+			"FACTION_NAME_jacobinism_1"
 		}
 		
-		color = { 215 5 15 }
-		
-		war_impact_on_world_tension = 2
-		faction_impact_on_world_tension = 2
+		color = { 250 200 120 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
