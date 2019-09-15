@@ -2,7 +2,7 @@ state={
 	id=795
 	name="STATE_795"
 	provinces={
-		6362 3339 214 6316 11362 9278 9356 378 280 3370 3202 9311 11295 
+		6362 3339 214 6316 11362 9278 9356 378 280 3370 3202 9311 11295 6410 6231
 	}
 	manpower=1000000
 
@@ -11,11 +11,11 @@ state={
 		victory_points = {
 			378 5
 		}
-		owner = 
+		owner = RTS
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = 
+		add_core_of = RTS
 	}
 }

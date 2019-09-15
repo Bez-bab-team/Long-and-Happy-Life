@@ -1,0 +1,36 @@
+capital = 247
+
+oob = "RNE_2019"
+
+set_research_slots = 3
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1	
+}
+
+set_politics = {
+	ruling_party = hegemonism     
+	last_election = "1933.7.1"
+	elections_allowed = no
+}
+set_popularities = {
+	hegemonism = 100
+}
+
+create_country_leader = {
+	name = "Aleksandr Barkashov"
+	desc = "POLITICS_BARKASHOW_DESC"
+	picture = "Portrait_RNE_BARKASHOW.dds"
+	expire = "1953.3.1"
+	ideology = stratocracy 
+	traits = {
+		
+	}
+}
+
+

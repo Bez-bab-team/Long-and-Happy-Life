@@ -1,0 +1,19 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		11236 6283 9378  
+	}
+	manpower= 393700
+
+	state_category = rural
+	history={
+		owner = RTS
+		add_core_of = RTS
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+	}
+}

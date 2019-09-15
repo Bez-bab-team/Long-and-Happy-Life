@@ -6,15 +6,15 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SOV
+		owner = GAZ
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = SOV
+		add_core_of = GAZ
 	}
 
 	provinces={
-		6 99 1295 1307 3000 3155 4298 6121 6202 7318 7712 7898 9145 9225 10579 11179 11200 11203 12558 
+		6 99 1295 1307 3000 3155 4298 6121 6202 7712 7898 9145 9225 10579 11179 11200 12558 3102 3177 6133 11051 9114 9155 11025 9232
 	}
 }

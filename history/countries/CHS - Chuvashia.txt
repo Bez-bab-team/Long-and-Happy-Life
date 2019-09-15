@@ -1,0 +1,35 @@
+capital = 256
+
+oob = "CHS_2019"
+
+set_research_slots = 1
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+	infantry_weapons1 = 1	
+}
+
+set_politics = {
+	ruling_party = regressionism
+	last_election = "1933.7.1"
+	elections_allowed = no
+}
+set_popularities = {
+	regressionism = 100
+}
+
+create_country_leader = {
+	name = "Vitalij Stan'jal"
+	desc = "POLITICS_CHS_STANJAL_DESC"
+	picture = "Portrait_CHS_STANJAL.dds"
+	ideology = neoluddism
+	traits = {
+		
+	}
+}
+
+

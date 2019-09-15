@@ -1,6 +1,6 @@
 capital = 408
 
-oob = "RIS_2019"
+oob = "SAH_2019"
 
 set_research_slots = 3
 
@@ -31,4 +31,15 @@ create_country_leader = {
 	traits = {
 		
 	}
+}
+
+create_corps_commander = {
+	name = "Koshiro Tanaka"
+	picture = "Portrait_Koshiro_Tanaka.dds"
+	traits = { commando guerilla_fighter desert_fox }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 5
 }

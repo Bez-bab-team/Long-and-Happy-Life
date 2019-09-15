@@ -1,0 +1,30 @@
+﻿capital = 400 
+
+oob = "RWR_2019"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+	ruling_party = socialism     
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 100
+}
+
+create_country_leader = {
+	name = "Boris Kagarlitskij"
+	desc = "POLITICS_KAGARLITSKIJ_DESC"
+	picture = "Portrait_RWR_KAGARLITSKIJ.dds"
+	expire = "1953.3.1"
+	ideology = labor_socialism 
+	traits = {	
+	}
+}
+
+
