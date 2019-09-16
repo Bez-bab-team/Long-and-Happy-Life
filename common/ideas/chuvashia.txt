@@ -1,0 +1,39 @@
+ideas = {
+	
+	country = {
+	
+		russian_slaves = {
+			
+			picture = russian_slaves
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				enemy_partisan_effect = 0.3
+				production_factory_max_efficiency_factor = 0.1
+
+			}
+		}
+		
+		nomadic_society = {
+			
+			picture = nomadic_society
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.3
+				army_speed_factor = 0.05
+			}
+		}
+	}
+}

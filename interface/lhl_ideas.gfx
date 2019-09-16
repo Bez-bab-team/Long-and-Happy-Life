@@ -1,10 +1,20 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_idea_jevgenij_ponasenkov"
-		texturefile = "gfx/interface/ideas/idea_jevgenij_ponasenkov.dds"
+		name = "GFX_russian_slaves"
+		texturefile = "gfx/interface/ideas/idea_russian_slaves.dds"
 	}
 
+	spriteType = {
+		name = "GFX_russian_civl_war_disaster"
+		texturefile = "gfx/interface/ideas/idea_russian_civl_war_disaster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_russian_nomadic_society"
+		texturefile = "gfx/interface/ideas/idea_nomadic_society.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_vladimir_sorokin"
 		texturefile = "gfx/interface/ideas/idea_vladimir_sorokin.dds"
@@ -25,6 +35,21 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_vasilij_topolev.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_anatolij_mizzengendler"
+		texturefile = "gfx/interface/ideas/idea_anatolij_mizzengendler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_anatolij_mizzengendler"
+		texturefile = "gfx/interface/ideas/idea_anatolij_mizzengendler.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_anatolij_mizzengendler"
+		texturefile = "gfx/interface/ideas/idea_anatolij_mizzengendler.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_anatolij_mizzengendler"
 		texturefile = "gfx/interface/ideas/idea_anatolij_mizzengendler.dds"

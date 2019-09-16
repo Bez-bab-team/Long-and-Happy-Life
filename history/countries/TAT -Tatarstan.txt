@@ -9,21 +9,19 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ur_fascism
-	last_election = "1933.7.1"
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
-    ur_fascism = 100
+    left_authoritarianism = 100
 }
 
 create_country_leader = {
-	name = "Damir_Damirovch"
-	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "Portrait_RST_KURGINJAN.dds"
-	expire = "1953.3.1"
-	ideology = ur_monarchism
+	name = "Mintimer Shaimiev"
+	desc = "POLITICS_SHAMIEV_DESC"
+	picture = "Portrait_TAT_SHAMIEV.dds"
+	ideology = left_wing_nationalism 
 	traits = {
-		
+		old_boar
 	}
 }

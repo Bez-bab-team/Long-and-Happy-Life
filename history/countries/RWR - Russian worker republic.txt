@@ -23,7 +23,8 @@ create_country_leader = {
 	picture = "Portrait_RWR_KAGARLITSKIJ.dds"
 	expire = "1953.3.1"
 	ideology = labor_socialism 
-	traits = {	
+	traits = {
+		tribune_of_the_people
 	}
 }
 

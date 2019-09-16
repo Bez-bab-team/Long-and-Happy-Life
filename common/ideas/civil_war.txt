@@ -1,0 +1,24 @@
+ideas = {
+	
+	country = {
+	
+		russian_civl_war_disaster = {
+			
+			picture = russian_civl_war_disaster
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.8
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5			
+				production_factory_max_efficiency_factor = -0.4
+
+			}
+		}
+	}
+}

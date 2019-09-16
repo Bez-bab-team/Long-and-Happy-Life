@@ -1,0 +1,30 @@
+focus_tree = {
+	id = Choovashia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CHS
+		}
+	}
+	default = no
+	focus = {
+		id = CHS_1
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = CHS_trumpet
+		icon = GFX_CHS_trumpet
+		cost = 10
+		prerequisite = {
+			focus = CHS_1
+		}
+		x = 6
+		y = 1
+
+	}
+}

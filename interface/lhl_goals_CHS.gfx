@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_CHS_trumpet"
+		texturefile = "gfx/interface/goals/CHS/goal_CHS_trumpet.dds"
+	}
+}

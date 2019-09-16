@@ -14,22 +14,21 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = ur_fascism     
-	last_election = "1933.7.1"
+	ruling_party = neocameralism
+	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism   = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
-	name = "Tajikistanskiy Malchishka"
-	desc = "POLITICS_KOS_DESC"
-	picture = "Portrait_ACH_NIKOLAJ.dds"
-	expire = "1953.3.1"
-	ideology = ur_monarchism 
+	name = "Radij Khabirov"
+	desc = "POLITICS_KHABIROV_DESC"
+	picture = "Portrait_BSK_KHABIROV.dds"
+	ideology = authoritarian_technocracy 
 	traits = {
-		
+		moderate_technocrat
 	}
 }

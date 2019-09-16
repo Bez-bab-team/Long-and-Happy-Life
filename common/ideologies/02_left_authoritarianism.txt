@@ -6,7 +6,7 @@ ideologies = {
 		soviet_marxism = {}	
 		}
 		types = {
-	    left_wing_nationalism = {}	
+	        left_wing_nationalism = {}	
 		}		
 		types = {
 		paternalism = {}	

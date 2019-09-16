@@ -8,6 +8,16 @@ set_stability = 0.7
 
 set_war_support = 0.5
 
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+
+	russian_slaves
+	nomadic_society
+	russian_civl_war_disaster
+}
+
 set_technology = {
  	infantry_weapons = 1
 	infantry_weapons1 = 1	
@@ -28,7 +38,7 @@ create_country_leader = {
 	picture = "Portrait_CHS_STANJAL.dds"
 	ideology = neoluddism
 	traits = {
-		
+		scourge_of_god
 	}
 }
 
