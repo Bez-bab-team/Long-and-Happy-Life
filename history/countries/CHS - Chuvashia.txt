@@ -33,12 +33,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Vitalij Stan'jal"
+	name = "Uldin Stan'jal"
 	desc = "POLITICS_CHS_STANJAL_DESC"
 	picture = "Portrait_CHS_STANJAL.dds"
 	ideology = neoluddism
 	traits = {
-		scourge_of_god
+		red_horse
 	}
 }
 

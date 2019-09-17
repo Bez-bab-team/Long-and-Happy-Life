@@ -31,7 +31,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = 0.3
+				attrition = -0.1
 				army_speed_factor = 0.05
 			}
 		}

@@ -1,5 +1,16 @@
 leader_traits = {
 
+	red_horse = {
+		random = no
+		cavalry_attack_factor = 0.15
+		army_morale_factor = 0.04
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
 	moderate_technocrat = {
 		random = no
 		political_power_factor = 0.10
@@ -33,9 +44,8 @@ leader_traits = {
 
 	scourge_of_god = {
 		random = no
-		cavalry_attack_factor = 0.2
+		war_support_factor = 0.20
 		army_attack_factor = 0.1
-		production_factory_max_efficiency_factor = -0.1
 
 		ai_will_do = {
 			factor = 1
