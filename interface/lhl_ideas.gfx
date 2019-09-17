@@ -1,17 +1,17 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_russian_slaves"
+		name = "GFX_idea_russian_slaves"
 		texturefile = "gfx/interface/ideas/idea_russian_slaves.dds"
 	}
 
 	spriteType = {
-		name = "GFX_russian_civl_war_disaster"
+		name = "GFX_idea_russian_civl_war_disaster"
 		texturefile = "gfx/interface/ideas/idea_russian_civl_war_disaster.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_russian_nomadic_society"
+		name = "GFX_idea_nomadic_society"
 		texturefile = "gfx/interface/ideas/idea_nomadic_society.dds"
 	}
 	
