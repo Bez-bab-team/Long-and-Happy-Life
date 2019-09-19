@@ -23,7 +23,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	right_populism = 10
+	right_populism = 100
 }
 
 create_country_leader = {

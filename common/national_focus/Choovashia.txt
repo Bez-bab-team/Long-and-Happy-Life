@@ -14,7 +14,6 @@ focus_tree = {
 		cost = 10
 		x = 6
 		y = 0
-
 	}
 	focus = {
 		id = CHS_trumpet
@@ -25,6 +24,5 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-
 	}
 }
