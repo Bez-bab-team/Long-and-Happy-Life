@@ -3,14 +3,10 @@ ideologies = {
 	left_authoritarianism = {
 		
 		types = {
-		soviet_marxism = {}	
+			soviet_marxism = {}
+	        left_wing_nationalism = {}
+			paternalism = {}
 		}
-		types = {
-	        left_wing_nationalism = {}	
-		}		
-		types = {
-		paternalism = {}	
-		}	
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_left_authoritarianism_1"
