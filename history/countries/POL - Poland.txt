@@ -1,6 +1,6 @@
 ﻿capital = 10
 
-oob = "POL_1936"
+oob = "POL_2019"
 
 set_research_slots = 3
 
@@ -16,7 +16,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 1000
+	neocameralism = 100
 }
 
 create_country_leader = {
@@ -28,4 +28,3 @@ create_country_leader = {
 		#
 	}
 }
-

@@ -1,4 +1,4 @@
-capital = 208
+﻿capital = 208
 
 oob = "LEN_1936"
 

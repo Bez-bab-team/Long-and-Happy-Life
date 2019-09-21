@@ -1,4 +1,4 @@
-capital = 249
+﻿capital = 249
 oob = "TAT_2019"
 set_research_slots = 3
 
