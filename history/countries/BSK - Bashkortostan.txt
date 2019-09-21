@@ -1,4 +1,4 @@
-capital = 651
+﻿capital = 651
 
 oob = "BSK_2019"
 

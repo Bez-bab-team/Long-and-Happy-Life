@@ -1,4 +1,4 @@
-capital = 789
+﻿capital = 789
 
 oob = "UPA_2020"
 

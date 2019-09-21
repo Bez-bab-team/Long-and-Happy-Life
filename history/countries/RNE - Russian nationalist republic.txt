@@ -1,4 +1,4 @@
-capital = 247
+﻿capital = 247
 
 oob = "RNE_2019"
 
