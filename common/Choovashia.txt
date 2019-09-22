@@ -1,5 +1,8 @@
 focus_tree = {
-	id = Choovashia
+	id = choovashia
+
+	default = no
+
 	country = {
 		factor = 0
 		modifier = {
@@ -7,7 +10,7 @@ focus_tree = {
 			tag = CHS
 		}
 	}
-	default = no
+
 	focus = {
 		id = CHS_1
 		icon = GFX_goal_unknown
@@ -16,8 +19,8 @@ focus_tree = {
 		y = 0
 	}
 	focus = {
-		id = NSU_no_war
-		icon = NSU_no_war
+		id = CHS_trumpet
+		icon = GFX_CHS_trumpet
 		cost = 10
 		prerequisite = {
 			focus = CHS_1

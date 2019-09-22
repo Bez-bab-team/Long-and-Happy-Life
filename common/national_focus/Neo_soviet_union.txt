@@ -1,0 +1,1216 @@
+focus_tree = {
+	id = neo_soviet_union
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1250 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NSU
+		}
+	}
+
+	focus = {
+		id = police_coup
+		text = Police Coup
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 0
+	}
+	focus = {
+		id = SNU_rebuild
+		text = City of St. Peter
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 9
+		y = 0
+	}
+	focus = {
+		id = NSU_NKVDexp
+		text = NKVD expansion
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 0
+	}
+	focus = {
+		id = NSU_socengineering
+		text = Social Engineering
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 25
+		y = 0
+	}
+	focus = {
+		id = NSU_liberationwar
+		text = Liberation War
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 14
+		y = 7
+	}
+	focus = {
+		id = NSU_redarmy
+		text = Red Army
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 39
+		y = 0
+	}
+	focus = {
+		id = forcer_consc
+		text = Forced Conscription
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 1
+		y = 1
+	}
+	focus = {
+		id = martial_law
+		text = Martial Law
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 3
+		y = 1
+	}
+	focus = {
+		id = isolatecity
+		text = Isolate the City
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 5
+		y = 1
+	}
+	focus = {
+		id = blue_line
+		text = Thin Blue Line
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = martial_law
+		}
+		prerequisite = {
+			focus = forcer_consc
+		}
+		prerequisite = {
+			focus = isolatecity
+		}
+		x = 3
+		y = 2
+	}
+	focus = {
+		id = NSU_birthredarmy
+		text = Birth of The Red Army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 1
+		y = 3
+	}
+	focus = {
+		id = shuttheirmounths
+		text = Shut their Mouths
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 3
+		y = 3
+	}
+	focus = {
+		id = reorgnkvd
+		text = Reorganization of the NKVD
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = shuttheirmounths
+		}
+		x = 3
+		y = 4
+	}
+	focus = {
+		id = pigs
+		text = Punch the Pighs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = reorgnkvd
+		}
+		x = 3
+		y = 5
+	}
+	focus = {
+		id = NSU_exprop
+		text = Expropriation Company
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 5
+		y = 3
+	}
+	focus = {
+		id = NSU_bread
+		text = Hand out Bread
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_exprop
+		}
+		x = 5
+		y = 4
+	}
+	focus = {
+		id = NSU_hostage
+		text = Hostage Institute
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_bread
+		}
+		x = 5
+		y = 5
+	}
+	focus = {
+		id = NSU_fort
+		text = Ditches and Redoubts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = SNU_rebuild
+		}
+		x = 9
+		y = 1
+	}
+	focus = {
+		id = NSU_brutalism
+		text = Rematch of Brutalism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_fort
+		}
+		x = 9
+		y = 2
+	}
+	focus = {
+		id = NSU_church
+		text = Stop Funding Churches
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_brutalism
+		}
+		x = 7
+		y = 3
+	}
+	focus = {
+		id = NSU_sellpaintings
+		text = Sell ​​Paintings
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_brutalism
+		}
+		x = 9
+		y = 3
+	}
+	focus = {
+		id = NSU_remeltstatues
+		text = Remelt Statues
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_brutalism
+		}
+		x = 11
+		y = 3
+	}
+	focus = {
+		id = NSU_templates
+		text = Standardized Residential Templates
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_church
+		}
+		prerequisite = {
+			focus = NSU_sellpaintings
+		}
+		prerequisite = {
+			focus = NSU_remeltstatues
+		}
+		x = 9
+		y = 4
+	}
+	focus = {
+		id = NSU_enemyatthegate
+		text = Enemy at the Gate!
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_templates
+		}
+		x = 9
+		y = 5
+	}
+	focus = {
+		id = NSU_neva
+		text = Let the Neva loose
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_enemyatthegate
+		}
+		x = 9
+		y = 6
+	}
+	focus = {
+		id = NSU_suicide
+		text = Protocol SC5-18-XK
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_neva
+		}
+		x = 9
+		y = 7
+	}
+	focus = {
+		id = NSU_trial
+		text = Trial of Surajkin
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_liberationwar
+		}
+		x = 14
+		y = 8
+	}
+	focus = {
+		id = NSU_Volga
+		text = Volga
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_trial
+		}
+		x = 12
+		y = 9
+	}
+	focus = {
+		id = NSU_whistleblowing
+		text = Encourage Whistle-Blowing
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_NKVDexp
+		}
+		x = 14
+		y = 1
+	}
+	focus = {
+		id = NSU_selfharvest
+		text = Self-harvest
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_whistleblowing
+		}
+		x = 13
+		y = 2
+	}
+	focus = {
+		id = NSU_northofrussia
+		text = North of Russia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_trial
+		}
+		x = 14
+		y = 9
+	}
+	focus = {
+		id = NSU_Kuban
+		text = Kuban'
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_northofrussia
+		}
+		x = 13
+		y = 10
+	}
+	focus = {
+		id = NSU_liquidators
+		text = Liquidators
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_whistleblowing
+		}
+		x = 15
+		y = 2
+	}
+	focus = {
+		id = NSU_incessantpurges
+		text = Incessant Purges
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_selfharvest
+		}
+		prerequisite = {
+			focus = NSU_liquidators
+		}
+		x = 14
+		y = 3
+	}
+	focus = {
+		id = Predel
+		text = Project "MK-Predel"
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_incessantpurges
+		}
+		x = 14
+		y = 4
+	}
+	focus = {
+		id = NSU_nowar
+		text = There is no war in Leningrad
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = Predel
+		}
+		x = 14
+		y = 5
+	}
+	focus = {
+		id = NSU_phoenix
+		text = Soviet Phoenix
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_northofrussia
+		}
+		x = 14
+		y = 11
+	}
+	focus = {
+		id = NSU_Sibir
+		text = Sibir'
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_northofrussia
+		}
+		x = 15
+		y = 10
+	}
+	focus = {
+		id = NSU_middlerussia
+		text = Central Russia
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_trial
+		}
+		x = 16
+		y = 9
+	}
+	focus = {
+		id = NSU_tomorrowssociety
+		text = Tomorrow's Society
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_socengineering
+		}
+		x = 25
+		y = 1
+	}
+	focus = {
+		id = NSU_engineeredpoverty
+		text = Engineered Poverty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_tomorrowssociety
+		}
+		x = 23
+		y = 2
+	}
+	focus = {
+		id = NSU_permanentfamine
+		text = Permanent Famine
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_tomorrowssociety
+		}
+		x = 25
+		y = 2
+	}
+	focus = {
+		id = NSU_cultofprogress
+		text = Cult of Progress
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_tomorrowssociety
+		}
+		x = 27
+		y = 2
+	}
+	focus = {
+		id = NSU_economicoptimization
+		text = Economic optimization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_engineeredpoverty
+		}
+		prerequisite = {
+			focus = NSU_permanentfamine
+		}
+		prerequisite = {
+			focus = NSU_cultofprogress
+		}
+		x = 25
+		y = 3
+	}
+	focus = {
+		id = NSU_forcedreindustrialization
+		text = Forced re-industrialization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_economicoptimization
+		}
+		mutually_exclusive = {
+			focus = NSU_foreignconcessions
+			focus = NSU_collectiveownership
+		}
+		x = 21
+		y = 4
+	}
+	focus = {
+		id = NSU_childlabour
+		text = Child Labour
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_forcedreindustrialization
+		}
+		x = 19
+		y = 5
+	}
+	focus = {
+		id = NSU_foreignconcessions
+		text = Foreign Concessions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_economicoptimization
+		}
+		mutually_exclusive = {
+			focus = NSU_forcedreindustrialization
+			focus = NSU_collectiveownership
+		}
+		x = 25
+		y = 4
+	}
+	focus = {
+		id = NSU_Manpower
+		text = Manpower
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_forcedreindustrialization
+			focus = NSU_foreignconcessions
+		}
+		x = 23
+		y = 5
+	}
+	focus = {
+		id = NSU_unequaltreaty
+		text = Unequal Treaty
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_foreignconcessions
+		}
+		x = 25
+		y = 5
+	}
+	focus = {
+		id = NSU_weaponspurchase
+		text = Weapons Purchase
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_unequaltreaty
+		}
+		x = 25
+		y = 6
+	}
+	focus = {
+		id = NSU_pmc
+		text = Use Private Military Companies
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_weaponspurchase
+		}
+		x = 25
+		y = 7
+	}
+	focus = {
+		id = NSU_collectiveownership
+		text = Collective Ownership
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_economicoptimization
+		}
+		mutually_exclusive = {
+			focus = NSU_forcedreindustrialization
+			focus = NSU_foreignconcessions
+		}
+		x = 29
+		y = 4
+	}
+	focus = {
+		id = NSU_absorbingeconomy
+		text = Absorbing Economy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_foreignconcessions
+			focus = NSU_collectiveownership
+		}
+		x = 27
+		y = 5
+	}
+	focus = {
+		id = NSU_subsoilsale
+		text = Subsoil Sale
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_absorbingeconomy
+		}
+		x = 27
+		y = 6
+	}
+	focus = {
+		id = NSU_regionalgovernors
+		text = Regional Governors
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_subsoilsale
+		}
+		x = 27
+		y = 7
+	}
+	focus = {
+		id = NSU_Deurbanization
+		text = Deurbanization
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_collectiveownership
+		}
+		x = 29
+		y = 5
+	}
+	focus = {
+		id = NSU_internalpassports
+		text = Introduction of Internal Passports
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_Deurbanization
+		}
+		x = 29
+		y = 6
+	}
+	focus = {
+		id = NSU_enserf 
+		text = Enserf the Peasants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_internalpassports
+		}
+		x = 29
+		y = 7
+	}
+	focus = {
+		id = NSU_newserfdom
+		text = New Serfdom
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_regionalgovernors
+		}
+		prerequisite = {
+			focus = NSU_templarsofthesovietera
+		}
+		prerequisite = {
+			focus = NSU_enserf 
+		}
+		x = 29
+		y = 8
+	}
+	focus = {
+		id = NSU_givelandforservice
+		text = Give Land for Service
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_collectiveownership
+		}
+		x = 31
+		y = 5
+	}
+	focus = {
+		id = NSU_hereditaryposts
+		text = Hereditary Posts
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_givelandforservice
+		}
+		x = 31
+		y = 6
+	}
+	focus = {
+		id = NSU_templarsofthesovietera
+		text = Templars of the Soviet Era
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_hereditaryposts
+		}
+		x = 31
+		y = 7
+	}
+	focus = {
+		id = NSU_Zhukovslegacy
+		text = Zhukov's legacy
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_redarmy
+		}
+		x = 35
+		y = 1
+	}
+	focus = {
+		id = NSU_redfalcons
+		text = Red Falcons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_Zhukovslegacy
+		}
+		x = 33
+		y = 2
+	}
+	focus = {
+		id = NSU_unmannedaerialvehicles
+		text = Unmanned Aerial Vehicles
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_redfalcons
+		}
+		x = 33
+		y = 3
+	}
+	focus = {
+		id = NSU_humanwave
+		text = Human wave
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_Zhukovslegacy
+		}
+		x = 35
+		y = 2
+	}
+	focus = {
+		id = NSU_regimentalorchestras
+		text = Regimental Orchestras
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_humanwave
+		}
+		x = 35
+		y = 3
+	}
+	focus = {
+		id = NSU_weaponsstandards
+		text = Reduce Weapons Standards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_regimentalorchestras
+		}
+		x = 35
+		y = 4
+	}
+	focus = {
+		id = NSU_departmentp
+		text = Department-P
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_redarmy
+		}
+		x = 39
+		y = 2
+	}
+	focus = {
+		id = NSU_tanks
+		text = Mass Production of Tanks
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_departmentp
+		}
+		x = 37
+		y = 3
+	}
+	focus = {
+		id = NSU_Exoskeletons
+		text = Exoskeletons
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_tanks
+		}
+		x = 37
+		y = 4
+	}
+	focus = {
+		id = NSU_parascienceresearch
+		text = Parascience Research
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_departmentp
+		}
+		x = 39
+		y = 3
+	}
+	focus = {
+		id = NSU_Psychokinesis
+		text = Psychokinesis
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_parascienceresearch
+		}
+		x = 39
+		y = 4
+	}
+	focus = {
+		id = NSU_chemicalstimulants
+		text = Chemical Stimulants
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_departmentp
+		}
+		x = 41
+		y = 3
+	}
+	focus = {
+		id = NSU_battletrance
+		text = Battle Trance
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_chemicalstimulants
+		}
+		x = 41
+		y = 4
+	}
+	focus = {
+		id = NSU_stalin3000
+		text = Stalin 3000
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_Exoskeletons
+			focus = NSU_Psychokinesis
+			focus = NSU_battletrance
+		}
+		x = 39
+		y = 5
+	}
+	focus = {
+		id = NSU_lessonsofthefirstcivilwar
+		text = Lessons of the First Civil War
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_redarmy
+		}
+		x = 43
+		y = 1
+	}
+	focus = {
+		id = NSU_emphasisonlightinfantry
+		text = Emphasis on Light Infantry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_lessonsofthefirstcivilwar
+		}
+		x = 43
+		y = 2
+	}
+	focus = {
+		id = NSU_horseraids
+		text = Horse Raids
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_emphasisonlightinfantry
+		}
+		x = 43
+		y = 3
+	}
+	focus = {
+		id = NSU_newtachanka
+		text = New Tachanka
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_horseraids
+		}
+		x = 43
+		y = 4
+	}
+	focus = {
+		id = NSU_commissars
+		text = Political Commissars
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_birthredarmy
+		}
+		x = 1
+		y = 4
+	}
+	focus = {
+		id = NSU_Pendiv
+		text = Penitentiary Divisions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_commissars
+		}
+		x = 1
+		y = 5
+	}
+	focus = {
+		id = NSU_deadend
+		text = Formalize the "Dead End"
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_hostage
+		}
+		prerequisite = {
+			focus = pigs
+		}
+		prerequisite = {
+			focus = NSU_Pendiv
+		}
+		x = 3
+		y = 6
+	}
+	focus = {
+		id = NSU_dream
+		text = Bring People Back the Dream
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_deadend
+		}
+		x = 3
+		y = 7
+	}
+	focus = {
+		id = NSU_laborbattalions
+		text = Labor Battalions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_forcedreindustrialization
+		}
+		x = 21
+		y = 5
+	}
+	focus = {
+		id = NSU_povertytax
+		text = Poverty Tax
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_childlabour
+		}
+		x = 19
+		y = 6
+	}
+	focus = {
+		id = NSU_simplifylaborlaws
+		text = Simplify Labor Laws
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_povertytax
+		}
+		x = 19
+		y = 7
+	}
+	focus = {
+		id = NSU_sacralisationofindustry
+		text = Sacralisation of Industry
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_transformationofnature
+		}
+		prerequisite = {
+			focus = NSU_simplifylaborlaws
+		}
+		prerequisite = {
+			focus = NSU_environmental
+		}
+		x = 21
+		y = 8
+	}
+	focus = {
+		id = NSU_environmental
+		text = Abolition of Environmental Standards
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_workhouses
+		}
+		x = 23
+		y = 7
+	}
+	focus = {
+		id = NSU_internalcolonialism
+		text = Internal Colonialism
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_environmental
+		}
+		prerequisite = {
+			focus = NSU_pmc
+		}
+		prerequisite = {
+			focus = NSU_regionalgovernors
+		}
+		x = 25
+		y = 8
+	}
+	focus = {
+		id = NSU_transformationofnature
+		text = Transformation of Nature
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_greatconstructionprojects
+		}
+		x = 21
+		y = 7
+	}
+	focus = {
+		id = NSU_greatconstructionprojects
+		text = Great Construction Projects
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_laborbattalions
+		}
+		x = 21
+		y = 6
+	}
+	focus = {
+		id = NSU_workhouses
+		text = Workhouses
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_Manpower
+		}
+		x = 23
+		y = 6
+	}
+	focus = {
+		id = NSU_futureistoday
+		text = Future is Today
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_sacralisationofindustry
+			focus = NSU_internalcolonialism
+			focus = NSU_newserfdom
+		}
+		x = 25
+		y = 9
+	}
+	focus = {
+		id = NSU_reapthebenefits
+		text = Reap the Benefits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_futureistoday
+		}
+		x = 25
+		y = 10
+	}
+	focus = {
+		id = NSU_socialbenefits
+		text = Social Benefits
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_reapthebenefits
+		}
+		x = 23
+		y = 11
+	}
+	focus = {
+		id = NSU_scienceoverfunding
+		text = Science Overfunding
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_reapthebenefits
+		}
+		x = 27
+		y = 11
+	}
+	focus = {
+		id = NSU_planetariums
+		text = Planetariums
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_reapthebenefits
+		}
+		x = 25
+		y = 12
+	}
+	focus = {
+		id = NSU_education
+		text = Free Education
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_socialbenefits
+		}
+		x = 23
+		y = 12
+	}
+	focus = {
+		id = NSU_pioneercamps
+		text = Pioneer Camps
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_socialbenefits
+		}
+		x = 21
+		y = 12
+	}
+	focus = {
+		id = NSU_secretresearchinstitutes
+		text = Secret Research Institutes
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_scienceoverfunding
+		}
+		x = 27
+		y = 12
+	}
+	focus = {
+		id = NSU_spaceexploration
+		text = Space Exploration
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_scienceoverfunding
+		}
+		x = 29
+		y = 12
+	}
+	focus = {
+		id = NSU_nearabroad
+		text = Near Abroad
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_phoenix
+		}
+		x = 14
+		y = 12
+	}
+	focus = {
+		id = NSU_redterror
+		text = Red Terror
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_lessonsofthefirstcivilwar
+		}
+		x = 45
+		y = 2
+	}
+	focus = {
+		id = NSU_suicidemissions
+		text = Suicide Missions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_redterror
+		}
+		x = 45
+		y = 3
+	}
+}
