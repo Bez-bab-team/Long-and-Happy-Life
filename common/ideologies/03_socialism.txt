@@ -3,11 +3,11 @@ ideologies = {
 	socialism = {
 		
 		types = {
-		progressivism = {
+			progressivism = {
 			}
-		labor_socialism = {
+			labor_socialism = {
 			}		
-		agrarian_socialism = {
+			agrarian_socialism = {
 			}
 		}
 		
