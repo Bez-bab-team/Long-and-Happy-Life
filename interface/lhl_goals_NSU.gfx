@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_NSU_no_war"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_no_war.dds"
+	}
+}

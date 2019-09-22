@@ -15,7 +15,6 @@ set_technology = {
 
 set_politics = {
 	ruling_party = socialism
-	last_election = "1933.7.1"
 	elections_allowed = no
 }
 set_popularities = {
@@ -28,7 +27,7 @@ create_country_leader = {
 	picture = "Portrait_RPR_KARA_MURZA.dds"
 	ideology = agrarian_socialism
 	traits = {
-		
+		leftwing_intellectual
 	}
 }
 

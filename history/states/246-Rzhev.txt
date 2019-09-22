@@ -10,14 +10,14 @@ state={
 	}
 
 	history={
-		owner = RPR
+		owner = RNE
 		victory_points = {
 			11349 1
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = RPR
+		add_core_of = RNE
 	}
 
 	provinces={

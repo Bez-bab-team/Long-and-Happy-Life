@@ -1,0 +1,212 @@
+focus_tree = {
+	id = Neo-Neosoviet_union
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NSU
+		}
+	}
+	default = no
+	focus = {
+		id = police_coup
+		text = Police Coup
+		icon = GFX_goal_unknown
+		cost = 10
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = forcer_consc
+		text = Forced Conscription
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = martial_law
+		text = Martial Law
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = isolatecity
+		text = Isolate the City
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = police_coup
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = blue_line
+		text = Thin Blue Line
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = martial_law
+		}
+		prerequisite = {
+			focus = forcer_consc
+		}
+		prerequisite = {
+			focus = isolatecity
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = NSU_birthredarmy
+		text = Birth of The Red Army
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = shuttheirmounths
+		text = Shut their Mouths
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = reorgnkvd
+		text = Reorganization of the NKVD
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = shuttheirmounths
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = pigs
+		text = Punch the Pighs
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = reorgnkvd
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = NSU_exprop
+		text = Expropriation Company
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = blue_line
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = NSU_bread
+		text = Hand out Bread
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_exprop
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = NSU_hostage
+		text = Hostage Institute
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_bread
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = NSU_commissars
+		text = Political Commissars
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_birthredarmy
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = NSU_Pendiv
+		text = Penitentiary Divisions
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_commissars
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = NSU_deadend
+		text = Formalize the "Dead End"
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_hostage
+		}
+		prerequisite = {
+			focus = pigs
+		}
+		prerequisite = {
+			focus = NSU_Pendiv
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = NSU_dream
+		text = Bring People Back the Dream
+		icon = GFX_goal_unknown
+		cost = 10
+		prerequisite = {
+			focus = NSU_deadend
+		}
+		x = 3
+		y = 7
+
+	}
+}

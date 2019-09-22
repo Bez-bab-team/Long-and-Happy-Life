@@ -15,7 +15,6 @@ set_technology = {
 
 set_politics = {
 	ruling_party = hegemonism     
-	last_election = "1933.7.1"
 	elections_allowed = no
 }
 set_popularities = {
@@ -26,10 +25,9 @@ create_country_leader = {
 	name = "Aleksandr Barkashov"
 	desc = "POLITICS_BARKASHOW_DESC"
 	picture = "Portrait_RNE_BARKASHOW.dds"
-	expire = "1953.3.1"
 	ideology = stratocracy 
 	traits = {
-		
+		diligent_officer_without_imagination
 	}
 }
 

@@ -17,8 +17,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = CHS_trumpet
-		icon = GFX_CHS_trumpet
+		id = NSU_no_war
+		icon = NSU_no_war
 		cost = 10
 		prerequisite = {
 			focus = CHS_1

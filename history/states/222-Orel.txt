@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = FRS
+		owner = RTS
 		victory_points = {
 			9355 10
 		}
@@ -20,7 +20,7 @@ state={
 			infrastructure = 5
 			air_base = 4
 		}
-		add_core_of = FRS
+		add_core_of = RTS
 	}
 
 	provinces={
