@@ -15,7 +15,6 @@ focus_tree = {
 
 	focus = {
 		id = NSU_police_coup
-		text = Police Coup
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 3
@@ -23,7 +22,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_rebuild
-		text = City of St. Peter
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 9
@@ -31,7 +29,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nkvd_exp
-		text = NKVD expansion
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 14
@@ -39,7 +36,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_socengineering
-		text = Social Engineering
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 25
@@ -47,7 +43,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_liberationwar
-		text = Liberation War
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 14
@@ -55,7 +50,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_redarmy
-		text = Red Army
 		icon = GFX_goal_unknown
 		cost = 10
 		x = 39
@@ -63,7 +57,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_forcer_consc
-		text = Forced Conscription
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -74,7 +67,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_martial_law
-		text = Martial Law
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -85,7 +77,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_isolatecity
-		text = Isolate the City
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -96,7 +87,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_blue_line
-		text = Thin Blue Line
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -113,7 +103,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_birthredarmy
-		text = Birth of The Red Army
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -124,7 +113,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_shuttheirmounths
-		text = Shut their Mouths
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -135,7 +123,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_reorgnkvd
-		text = Reorganization of the NKVD
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -146,7 +133,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pigs
-		text = Punch the Pighs
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -157,7 +143,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_exprop
-		text = Expropriation Company
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -168,7 +153,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_bread
-		text = Hand out Bread
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -179,7 +163,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_hostage
-		text = Hostage Institute
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -190,7 +173,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_fort
-		text = Ditches and Redoubts
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -201,7 +183,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_brutalism
-		text = Rematch of Brutalism
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -212,7 +193,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_church
-		text = Stop Funding Churches
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -223,7 +203,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_sellpaintings
-		text = Sell ​​Paintings
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -234,7 +213,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_remeltstatues
-		text = Remelt Statues
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -245,7 +223,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_templates
-		text = Standardized Residential Templates
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -262,7 +239,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_enemyatthegate
-		text = Enemy at the Gate!
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -273,7 +249,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_neva
-		text = Let the Neva loose
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -284,7 +259,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_suicide
-		text = Protocol SC5-18-XK
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -295,7 +269,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_trial
-		text = Trial of Surajkin
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -306,7 +279,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_volga
-		text = Volga
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -317,7 +289,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_whistleblowing
-		text = Encourage Whistle-Blowing
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -328,7 +299,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_selfharvest
-		text = Self-harvest
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -339,7 +309,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_northofrussia
-		text = North of Russia
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -350,7 +319,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_kuban
-		text = Kuban'
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -361,7 +329,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_liquidators
-		text = Liquidators
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -372,7 +339,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_incessantpurges
-		text = Incessant Purges
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -386,7 +352,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_predel
-		text = Project "MK-NSU Predel"
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -397,7 +362,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nowar
-		text = There is no war in Leningrad
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -408,7 +372,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_phoenix
-		text = Soviet Phoenix
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -419,7 +382,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_sibir
-		text = Sibir'
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -430,7 +392,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_middlerussia
-		text = Central Russia
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -441,7 +402,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_tomorrowssociety
-		text = Tomorrow's Society
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -452,7 +412,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_engineeredpoverty
-		text = Engineered Poverty
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -463,7 +422,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_permanentfamine
-		text = Permanent Famine
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -474,7 +432,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_cultofprogress
-		text = Cult of Progress
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -485,7 +442,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_economicoptimization
-		text = Economic optimization
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -502,7 +458,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_forcedreindustrialization
-		text = Forced re-industrialization
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -517,7 +472,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_childlabour
-		text = Child Labour
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -528,7 +482,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_foreignconcessions
-		text = Foreign Concessions
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -543,7 +496,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_manpower
-		text = Manpower
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -555,7 +507,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_unequaltreaty
-		text = Unequal Treaty
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -566,7 +517,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_weaponspurchase
-		text = Weapons Purchase
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -577,7 +527,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pmc
-		text = Use Private Military Companies
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -588,7 +537,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_collectiveownership
-		text = Collective Ownership
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -603,7 +551,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_absorbingeconomy
-		text = Absorbing Economy
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -615,7 +562,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_subsoilsale
-		text = Subsoil Sale
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -626,7 +572,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_regionalgovernors
-		text = Regional Governors
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -637,7 +582,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_deurbanization
-		text = Deurbanization
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -648,7 +592,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_internalpassports
-		text = Introduction of Internal Passports
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -659,7 +602,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_enserf 
-		text = Enserf the Peasants
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -670,7 +612,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_newserfdom
-		text = New Serfdom
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -687,7 +628,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_givelandforservice
-		text = Give Land for Service
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -698,7 +638,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_hereditaryposts
-		text = Hereditary Posts
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -709,7 +648,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_templarsofthesovietera
-		text = Templars of the Soviet Era
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -720,7 +658,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_zhukovslegacy
-		text = Zhukov's legacy
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -731,7 +668,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_redfalcons
-		text = Red Falcons
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -742,7 +678,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_unmannedaerialvehicles
-		text = Unmanned Aerial Vehicles
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -753,7 +688,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_humanwave
-		text = Human wave
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -764,7 +698,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_regimentalorchestras
-		text = Regimental Orchestras
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -775,7 +708,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_weaponsstandards
-		text = Reduce Weapons Standards
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -786,7 +718,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_departmentp
-		text = Department-P
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -797,7 +728,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_tanks
-		text = Mass Production of Tanks
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -808,7 +738,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_exoskeletons
-		text = Exoskeletons
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -819,7 +748,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_parascienceresearch
-		text = Parascience Research
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -830,7 +758,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_psychokinesis
-		text = Psychokinesis
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -841,7 +768,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_chemicalstimulants
-		text = Chemical Stimulants
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -852,7 +778,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_battletrance
-		text = Battle Trance
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -863,7 +788,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_stalin3000
-		text = Stalin 3000
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -876,7 +800,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_lessonsofthefirstcivilwar
-		text = Lessons of the First Civil War
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -887,7 +810,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_emphasisonlightinfantry
-		text = Emphasis on Light Infantry
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -898,7 +820,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_horseraids
-		text = Horse Raids
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -909,7 +830,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_newtachanka
-		text = New Tachanka
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -920,7 +840,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_commissars
-		text = Political Commissars
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -931,7 +850,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pendiv
-		text = Penitentiary Divisions
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -942,7 +860,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_deadend
-		text = Formalize the "Dead End"
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -959,7 +876,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_dream
-		text = Bring People Back the Dream
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -970,7 +886,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_laborbattalions
-		text = Labor Battalions
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -981,7 +896,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_povertytax
-		text = Poverty Tax
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -992,7 +906,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_simplifylaborlaws
-		text = Simplify Labor Laws
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1003,7 +916,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_sacralisationofindustry
-		text = Sacralisation of Industry
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1020,7 +932,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_environmental
-		text = Abolition of Environmental Standards
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1031,7 +942,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_internalcolonialism
-		text = Internal Colonialism
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1048,7 +958,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_transformationofnature
-		text = Transformation of Nature
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1059,7 +968,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_greatconstructionprojects
-		text = Great Construction Projects
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1070,7 +978,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_workhouses
-		text = Workhouses
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1081,7 +988,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_futureistoday
-		text = Future is Today
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1094,7 +1000,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_reapthebenefits
-		text = Reap the Benefits
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1105,7 +1010,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_socialbenefits
-		text = Social Benefits
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1116,7 +1020,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_scienceoverfunding
-		text = Science Overfunding
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1127,7 +1030,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_planetariums
-		text = Planetariums
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1138,7 +1040,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_education
-		text = Free Education
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1149,7 +1050,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pioneercamps
-		text = Pioneer Camps
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1160,7 +1060,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_secretresearchinstitutes
-		text = Secret Research Institutes
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1182,7 +1081,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nearabroad
-		text = Near Abroad
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1193,7 +1091,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_redterror
-		text = Red Terror
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -1204,7 +1101,6 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_suicidemissions
-		text = Suicide Missions
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
