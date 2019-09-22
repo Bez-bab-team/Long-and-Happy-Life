@@ -14,7 +14,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = police_coup
+		id = NSU_police_coup
 		text = Police Coup
 		icon = GFX_goal_unknown
 		cost = 10
@@ -22,7 +22,7 @@ focus_tree = {
 		y = 0
 	}
 	focus = {
-		id = SNU_rebuild
+		id = NSU_rebuild
 		text = City of St. Peter
 		icon = GFX_goal_unknown
 		cost = 10
@@ -30,7 +30,7 @@ focus_tree = {
 		y = 0
 	}
 	focus = {
-		id = NSU_NKVDexp
+		id = NSU_nkvd_exp
 		text = NKVD expansion
 		icon = GFX_goal_unknown
 		cost = 10
@@ -62,51 +62,51 @@ focus_tree = {
 		y = 0
 	}
 	focus = {
-		id = forcer_consc
+		id = NSU_forcer_consc
 		text = Forced Conscription
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = police_coup
+			focus = NSU_police_coup
 		}
 		x = 1
 		y = 1
 	}
 	focus = {
-		id = martial_law
+		id = NSU_martial_law
 		text = Martial Law
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = police_coup
+			focus = NSU_police_coup
 		}
 		x = 3
 		y = 1
 	}
 	focus = {
-		id = isolatecity
+		id = NSU_isolatecity
 		text = Isolate the City
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = police_coup
+			focus = NSU_police_coup
 		}
 		x = 5
 		y = 1
 	}
 	focus = {
-		id = blue_line
+		id = NSU_blue_line
 		text = Thin Blue Line
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = martial_law
+			focus = NSU_martial_law
 		}
 		prerequisite = {
-			focus = forcer_consc
+			focus = NSU_forcer_consc
 		}
 		prerequisite = {
-			focus = isolatecity
+			focus = NSU_isolatecity
 		}
 		x = 3
 		y = 2
@@ -117,40 +117,40 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = blue_line
+			focus = NSU_blue_line
 		}
 		x = 1
 		y = 3
 	}
 	focus = {
-		id = shuttheirmounths
+		id = NSU_shuttheirmounths
 		text = Shut their Mouths
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = blue_line
+			focus = NSU_blue_line
 		}
 		x = 3
 		y = 3
 	}
 	focus = {
-		id = reorgnkvd
+		id = NSU_reorgnkvd
 		text = Reorganization of the NKVD
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = shuttheirmounths
+			focus = NSU_shuttheirmounths
 		}
 		x = 3
 		y = 4
 	}
 	focus = {
-		id = pigs
+		id = NSU_pigs
 		text = Punch the Pighs
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = reorgnkvd
+			focus = NSU_reorgnkvd
 		}
 		x = 3
 		y = 5
@@ -161,7 +161,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = blue_line
+			focus = NSU_blue_line
 		}
 		x = 5
 		y = 3
@@ -305,7 +305,7 @@ focus_tree = {
 		y = 8
 	}
 	focus = {
-		id = NSU_Volga
+		id = NSU_volga
 		text = Volga
 		icon = GFX_goal_unknown
 		cost = 10
@@ -321,7 +321,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_NKVDexp
+			focus = NSU_nkvd_exp
 		}
 		x = 14
 		y = 1
@@ -349,7 +349,7 @@ focus_tree = {
 		y = 9
 	}
 	focus = {
-		id = NSU_Kuban
+		id = NSU_kuban
 		text = Kuban'
 		icon = GFX_goal_unknown
 		cost = 10
@@ -385,8 +385,8 @@ focus_tree = {
 		y = 3
 	}
 	focus = {
-		id = Predel
-		text = Project "MK-Predel"
+		id = NSU_predel
+		text = Project "MK-NSU Predel"
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
@@ -401,7 +401,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = Predel
+			focus = NSU_predel
 		}
 		x = 14
 		y = 5
@@ -418,7 +418,7 @@ focus_tree = {
 		y = 11
 	}
 	focus = {
-		id = NSU_Sibir
+		id = NSU_sibir
 		text = Sibir'
 		icon = GFX_goal_unknown
 		cost = 10
@@ -542,7 +542,7 @@ focus_tree = {
 		y = 4
 	}
 	focus = {
-		id = NSU_Manpower
+		id = NSU_manpower
 		text = Manpower
 		icon = GFX_goal_unknown
 		cost = 10
@@ -636,7 +636,7 @@ focus_tree = {
 		y = 7
 	}
 	focus = {
-		id = NSU_Deurbanization
+		id = NSU_deurbanization
 		text = Deurbanization
 		icon = GFX_goal_unknown
 		cost = 10
@@ -652,7 +652,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_Deurbanization
+			focus = NSU_deurbanization
 		}
 		x = 29
 		y = 6
@@ -719,7 +719,7 @@ focus_tree = {
 		y = 7
 	}
 	focus = {
-		id = NSU_Zhukovslegacy
+		id = NSU_zhukovslegacy
 		text = Zhukov's legacy
 		icon = GFX_goal_unknown
 		cost = 10
@@ -735,7 +735,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_Zhukovslegacy
+			focus = NSU_zhukovslegacy
 		}
 		x = 33
 		y = 2
@@ -757,7 +757,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_Zhukovslegacy
+			focus = NSU_zhukovslegacy
 		}
 		x = 35
 		y = 2
@@ -807,7 +807,7 @@ focus_tree = {
 		y = 3
 	}
 	focus = {
-		id = NSU_Exoskeletons
+		id = NSU_exoskeletons
 		text = Exoskeletons
 		icon = GFX_goal_unknown
 		cost = 10
@@ -829,7 +829,7 @@ focus_tree = {
 		y = 3
 	}
 	focus = {
-		id = NSU_Psychokinesis
+		id = NSU_psychokinesis
 		text = Psychokinesis
 		icon = GFX_goal_unknown
 		cost = 10
@@ -867,8 +867,8 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_Exoskeletons
-			focus = NSU_Psychokinesis
+			focus = NSU_exoskeletons
+			focus = NSU_psychokinesis
 			focus = NSU_battletrance
 		}
 		x = 39
@@ -930,7 +930,7 @@ focus_tree = {
 		y = 4
 	}
 	focus = {
-		id = NSU_Pendiv
+		id = NSU_pendiv
 		text = Penitentiary Divisions
 		icon = GFX_goal_unknown
 		cost = 10
@@ -949,10 +949,10 @@ focus_tree = {
 			focus = NSU_hostage
 		}
 		prerequisite = {
-			focus = pigs
+			focus = NSU_pigs
 		}
 		prerequisite = {
-			focus = NSU_Pendiv
+			focus = NSU_pendiv
 		}
 		x = 3
 		y = 6
@@ -1074,7 +1074,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
-			focus = NSU_Manpower
+			focus = NSU_manpower
 		}
 		x = 23
 		y = 6
