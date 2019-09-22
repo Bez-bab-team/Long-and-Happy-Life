@@ -8,15 +8,15 @@ state={
 
 	state_category = city
 	history={
+		owner = MSC
+		add_core_of = MSC
+
 		victory_points = {
 			378 5
 		}
-		owner = 
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		owner = MSC
-		add_core_of = MSC
 	}
 }

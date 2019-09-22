@@ -1,4 +1,4 @@
-capital = 234
+﻿capital = 234
 
 oob = "COU_2019"
 
