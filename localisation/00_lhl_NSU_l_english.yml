@@ -1,10 +1,12 @@
 ﻿l_english:
+###Prty###
+ NSU_commendationism_party:0 "Dead End"
  ###Focuses###
  NSU_police_coup:0 "Police Coup"
  NSU_police_coup_desc:0 "Police Coup"
  NSU_rebuild:0 "City of St. Peter"
  NSU_rebuild_desc:0 "City of St. Peter"
- NSU_nkvd_exp:0 "NKVD expansion"
+ NSU_nkvd_exp:0 "NKVD Expansion"
  NSU_nkvd_exp_desc:0 "NKVD expansion"
  NSU_socengineering:0 "Social Engineering"
  NSU_socengineering_desc:0 "Social Engineering"
@@ -68,10 +70,10 @@
  NSU_liquidators_desc:0 "Liquidators"
  NSU_incessantpurges:0 "Incessant Purges"
  NSU_incessantpurges_desc:0 "Incessant Purges"
- NSU_predel:0 "Project MK-NSU Predel"
+ NSU_predel:0 "Speclekpreparat \"Predel\""
  NSU_predel_desc:0 "Project \"MK-NSU Predel\""
- NSU_nowar:0 "There is no war in Leningrad"
- NSU_nowar_desc:0 "There is no war in Leningrad"
+ NSU_nowar:0 "There is No War in Leningrad"
+ NSU_nowar_desc:0 "There is no War in Leningrad"
  NSU_phoenix:0 "Soviet Phoenix"
  NSU_phoenix_desc:0 "Soviet Phoenix"
  NSU_sibir:0 "Sibir'"

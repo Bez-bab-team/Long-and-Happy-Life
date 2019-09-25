@@ -15,7 +15,7 @@ focus_tree = {
 
 	focus = {
 		id = NSU_police_coup
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_police_coup
 		cost = 10
 		x = 3
 		y = 0
@@ -29,7 +29,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nkvd_exp
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_nkvd_exp
 		cost = 10
 		x = 14
 		y = 0
@@ -57,7 +57,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_forcer_consc
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_forcer_consc
 		cost = 10
 		prerequisite = {
 			focus = NSU_police_coup
@@ -67,7 +67,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_martial_law
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_martial_law
 		cost = 10
 		prerequisite = {
 			focus = NSU_police_coup
@@ -77,7 +77,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_isolatecity
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_isolatecity
 		cost = 10
 		prerequisite = {
 			focus = NSU_police_coup
@@ -87,7 +87,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_blue_line
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_blue_line
 		cost = 10
 		prerequisite = {
 			focus = NSU_martial_law
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_whistleblowing
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_whistleblowing
 		cost = 10
 		prerequisite = {
 			focus = NSU_nkvd_exp
@@ -299,7 +299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_selfharvest
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_selfharvest
 		cost = 10
 		prerequisite = {
 			focus = NSU_whistleblowing
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_liquidators
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_liquidators
 		cost = 10
 		prerequisite = {
 			focus = NSU_whistleblowing
@@ -339,7 +339,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_incessantpurges
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_incessantpurges
 		cost = 10
 		prerequisite = {
 			focus = NSU_selfharvest
@@ -352,7 +352,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_predel
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_predel
 		cost = 10
 		prerequisite = {
 			focus = NSU_incessantpurges
@@ -362,7 +362,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nowar
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_nowar
 		cost = 10
 		prerequisite = {
 			focus = NSU_predel
