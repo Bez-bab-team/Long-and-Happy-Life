@@ -62,4 +62,89 @@ spriteTypes = {
 		name = "GFX_NSU_martial_law"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_martial_law.dds"
 	}
+	
+	SpriteType = {
+		name = "GFX_NSU_deadend"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_deadend.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_birthredarmy"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_birthredarmy.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_bread"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_bread.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_commissars"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_commissars.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_dream"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_dream.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_exprop"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_exprop.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_hostage"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_hostage.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_pendiv"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pendiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_reorgnkvd"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_reorgnkvd.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_shuttheirmounths"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_shuttheirmounths.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_pigs"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pigs.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_brutalism"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_brutalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_church"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_church.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_enemyatthegate"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_enemyatthegate.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_neva"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_neva.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_rebuild"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_rebuild.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_remeltstatues"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_remeltstatues.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_sellpaintings"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_sellpaintings.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_suicide"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_suicide.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_templates"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_templates.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_fort"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_fort.dds"
+	}
 }

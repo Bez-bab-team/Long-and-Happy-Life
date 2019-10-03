@@ -22,7 +22,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_rebuild
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_rebuild
 		cost = 10
 		x = 9
 		y = 0
@@ -103,7 +103,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_birthredarmy
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_birthredarmy
 		cost = 10
 		prerequisite = {
 			focus = NSU_blue_line
@@ -113,7 +113,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_shuttheirmounths
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_shuttheirmounths
 		cost = 10
 		prerequisite = {
 			focus = NSU_blue_line
@@ -123,7 +123,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_reorgnkvd
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_reorgnkvd
 		cost = 10
 		prerequisite = {
 			focus = NSU_shuttheirmounths
@@ -133,7 +133,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pigs
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_pigs
 		cost = 10
 		prerequisite = {
 			focus = NSU_reorgnkvd
@@ -143,7 +143,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_exprop
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_exprop
 		cost = 10
 		prerequisite = {
 			focus = NSU_blue_line
@@ -153,7 +153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_bread
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_bread
 		cost = 10
 		prerequisite = {
 			focus = NSU_exprop
@@ -163,7 +163,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_hostage
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_hostage
 		cost = 10
 		prerequisite = {
 			focus = NSU_bread
@@ -173,7 +173,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_fort
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_fort
 		cost = 10
 		prerequisite = {
 			focus = NSU_rebuild
@@ -183,7 +183,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_brutalism
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_brutalism
 		cost = 10
 		prerequisite = {
 			focus = NSU_fort
@@ -193,7 +193,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_church
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_church
 		cost = 10
 		prerequisite = {
 			focus = NSU_brutalism
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_sellpaintings
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_sellpaintings
 		cost = 10
 		prerequisite = {
 			focus = NSU_brutalism
@@ -213,7 +213,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_remeltstatues
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_remeltstatues
 		cost = 10
 		prerequisite = {
 			focus = NSU_brutalism
@@ -223,7 +223,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_templates
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_templates
 		cost = 10
 		prerequisite = {
 			focus = NSU_church
@@ -239,7 +239,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_enemyatthegate
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_enemyatthegate
 		cost = 10
 		prerequisite = {
 			focus = NSU_templates
@@ -249,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_neva
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_neva
 		cost = 10
 		prerequisite = {
 			focus = NSU_enemyatthegate
@@ -259,7 +259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_suicide
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_suicide
 		cost = 10
 		prerequisite = {
 			focus = NSU_neva
@@ -840,7 +840,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_commissars
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_commissars
 		cost = 10
 		prerequisite = {
 			focus = NSU_birthredarmy
@@ -850,7 +850,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pendiv
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_pendiv
 		cost = 10
 		prerequisite = {
 			focus = NSU_commissars
@@ -876,7 +876,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_dream
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_dream
 		cost = 10
 		prerequisite = {
 			focus = NSU_deadend

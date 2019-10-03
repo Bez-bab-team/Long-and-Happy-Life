@@ -4,11 +4,11 @@ bookmarks = {
 		desc = "LHLBOOKMARK_DESC"
 		date = 2019.8.22.14
 		picture = "GFX_select_date_1939"
-		default_country = "JAP"
+		default_country = "RTS"
 	
-		JAP = {
-			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
+		RTS = {
+			history = RTS_BLITZKRIEG_DESC
+			ideology = ur_fascism
 			ideas={
 				#
 			}	
@@ -17,15 +17,81 @@ bookmarks = {
 			}		
 		}
 
+		UST = {
+			history = UST_BLITZKRIEG_DESC
+			ideology = left_authoritarianism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
+		NSU = {
+			history = NSU_BLITZKRIEG_DESC
+			ideology = commendationism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
+		GAZ = {
+			history = GAZ_BLITZKRIEG_DESC
+			ideology = neocameralism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
+		RGD = {
+			history = RGD_BLITZKRIEG_DESC
+			ideology = hegemonism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
+		RIS = {
+			history = RIS_BLITZKRIEG_DESC
+			ideology = ur_fascism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
+		RST = {
+			history = RST_BLITZKRIEG_DESC
+			ideology = millenarism
+			ideas={
+				#
+			}	
+			focuses = {
+				#
+			}		
+		}
+		
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
 		# minors from DLC ####
-		"POL"={
+		"MSC"={
 			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
+			history = "MSC_BLITZKRIEG_DESC"
+			ideology = national_bolshevism
 			ideas = {
 				#
 			}
@@ -34,6 +100,50 @@ bookmarks = {
 			}
 		}
 		
+		"MON"={
+			minor = yes
+			history = "MON_BLITZKRIEG_DESC"
+			ideology = ur_fascism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		"NRU"={
+			minor = yes
+			history = "NRU_BLITZKRIEG_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		"RNE"={
+			minor = yes
+			history = "RNE_BLITZKRIEG_DESC"
+			ideology = hegemonism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		"CHS"={
+			minor = yes
+			history = "CHS_BLITZKRIEG_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
