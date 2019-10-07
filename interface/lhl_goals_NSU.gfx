@@ -147,4 +147,20 @@ spriteTypes = {
 		name = "GFX_NSU_fort"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_fort.dds"
 	}
+	SpriteType = {
+		name = "GFX_NSU_forcedreindustrialization"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_forcedreindustrialization.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_foreignconcessions"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_foreignconcessions.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_collectiveownership"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_collectiveownership.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_economicoptimization"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_economicoptimization.dds"
+	}
 }

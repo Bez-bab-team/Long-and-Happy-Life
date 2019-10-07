@@ -442,7 +442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_economicoptimization
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_economicoptimization
 		cost = 10
 		prerequisite = {
 			focus = NSU_engineeredpoverty
@@ -458,7 +458,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_forcedreindustrialization
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_forcedreindustrialization
 		cost = 10
 		prerequisite = {
 			focus = NSU_economicoptimization
@@ -482,7 +482,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_foreignconcessions
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_foreignconcessions
 		cost = 10
 		prerequisite = {
 			focus = NSU_economicoptimization
@@ -537,7 +537,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_collectiveownership
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_collectiveownership
 		cost = 10
 		prerequisite = {
 			focus = NSU_economicoptimization

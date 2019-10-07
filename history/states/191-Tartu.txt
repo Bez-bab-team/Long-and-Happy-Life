@@ -5,7 +5,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = BAL
+		owner = EST
 		victory_points = {
 			9221 1 
 		}
@@ -17,12 +17,12 @@ state={
 			}
 
 		}
-		add_core_of = BAL
+		add_core_of = EST
 
 	}
 
 	provinces={
-		592 4640 6099 6178 6408 9221 9485 11057 11443 13127 
+		6099 9221 11057 11443 13127 6408 6178 
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000
