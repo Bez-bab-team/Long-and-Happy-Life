@@ -5,115 +5,87 @@ bookmarks = {
 		date = 2019.8.22.14
 		picture = "GFX_select_date_1939"
 		default_country = "RTS"
-	
+
 		RTS = {
-			history = RTS_BLITZKRIEG_DESC
+			history = RTS_LHLBOOKMARK_DESC
 			ideology = ur_fascism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-
 		UST = {
-			history = UST_BLITZKRIEG_DESC
+			history = UST_LHLBOOKMARK_DESC
 			ideology = left_authoritarianism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-		
 		NSU = {
-			history = NSU_BLITZKRIEG_DESC
+			history = NSU_LHLBOOKMARK_DESC
 			ideology = commendationism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-		
 		GAZ = {
-			history = GAZ_BLITZKRIEG_DESC
+			history = GAZ_LHLBOOKMARK_DESC
 			ideology = neocameralism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-		
 		RGD = {
-			history = RGD_BLITZKRIEG_DESC
+			history = RGD_LHLBOOKMARK_DESC
 			ideology = hegemonism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-		
 		RIS = {
-			history = RIS_BLITZKRIEG_DESC
+			history = RIS_LHLBOOKMARK_DESC
 			ideology = ur_fascism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
 		}
-		
 		RST = {
-			history = RST_BLITZKRIEG_DESC
+			history = RST_LHLBOOKMARK_DESC
 			ideology = millenarism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
-		}
-		
-		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			}
 		}
 
-		# minors from DLC ####
-		"MSC"={
-			minor = yes
-			history = "MSC_BLITZKRIEG_DESC"
-			ideology = national_bolshevism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
+		"---"={
+			history = "OTHER_LHLBOOKMARK_DESC"
 		}
-		
-		"MON"={
+
+		# Minors
+
+		NRU = {
 			minor = yes
-			history = "MON_BLITZKRIEG_DESC"
-			ideology = ur_fascism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
-		"NRU"={
-			minor = yes
-			history = "NRU_BLITZKRIEG_DESC"
+			history = "NRU_LHLBOOKMARK_DESC"
 			ideology = regressionism
 			ideas = {
 				#
@@ -122,20 +94,9 @@ bookmarks = {
 				#
 			}
 		}
-		"RNE"={
+		CHS = {
 			minor = yes
-			history = "RNE_BLITZKRIEG_DESC"
-			ideology = hegemonism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
-		"CHS"={
-			minor = yes
-			history = "CHS_BLITZKRIEG_DESC"
+			history = "CHS_LHLBOOKMARK_DESC"
 			ideology = regressionism
 			ideas = {
 				#
@@ -144,9 +105,11 @@ bookmarks = {
 				#
 			}
 		}
+
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
+
 	}
 }
