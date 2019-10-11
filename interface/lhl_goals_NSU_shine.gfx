@@ -1,7 +1,6 @@
 spriteTypes = {
-
 	SpriteType = {
-		name = "GFX_NSU_nowar_shine"
+		name = "GFX_NSU_no_war_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_no_war.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -30,8 +29,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_incessantpurges_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_incessantpurges.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -61,7 +59,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_liquidators_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_liquidators.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -91,7 +89,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_nkvd_exp_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_nkvd_exp.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -121,7 +119,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_predel_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_predel.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -151,7 +149,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_selfharvest_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_selfharvest.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -181,7 +179,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_whistleblowing_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_whistleblowing.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -211,7 +209,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_police_coup_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_police_coup.dds"
@@ -242,7 +239,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
 	SpriteType = {
 		name = "GFX_NSU_isolatecity_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_isolatecity.dds"
@@ -273,7 +269,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
 	SpriteType = {
 		name = "GFX_NSU_forcer_consc_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_forcer_consc.dds"
@@ -304,7 +299,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
 	SpriteType = {
 		name = "GFX_NSU_blue_line_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_blue_line.dds"
@@ -335,7 +329,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
 	SpriteType = {
 		name = "GFX_NSU_martial_law_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_martial_law.dds"
@@ -396,8 +389,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_bread_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_bread.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -427,8 +419,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_commissars_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_commissars.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -458,8 +449,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_dream_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_dream.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -489,8 +479,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_exprop_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_exprop.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -520,8 +509,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_hostage_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_hostage.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -551,8 +539,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_pendiv_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_pendiv.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -582,8 +569,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_reorgnkvd_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_reorgnkvd.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -613,8 +599,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_shuttheirmounths_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_shuttheirmounths.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -644,7 +629,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_pigs_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_pigs.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -973,8 +958,8 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	
-		SpriteType = {
+	}
+	SpriteType = {
 		name = "GFX_NSU_forcedreindustrialization_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_forcedreindustrialization.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1063,7 +1048,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	
+	}
 	SpriteType = {
 		name = "GFX_NSU_economicoptimization_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_economicoptimization.dds"
@@ -1094,7 +1079,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_futureistoday_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_futureistoday.dds"
@@ -1125,7 +1109,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_reapthebenefits_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_reapthebenefits.dds"
@@ -1156,9 +1139,8 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
-		name = "GFX_NSU_socialbenefits"
+		name = "GFX_NSU_socialbenefits_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_socialbenefits.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -1187,7 +1169,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_scienceoverfunding_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_scienceoverfunding.dds"
@@ -1218,7 +1199,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_planetariums_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_planetariums.dds"
@@ -1249,7 +1229,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_education_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_education.dds"
@@ -1280,7 +1259,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_pioneercamps_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_pioneercamps.dds"
@@ -1311,7 +1289,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_secretresearchinstitutes_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_secretresearchinstitutes.dds"
@@ -1342,7 +1319,6 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-
 	SpriteType = {
 		name = "GFX_NSU_spaceexploration_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_spaceexploration.dds"
@@ -1372,5 +1348,35 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}
 		legacy_lazy_load = no
-	}	
+	}
+	SpriteType = {
+		name = "GFX_NSU_deadend_shine"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_deadend.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NSU/goal_NSU_deadend.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NSU/goal_NSU_deadend.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		legacy_lazy_load = no
+	}
 }
