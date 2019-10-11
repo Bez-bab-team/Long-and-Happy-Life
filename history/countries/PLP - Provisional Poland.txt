@@ -1,0 +1,30 @@
+﻿capital = 804
+
+oob = "PLP_2020"
+
+set_research_slots = 3
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = right_populism
+	elections_allowed = no
+}
+
+set_popularities = {
+	right_populism = 100
+}
+
+create_country_leader = {
+	name = "Jarosław Kaczyński"
+	picture = "PLP_Jaroslaw_Kaczynski.dds"
+	ideology = national_populism 
+	traits = { 
+	}
+}

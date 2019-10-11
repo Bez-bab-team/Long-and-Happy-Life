@@ -4,28 +4,89 @@ bookmarks = {
 		desc = "LHLBOOKMARK_DESC"
 		date = 2019.8.22.14
 		picture = "GFX_select_date_1939"
-		default_country = "JAP"
-	
-		JAP = {
-			history = JAP_BLITZKRIEG_DESC
-			ideology = fascism
+		default_country = "RTS"
+
+		RTS = {
+			history = RTS_LHLBOOKMARK_DESC
+			ideology = ur_fascism
 			ideas={
 				#
-			}	
+			}
 			focuses = {
 				#
-			}		
+			}
+		}
+		UST = {
+			history = UST_LHLBOOKMARK_DESC
+			ideology = left_authoritarianism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		NSU = {
+			history = NSU_LHLBOOKMARK_DESC
+			ideology = commendationism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		GAZ = {
+			history = GAZ_LHLBOOKMARK_DESC
+			ideology = neocameralism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RGD = {
+			history = RGD_LHLBOOKMARK_DESC
+			ideology = hegemonism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RIS = {
+			history = RIS_LHLBOOKMARK_DESC
+			ideology = ur_fascism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		RST = {
+			history = RST_LHLBOOKMARK_DESC
+			ideology = millenarism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
 		}
 
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_LHLBOOKMARK_DESC"
 		}
 
-		# minors from DLC ####
-		"POL"={
+		# Minors
+
+		NRU = {
 			minor = yes
-			history = "POL_BLITZKRIEG_DESC"
-			ideology = neutrality
+			history = "NRU_LHLBOOKMARK_DESC"
+			ideology = regressionism
 			ideas = {
 				#
 			}
@@ -33,10 +94,22 @@ bookmarks = {
 				#
 			}
 		}
-		
+		CHS = {
+			minor = yes
+			history = "CHS_LHLBOOKMARK_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
+
 	}
 }

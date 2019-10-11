@@ -1,0 +1,186 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_NSU_futureistoday"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_futureistoday.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_reapthebenefits"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_reapthebenefits.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_socialbenefits"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_socialbenefits.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_scienceoverfunding"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_scienceoverfunding.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_planetariums"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_planetariums.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_education"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_education.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_pioneercamps"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pioneercamps.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_secretresearchinstitutes"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_secretresearchinstitutes.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_spaceexploration"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_spaceexploration.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_incessantpurges"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_incessantpurges.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_liquidators"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_liquidators.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_nkvd_exp"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_nkvd_exp.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_predel"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_predel.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_no_war"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_no_war.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_selfharvest"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_selfharvest.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_whistleblowing"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_whistleblowing.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_police_coup"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_police_coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_isolatecity"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_isolatecity.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_forcer_consc"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_forcer_consc.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_blue_line"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_blue_line.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_martial_law"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_martial_law.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_deadend"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_deadend.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_birthredarmy"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_birthredarmy.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_bread"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_bread.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_commissars"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_commissars.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_dream"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_dream.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_exprop"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_exprop.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_hostage"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_hostage.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_pendiv"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pendiv.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_reorgnkvd"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_reorgnkvd.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_shuttheirmounths"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_shuttheirmounths.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_pigs"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pigs.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_brutalism"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_brutalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_church"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_church.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_enemyatthegate"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_enemyatthegate.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_neva"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_neva.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_rebuild"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_rebuild.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_remeltstatues"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_remeltstatues.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_sellpaintings"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_sellpaintings.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_suicide"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_suicide.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_templates"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_templates.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_fort"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_fort.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_forcedreindustrialization"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_forcedreindustrialization.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_foreignconcessions"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_foreignconcessions.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_collectiveownership"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_collectiveownership.dds"
+	}
+	SpriteType = {
+		name = "GFX_NSU_economicoptimization"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_economicoptimization.dds"
+	}
+}

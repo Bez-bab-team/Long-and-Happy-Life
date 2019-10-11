@@ -1,0 +1,19 @@
+state={
+	id=806
+	name="STATE_806"
+	provinces={
+		9485 592
+	}
+	manpower= 393700
+
+	state_category = rural
+	history={
+		owner = BAL
+		add_core_of = BAL
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+	}
+}

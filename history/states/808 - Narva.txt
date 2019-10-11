@@ -1,0 +1,19 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		4640 
+	}
+	manpower= 393700
+
+	state_category = rural
+	history={
+		owner = LEN
+		add_core_of = LEN
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+	}
+}

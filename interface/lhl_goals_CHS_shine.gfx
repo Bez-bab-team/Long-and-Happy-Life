@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	#### Varg
+	#### Huns
 	SpriteType = {
 		name = "GFX_CHS_trumpet_shine"
 		texturefile = "gfx/interface/goals/CHS/goal_CHS_trumpet.dds"

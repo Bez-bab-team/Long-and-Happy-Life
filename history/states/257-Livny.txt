@@ -11,11 +11,11 @@ state={
 	}
 
 	history={
-		owner = RTS
+		owner = RPR
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = RTS
+		add_core_of = RPR
 		victory_points = {
 			11351 1
 		}

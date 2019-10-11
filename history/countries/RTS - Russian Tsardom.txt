@@ -1,4 +1,4 @@
-﻿capital = 254
+﻿capital = 260
 
 oob = "RTS_2020"
 
@@ -27,6 +27,6 @@ create_country_leader = {
 	picture = "Portrait_RTS_MEDVEDEV.dds"
 	ideology = ur_monarchism
 	traits = {
-		
+		scourge_of_god
 	}
 }
