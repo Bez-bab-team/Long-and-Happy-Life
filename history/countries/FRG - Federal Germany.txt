@@ -13,21 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = national_bolshevism
-	last_election = "1932.11.8"
-	election_frequency = 48
+	ruling_party = socialism 
 	elections_allowed = no
 }
 
 set_popularities = {
-	national_bolshevism = 100
+	socialism = 100
 }
 
 create_country_leader = {
-	name = "Beness Aijo"
-	picture = "BAL_Beness_Aijo.dds"
-	expire = "1953.3.1"
-	ideology = accelerationist_nazbol 
-	traits = { black_lenin
+	name = "Gerhard Schröder"
+	picture = "FRG_Gerhard_Schroder.dds"
+	ideology = progressivism  
+	traits = { 
 	}
 }

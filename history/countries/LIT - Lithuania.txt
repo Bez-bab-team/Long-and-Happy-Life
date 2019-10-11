@@ -17,21 +17,18 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = right_populism
-	last_election = "1926.5.8"
+	ruling_party = neocameralism
 	elections_allowed = no
 }
+
 set_popularities = {
-	right_populism = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
-	name = "Antanas Smetona"
-	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "GFX_Portrait_lithuania_antanas_smetona"
-	expire = "1965.1.1"
-	ideology = national_populism
-	traits = {
-		#
+	name = "Stanislovas Tomas"
+	picture = "LIT_Stanislovas_Tomas.dds"
+	ideology = authoritarian_technocracy  
+	traits = { 
 	}
 }

@@ -1,7 +1,47 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_NSU_nowar"
-		texturefile = "gfx/interface/goals/NSU/goal_NSU_no_war.dds"
+		name = "GFX_NSU_futureistoday"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_futureistoday.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_reapthebenefits"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_reapthebenefits.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_socialbenefits"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_socialbenefits.dds"
+	}
+
+		SpriteType = {
+		name = "GFX_NSU_scienceoverfunding"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_scienceoverfunding.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_planetariums"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_planetariums.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_education"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_education.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_pioneercamps"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_pioneercamps.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_secretresearchinstitutes"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_secretresearchinstitutes.dds"
+	}
+	
+		SpriteType = {
+		name = "GFX_NSU_spaceexploration"
+		texturefile = "gfx/interface/goals/NSU/goal_NSU_spaceexploration.dds"
 	}
 
 	SpriteType = {

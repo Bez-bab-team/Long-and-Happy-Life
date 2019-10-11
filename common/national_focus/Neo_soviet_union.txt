@@ -988,7 +988,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_futureistoday
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_futureistoday
 		cost = 10
 		prerequisite = {
 			focus = NSU_sacralisationofindustry
@@ -1000,7 +1000,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_reapthebenefits
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_reapthebenefits
 		cost = 10
 		prerequisite = {
 			focus = NSU_futureistoday
@@ -1010,7 +1010,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_socialbenefits
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_socialbenefits
 		cost = 10
 		prerequisite = {
 			focus = NSU_reapthebenefits
@@ -1020,7 +1020,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_scienceoverfunding
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_scienceoverfunding
 		cost = 10
 		prerequisite = {
 			focus = NSU_reapthebenefits
@@ -1030,7 +1030,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_planetariums
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_planetariums
 		cost = 10
 		prerequisite = {
 			focus = NSU_reapthebenefits
@@ -1040,7 +1040,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_education
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_education
 		cost = 10
 		prerequisite = {
 			focus = NSU_socialbenefits
@@ -1050,7 +1050,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pioneercamps
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_pioneercamps
 		cost = 10
 		prerequisite = {
 			focus = NSU_socialbenefits
@@ -1060,7 +1060,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_secretresearchinstitutes
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_secretresearchinstitutes
 		cost = 10
 		prerequisite = {
 			focus = NSU_scienceoverfunding
@@ -1070,8 +1070,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_spaceexploration
-		text = Space Exploration
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_spaceexploration
 		cost = 10
 		prerequisite = {
 			focus = NSU_scienceoverfunding

@@ -69,7 +69,6 @@ RPR_socialism:0 "Land and Liberty"
 RPR_socialism_DEF:0 "Land and Liberty Movement"
 RNE_hegemonism:0 "Russian National Order"
 RNE_hegemonism_DEF:0 "Russian National Order"
-
 ###Volga Area###
 RWR_socialism:0 "Worker's Republic"
 RWR_socialism_DEF:0 "Worker's Republic"
@@ -96,7 +95,17 @@ KHA_ur_fascism:0 "Malorossija"
 KHA_ur_fascism_DEF:0 "Malorossija"
 DNP_neocameralism:0 "Dnepropetrovsk"
 DNP_neocameralism_DEF:0 "Dnepropetrovsk"
-
+###Terra Mariana###
+PLP_right_populism:0 "Fourth Polish Republic"
+PLP_right_populism_DEF:0 "Fourth Polish Republic"
+EST_socialism:0 "Republic of Estland"
+EST_socialism_DEF:0 "Republic of Estland"
+FRG_socialism:0 "Federal Republic of Germany"
+FRG_socialism_DEF:0 "Federal Republic of Germany"
+LIT_neocameralism:0 "Autonomous Republic of Lithuania"
+LIT_neocameralism_DEF:0 "Autonomous Republic of Lithuania"
+TRG_neocameralism:0 "Kingdom of Torgu"
+TRG_neocameralism_DEF:0 "Kingdom of Torgu"
 ###Fractions###
 eurasian_armed_forces:0 "Eurasian Armed Forces"
 sanitary_cordon:0 "Sanitary cordon"

@@ -1,6 +1,6 @@
 ﻿capital = 804
 
-oob = "TRG_2020"
+oob = "EST_2020"
 
 set_research_slots = 3
 
@@ -13,18 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = socialism 
 	elections_allowed = no
 }
 
 set_popularities = {
-	neocameralism = 100
+	socialism = 100
 }
 
 create_country_leader = {
-	name = "Kirill Teiter"
-	picture = "TRG_Kirill_Teiter.dds"
-	ideology = authoritarian_technocracy 
+	name = "Jevgenij Osinovskij"
+	picture = "EST_Jevgenij_Osinovskij.dds"
+	ideology = progressivism  
 	traits = { 
 	}
 }
