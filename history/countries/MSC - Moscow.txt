@@ -29,13 +29,6 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Interregnum"
-	picture = "MOS_White_House.dds"
-	expire = "1953.3.1"
-	ideology = nazbol_gang 
-}
-
-create_country_leader = {
 	name = "Heydar Cahid oglu Camal"
 	picture = "MOS_Gejdar_Dzhemal'.dds"
 	expire = "1953.3.1"
@@ -59,6 +52,13 @@ create_country_leader = {
 create_country_leader = {
 	name = "Aleksej Naval'nyj"
 	picture = "MOS_Aleksej_Navalnyj.dds"
+	expire = "1953.3.1"
+	ideology = nazbol_gang 
+}
+
+create_country_leader = {
+	name = "Interregnum"
+	picture = "MOS_White_House.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang 
 }

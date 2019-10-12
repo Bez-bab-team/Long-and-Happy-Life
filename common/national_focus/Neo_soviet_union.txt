@@ -362,7 +362,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_nowar
-		icon = GFX_NSU_nowar
+		icon = GFX_NSU_no_war
 		cost = 10
 		prerequisite = {
 			focus = NSU_predel
@@ -860,7 +860,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_deadend
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_deadend
 		cost = 10
 		prerequisite = {
 			focus = NSU_hostage
