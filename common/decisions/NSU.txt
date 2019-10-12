@@ -1,83 +1,17 @@
-NSU_foreign_decision = {
+NSU_foreign_decisions = {
 
 	NSU_invade_FIN = {
-		war_with_on_remove = FIN
 
-		icon = generic_decision
-		
-		
-		allowed = {
-		}
-
-		target_trigger = {
-			FROM = {
-				tag = FIN
-			}
-		}
-
-		available = {
-			FIN = {
-				exists = yes
-				NOT = {
-					is_in_faction_with = NSU
-				}
-			}
-		}
-		
-		visible = {
-	    	original_tag = NSU
-			FIN = {
-				exists = yes
-				NOT = {
-					is_in_faction_with = SOV
-				}
-			}
-			FROM = {
-				any_neighbor_country = {
-					OR = {
-						tag = NSU
-					}
-				}
-			}
-		}
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision NSU_invade_FIN target: [From.GetName]"
-			NSU = {
-				declare_war_on = {
-					type = annex_everything
-					target = FIN
-				}
-			}
-		}
-		
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove NSU_invade_FIN target: [From.GetName]"
-			NSU = {
-				declare_war_on = {
-					type = annex_everything
-					target = FIN
-				}
-			}
-		}
-		
 		fire_only_once = yes
-		
-		days_remove = 30
+
+		visible = { }
+		allowed = { }
 
         cost = 50
+		days_remove = 30
 
-        ai_will_do = {
-			factor = 1000
-			modifier = {
-				factor = 0
-				NSU = {
-					has_war = yes
-				}
-			}
-			modifier = {
-				factor = 0
-				FROM = { alliance_strength_ratio < 1.5 }	
-			}
-        }
+		complete_effect = { }
+
+        ai_will_do = {  }
     }
 }
