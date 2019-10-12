@@ -106,11 +106,8 @@ LIT_neocameralism:0 "Autonomous Republic of Lithuania"
 LIT_neocameralism_DEF:0 "Autonomous Republic of Lithuania"
 TRG_neocameralism:0 "Kingdom of Torgu"
 TRG_neocameralism_DEF:0 "Kingdom of Torgu"
-
-###The North###
 FIN_regressionism:0 "Finnish state"
-FIN_regressionism_DEF:0 Finnish state"
-
+FIN_regressionism_DEF:0 "Finnish state"
 ###Fractions###
 eurasian_armed_forces:0 "Eurasian Armed Forces"
 sanitary_cordon:0 "Sanitary cordon"
