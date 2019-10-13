@@ -3,7 +3,9 @@ NSU_foreign_decisions = {
 	NSU_invade_FIN = {
 
 		fire_only_once = yes
+		icon = infiltrate_state
 
+		
 		visible = { }
 		allowed = { }
 

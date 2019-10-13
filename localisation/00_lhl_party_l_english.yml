@@ -41,6 +41,7 @@
  KHA_neocameralism_party:0 "Kernes Supporters"
  KHA_socialism_party:0 "Open Society"
  KHA_commendationism_party:0 "Ukrainian Insurgent Army"
+ NRS_right_populism_party:0 "Regency Council"
  ###Volga###
  TAT_left_authoritarianism_party:0 "World Congress of Tatars"
  BSK_neocameralism_party:0 "Provisional Government"
@@ -59,3 +60,7 @@
  BAL_national_bolshevism_party:0 "True National Bolshevik Party"
  ###The North###
  FIN_regressionism_party:0 "Finnish Nature Heritage Foundation"
+ ###Dacia###
+ ROM_ur_fascism_party:0 "Legion of the Archangel Michael"
+ SRS_socialism_party:0 "Open Society"
+ HUN_right_populism_party:0 "Fidesz"
