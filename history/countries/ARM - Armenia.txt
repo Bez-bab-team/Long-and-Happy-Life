@@ -1,6 +1,9 @@
-﻿capital = 266
+﻿capital = 230 #Yerevan, Armenia
 
-oob = "PER_2020"
+oob = "ARM_2020"
+
+set_research_slots = 1
+
 
 # Starting tech
 set_technology = {
@@ -17,7 +20,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Ali Khamenei"
+	name = "Placeholderyan"
 	desc = "POLITICS_KHAMENI_DESC"
 	picture = "Portrait_ali_khamenei.dds"
 	ideology = nazbol_gang

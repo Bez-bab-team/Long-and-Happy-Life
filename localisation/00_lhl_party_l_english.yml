@@ -17,7 +17,8 @@
  UST_left_authoritarianism_party:0 "Union Government"
  RGD_hegemonism_party:0 "National Guard of Russia"
  CHE_natpop_party:0 "Federalistst"
- MSC_national_bolshevism_party:0 "National Bolshevik Party"
+ MSC_regressionism_party:0 "NBP —  Katechon"
+ MSC_regressionism_party_long:0 "National Bolshevik Party —	 Faction “Katechon“"
  LEN_left_authoritarianism_party:0 "Communists of Petersburg and Leningrad Region"
  FRS_jacobinism_party:0 "Libertarian Party of Russia"
  STM_regressionism_party:0 "Russian Peasant Assembly"
@@ -60,7 +61,5 @@
  BAL_national_bolshevism_party:0 "True National Bolshevik Party"
  ###The North###
  FIN_regressionism_party:0 "Finnish Nature Heritage Foundation"
- ###Dacia###
- ROM_ur_fascism_party:0 "Legion of the Archangel Michael"
- SRS_socialism_party:0 "Open Society"
- HUN_right_populism_party:0 "Fidesz"
+ ###Steppe###
+ RNG_right_populism_party:0 "Our Home – Russia"
