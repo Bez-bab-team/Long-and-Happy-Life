@@ -1,0 +1,57 @@
+#reload countrycolors
+
+SKY = {
+	color = rgb { 255  0  0 }
+	color_ui = rgb { 138 155 116 }
+}
+YAK = {
+	color = rgb { 255  222  173 }
+	color_ui = rgb { 255 73 121 }
+}
+DED = {
+	color = rgb { 135  206  235 }
+	color_ui = rgb { 255 73 121 }
+}
+RZD = {
+	color = rgb { 218  112  214 }
+	color_ui = rgb { 255 73 121 }
+}
+GOR = {
+	color = rgb { 0  0  0 }
+	color_ui = rgb { 255 73 121 }
+}
+NOD = {
+	color = rgb { 255  140  0 }
+	color_ui = rgb { 255 73 121 }
+}
+BRY = {
+	color = rgb { 173  255  47 }
+	color_ui = rgb { 255 73 121 }
+}
+KRS = {
+	color = rgb { 128  128  0 }
+	color_ui = rgb { 255 73 121 }
+}
+UTO = {
+	color = rgb { 160  82  45 }
+	color_ui = rgb { 255 73 121 }
+}
+BKV = {
+	color = rgb { 0  100  0 }
+	color_ui = rgb { 255 73 121 }
+}
+ALT = {
+	color = rgb { 32  178  170 }
+	color_ui = rgb { 255 73 121 }
+}
+KDR = {
+	color = rgb { 34  139  34 }
+	color_ui = rgb { 255 73 121 }
+}
+NVS = {
+	color = rgb { 255  240  245 }
+	color_ui = rgb { 255 73 121 }
+}
+KRI = {
+	color = rgb { 128  128  0 }
+	color_ui = rgb { 255 73 121 }
