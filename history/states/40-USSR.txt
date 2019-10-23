@@ -7,12 +7,12 @@ state={
 	state_category = large_town
 
 	history={
-		owner = KDR
+		owner = ALT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = KDR
+		add_core_of = ALT
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

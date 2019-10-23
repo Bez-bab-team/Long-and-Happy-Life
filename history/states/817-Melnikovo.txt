@@ -1,22 +1,22 @@
 state={
-	id=809
-	name="STATE_809"
+	id=817
+	name="STATE_817"
 	
 	history={
-		owner = UTO
+		owner = KDR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		add_core_of = UTO
+		add_core_of = KDR
 		victory_points = {
-			7757 1 
+			7793 1 
 		}
 
 	}
 	provinces={
-		1685 1702 1816 7822 10580 10649 
+		1674 1765 1824 4767 4827 7655 7793 7861 10529 12510 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
