@@ -1,4 +1,4 @@
-﻿capital = 817
+﻿capital = 
 
 oob = "SOV_1936"
 
