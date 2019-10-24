@@ -1,26 +1,32 @@
-
 state={
 	id=569
 	name="STATE_569"
+	manpower = 8335992
+	
+	state_category = megalopolis
+	resources={
+		steel=16 # was: 28
+	}
 
 	history={
 		owner = BKV
+		victory_points = {
+			7757 50 
+		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+			infrastructure = 10
+			industrial_complex = 10
 		}
 		add_core_of = BKV
-		victory_points = {
-			7757 1 
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 10
+				infrastructure = 10
+			}
 		}
-
 	}
 
 	provinces={
 		1369 4665 4789 4793 7757 7886 12631 
 	}
-	manpower=1567322
-	buildings_max_level_factor=1.000
-	state_category=town
 }
