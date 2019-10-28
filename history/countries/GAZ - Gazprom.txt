@@ -1,4 +1,4 @@
-﻿capital = 403
+﻿capital = 579
 
 oob = "GAZ_2019"
 

@@ -1,4 +1,4 @@
-﻿capital = 577
+﻿capital = 653
 
 oob = "SOV_1936"
 
@@ -13,21 +13,21 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism 
+	ruling_party = neocameralism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	neocameralism  = 100
 }
 
 create_country_leader = {
-	name = "Vladimir Megre"
+	name = "Yevgeny Roizman"
 	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "anastasia.dds"
-	ideology = agrarian_socialism
+	picture = ""
+	ideology = authoritarian_technocracy
 	traits = {
 		
 	}
-}
+
