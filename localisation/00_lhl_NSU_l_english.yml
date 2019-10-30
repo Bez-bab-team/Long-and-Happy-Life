@@ -1,5 +1,5 @@
 ﻿l_english:
-###Prty###
+ ###Party###
  NSU_commendationism_party:0 "Dead End"
  ###Focuses###
  NSU_police_coup:0 "Police Coup"
@@ -212,12 +212,6 @@
  NSU_redterror_desc:0 "Red Terror"
  NSU_suicidemissions:0 "Suicide Missions"
  NSU_suicidemissions_desc:0 "Suicide Missions"
- 
- 
- 
- 
- 
- 
  ###Desc###
  NSU_invade_FIN:0 "Second Winter War"
  NSU_invade_FIN_desc:0 "Fama Tuba."

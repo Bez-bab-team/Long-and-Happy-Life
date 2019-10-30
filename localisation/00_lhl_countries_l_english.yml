@@ -118,13 +118,11 @@ SRS_socialism:0 "Hungarian Republic"
 SRS_socialism_DEF:0 "Hungarian Republic"
 HUN_right_populism:0 "Kingdom of Hungary"
 HUN_right_populism_DEF:0 "Kingdom of Hungary"
-
 ###Far South###
 PER_national_bolshevism:0 "Islamic Republic of Iran"
 PER_national_bolshevismm_DEF:0 "Islamic Republic of Iran"
 ARM_national_bolshevism:0 "Republic of Armenia"
 ARM_national_bolshevismm_DEF:0 "Republic of Armenia"
-
 ###The Great Steppes###
 RNG_right_populism:0 "Russian National State"
 RNG_right_populism_DEF:0 "Russian National State"
