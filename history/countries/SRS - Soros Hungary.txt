@@ -14,7 +14,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = socialism 
+	ruling_party = socialism
 	elections_allowed = no
 }
 set_popularities = {

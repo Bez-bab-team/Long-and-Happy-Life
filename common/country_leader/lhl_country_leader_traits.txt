@@ -22,8 +22,8 @@ leader_traits = {
 
 	leftwing_intellectual = {
 		random = no
-		political_power_factor = 0.0
-		research_cost = 1
+		political_power_factor = 0.05
+		research_speed_factor = 0.1
 
 		ai_will_do = {
 			factor = 1
