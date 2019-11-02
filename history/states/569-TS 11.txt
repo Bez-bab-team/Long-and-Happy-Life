@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = BKV
+		owner = IMT
 		victory_points = {
 			7757 50 
 		}
@@ -17,7 +17,7 @@ state={
 			infrastructure = 10
 			industrial_complex = 10
 		}
-		add_core_of = BKV
+		add_core_of = IMT
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 10

@@ -8,17 +8,17 @@ state={
 	resources={
 		chromium=23 # was: 32
 	}
-
+	
 	history={
 		victory_points = {
 			10329 1
 		}
-		owner = SOV
+		owner = GAZ
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SOV
+		add_core_of = GAZ
 	}
 
 	provinces={
