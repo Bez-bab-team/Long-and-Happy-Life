@@ -13,18 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = socialism 
+	ruling_party = neocameralism 
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism = 100
+	neocameralism = 100
 }
 
 create_country_leader = {
 	name = "Jevgenij Rojzmann"
-	picture = "EST_Jevgenij_Osinovskij.dds"
-	ideology = progressivism  
+	picture = "roizman.dds"
+	ideology = authoritarian_technocracy  
 	traits = { 
 	}
 }
