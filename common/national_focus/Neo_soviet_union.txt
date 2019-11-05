@@ -36,7 +36,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_socengineering
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_socengineering
 		cost = 10
 		x = 25
 		y = 0
@@ -402,7 +402,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_tomorrowssociety
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_tomorrowssociety
 		cost = 10
 		prerequisite = {
 			focus = NSU_socengineering
@@ -412,7 +412,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_engineeredpoverty
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_engineeredpoverty
 		cost = 10
 		prerequisite = {
 			focus = NSU_tomorrowssociety
@@ -422,7 +422,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_permanentfamine
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_permanentfamine
 		cost = 10
 		prerequisite = {
 			focus = NSU_tomorrowssociety
@@ -432,7 +432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_cultofprogress
-		icon = GFX_goal_unknown
+		icon = GFX_NSU_cultofprogress
 		cost = 10
 		prerequisite = {
 			focus = NSU_tomorrowssociety
