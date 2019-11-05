@@ -1649,7 +1649,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_tomorrowssociety_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_tomorrowssociety.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1679,7 +1679,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_socengineering_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_socengineering.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1709,7 +1709,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_permanentfamine_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_permanentfamine.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1739,7 +1739,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_cultofprogress_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_cultofprogress.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1769,7 +1769,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_engineeredpoverty_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_engineeredpoverty.dds"
 		effectFile = "gfx/FX/buttonstate.lua"

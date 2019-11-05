@@ -219,23 +219,23 @@ spriteTypes = {
 		name = "GFX_NSU_nearabroad"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_nearabroad.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_tomorrowssociety"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_tomorrowssociety.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_socengineering"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_socengineering.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_permanentfamine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_permanentfamine.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_cultofprogress"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_cultofprogress.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_engineeredpoverty"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_engineeredpoverty.dds"
 	}
