@@ -507,7 +507,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_unequaltreaty
-		icon = GFX_DUG_angelic_being
+		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = NSU_foreignconcessions
@@ -517,7 +517,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_weaponspurchase
-		icon = GFX_DUG_exaltation_of_women
+		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = NSU_unequaltreaty
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NSU_pmc
-		icon = GFX_DUG_courts_of_love
+		icon = GFX_goal_unknown
 		cost = 10
 		prerequisite = {
 			focus = NSU_weaponspurchase
