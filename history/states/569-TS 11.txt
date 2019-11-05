@@ -1,7 +1,7 @@
 state={
 	id=569
 	name="STATE_569"
-	manpower = 8335992
+	manpower = 120000
 	
 	state_category = megalopolis
 	resources={
