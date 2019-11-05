@@ -4,7 +4,7 @@ state={
 	provinces={
 		9660 716 6716 3713 684 
 	}
-	manpower= 393700
+	manpower= 1752286
 
 	state_category = rural
 	history={
