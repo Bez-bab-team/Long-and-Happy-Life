@@ -1379,7 +1379,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_departmentp_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_departmentp.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1409,7 +1409,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_tanks_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_tanks.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1439,7 +1439,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_exoskeletons_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_exoskeletons.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1469,7 +1469,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_parascienceresearch_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_parascienceresearch.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1499,7 +1499,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_psychokinesis_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_psychokinesis.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1529,7 +1529,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_chemicalstimulants_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_chemicalstimulants.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1559,7 +1559,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_battletrance_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_battletrance.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -1589,7 +1589,7 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_NSU_stalin3000_shine"
 		texturefile = "gfx/interface/goals/NSU/goal_NSU_stalin3000.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
