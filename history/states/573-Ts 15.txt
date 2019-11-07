@@ -11,7 +11,7 @@ state={
 	
 	history={
 		victory_points = {
-			10329 1
+			11307 1
 		}
 		owner = SVE
 		buildings = {
@@ -21,7 +21,5 @@ state={
 		add_core_of = SVE
 	}
 
-	provinces={
-		237 278 361 3280 4758 7320 10136 11307  
-	}
+	provinces={ 237 278 361 3280 4758 7320 10136 11307 }
 }
