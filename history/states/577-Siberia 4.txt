@@ -10,6 +10,9 @@ state={
 	state_category = wasteland
 
 	history={
+	    victory_points = {
+			12672 5
+		}
 		owner = GAZ
 		buildings = {
 			infrastructure = 1

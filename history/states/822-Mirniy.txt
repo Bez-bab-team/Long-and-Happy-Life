@@ -7,7 +7,7 @@ state={
 
 	history={	
 		victory_points = {
-			2900 3
+			4812 3
 		}
 		owner = GAZ
 		add_core_of = GAZ
