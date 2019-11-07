@@ -1,21 +1,23 @@
 state={
 	id=809
 	name="STATE_809"
-	provinces={
-		9643 11610 
-	}
-	manpower= 145347
+
+	manpower = 145347
 
 	state_category = rural
-	history={
+
+	history = {
 		owner = SRS
 		add_core_of = SRS
-		victory_points = {
-			11610 5 
-		}
+
+		victory_points = { 11610 5 }
+
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
 	}
+
+	provinces = { 9643 11610 }
+
 }
