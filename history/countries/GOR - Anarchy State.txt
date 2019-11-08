@@ -13,9 +13,7 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = left_authoritarianism 
-	last_election = "1933.7.1"
-	election_frequency = 48
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
@@ -25,7 +23,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Mikhail Gorsheniov"
 	desc = ""
-	picture = "Portrait_EKB_Gorshok.dds"
+	picture = "Portrait_GOR_Gorshok.dds"
 	ideology = left_wing_nationalism
 	traits = {
 		
