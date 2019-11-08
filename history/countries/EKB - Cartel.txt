@@ -1,4 +1,4 @@
-capital = 653
+﻿capital = 653
 
 oob = "EKB_2020"
 
