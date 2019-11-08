@@ -1,4 +1,3 @@
-
 state={
 	id=573
 	name="STATE_573" # Zlatoust
@@ -10,15 +9,13 @@ state={
 	}
 	
 	history={
-		victory_points = {
-			11307 1
-		}
 		owner = SVE
+		add_core_of = SVE
+
+		victory_points = { 11307 1 }
 		buildings = {
 			infrastructure = 4
-
 		}
-		add_core_of = SVE
 	}
 
 	provinces={ 237 278 361 3280 4758 7320 10136 11307 }
