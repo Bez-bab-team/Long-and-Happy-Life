@@ -24,8 +24,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Mikhail Gorsheniov"
-	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "gorshok.dds"
+	desc = ""
+	picture = "Portrait_EKB_Gorshok.dds"
 	ideology = left_wing_nationalism
 	traits = {
 		
