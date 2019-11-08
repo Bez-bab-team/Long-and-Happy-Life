@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Gennadij Zyuganov"
 	desc = ""
-	picture = "Zyuganov.dds"
+	picture = "Portrait_SVE_Gennadij_Zyuganov.dds"
 	ideology = leftwing_monarchy 
 	traits = {
 		
