@@ -24,8 +24,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Sylwan"
-	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "olds_here.dds"
+	desc = ""
+	picture = "Portrait_ALT_Olds_Here.dds"
 	ideology = neoluddism
 	traits = {
 		
