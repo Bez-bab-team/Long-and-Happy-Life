@@ -24,28 +24,21 @@ set_popularities = {
 create_country_leader = {
 	name = "Boris Nemtsov"
 	desc = "POLITICS_Nemtsov_DESC"
-	picture = "Boris_Nemtsov.dds"
+	picture = "Portrait_GUL_Boris_Nemtsov.dds"
 	ideology = progressivism
-	traits = { cornered_fox
-		
-	}
+	traits = { cornered_fox }
 }
 create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_Jinping_DESC"
-	picture = "Xi_Jinping.dds"
+	picture = "Portrait_GUL_Xi_Jinping.dds"
 	ideology = leftwing_chauvinism
-	traits = { uncle
-		
-	}
+	traits = { uncle }
 }
 create_country_leader = {
 	name = "Aleksandr Gabyshev"
 	desc = "POLITICS_Gabyshev_DESC"
-	picture = "Gabyshev.dds"
+	picture = "Portrait_GUL_Gabyshev.dds"
 	ideology = clerical_fascism
-	traits = { shaman_king
-		
-	}
-
+	traits = { shaman_king }
 }
