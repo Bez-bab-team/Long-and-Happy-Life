@@ -1,4 +1,3 @@
-
 state={
 	id=516
 	name="STATE_516" # Northwestern Siberia
@@ -7,16 +6,15 @@ state={
 	state_category = wasteland
 
 	history={
-	    victory_points = {
-			2972 3
-		}
 		owner = GAZ
+		add_core_of = GAZ
+
+		victory_points = { 2972 3 }
+
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = GAZ
 	}
-	
 
 	provinces={
 		2923 2972 4692 4859 10607 11261 11328 12643 12687 13064 13065    
