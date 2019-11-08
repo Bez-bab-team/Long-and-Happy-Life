@@ -23,7 +23,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Jevgenij Rojzmann"
-	picture = "roizman.dds"
+	picture = "Portrait_EKB_Jevgenij_Rojzmann.dds"
 	ideology = authoritarian_technocracy  
 	traits = { 
 	}
