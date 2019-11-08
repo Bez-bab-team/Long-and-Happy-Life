@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aleksander Khakimov"
-	desc = "POLITICS_KURGINJAN_DESC"
+	desc = ""
 	picture = "Portrait_TOM_Aleksander_Khakimov.dds"
 	ideology = agrarian_socialism
 	traits = {

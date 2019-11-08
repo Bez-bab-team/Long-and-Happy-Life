@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Yevgeny Fyodorov"
-	desc = "POLITICS_KURGINJAN_DESC"
+	desc = ""
 	picture = "Portrait_NOD_Yevgeny_Fyodorov.dds"
 	ideology = national_maoism
 	traits = {

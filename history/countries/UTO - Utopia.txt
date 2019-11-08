@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Nikolay Dubovsky"
-	desc = "POLITICS_KURGINJAN_DESC"
+	desc = ""
 	picture = "Portrait_UTO_Ice_Pick.dds"
 	ideology = charismatic_dictatorship
 	traits = {
