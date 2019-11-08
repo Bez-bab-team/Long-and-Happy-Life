@@ -24,8 +24,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Constantine Petrov"
-	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "dead_water_ded.dds"
+	desc = ""
+	picture = "Portrait_CPU_Constantine_Petrov.dds"
 	ideology = ultrahegelianism
 	traits = {
 		
