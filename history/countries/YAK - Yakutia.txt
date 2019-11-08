@@ -14,8 +14,6 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = hegemonism
-	last_election = "1933.7.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
@@ -24,8 +22,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Aissen Nikolajev"
-	desc = "POLITICS_KURGINJAN_DESC"
-	picture = "Yakut.dds"
+	desc = ""
+	picture = "Portrait_YAK_Aissen_Nikolajev.dds"
 	ideology = republican_dictatorship
 	traits = {
 		
