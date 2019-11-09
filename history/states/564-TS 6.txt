@@ -3,20 +3,19 @@ state={
 	id=564
 	name="STATE_564"
 	resources={
-		steel=10.000
-		chromium=12.000
-		tungsten=10.000
-		aluminium=4.000
+		steel=10
+		chromium=12
+		tungsten=10
+		aluminium=4
 	}
 
 	history={
 		owner = GOR
-		buildings = {
-			infrastructure = 4
-
-		}
 		add_core_of = GOR
 
+		buildings = {
+			infrastructure = 4
+		}
 	}
 
 	provinces={
