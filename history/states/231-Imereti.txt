@@ -5,10 +5,7 @@ state={
 	history={
 		owner = GEO
 		victory_points = {
-			1599 5 
-		}
-		victory_points = {
-			3653 3 
+			3658 5 
 		}
 		buildings = {
 			infrastructure = 3
@@ -33,9 +30,9 @@ state={
 	}
 
 	provinces={
-		654 772 1599 3656 3658 4534 4605 6436 6669 6671 9626 9702 12309 
+		654 772 3653 3656 3658 6669 9626 
 	}
-	manpower=2949413
+	manpower=2200809
 	buildings_max_level_factor=1.000
 	state_category=town
 }
