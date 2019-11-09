@@ -674,7 +674,7 @@ guiTypes = {
 					name = "box"
 					position = { x = 10 y = 10 }
 					size = { width = 500 height = 1 }
-					slotsize = { width = 231 height = 75 }
+					slotsize = { width = 231 height = 104 }
 					max_slots_horizontal = 2
 					add_horizontal = yes
 					format = "UPPER_LEFT"
@@ -760,20 +760,20 @@ guiTypes = {
 			clicksound = click_default
 		}
 		
-		iconType = {
-			name = "idea_traits"
-			position = { x = 43 y = 46 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
+		# iconType = {
+			# name = "idea_traits"
+			# position = { x = 43 y = 46 }
+			# spriteType = "GFX_idea_traits_strip"
+			# centerposition = yes
+			# alwaystransparent = yes
+			# frame = 1
+		# }
 		
 	}
 	
 	containerWindowType = {
 		name = "political_selectable_idea_entry"
-		size = { width = 231 height = 74 }
+		size = { width = 231 height = 112 }
 		clipping = no
 			
 		background = {
@@ -784,24 +784,24 @@ guiTypes = {
 			
 		iconType = {
 			name = "icon"
-			position = { x = 42 y = 38 }
+			position = { x = 42 y = 50 }
 			spriteType = "GFX_placeholder_bordered"
 			centerposition = yes
 			alwaystransparent = yes
 		}
 
-		iconType = {
-			name = "idea_traits"
-			position = { x = 53 y = 51 }
-			spriteType = "GFX_idea_traits_strip"
-			centerposition = yes
-			alwaystransparent = yes
-			frame = 1
-		}
+		# iconType = {
+			# name = "idea_traits"
+			# position = { x = 53 y = 51 }
+			# spriteType = "GFX_idea_traits_strip"
+			# centerposition = yes
+			# alwaystransparent = yes
+			# frame = 1
+		# }
 		
 		instantTextboxType = {
 			name = "name"
-			position = { x = 66 y = 10 }
+			position = { x = 66 y = 15 }
 			font = "hoi_18mbs"
 			fixedsize = yes			
 			text = "name"
@@ -813,7 +813,7 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "traits_grid"
-			position = { x = 90 y = 28 }
+			position = { x = 90 y = 42 }
 			size = { width = 231 height = 100%% }
 			slotsize = { width = 200 height = 15 }
 			add_horizontal = no
@@ -822,7 +822,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 47 }
+			position = { x = -84 y = 78 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
