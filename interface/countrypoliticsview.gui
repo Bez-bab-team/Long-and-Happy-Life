@@ -833,15 +833,17 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		# Long_and_Happy_Life
-		# iconType = {
-			# name = "idea_traits"
-			# position = { x = 53 y = 51 }
+		iconType = {
+			name = "idea_traits"
+			position = { x = 53 y = 51 }
+
+			# Long_and_Happy_Life
 			# spriteType = "GFX_idea_traits_strip"
-			# centerposition = yes
-			# alwaystransparent = yes
-			# frame = 1
-		# }
+
+			centerposition = yes
+			alwaystransparent = yes
+			frame = 1
+		}
 		
 		instantTextboxType = {
 			name = "name"
