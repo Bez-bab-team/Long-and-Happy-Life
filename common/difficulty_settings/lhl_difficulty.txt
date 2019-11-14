@@ -1,11 +1,8 @@
 difficulty_settings = {
-
-	# Long_and_Happy_Life
 	difficulty_setting = {
 		key = "anime_reich"
 		modifier = diff_strong_ai_generic
 		countries = { RIS }
 		multiplier = 2.0
 	}
-
 }
