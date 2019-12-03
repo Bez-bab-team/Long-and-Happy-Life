@@ -11,12 +11,12 @@ state={
 		}
 		add_core_of = UTO
 		victory_points = {
-			7757 1 
+			10649 5 
 		}
 
 	}
 	provinces={
-		1685 1702 1816 7822 10580 10649 
+		 1702 1816 7822 10580 10649 
 	}
 	manpower=536167
 	buildings_max_level_factor=1.000

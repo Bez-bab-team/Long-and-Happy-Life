@@ -9,7 +9,10 @@ state={
 	history={
 		owner = RST
 		victory_points = {
-			11225 3 
+			11225 15 
+		}
+		victory_points = {
+			9299 10 
 		}
 		buildings = {
 			infrastructure = 5
@@ -17,11 +20,6 @@ state={
 			air_base = 1
 		}
 		add_core_of = RST
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-			}
-		}
 	}
 
 	provinces={

@@ -2,8 +2,6 @@
 state={
 	id=397
 	name="STATE_397"
-	manpower = 137203
-	state_category = wasteland
 
 	history={
 		owner = SVE
@@ -12,9 +10,13 @@ state={
 
 		}
 		add_core_of = SVE
+
 	}
 
 	provinces={
-		6 99 1295 1307 3000 3155 4298 6121 6202 7712 7898 9145 9225 10579 11179 11200 12558 3102 3177 6133 11051 9114 9155 11025 9232
+		6 99 108 186 1295 1307 3000 3102 3155 3177 4298 6121 6202 7712 7898 9145 9155 9225 9232 10579 11025 11179 11200 12558 
 	}
+	manpower=137203
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
