@@ -11,7 +11,7 @@ state={
 	history={
 		owner = IMT
 		victory_points = {
-			7757 50 
+			13219 30 
 		}
 		buildings = {
 			infrastructure = 10
@@ -21,6 +21,6 @@ state={
 	}
 
 	provinces={
-		1369 4665 4789 4793 7757 7886 12631 
-	}
+		1369 1685 4665 4789 4793 7757 7886 12631 13218 13219 13220
+ 	}
 }

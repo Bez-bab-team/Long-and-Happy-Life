@@ -1,19 +1,26 @@
+
 state={
 	id=802
 	name="STATE_802"
-	provinces={
-		6307 325 6403 11387 9305 9402 3361 9280 9381 282 11286 9390 11263 11255 6372 9270 3315
-	}
-	manpower= 696459
 
-	state_category = rural
 	history={
-		owner = RWR 
-		add_core_of = RWR 
-
+		owner = RWR
+		add_core_of = RWR
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+
 		}
+		victory_points = {
+			6307 3
+		}
+
 	}
+
+	provinces={
+		282 325 3315 3361 6307 6403 9280 9305 9381 9402 11387 
+	}
+	manpower=696459
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
