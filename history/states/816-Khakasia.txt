@@ -1,6 +1,10 @@
 state={
 	id=816
 	name="STATE_816"
+
+	manpower = 436167
+
+	state_category = wasteland
 	
 	history={
 		owner = UTO
@@ -18,6 +22,5 @@ state={
 	provinces={
 		 1702 1816 7822 10580 10649 
 	}
-	manpower=536167
 	buildings_max_level_factor=1.000
 }
