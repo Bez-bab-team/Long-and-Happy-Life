@@ -1,22 +1,26 @@
+
 state={
 	id=797
 	name="STATE_797"
-	provinces={
-		3259 11282 3358 3327 9302 366 401 3391  
-	}
-	manpower=172745
 
-	state_category = city
 	history={
-        owner = STM
+		owner = STM
 		add_core_of = STM
-
 		victory_points = {
-			401 5
+			401 5 
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+
 		}
+
 	}
+
+	provinces={
+		366 401 3259 3327 3358 3391 9302 11282 
+	}
+	manpower=172745
+	buildings_max_level_factor=1.000
+	state_category=city
 }
