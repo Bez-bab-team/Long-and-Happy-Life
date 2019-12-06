@@ -1,21 +1,27 @@
 
 state={
 	id=792
-	name="STATE_792" # Sochi
-	manpower = 438890
-	
-	state_category = rural
+	name="STATE_792"
 
 	history={
 		owner = RGD
 		add_core_of = RGD
+		victory_points = {
+			3720 5 
+		}
+		victory_points = {
+			9663 15 
+		}
+		victory_points = {
+			719 3 
+		}
 
-		victory_points = { 3720 5 }
-		victory_points = { 9663 15 }
-		victory_points = { 719 3 }
 	}
 
 	provinces={
-			6721 9663 9674 3698 9694 9691 6736 6738 3720 3717 9696 717 719 3760 11668
+		717 719 3698 3717 3720 3760 6721 6736 6738 9663 9674 9691 9694 9696 11668 
 	}
+	manpower=438890
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
