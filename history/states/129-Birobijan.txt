@@ -4,6 +4,11 @@ state={
 	provinces={
 		841 1740 4174 4201 10792 14402 14512 
 	}
-	manpower=0
+	manpower=197976
 	buildings_max_level_factor=1.000
+		history={
+		owner = CPU
+		
+		add_core_of = CPU
+	}
 }

@@ -4,6 +4,11 @@ state={
 	provinces={
 		3640 5556 7607 12977 
 	}
-	manpower=0
+	manpower=14977110
 	buildings_max_level_factor=1.000
+		history={
+		owner = MSC
+		
+		add_core_of = MSC
+	}
 }

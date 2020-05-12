@@ -4,6 +4,11 @@ state={
 	provinces={
 		1286 3275 4882 5201 6260 6473 7394 7668 7869 8674 8782 10134 10381 14108 14119 14137 14151 14186 14189 14201 14202 14206 14230 14233 14245 14258 14259 14280 14347 
 	}
-	manpower=0
+	manpower=300849
 	buildings_max_level_factor=1.000
+	history={
+		owner = KAL
+		
+		add_core_of = KAL
+	}	
 }

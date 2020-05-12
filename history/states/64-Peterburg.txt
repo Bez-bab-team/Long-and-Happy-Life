@@ -4,6 +4,11 @@ state={
 	provinces={
 		8811 10013 12157 
 	}
-	manpower=0
+	manpower=3990814
 	buildings_max_level_factor=1.000
+	history={
+		owner = NSU
+		
+		add_core_of = NSU
+	}	
 }

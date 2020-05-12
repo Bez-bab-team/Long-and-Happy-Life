@@ -4,6 +4,11 @@ state={
 	provinces={
 		3291 3372 5636 6569 7900 8001 9522 10217 10814 12861 12862 12884 12902 12951 12957 13018 13024 13029 13042 13048 13105 13106 13135 13148 
 	}
-	manpower=0
+	manpower=9148300
 	buildings_max_level_factor=1.000
+		history={
+		owner = MSC
+		
+		add_core_of = MSC
+	}
 }

@@ -4,6 +4,12 @@ state={
 	provinces={
 		915 7705 8935 14439 14453 14455 14479 
 	}
-	manpower=0
+	manpower=60491
 	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+	}	
+	
 }

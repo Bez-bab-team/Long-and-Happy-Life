@@ -4,6 +4,11 @@ state={
 	provinces={
 		2100 2145 2451 2497 3952 5385 6325 6938 7493 7805 9115 9621 10459 10555 14736 
 	}
-	manpower=0
+	manpower=279578
 	buildings_max_level_factor=1.000
+		history={
+		owner = ALT
+		
+		add_core_of = ALT
+	}
 }
