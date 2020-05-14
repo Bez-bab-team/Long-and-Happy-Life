@@ -4,6 +4,23 @@ state={
 	provinces={
 		226 931 7638 11186 11192 11207 11208 11232 
 	}
+	
+	history={
+		owner = EAG
+		add_core_of = EAG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11232 3
+		}
+		victory_points = {
+			11207 3
+		}
+	}	
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

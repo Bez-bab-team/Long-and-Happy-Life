@@ -5,6 +5,20 @@ state={
 	provinces={
 		2365 3819 4464 6251 11180 11191 
 	}
+	
+	history={
+		owner = SUS
+		add_core_of = SUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11180 3
+		}
+	}
+		
 	manpower=0
 	buildings_max_level_factor=1.000
 }

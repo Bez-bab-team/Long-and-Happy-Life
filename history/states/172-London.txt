@@ -5,6 +5,21 @@ state={
 	provinces={
 		9280 11181 
 	}
+	
+	history={
+		owner = ESS
+		add_core_of = ESS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9280 50
+		}
+	}
+
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

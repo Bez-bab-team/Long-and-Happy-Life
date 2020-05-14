@@ -4,6 +4,29 @@ state={
 	provinces={
 		2234 2470 3479 3695 5427 6239 7095 8401 8561 9684 10043 10513 10855 11027 
 	}
+	
+	history={
+		owner = NTH
+		add_core_of = NTH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			8401 10
+		}
+		victory_points = {
+			5427 10
+		}
+		victory_points = {
+			7095 3
+		}
+		victory_points = {
+			10855 3
+		}
+	}	
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

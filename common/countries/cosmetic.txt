@@ -1,0 +1,15 @@
+
+KHA_governorate = {
+color = rgb { 70 70 70 }
+    color_ui = rgb { 70 70 70  }
+}
+
+NVS_governorate = {
+    color = rgb { 70 70 70 }
+    color_ui = rgb { 70 70 70  }
+}
+
+MON_eurasianist = {
+    color = rgb { 80 80 80 }
+    color_ui = rgb { 80 80 80 }
+}

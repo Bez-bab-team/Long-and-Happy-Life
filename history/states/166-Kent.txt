@@ -4,6 +4,23 @@ state={
 	provinces={
 		6010 7883 8326 9652 10302 
 	}
+	
+	history={
+		owner = KNT
+		add_core_of = KNT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7883 1
+		}
+		victory_points = {
+			8326 2
+		}		
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

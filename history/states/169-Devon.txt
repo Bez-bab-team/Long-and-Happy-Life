@@ -4,6 +4,21 @@ state={
 	provinces={
 		6334 7226 9424 11025 11042 11052 11058 11065 
 	}
+	
+	history={
+		owner = WES
+		add_core_of = WES
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9424 3
+		}
+	}	
+	
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

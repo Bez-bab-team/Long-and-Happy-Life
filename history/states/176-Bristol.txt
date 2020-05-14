@@ -4,6 +4,26 @@ state={
 	provinces={
 		119 507 4970 6500 7767 8396 8583 9182 11049 11056 11077 11086 11096 
 	}
+	
+	history={
+		owner = MRC
+		add_core_of = MRC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11077 10
+		}
+		victory_points = {
+			507 3
+		}
+		victory_points = {
+			11056 15
+		}
+	}		
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
