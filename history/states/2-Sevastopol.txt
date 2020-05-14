@@ -4,6 +4,12 @@ state={
 	provinces={
 		13871 13885 
 	}
-	manpower=0
+	manpower=493712
 	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+	}	
+	
 }

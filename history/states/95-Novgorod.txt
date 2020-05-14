@@ -4,6 +4,11 @@ state={
 	provinces={
 		480 513 559 5717 5865 6003 6553 6637 6930 7008 7614 8341 8711 8929 9225 10145 10571 10697 12361 12363 12420 12564 12570 12592 18740 
 	}
-	manpower=0
+	manpower=715408
 	buildings_max_level_factor=1.000
+	history={
+		owner = NRU
+		
+		add_core_of = NRU
+	}
 }

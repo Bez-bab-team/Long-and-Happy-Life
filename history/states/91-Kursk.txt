@@ -4,6 +4,11 @@ state={
 	provinces={
 		632 1702 3612 3839 5298 6178 6214 6535 7527 9503 9749 10503 13247 13281 13291 13331 13352 13363 13403 13451 
 	}
-	manpower=0
+	manpower=1180273
 	buildings_max_level_factor=1.000
+		history={
+		owner = RTS
+		
+		add_core_of = RTS
+	}
 }

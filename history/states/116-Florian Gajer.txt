@@ -5,6 +5,11 @@ state={
 	provinces={
 		169 431 1585 2115 2691 2989 3922 4186 4609 5962 6021 6692 7303 7637 7818 8130 8426 9382 9514 10238 10576 10733 13514 13555 13720 13726 13728 13775 13844 
 	}
-	manpower=0
+	manpower=4018682
 	buildings_max_level_factor=1.000
+		history={
+		owner = GAZ
+		
+		add_core_of = GAZ
+	}
 }

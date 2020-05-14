@@ -4,6 +4,11 @@ state={
 	provinces={
 		994 1021 2730 2830 2940 3830 3946 3962 4255 5197 5744 6304 7331 7646 7726 8336 9277 14211 14240 14250 14251 14264 14323 14353 14365 14381 14392 14448 14537 
 	}
-	manpower=0
+	manpower=5348775
 	buildings_max_level_factor=1.000
+		history={
+		owner = IMT
+		
+		add_core_of = IMT
+	}
 }

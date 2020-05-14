@@ -4,6 +4,11 @@ state={
 	provinces={
 		1353 6584 7193 8280 8348 8956 9896 10599 10645 12887 12927 12954 12960 12976 12981 12982 13007 13022 13032 13057 13067 13113 
 	}
-	manpower=0
+	manpower=1342051
 	buildings_max_level_factor=1.000
+	history={
+		owner = KHA
+		
+		add_core_of = KHA
+	}	
 }
