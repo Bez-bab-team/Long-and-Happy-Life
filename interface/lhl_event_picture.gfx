@@ -3,4 +3,8 @@ spriteTypes = {
 		name = "GFX_soviet_science"
 		texturefile = "gfx/event_pictures/soviet_science.dds"
 	}
+	spriteType = {
+		name = "GFX_cyrillization"
+		texturefile = "gfx/event_pictures/cyrillization.dds"
+	}		
 }

@@ -310,6 +310,8 @@ SWI_socialism_DEF:0 "Freistaat Schweiz"
 ###MEDDITERANIAN###
 GRE_regressionism:0 "Hellas"
 GRE_regressionism_DEF:0 "Hellas"
+ATH_regressionism:0 "Athos"
+ATH_regressionism_DEF:0 "Monastic State of the Holy Mountain"
 BUL_regressionism:0 "Bulgaria"
 BUL_regressionism_DEF:0 "Bulgaria"
 ALB_regressionism:0 "Albania"

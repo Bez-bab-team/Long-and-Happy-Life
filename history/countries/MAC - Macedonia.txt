@@ -20,3 +20,11 @@ set_politics = {
 set_popularities = {
 	regressionism  = 100
 }
+
+create_country_leader = {
+	name = "Nikola Gruevski"
+	picture = "Portrait_MAC_Nikola_Gruevski.dds"
+	ideology = neo_feudalism
+	traits = { 
+	}
+}

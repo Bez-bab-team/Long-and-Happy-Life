@@ -4,6 +4,14 @@ state={
 	provinces={
 		5179 7917 13289 13310 13337 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		13337 1 }	
+	
+	owner = MAC
+	add_core_of = MAC
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }

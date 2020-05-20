@@ -4,6 +4,16 @@ state={
 	provinces={
 		2213 2767 4264 5202 5770 6549 8726 9523 9969 10579 13449 13472 13523 13554 13560 13588 13598 13631 13643 13659 13667 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		6549 3	}	
+	victory_points = {
+		13659 1	}		
+	
+	owner = GRE
+	add_core_of = GRE
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }

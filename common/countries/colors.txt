@@ -288,18 +288,23 @@ SWI = {
 }
 
 GRE = {
-	color = rgb { 121 235 255 }
-	color_ui = rgb { 121 235 255 }
+	color = rgb { 140 185 225 }
+	color_ui = rgb { 140 185 225 }
 }
 
 ALB = {
-	color = rgb { 194 59 133 }
-	color_ui = rgb { 194 59 133 }
+	color = rgb { 120 40 50 }
+	color_ui = rgb { 120 40 50 }
+}
+
+ATH = {
+	color = rgb { 220 210 85 }
+	color_ui = rgb { 220 210 85 }
 }
 
 BUL = {
-	color = rgb { 51 155 0 }
-	color_ui = rgb { 51 155 0 }
+	color = rgb { 120 150 114 }
+	color_ui = rgb { 120 150 114 }
 }
 
 ASS = {
@@ -508,8 +513,8 @@ ROM = {
 	color_ui = rgb { 10 135 90 }
 }
 MAC = {
-	color = rgb { 225 195 160 }
-	color_ui = rgb { 225 195 160 }
+	color = rgb { 130 120 80 }
+	color_ui = rgb { 130 120 80 }
 }
 RNE = {
 	color = rgb { 119 128 134 }

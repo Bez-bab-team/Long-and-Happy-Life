@@ -1,0 +1,17 @@
+state={
+	id=669
+	name="STATE_669"
+	provinces={
+		16883 
+	}
+	history={
+	victory_points = {
+		16883 2	}	
+	
+	owner = GRE
+	add_core_of = GRE
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

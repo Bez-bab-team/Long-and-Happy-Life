@@ -2,8 +2,16 @@ state={
 	id=156
 	name="STATE_156"
 	provinces={
-		13585 13612 
+		1812 3351 3428 8545 9413 9748 13576 13604 13627 13649 13701 13724 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		13701 1	}	
+	
+	owner = GRE
+	add_core_of = GRE
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }

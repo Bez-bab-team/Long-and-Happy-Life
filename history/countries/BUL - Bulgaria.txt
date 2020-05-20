@@ -20,3 +20,11 @@ set_politics = {
 set_popularities = {
 	regressionism  = 100
 }
+
+create_country_leader = {
+	name = "Slavcho Binev"
+	picture = "Portrait_BUL_Slavcho_Binev.dds"
+	ideology = neo_feudalism
+	traits = { templar_archon
+	}
+}

@@ -20,3 +20,11 @@ set_politics = {
 set_popularities = {
 	regressionism  = 100
 }
+
+create_country_leader = {
+	name = "Vangjel Dule"
+	picture = "Portrait_ALB_Vangjel_Dule.dds"
+	ideology = neo_feudalism
+	traits = { 
+	}
+}

@@ -4,6 +4,14 @@ state={
 	provinces={
 		1965 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		1965 2	}	
+	
+	owner = ATH
+	add_core_of = ATH
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }
