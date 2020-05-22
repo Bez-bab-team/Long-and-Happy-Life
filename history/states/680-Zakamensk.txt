@@ -1,0 +1,14 @@
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		1255 1337 2221 2235 2958 3286 3543 3757 3902 4295 6291 7828 8008 9584 9593 9984 14675 14678 14710 14729 14739 14742 14753 14771 
+	}
+	manpower=113023
+	buildings_max_level_factor=1.000
+		history={	
+	
+	owner = NOD
+	add_core_of = NOD
+	}
+}

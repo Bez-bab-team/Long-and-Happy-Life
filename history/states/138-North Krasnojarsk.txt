@@ -8,8 +8,8 @@ state={
 	manpower=841952
 	buildings_max_level_factor=1.000
 		history={
-		owner = GAZ
+		owner = USS
 		
-		add_core_of = GAZ
+		add_core_of = USS
 	}
 }

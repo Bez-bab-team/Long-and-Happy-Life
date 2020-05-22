@@ -8,8 +8,8 @@ state={
 	manpower=161229
 	buildings_max_level_factor=1.000
 		history={
-		owner = RIS
+		owner = VOL
 		
-		add_core_of = RIS
+		add_core_of = VOL
 	}
 }
