@@ -4,6 +4,11 @@ state={
 	provinces={
 		7847 8099 9796 12655 12672 12708 12718 12727 12743 12768 
 	}
-	manpower=0
+	manpower=1550640
 	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		
+		add_core_of = LUM
+	}	
 }

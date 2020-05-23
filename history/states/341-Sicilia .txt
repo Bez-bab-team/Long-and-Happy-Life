@@ -4,6 +4,11 @@ state={
 	provinces={
 		3744 3818 3885 5837 5879 7909 8873 8963 9953 12949 12959 12978 13026 13046 13100 13150 13151 13170 13180 13199 13224 
 	}
-	manpower=0
+	manpower=499891
 	buildings_max_level_factor=1.000
+	history={
+		owner = GRE
+		
+		add_core_of = GRE
+	}	
 }

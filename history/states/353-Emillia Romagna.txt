@@ -5,6 +5,11 @@ state={
 	provinces={
 		1001 4017 4691 4754 5022 6041 7212 9441 10155 10756 10907 12207 12267 12276 12327 12334 12335 12372 12383 12405 12406 12417 12429 12441 12464 12482 
 	}
-	manpower=0
+	manpower=4459477
 	buildings_max_level_factor=1.000
+	history={
+		owner = PAD
+		
+		add_core_of = PAD
+	}	
 }

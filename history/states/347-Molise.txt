@@ -4,6 +4,11 @@ state={
 	provinces={
 		3804 3901 10307 12828 
 	}
-	manpower=0
+	manpower=305617
 	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		
+		add_core_of = LUM
+	}	
 }

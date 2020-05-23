@@ -29,11 +29,11 @@ create_country_leader = {
 	traits = { cornered_fox }
 }
 create_country_leader = {
-	name = "Xi Jinping"
-	desc = "POLITICS_Jinping_DESC"
+	name = "The Uncle"
+	desc = "POLITICS_GUL_UNCLE_DESC"
 	picture = "Portrait_GUL_Xi_Jinping.dds"
 	ideology = leftwing_chauvinism
-	traits = { uncle }
+	traits = { grey_eminence }
 }
 create_country_leader = {
 	name = "Aleksandr Gabyshev"

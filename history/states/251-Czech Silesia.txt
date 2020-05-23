@@ -4,6 +4,11 @@ state={
 	provinces={
 		1552 8435 9628 12374 12424 12453 
 	}
-	manpower=0
+	manpower=1339102
 	buildings_max_level_factor=1.000
+	history={
+		owner = CZE
+		
+		add_core_of = CZE
+	}
 }
