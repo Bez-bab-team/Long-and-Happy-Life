@@ -22,8 +22,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Vangjel Dule"
-	picture = "Portrait_ALB_Vangjel_Dule.dds"
+	name = "Sali Berisha"
+	picture = "Portrait_ALB_Sali_Berisha.dds"
 	ideology = neo_feudalism
 	traits = { 
 	}
