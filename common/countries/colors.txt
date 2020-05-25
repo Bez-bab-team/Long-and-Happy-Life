@@ -283,7 +283,7 @@ DEN = {
 }
 
 SWI = {
-	color = rgb { 153 180 240 }
+	color = rgb { 193 81 81 }
 	color_ui = rgb { 193 81 81 }
 }
 
@@ -608,4 +608,8 @@ USS = {
 VOL = {
 	color = rgb { 73 87 113 }
 	color_ui = rgb { 73 87 113 }
+}
+WAL = {
+	color = rgb { 140 57 95 }
+	color_ui = rgb { 140 57 95 }
 }
