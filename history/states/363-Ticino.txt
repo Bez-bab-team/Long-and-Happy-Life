@@ -6,9 +6,14 @@ state={
 	}
 	manpower=712039
 	buildings_max_level_factor=1.000
+	
 	history={
-		owner = PAD
-		
-		add_core_of = PAD
+	victory_points = {
+		7011 2 }	
+	
+	owner = SWI
+	add_core_of = SWI
+	}	
+	state_category = pastoral
 	}	
 }

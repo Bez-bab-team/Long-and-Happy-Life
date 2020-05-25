@@ -6,9 +6,12 @@ state={
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-			history={
-		owner = LIT
-		
-		add_core_of = LIT
-	}
+	history={
+	victory_points = {
+		5015 2 }	
+	
+	owner = POL
+	add_core_of = POL
+	}	
+	state_category = pastoral
 }

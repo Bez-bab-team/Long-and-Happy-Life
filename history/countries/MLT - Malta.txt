@@ -1,0 +1,30 @@
+﻿capital = 342
+
+oob = "MAL_2020"
+
+set_research_slots = 2
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = neocameralism 
+	elections_allowed = no
+}
+
+set_popularities = {
+	neocameralism = 100
+}
+
+create_country_leader = {
+	name = "Elizabeth II"
+	desc = "POLITICS_OUR_QUEEN_DESC"
+	picture = "Portrait_OUR_QUEEN.dds"
+	ideology = authoritarian_technocracy
+	traits = { cornered_fox }
+}

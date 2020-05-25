@@ -4,11 +4,15 @@ state={
 	provinces={
 		12104 
 	}
-	manpower=38682
-	buildings_max_level_factor=1.000
 	history={
-		owner = FRA
-		
-		add_core_of = FRA
+	victory_points = {
+		16880 2 }	
+	
+	owner = MNC
+	add_core_of = MNC
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
 	}
 }

@@ -1,0 +1,30 @@
+﻿capital = 354
+
+oob = "MON_2020"
+
+set_research_slots = 1
+
+set_stability = 0.7
+
+set_war_support = 0.5
+
+set_technology = {
+ 	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = neocameralism 
+	elections_allowed = no
+}
+
+set_popularities = {
+	neocameralism = 100
+}
+
+create_country_leader = {
+	name = "Albert II"
+	desc = "POLITICS_ALBERT_OF_MONACO_DESC"
+	picture = "Portrait_ALBERT_OF_MONACO.dds"
+	ideology = authoritarian_technocracy
+	traits = {  }
+}

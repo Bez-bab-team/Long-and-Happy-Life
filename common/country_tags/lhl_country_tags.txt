@@ -165,3 +165,5 @@ USS = "countries/lhl_countries/Union of Sovereign States.txt"
 VOL = "countries/lhl_countries/Volunteer Army.txt"
 IND = "countries/lhl_countries/India.txt"
 
+MLT = "countries/lhl_countries/Malta.txt"
+MNC = "countries/lhl_countries/Monaco.txt"

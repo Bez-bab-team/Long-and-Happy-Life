@@ -5,6 +5,14 @@ state={
 	provinces={
 		440 3006 3236 4013 5358 7697 8311 8942 9415 10713 10901 10956 10961 10972 10977 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		3006 2	}	
+	
+	owner = IRE
+	add_core_of = IRE
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }
