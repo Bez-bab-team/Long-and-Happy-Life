@@ -1,14 +1,17 @@
+
 state={
 	id=351
 	name="STATE_351"
+
+	history={
+		owner = SOC
+		add_core_of = SOC
+
+	}
+
 	provinces={
-		5791 10758 12509 12544 12561 12575 12594 
+		12544 12575 12594 
 	}
 	manpower=882015
 	buildings_max_level_factor=1.000
-	history={
-		owner = PAD
-		
-		add_core_of = PAD
-	}	
 }

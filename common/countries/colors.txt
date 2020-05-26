@@ -398,8 +398,8 @@ UAS = {
 }
 
 SOC = {
-	color = rgb { 255 255 0 }
-	color_ui = rgb { 255 255 0 }
+	color = rgb { 210 210 125 }
+	color_ui = rgb { 210 210 125 }
 }
 
 LUM = {
@@ -413,33 +413,33 @@ PAD = {
 }
 
 PSE = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 240 240 240 }
+	color_ui = rgb { 240 240 240 }
 }
 
 PSG = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 240 245 240 }
+	color_ui = rgb { 240 245 240 }
 }
 
 PSL = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 245 240 240 }
+	color_ui = rgb { 245 240 240 }
 }
 
 PSM = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 245 245 245 }
+	color_ui = rgb { 245 245 245 }
 }
 
 PSP = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 240 245 245 }
+	color_ui = rgb { 240 245 245 }
 }
 
 PSS = {
-	color = rgb { 244 245 240 }
-	color_ui = rgb { 244 245 240 }
+	color = rgb { 240 240 245 }
+	color_ui = rgb { 240 240 245 }
 }
 
 TIB = {

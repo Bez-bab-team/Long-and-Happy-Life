@@ -1,15 +1,15 @@
 state={
-	id=190
-	name="STATE_190"
+	id=683
+	name="STATE_683"
 	provinces={
-		2353 2883 3129 3638 4500 10946 10957 10962 10967 10975 
+		3994 9098 12389 12414 12440 
 	}
 	history={
 	victory_points = {
-		2353 2	}	
+		3994 2 }	
 	
-	owner = WES
-	add_core_of = WES
+	owner = PSL
+	add_core_of = PSL
 	}	
 	state_category=pastoral
 	manpower = 2000
