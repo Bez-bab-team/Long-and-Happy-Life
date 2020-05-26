@@ -1,0 +1,689 @@
+﻿add_namespace = KHA_event
+
+country_event = {
+	id = KHA_event.1
+	title = KHA_event.1.t
+	desc = KHA_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.1.a
+		custom_effect_tooltip = KHA_1
+		hidden_effect = {
+		    HUN = {
+			    country_event = { id = HUN_event.1 days = 3 }
+		    }
+			ROM = {
+			    country_event = { id = ROM_event.1 days = 8 }
+			}
+			NRS = {
+			    country_event = { id = NRS_event.2 days = 3 }
+			}
+			UPA = {
+		    add_state_core = 27
+		    transfer_state = 27
+		    add_state_core = 26
+		    transfer_state = 26
+		    add_state_core = 40
+		    transfer_state = 40
+		    add_state_core = 24
+		    transfer_state = 24
+		    add_state_core = 25
+		    transfer_state = 25
+		    add_state_core = 47
+		    transfer_state = 47
+	        add_state_core = 28
+		    transfer_state = 28
+            }
+            leave_faction = yes
+			
+        add_stability = -0.5			
+		}
+	}
+    option = {
+		name = KHA_event.1.b
+		custom_effect_tooltip = KHA_6
+		hidden_effect = {
+		    HUN = {
+			    country_event = { id = HUN_event.1 days = 3 }
+		    }
+			ROM = {
+			    country_event = { id = ROM_event.1 days = 8 }
+			}
+			NRS = {
+			    country_event = { id = NRS_event.2 days = 3 }
+			}
+			UPA = {
+		    add_state_core = 27
+		    transfer_state = 27
+		    add_state_core = 26
+		    transfer_state = 26
+		    add_state_core = 40
+		    transfer_state = 40
+		    add_state_core = 24
+		    transfer_state = 24
+		    add_state_core = 25
+		    transfer_state = 25
+		    add_state_core = 47
+		    transfer_state = 47
+	        add_state_core = 28
+		    transfer_state = 28
+            }
+            leave_faction = yes
+			UPA = { change_tag_from = ROOT }
+			add_stability = -0.5			
+        }
+    }
+}
+
+country_event = {
+	id = KHA_event.2
+	title = KHA_event.2.t
+	desc = KHA_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.2.a
+		add_popularity = {
+		    ideology = right_populism
+            popularity = 0.25 
+        }
+		add_popularity = {
+		    ideology = regressionism
+            popularity = 0.10 
+        }
+		add_popularity = {
+		    ideology = socialism
+            popularity = 0.10 
+        }
+        hidden_effect = {		
+            KHA = {
+			    country_event = { id = KHA_event.8 days = 12 }
+		    }
+	    }
+        add_political_power = 100		
+    }
+	option = {
+		name = KHA_event.2.b
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.11 days = 18 }
+		    }	
+        }
+        add_political_power = -150		
+    }   
+}
+
+country_event = {
+	id = KHA_event.3
+	title = KHA_event.3.t
+	desc = KHA_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.3.a
+		custom_effect_tooltip = KHA_2
+		hidden_effect = {
+		    MLR = {
+		        add_state_core = 20
+		        transfer_state = 20
+		        add_state_core = 21
+		        transfer_state = 21
+		        add_state_core = 36
+		        transfer_state = 36
+            }
+	        UPA = {
+			    country_event = { id = UPA_event.1 days = 21 }
+		    }
+		    MLR = {
+			    country_event = { id = MLR_event.1 days = 24 }
+		    }
+        }  
+    }
+    option = {
+		name = KHA_event.3.b
+		custom_effect_tooltip = KHA_16
+		hidden_effect = {
+		    MLR = { change_tag_from = ROOT }
+		    MLR = {
+		        add_state_core = 20
+		        transfer_state = 20
+		        add_state_core = 21
+		        transfer_state = 21
+		        add_state_core = 36
+		        transfer_state = 36
+            }
+	        UPA = {
+			    country_event = { id = UPA_event.1 days = 21 }
+		    }
+		    MLR = {
+			    country_event = { id = MLR_event.1 days = 24 }
+		    }
+        }  
+    }	
+}
+
+country_event = {
+	id = KHA_event.4
+	title = KHA_event.4.t
+	desc = KHA_event.4.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.4.a
+    }   
+}
+
+country_event = {
+	id = KHA_event.5
+	title = KHA_event.5.t
+	desc = KHA_event.5.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.5.a
+    }   
+}
+
+country_event = {
+	id = KHA_event.6
+	title = KHA_event.6.t
+	desc = KHA_event.6.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.6.a
+    }   
+}
+
+country_event = {
+	id = KHA_event.7
+	title = KHA_event.7.t
+	desc = KHA_event.7.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.7.a
+    }   
+}
+
+country_event = {
+	id = KHA_event.8
+	title = KHA_event.8.t
+	desc = KHA_event.8.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.8.a
+		hidden_effect = {
+		    add_popularity = {
+		        ideology = right_populism
+                popularity = 0.35
+            }
+		    create_country_leader = {
+	            name = "Supreme Council of Ukraine"
+                desc = ""
+	            picture = ".dds"
+	            expire = "9999.1.1"
+	            ideology = national_populism 
+	            traits = {}
+		    }
+		    set_politics = {
+	            ruling_party = right_populism
+            }
+            KHA = {
+			    country_event = { id = KHA_event.9 days = 7 }
+		    }
+            set_cosmetic_tag = KHA_right_populism	
+        }  
+        custom_effect_tooltip = KHA_3		
+	}
+}
+
+country_event = {
+	id = KHA_event.9
+	title = KHA_event.9.t
+	desc = KHA_event.9.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.9.a
+		hidden_effect = {
+		    create_country_leader = {
+	            name = "Mikhail Dobkin"
+                desc = "POLITICS_Dobkin_DESC"
+	            picture = "Portrait_KHA_DOBKIN.dds"
+	            expire = "9999.1.1"
+	            ideology = national_populism 
+	            traits = { waste_of_space }
+		    }
+		    KHA = {
+			    country_event = { id = KHA_event.10 days = 7 }
+			}
+		}	
+	    custom_effect_tooltip = KHA_4
+    }   
+	option = {
+		name = KHA_event.9.b
+		hidden_effect = {
+	        add_popularity = {
+		        ideology = socialism 
+                popularity = 0.35
+            }
+		    KHA = {
+			    country_event = { id = KHA_event.10 days = 7 }
+			}
+			set_politics = {
+	            ruling_party = socialism 
+            }
+		}
+        custom_effect_tooltip = KHA_5		
+    }   
+}
+
+country_event = {
+	id = KHA_event.10
+	title = KHA_event.10.t
+	desc = KHA_event.10.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.10.a
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.3 days = 7 }
+		    }
+        }
+	}
+}
+
+country_event = {
+	id = KHA_event.11
+	title = KHA_event.11.t
+	desc = KHA_event.11.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.11.a
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.12 days = 7 }
+		    }
+		}
+	}
+	option = {
+		name = KHA_event.11.b
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.14 days = 7 }
+			}
+		}
+    }   
+}
+
+country_event = {
+	id = KHA_event.12
+	title = KHA_event.12.t
+	desc = KHA_event.12.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.12.a
+		custom_effect_tooltip = KHA_7
+		hidden_effect = {
+		    create_country_leader = {
+	            name = "Evil Nazbol"
+                desc = "POLITICS_NAZBOL_DESC"
+	            picture = ".dds"
+	            expire = "9999.1.1"
+	            ideology = nazbol_gang  
+	            traits = {  }
+		    }
+		    add_popularity = {
+		        ideology = national_bolshevism 
+                popularity = 0.35
+            }
+		    KHA = {
+			    country_event = { id = KHA_event.13 days = 7 }
+		    }
+		add_political_power = -50
+        } 
+    }		
+}
+
+country_event = {
+	id = KHA_event.13
+	title = KHA_event.13.t
+	desc = KHA_event.13.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.13.a
+		add_political_power = -100
+		custom_effect_tooltip = KHA_8
+		hidden_effect = {
+		    UPR = {
+		        add_state_core = 29
+		        transfer_state = 29
+		        add_state_core = 39
+		        transfer_state = 39
+		        add_state_core = 23
+		        transfer_state = 23
+            }
+	        UPA = {
+			    country_event = { id = UPA_event.5 days = 24 }
+		    }
+		    UPR = {
+			    country_event = { id = UPR_event.1 days = 21 }
+		    }
+		}
+    }
+	option = {
+		name = KHA_event.13.b
+		add_political_power = -100
+		custom_effect_tooltip = KHA_10
+		hidden_effect = {
+		    UPR = { change_tag_from = ROOT }
+		    UPR = {
+		        add_state_core = 29
+		        transfer_state = 29
+		        add_state_core = 39
+		        transfer_state = 39
+		        add_state_core = 23
+		        transfer_state = 23
+            }
+	        UPA = {
+			    country_event = { id = UPA_event.5 days = 24 }
+		    }
+		    UPR = {
+			    country_event = { id = UPR_event.1 days = 21 }
+		    }
+		}
+    }
+}
+
+country_event = {
+	id = KHA_event.14
+	title = KHA_event.14.t
+	desc = KHA_event.14.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.14.a
+		custom_effect_tooltip = KHA_9
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.15 days = 21 }
+		    }
+		}
+    }   
+}
+
+country_event = {
+	id = KHA_event.15
+	title = KHA_event.15.t
+	desc = KHA_event.15.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.15.a
+		custom_effect_tooltip = KHA_8
+		hidden_effect = {
+		    UPR = {
+		        add_state_core = 29
+		        transfer_state = 29
+		        add_state_core = 39
+		        transfer_state = 39
+            }
+		    KHA = {
+			    country_event = { id = KHA_event.16 days = 3 }
+		    }
+		}
+    }
+    option = {
+		name = KHA_event.15.b
+		custom_effect_tooltip = KHA_10
+		hidden_effect = {
+		    UPR = { change_tag_from = ROOT }
+		    UPR = {
+		        add_state_core = 29
+		        transfer_state = 29
+		        add_state_core = 39
+		        transfer_state = 39
+            }
+		    KHA = {
+			    country_event = { id = KHA_event.16 days = 3 }
+		    }
+		}
+    }	
+}
+
+country_event = {
+	id = KHA_event.16
+	title = KHA_event.16.t
+	desc = KHA_event.16.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.16.a
+		custom_effect_tooltip = KHA_11
+		hidden_effect = {
+		    DNP = {
+		        add_state_core = 37
+		        transfer_state = 37
+		        add_state_core = 38
+		        transfer_state = 38
+			}
+		    KHA = {
+			    country_event = { id = KHA_event.17 days = 3 }
+		    }
+		}
+    } 
+    option = {
+		name = KHA_event.16.b
+		custom_effect_tooltip = KHA_12
+		hidden_effect = {
+		    DNP = { change_tag_from = ROOT }
+		    DNP = {
+		        add_state_core = 37
+		        transfer_state = 37
+		        add_state_core = 38
+		        transfer_state = 38
+			}
+		    KHA = {
+			    country_event = { id = KHA_event.17 days = 3 }
+		    }
+		}
+    }	
+}
+
+country_event = {
+	id = KHA_event.17
+	title = KHA_event.17.t
+	desc = KHA_event.17.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.17.a
+		custom_effect_tooltip = KHA_13
+		hidden_effect = {
+		    POD = {
+		        add_state_core = 23
+		        transfer_state = 23
+			}
+		    KHA = {
+			   country_event = { id = KHA_event.18 days = 3 }
+		    }
+		}
+    }
+    option = {
+		name = KHA_event.17.b
+		custom_effect_tooltip = KHA_14
+		hidden_effect = {
+		    POD = { change_tag_from = ROOT }
+		    POD = {
+		        add_state_core = 23
+		        transfer_state = 23
+			}
+		    KHA = {
+			   country_event = { id = KHA_event.18 days = 3 }
+		    }
+		}
+    }	
+}
+
+country_event = {
+	id = KHA_event.18
+	title = KHA_event.18.t
+	desc = KHA_event.18.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.18.a
+		custom_effect_tooltip = KHA_2
+		hidden_effect = {
+		    MLR = {
+                add_state_core = 20
+		        transfer_state = 20
+		        add_state_core = 21
+		        transfer_state = 21
+		        add_state_core = 36
+		        transfer_state = 36
+			}
+		    UPA = {
+			    country_event = { id = UPA_event.3 days = 20 }
+		    }
+		    POD = {
+			    country_event = { id = POD_event.1 days = 20 }
+		    }
+		    UPR = {
+			    country_event = { id = UPR_event.3 days = 20 }
+		    }
+		    DNP = {
+			    country_event = { id = DNP_event.1 days = 20 }
+		    }
+			MLR = {
+			    country_event = { id = MLR_event.2 days = 20 }
+		    }
+			KHA = {
+			    country_event = { id = KHA_event.20 days = 20 }
+		    }
+		}
+    } 
+    option = {
+		name = KHA_event.18.b
+		custom_effect_tooltip = KHA_16
+		hidden_effect = {
+		MLR = { change_tag_from = ROOT }
+		    MLR = {
+                add_state_core = 20
+		        transfer_state = 20
+		        add_state_core = 21
+		        transfer_state = 21
+		        add_state_core = 36
+		        transfer_state = 36
+			}
+		    UPA = {
+			    country_event = { id = UPA_event.3 days = 20 }
+		    }
+		    POD = {
+			    country_event = { id = POD_event.1 days = 20 }
+		    }
+		    UPR = {
+			    country_event = { id = UPR_event.3 days = 20 }
+		    }
+		    DNP = {
+			    country_event = { id = DNP_event.1 days = 20 }
+		    }
+			MLR = {
+			    country_event = { id = MLR_event.2 days = 20 }
+		    }
+			KHA = {
+			    country_event = { id = KHA_event.20 days = 20 }
+		    }
+		}
+    }	
+}
+
+country_event = {
+	id = KHA_event.19
+	title = KHA_event.19.t
+	desc = KHA_event.19.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.19.a
+    }   
+}
+
+country_event = {
+	id = KHA_event.20
+	title = KHA_event.20.t
+	desc = KHA_event.20.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = KHA_event.20.a
+		declare_war_on = {
+            target = POD
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = URP
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = DNP
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = MLR
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = UPA
+            type = annex_everything
+        }
+    }   
+}
+
