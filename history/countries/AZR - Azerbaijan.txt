@@ -1,6 +1,6 @@
 ﻿capital = 229 #Baku
 
-oob = "AZR_2019"
+oob = "AZR_2020"
 
 set_research_slots = 3
 

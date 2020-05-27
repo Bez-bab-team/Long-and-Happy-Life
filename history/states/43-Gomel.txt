@@ -4,11 +4,25 @@ state={
 	provinces={
 		800 1651 3363 3810 5647 6457 6605 7477 7524 7813 8954 10029 12778 12813 12843 12851 12858 12864 12865 12882 12892 12899 12900 12901 12938 12955 12961 12971 12990 12997 13009 13041 
 	}
-	manpower=0
+	manpower=1430167
 	buildings_max_level_factor=1.000
+   	resources = {
+       		oil = 4
+		
+   	}
 	history={
 		owner = UST
-		
 		add_core_of = UST
+		
+		victory_points={
+			1651 15
+		}
+		victory_points={
+			12971 15
+		}
+		victory_points={
+			12723 15
+		}
 	}
+	state_category=city
 }

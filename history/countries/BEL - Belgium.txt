@@ -1,6 +1,6 @@
 capital = 6
 
-oob = "BSK_2019"
+oob = "BEL_2020"
 
 set_research_slots = 3
 

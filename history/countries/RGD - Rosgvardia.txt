@@ -1,6 +1,6 @@
 ﻿capital = 792
 
-oob = "RGD_1936"
+oob = "RGD_2020"
 
 set_research_slots = 3
 

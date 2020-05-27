@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "LHLBOOKMARK_NAME"
 		desc = "LHLBOOKMARK_DESC"
-		date = 2019.8.22.14
+		date = 2020.1.1.14
 		picture = "GFX_select_date_1939"
 		default_country = "RTS"
 
@@ -39,8 +39,8 @@ bookmarks = {
 				NSU_sacralisationofindustry
 			}
 		}
-		GAZ = {
-			history = GAZ_LHLBOOKMARK_DESC
+		NVS = {
+			history = NVS_LHLBOOKMARK_DESC
 			ideology = neocameralism
 			ideas={
 				#

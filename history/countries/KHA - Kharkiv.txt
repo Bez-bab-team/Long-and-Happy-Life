@@ -1,6 +1,6 @@
 ﻿capital = 788
 
-oob = "KHA_1936"
+oob = "KHA_2020"
 
 set_research_slots = 3
 set_stability = 0.5

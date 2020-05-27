@@ -1,6 +1,6 @@
 ﻿capital = 566
 
-oob = "SOV_1936"
+oob = "NOD_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -17,7 +17,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	national_bolshevism  = 100
+	national_bolshevism  = 27
+	neocameralism = 19
+	hegemonism = 14
+	right_populism = 14
+	commendationism = 11
+	socialism = 5
+	left_authoritarianism = 4
+	ur_fascism = 2
+	regressionism = 2
+	millenarism = 2
 }
 
 create_country_leader = {

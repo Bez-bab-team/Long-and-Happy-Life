@@ -1,5 +1,5 @@
 capital = 294
-oob = SOV_1936
+oob = "OMA_2020"
 
 set_research_slots = 3
 set_stability = 0.5

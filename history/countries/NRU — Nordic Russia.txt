@@ -1,6 +1,6 @@
 ﻿capital = 237
 
-oob = "NRU_2019"
+oob = "NRU_2020"
 
 if = {
 	limit= { has_dlc = "Man the Guns" }

@@ -1,6 +1,6 @@
 capital = 179
 
-oob = "ALG_1936"
+oob = "ALG_2020"
 
 set_research_slots = 3
 set_stability = 0.5

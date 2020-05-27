@@ -1,6 +1,6 @@
 ﻿capital = 113
 
-oob = "POL_2019"
+oob = "IRE_2020"
 
 set_research_slots = 3
 
@@ -20,8 +20,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Glenn Benton"
-	desc = "POLITICS_KORWIN_MIKKE_DESC"
+	name = ""
+	desc = ""
 	picture = ".dds"
 	ideology = authoritarian_republic
 	traits = {

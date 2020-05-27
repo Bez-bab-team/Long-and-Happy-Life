@@ -9,7 +9,15 @@ state={
 	buildings_max_level_factor=1.000
 	history={
 		owner = UST
-		
 		add_core_of = UST
+
+		victory_points={
+			4141 20
+		}
+
+		victory_points={
+			12567 10
+		}
 	}
+	state_category=city
 }

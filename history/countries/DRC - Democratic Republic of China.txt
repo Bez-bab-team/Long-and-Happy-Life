@@ -1,6 +1,6 @@
 ﻿capital = 524
 
-oob = "SOV_1936"
+oob = "DRC_2020"
 
 set_technology = {
 	infantry_weapons = 1

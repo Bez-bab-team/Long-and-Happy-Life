@@ -1,6 +1,6 @@
 ﻿capital = 788
 
-oob = "DON_2019"
+oob = "DON_2020"
 
 set_research_slots = 3
 set_stability = 0.5

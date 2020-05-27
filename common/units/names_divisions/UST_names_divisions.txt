@@ -1,0 +1,17 @@
+UST_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { UST }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	fallback_name = "Infantry Division"
+
+	ordered =
+	{
+		1 = { "Arabian Volunteers" }
+	}
+}

@@ -1,5 +1,5 @@
 capital = 551
-oob = "ATH_2019"
+oob = "ATH_2020"
 
 set_research_slots = 3
 set_stability = 0.5

@@ -1,6 +1,6 @@
 ﻿capital = 403
 
-oob = "GAZ_2019"
+oob = "GAZ_2020"
 
 # Starting tech
 set_technology = {

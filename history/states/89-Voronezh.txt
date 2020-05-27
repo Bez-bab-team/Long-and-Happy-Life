@@ -6,9 +6,24 @@ state={
 	}
 	manpower=2602496
 	buildings_max_level_factor=1.000
-	history={
+   	resources = {
+       		steel = 30	
+   	}	
+		history={
 		owner = RTS
-		
 		add_core_of = RTS
+
+		victory_points={
+			13490 40
+		}
+		victory_points={
+			7734 10
+		}
+
+		victory_points={
+			13635 10
+		}
 	}
+
+	state_category=large_city
 }

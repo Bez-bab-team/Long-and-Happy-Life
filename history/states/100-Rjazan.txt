@@ -8,7 +8,11 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = RTS
-		
 		add_core_of = RTS
+
+		victory_points={
+			13162 35
+		}
 	}
+	state_category=city
 }

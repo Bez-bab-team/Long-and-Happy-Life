@@ -7,8 +7,8 @@ state={
 	manpower=1489321
 	buildings_max_level_factor=1.000
 	history={
-		owner = FRA
+		owner = SWI
 		
-		add_core_of = FRA
+		add_core_of = SWI
 	}	
 }

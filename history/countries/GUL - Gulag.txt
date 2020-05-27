@@ -13,32 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = socialism 
+	ruling_party = commendationism 
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism = 100
+	commendationism = 100
 }
 
-create_country_leader = {
-	name = "Boris Nemtsov"
-	desc = "POLITICS_Nemtsov_DESC"
-	picture = "Portrait_GUL_Boris_Nemtsov.dds"
-	ideology = progressivism
-	traits = { cornered_fox }
-}
 create_country_leader = {
 	name = "The Uncle"
 	desc = "POLITICS_GUL_UNCLE_DESC"
 	picture = "Portrait_GUL_Xi_Jinping.dds"
 	ideology = leftwing_chauvinism
 	traits = { grey_eminence }
-}
-create_country_leader = {
-	name = "Aleksandr Gabyshev"
-	desc = "POLITICS_Gabyshev_DESC"
-	picture = "Portrait_GUL_Gabyshev.dds"
-	ideology = clerical_fascism
-	traits = { shaman_king }
 }

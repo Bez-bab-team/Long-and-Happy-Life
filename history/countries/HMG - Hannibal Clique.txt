@@ -1,5 +1,5 @@
 capital = 458
-oob = "SOV_1936"
+oob = "HMG_2020"
 
 set_research_slots = 3
 set_stability = 0.5

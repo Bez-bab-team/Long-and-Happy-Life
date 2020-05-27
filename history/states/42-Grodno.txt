@@ -4,11 +4,15 @@ state={
 	provinces={
 		1830 2030 2434 3645 4718 5695 6430 6847 7598 9938 10252 12418 12470 12477 12478 12512 12535 12602 12616 
 	}
-	manpower=0
+	manpower=1139766
 	buildings_max_level_factor=1.000
 	history={
 		owner = UST
-		
 		add_core_of = UST
+
+		victory_points={
+			1830 15
+		}
 	}
+	state_category=city
 }

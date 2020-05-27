@@ -1,6 +1,6 @@
 ﻿capital = 408
 
-oob = "SAH_2019"
+oob = "RIS_2020"
 
 set_research_slots = 3
 

@@ -1,6 +1,6 @@
 ﻿capital = 208
 
-oob = "LEN_1936"
+oob = "LEN_2020"
 
 set_research_slots = 3
 

@@ -8,7 +8,11 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = MSC
-		
 		add_core_of = MSC
+
+		victory_points={
+			12977 50
+		}
 	}
+	state_category = megalopolis
 }
