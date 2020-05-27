@@ -1,0 +1,76 @@
+﻿add_namespace = UPR_event
+
+country_event = {
+	id = UPR_event.1
+	title = UPR_event.1.t
+	desc = UPR_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = UPR_event.1.a
+		ai_chance = {
+     		factor = 100
+	    }
+		declare_war_on = {
+            target = KHA
+            type = annex_everything
+        }
+		hidden_effect = {
+		    KHA = {
+			    country_event = { id = KHA_event.19 days = 1 }
+		    }
+		}
+    }
+    option = {
+		name = UPR_event.1.b
+		add_political_power = -50
+    }   	
+}
+
+country_event = {
+	id = UPR_event.2
+	title = UPR_event.2.t
+	desc = UPR_event.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = UPR_event.2.a
+    }   
+}
+
+country_event = {
+	id = UPR_event.3
+	title = UPR_event.3.t
+	desc = UPR_event.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = UPR_event.3.a
+		declare_war_on = {
+            target = POD
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = KHA
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = DNP
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = MLR
+            type = annex_everything
+        }
+		declare_war_on = {
+            target = UPA
+            type = annex_everything
+        }
+    }   
+}

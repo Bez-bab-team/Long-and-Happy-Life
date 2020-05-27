@@ -1,0 +1,63 @@
+﻿add_namespace = NRS_event
+
+country_event = {
+	id = NRS_event.2
+	title = NRS_event.2.t
+	desc = NRS_event.2.d
+    is_triggered_only = yes
+	fire_only_once = true
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = NRS_event.2.a
+		custom_effect_tooltip = NRS_1
+		hidden_effect = {
+		    NRS = {
+			    country_event = { id = ROM_event.2 days = 5 }
+		    }
+			17 = {
+		    set_demilitarized_zone = yes
+		    }
+		}
+    }   
+}
+
+country_event = {
+	id = NRS_border_conflict.1
+	title = NRS_border_conflict.1.t
+	desc = NRS_border_conflict.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = NRS_border_conflict.1.a
+    }   
+}
+
+country_event = {
+	id = NRS_border_conflict.2
+	title = NRS_border_conflict.2.t
+	desc = NRS_border_conflict.2.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = NRS_border_conflict.2.a
+    }   
+}
+
+country_event = {
+	id = NRS_border_conflict.3
+	title = NRS_border_conflict.3.t
+	desc = NRS_border_conflict.3.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = NRS_border_conflict.3.a
+    }   
+}

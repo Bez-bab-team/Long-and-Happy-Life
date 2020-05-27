@@ -17,6 +17,8 @@ state={
 		victory_points={
 			10697 10
 		}
+		
+		add_core_of = RNE
 	}
 	state_category=city
 }

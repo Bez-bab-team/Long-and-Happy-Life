@@ -4,6 +4,14 @@ state={
 	provinces={
 		223 1893 2273 2388 3906 4438 5667 5804 6374 8439 8713 8844 9595 10202 10780 11039 11074 11093 11099 11102 11104 11123 11136 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		223 2 }	
+	
+	owner = NOR
+	add_core_of = NOR
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }

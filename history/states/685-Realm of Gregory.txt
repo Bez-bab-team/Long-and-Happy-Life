@@ -1,0 +1,17 @@
+state={
+	id=685
+	name="STATE_685"
+	provinces={
+		4017 6041 9441 12327 12334 12335 12372 12383 
+	}
+	history={
+	victory_points = {
+		4017 2 }	
+	
+	owner = PSG
+	add_core_of = PSG
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

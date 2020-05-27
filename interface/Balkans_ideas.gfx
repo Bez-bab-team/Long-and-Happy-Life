@@ -1,0 +1,36 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_ATH_saint_state"
+		texturefile = "gfx/interface/ideas/Balkans/idea_ATH_saint_state.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BUL_new_order"
+		texturefile = "gfx/interface/ideas/Balkans/idea_BUL_new_order.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_gordana_jankuloska"
+		texturefile = "gfx/interface/ideas/Balkans/idea_gordana_jankuloska.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_kyriakos_velopoulos"
+		texturefile = "gfx/interface/ideas/Balkans/idea_kyriakos_velopoulos.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_rumen_ralchev"
+		texturefile = "gfx/interface/ideas/Balkans/idea_rumen_ralchev.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_lulzim_basha"
+		texturefile = "gfx/interface/ideas/Balkans/idea_lulzim_basha.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_MAC_antiquization"
+		texturefile = "gfx/interface/ideas/Balkans/idea_MAC_antiquization.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_iera_koinotita"
+		texturefile = "gfx/interface/ideas/Balkans/idea_iera_koinotita.dds"
+	}
+}
+

@@ -1,0 +1,17 @@
+state={
+	id=684
+	name="STATE_684"
+	provinces={
+		5022 10907 12405 12406 12417 12429 
+	}
+	history={
+	victory_points = {
+		5022 2 }	
+	
+	owner = PSE
+	add_core_of = PSE
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

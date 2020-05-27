@@ -4,6 +4,14 @@ state={
 	provinces={
 		16814 16815 16816 
 	}
-	manpower=0
+	history={
+	victory_points = {
+		16814 2 }	
+	
+	owner = DEN
+	add_core_of = DEN
+	}	
+	state_category=pastoral
+	manpower = 2000
 	buildings_max_level_factor=1.000
 }

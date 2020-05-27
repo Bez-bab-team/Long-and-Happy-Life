@@ -1,0 +1,18 @@
+
+state={
+	id=681
+	name="STATE_681"
+	provinces={
+		7629 7847 9661 12623 12655 12672 
+	}
+	history={
+	victory_points = {
+		7629 2 }	
+	
+	owner = PSS
+	add_core_of = PSS
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

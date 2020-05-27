@@ -1,0 +1,144 @@
+ideas = {
+
+	country = {
+	
+		ATH_saint_state = {
+			
+			picture = ATH_saint_state
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+	
+		BUL_new_order = {
+			
+			picture = BUL_new_order
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+		MAC_antiquization = {
+			
+			picture = MAC_antiquization
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+	}
+
+	head_of_government = {
+	
+		iera_koinotita = {
+
+			picture = iera_koinotita
+			allowed = {
+				original_tag = "ATH"
+			}
+
+			traits = { ideological_crusader }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		gordana_jankuloska = {
+
+			picture = gordana_jankuloska
+			allowed = {
+				original_tag = "MAC"
+			}
+
+			traits = { ideological_crusader }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		kyriakos_velopoulos = {
+
+			picture = kyriakos_velopoulos
+			allowed = {
+				original_tag = "GRE"
+			}
+
+			traits = { maenad }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		lulzim_basha = {
+
+			picture = lulzim_basha
+			allowed = {
+				original_tag = "ALB"
+			}
+
+			traits = { renaissance_man }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		rumen_ralchev = {
+
+			picture = rumen_ralchev
+			allowed = {
+				original_tag = "BUL"
+			}
+
+			traits = { black_monk }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

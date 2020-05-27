@@ -1,0 +1,17 @@
+state={
+	id=683
+	name="STATE_683"
+	provinces={
+		3994 9098 12389 12414 12440 
+	}
+	history={
+	victory_points = {
+		3994 2 }	
+	
+	owner = PSL
+	add_core_of = PSL
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}
