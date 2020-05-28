@@ -39,9 +39,9 @@ bookmarks = {
 				NSU_sacralisationofindustry
 			}
 		}
-		NVS = {
-			history = NVS_LHLBOOKMARK_DESC
-			ideology = neocameralism
+		NRU = {
+			history = NRU_LHLBOOKMARK_DESC
+			ideology = regressionsim
 			ideas={
 				#
 			}
