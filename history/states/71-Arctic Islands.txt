@@ -12,4 +12,5 @@ history={
 		
 		add_core_of = NRU
 	}
+	state_category = wasteland
 }

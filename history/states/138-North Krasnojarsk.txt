@@ -12,4 +12,5 @@ state={
 		
 		add_core_of = USS
 	}
+	state_category=town
 }

@@ -11,5 +11,6 @@ state={
 		
 		add_core_of = RGD
 	}	
+	state_category=rural
 	
 }

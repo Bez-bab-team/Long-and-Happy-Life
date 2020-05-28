@@ -4,11 +4,18 @@ state={
 	provinces={
 		247 1182 2038 2976 5186 5287 5431 5968 6019 6085 6310 8282 8465 9306 9361 9542 9564 9588 13964 13968 13991 14014 14017 14021 14028 14032 14037 14078 14080 14090 14100 14101 14105 14113 14136 14141 14146 14162 
 	}
-	manpower=0
+	manpower=3604123
 	buildings_max_level_factor=1.000
 	history={
 		owner = COU
-		
 		add_core_of = COU
+		victory_points={
+		14100 30
+		}
+		victory_points={
+		6085 15
+		}
 	}	
+	state_category=city
+
 }

@@ -9,7 +9,21 @@ state={
 	buildings_max_level_factor=1.000
 	history={
 		owner = ACH
-		
 		add_core_of = ACH
+
+		victory_points={
+			13961 40
+		}
+		victory_points={
+			13490 20
+		}
+		victory_points={
+			13910 20
+		}
+		victory_points={
+			1697 20
+		}
+
 	}	
+	state_category=large_city
 }

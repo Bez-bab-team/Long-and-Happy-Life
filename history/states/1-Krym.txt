@@ -10,8 +10,20 @@ state={
 	buildings_max_level_factor=1.000
 	history={
 		owner = RGD
-		
 		add_core_of = RGD
-	}	
+
+		victory_points={
+		13978 15
+		}
+
+		victory_points={
+		13915 15
+		}
+
+		victory_points={
+		8453 25
+		}
+	}
+	state_category = city	
 		
 }

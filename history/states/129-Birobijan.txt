@@ -11,4 +11,5 @@ state={
 		
 		add_core_of = CPU
 	}
+	state_category=pastoral
 }

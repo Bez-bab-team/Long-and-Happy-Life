@@ -11,4 +11,5 @@ state={
 		
 		add_core_of = RIS
 	}
+	state_category=large_city
 }

@@ -12,4 +12,5 @@ state={
 		
 		add_core_of = SAH
 	}
+	state_category=town
 }
