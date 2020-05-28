@@ -1,4 +1,4 @@
-capital = 551
+capital = 157
 oob = "ATH_2020"
 
 set_research_slots = 3

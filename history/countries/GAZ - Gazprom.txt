@@ -17,10 +17,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Vladislav Surkov"
+	name = "Vladimir Shamanov"
 	desc = ""
-	picture = "Portrait_GAZ_Vladislav_Surkov.dds"
-	ideology = statecorporation
+	picture = "Portrait_GAZ_Shamanov.dds"
+	ideology = authoritarian_technocracy
 	traits = {
 		
 	}

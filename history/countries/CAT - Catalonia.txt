@@ -1,4 +1,4 @@
-capital = 165
+capital = 290
 
 oob = "CAT_2020"
 

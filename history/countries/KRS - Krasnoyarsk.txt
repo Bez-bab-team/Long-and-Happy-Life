@@ -1,4 +1,4 @@
-﻿capital = 568
+﻿capital = 139
 
 oob = "KRS_2020"
 
@@ -13,18 +13,18 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	right_populism  = 100
 }
 
 create_country_leader = {
-	name = "Grigory Grabovoy"
+	name = "Igor Strelkov"
 	desc = ""
-	picture = "Portrait_RST_KURGINJAN.dds"
-	ideology = agrarian_socialism
+	picture = "Portrait_KRS_Strelkov.dds"
+	ideology = national_populism
 	traits = {
 		
 	}

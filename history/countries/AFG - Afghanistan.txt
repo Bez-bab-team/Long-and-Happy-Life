@@ -1,4 +1,4 @@
-﻿capital = 267
+﻿capital = 634
 
 oob = "AFG_2020"
 

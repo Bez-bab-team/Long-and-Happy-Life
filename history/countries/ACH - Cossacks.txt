@@ -1,4 +1,4 @@
-﻿capital = 792
+﻿capital = 16
 
 oob = "ACH_2020"
 

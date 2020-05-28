@@ -1,4 +1,4 @@
-capital = 44
+capital = 294
 
 oob = "BSQ_2020"
 

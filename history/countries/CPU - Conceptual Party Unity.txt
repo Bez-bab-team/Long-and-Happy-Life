@@ -1,4 +1,4 @@
-﻿capital = 561
+﻿capital = 128
 
 oob = "CPU_2020"
 
