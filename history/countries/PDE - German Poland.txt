@@ -19,3 +19,12 @@ set_politics = {
 set_popularities = {
 	socialism  = 100
 }
+
+create_country_leader = {
+	name = "Robert Biedron"
+	desc = "POLITICS_BIEDRON_DESC"
+	picture = "Portrait_FED_POLAND_BIEDRON.dds"
+	ideology = progressivism 
+	traits = {
+	}
+}
