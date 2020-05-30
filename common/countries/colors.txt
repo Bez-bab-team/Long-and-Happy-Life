@@ -613,3 +613,7 @@ WAL = {
 	color = rgb { 140 57 95 }
 	color_ui = rgb { 140 57 95 }
 }
+SIC = {
+	color = rgb { 140 130 210 }
+	color_ui = rgb { 140 130 210 }
+}

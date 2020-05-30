@@ -8,7 +8,14 @@ state={
 	buildings_max_level_factor=1.000
 	history={
 		owner = SOC
-		
 		add_core_of = SOC
+		
+		victory_points={
+			10614 50
+		}
+
+		victory_points={
+			4081 15
+		}
 	}	
 }

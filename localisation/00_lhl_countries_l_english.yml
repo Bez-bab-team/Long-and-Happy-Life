@@ -348,6 +348,8 @@ LUM_right_populism:0 "L'Unione del Mezzogiorno"
 LUM_right_populism_DEF:0 "L'Unione del Mezzogiorno"
 PAD_right_populism:0 "Padania"
 PAD_right_populism_DEF:0 "Padania"
+SIC_regressionism:0 "Sicilia"
+SIC_regressionism_DEF:0 "Sicilia"
 
 ###CHINA###
 HNG_hegemonism:0 "Hong Kong"
