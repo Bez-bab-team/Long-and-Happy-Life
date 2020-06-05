@@ -18,7 +18,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	ur_fascism = 100
+	ur_fascism = 67
+	regressionism = 16
+	right_populism = 12
+	neocameralism = 5
 }
 
 create_country_leader = {

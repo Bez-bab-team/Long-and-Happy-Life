@@ -1,0 +1,1679 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+
+	
+ 
+	
+	
+	FOCUS_FILTER_RESEARCH = 522
+
+	
+	FOCUS_FILTER_INDUSTRY = 509
+
+}
+
+focus_tree = {
+	id = Medvedev
+	
+	country = {
+		factor = 0
+			modifier = {
+			add = 10
+			tag = RTS
+		}
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+focus = {
+		id = RTS_Beautiful_Saffron
+		icon = GFX_goal_generic_position_armies
+		x = 10
+		y = 0
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+			}
+		}
+		focus = {
+		id = RTS_Jeux_denfants
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Beautiful_Saffron }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Beautiful_Saffron
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		political_power = 10
+			
+			}
+		}
+		focus = {
+		id = RTS_marriage_of_the_Bear_and_the_Tiger
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Jeux_denfants }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Jeux_denfants
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		political_power = 10
+			
+			}
+		}
+		
+focus = {
+		id = RTS_He_return
+		icon = GFX_goal_generic_position_armies
+		x = 20
+		y = 0
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = RTS_Bozhiyeyu_pospeshestvuyushcheyu_milostiyu
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_He_return }
+		x = 0
+		y = 1
+		relative_position_id = RTS_He_return
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		political_power = 10
+			
+			}
+		}
+		
+	focus = {
+		id = RTS_We_Dmitrij_Medvedev
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Bozhiyeyu_pospeshestvuyushcheyu_milostiyu }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Bozhiyeyu_pospeshestvuyushcheyu_milostiyu
+		cost = 10
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+	focus = {
+		id = RTS_Emperor_and_autocrat_All_Russian
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_We_Dmitrij_Medvedev }
+		x = 0
+		y = 1
+		relative_position_id = RTS_We_Dmitrij_Medvedev
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+	
+	focus = {
+		id = RTS_Prince_of_Perm_Vyatka
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Emperor_and_autocrat_All_Russian }
+		x = 2
+		y = 1
+		relative_position_id = RTS_Emperor_and_autocrat_All_Russian
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Tsar_of_Kazan
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Prince_of_Perm_Vyatka }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Prince_of_Perm_Vyatka
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Tsar_of_Astrakhan
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsar_of_Kazan }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Tsar_of_Kazan
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Tsar_of_Siberia
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsar_of_Astrakhan }
+		x = 0
+		y = 1
+		relative_position_id = RTS_Tsar_of_Astrakhan
+		cost = 10
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Grand_Duke_of_Tver
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Emperor_and_autocrat_All_Russian }
+		x = -2
+		y = 1
+		relative_position_id = RTS_Emperor_and_autocrat_All_Russian
+		cost = 2
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Grand_Duke_of_Novgorod
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Tver }
+		x = 1
+		y = 1
+		relative_position_id = RTS_Grand_Duke_of_Tver
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_all_the_Nordic_land_lord
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Tver }
+		x = -1
+		y = 1
+		relative_position_id = RTS_Grand_Duke_of_Tver
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Grand_Duke_of_Finland
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Novgorod  }
+		prerequisite = { focus = RTS_all_the_Nordic_land_lord }
+		x = 1
+		y = 1
+		relative_position_id = RTS_all_the_Nordic_land_lord
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Duke_of_Schleswig_Holstein
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Finland	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Grand_Duke_of_Finland
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Sovereign_of_Pskov_and_Grand_Duke_Smolensky
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Emperor_and_autocrat_All_Russian	}
+		x = -5
+		y = 1
+		relative_position_id = RTS_Emperor_and_autocrat_All_Russian
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Duke_of_Kiev
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Sovereign_of_Pskov_and_Grand_Duke_Smolensky	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Sovereign_of_Pskov_and_Grand_Duke_Smolensky
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Duke_of_Podolsk_and_Volyn
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Duke_of_Kiev	}
+		x = -1
+		y = 1
+		relative_position_id = RTS_Duke_of_Kiev
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Tsar_of_Poland
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Duke_of_Podolsk_and_Volyn	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Duke_of_Podolsk_and_Volyn
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Grand_Duke_of_Litva
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Duke_of_Kiev	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_Duke_of_Kiev
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Duke_of_Estonia_Livonia_Courland_and_Semigale
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Litva	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Grand_Duke_of_Litva
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Grand_Duke_of_Rostov
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Emperor_and_autocrat_All_Russian	}
+		prerequisite = { focus = RTS_Put_an_Don_ultimatum	}
+		x = 5
+		y = 1
+		relative_position_id = RTS_Emperor_and_autocrat_All_Russian
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Tsar_of_Tauric_Chersonesos
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Grand_Duke_of_Rostov	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Grand_Duke_of_Rostov
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Cherkasy_and_Mountain_Princes_Possessor
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsar_of_Tauric_Chersonesos	}
+		x = -1
+		y = 2
+		relative_position_id = RTS_Tsar_of_Tauric_Chersonesos
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Tsar_of_Gegorgia
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsar_of_Tauric_Chersonesos	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_Tsar_of_Tauric_Chersonesos
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Sovereign_of_Turkestan
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Cherkasy_and_Mountain_Princes_Possessor	}
+		prerequisite = { focus = RTS_Tsar_of_Siberia	}
+		x = -1
+		y = 1
+		relative_position_id = RTS_Cherkasy_and_Mountain_Princes_Possessor
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_and_other_and_other_and_other
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Duke_of_Estonia_Livonia_Courland_and_Semigale	}
+		prerequisite = { focus = RTS_Sovereign_of_Turkestan	}
+		prerequisite = { focus = RTS_Duke_of_Schleswig_Holstein	}
+		prerequisite = { focus = RTS_Tsar_of_Poland	}
+		x = 2
+		y = 2
+	
+		relative_position_id = RTS_Duke_of_Schleswig_Holstein
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Militia_Reform
+		icon = GFX_goal_generic_position_armies
+		
+		x = 8
+		y = 0
+	
+		relative_position_id = RTS_He_return
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		
+		focus = {
+		id = RTS_Tsarian_Policai
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Militia_Reform	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Militia_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Raise_the_loyal_Cossacks
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsarian_Policai	}
+		x = -2
+		y = 1
+		relative_position_id = RTS_Tsarian_Policai
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Put_an_Don_ultimatum
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Raise_the_loyal_Cossacks	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Raise_the_loyal_Cossacks
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Cossacks_Integration
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Put_an_Don_ultimatum	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_Put_an_Don_ultimatum
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Invite_Vovka_Soroka
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tsarian_Policai	}
+		x = 2
+		y = 1
+		relative_position_id = RTS_Tsarian_Policai
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_New_Oprichnina
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Invite_Vovka_Soroka	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Invite_Vovka_Soroka
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Secret_Police
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_New_Oprichnina	}
+		x = -1
+		y = 1
+		relative_position_id = RTS_The_New_Oprichnina
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_Great_Resentment
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Secret_Police	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Secret_Police
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_faithful_dogs
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_New_Oprichnina	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_The_New_Oprichnina
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Black_Guard
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_faithful_dogs	}
+		x = 2
+		y = 1
+		relative_position_id = RTS_faithful_dogs
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Pagan_Rituals
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_faithful_dogs	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_faithful_dogs
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_male_brotherhood
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Pagan_Rituals	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_Pagan_Rituals
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_For_Evil_rage_and_torment
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_Great_Resentment	}
+		x = 1
+		y = 1
+		relative_position_id = RTS_The_Great_Resentment
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = RTS_For_good_mercy_and_gentleness
+    }			
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_For_good_mercy_and_gentleness
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_Great_Resentment	}
+		x = -1
+		y = 1
+		relative_position_id = RTS_The_Great_Resentment
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+		mutually_exclusive = {
+        focus = RTS_For_Evil_rage_and_torment
+    }			
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Protect_the_country_from_Chuzhebesya
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_For_Evil_rage_and_torment	
+		focus = RTS_For_good_mercy_and_gentleness}
+		prerequisite = { focus = RTS_male_brotherhood	}
+		x = -2
+		y = 1
+		relative_position_id = RTS_male_brotherhood
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Tretee_Opolchenie
+		icon = GFX_goal_generic_position_armies
+		
+		x = 10
+		y = 0
+		relative_position_id = RTS_Militia_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_Dogs_of_war
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tretee_Opolchenie	}
+		x = 2
+		y = 1
+		relative_position_id = RTS_Tretee_Opolchenie
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Panzer_Vor
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_Dogs_of_war	}
+		mutually_exclusive = { focus = RTS_Russian_spirit }
+		x = -1
+		y = 1
+		relative_position_id = RTS_The_Dogs_of_war
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Open_warehouses
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tretee_Opolchenie	}
+		x = 0
+		y = 1
+		relative_position_id = RTS_Tretee_Opolchenie
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Recruit_training
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tretee_Opolchenie	}
+		x = -2
+		y = 1
+		relative_position_id = RTS_Tretee_Opolchenie
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Russian_spirit
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Recruit_training	}
+		mutually_exclusive = { focus = RTS_Panzer_Vor }
+		x = 1
+		y = 1
+		relative_position_id = RTS_Recruit_training
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Yunarmy_Reform
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Recruit_training	}
+		
+		x = -1
+		y = 1
+		relative_position_id = RTS_Recruit_training
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Army_Reform
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Russian_spirit
+				focus = RTS_Panzer_Vor }
+		
+		x = 1
+		y = 1
+		relative_position_id = RTS_Russian_spirit
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Beach_of_the_Caucasus
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Army_Reform }
+		
+		x = 1
+		y = 1
+		relative_position_id = RTS_Army_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_White_Sun_Project
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Beach_of_the_Caucasus }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Beach_of_the_Caucasus
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Reform_RVSN
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_White_Sun_Project }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_White_Sun_Project
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_After_us_silence
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Reform_RVSN }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Reform_RVSN
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Reforma_Opolchenia
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Army_Reform }
+		
+		x = -1
+		y = 1
+		relative_position_id = RTS_Army_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Russian_Emperor_Army
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Reforma_Opolchenia }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Reforma_Opolchenia
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_In_the_name_of_grandfathers_and_fathers
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Russian_Emperor_Army }
+		
+		x = -2
+		y = 1
+		relative_position_id = RTS_Russian_Emperor_Army
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Lebedev_Reform
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Russian_Emperor_Army }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Russian_Emperor_Army
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_New_generation_armored_vehicles
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Lebedev_Reform }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Lebedev_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Foreign_troops
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Army_Reform }
+		
+		x = -3
+		y = 1
+		relative_position_id = RTS_Army_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Armor_is_the_key_to_victory
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Army_Reform }
+		
+		x = 3
+		y = 1
+		relative_position_id = RTS_Army_Reform
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Tanki_Gryazi_Ne_Boyatsya
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Armor_is_the_key_to_victory }
+		
+		x = 2
+		y = 1
+		relative_position_id = RTS_Armor_is_the_key_to_victory
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Russian_Blitzkrieg_Infrastructure
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Tanki_Gryazi_Ne_Boyatsya }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Tanki_Gryazi_Ne_Boyatsya
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Raise_new_heroes
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Armor_is_the_key_to_victory }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Armor_is_the_key_to_victory
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Increase_the_power_of_the_MIC
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Raise_new_heroes }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Raise_new_heroes
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_TsarTank
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Increase_the_power_of_the_MIC }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Increase_the_power_of_the_MIC
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_NEP
+		icon = GFX_goal_generic_position_armies
+		
+		
+		x = -1
+		y = 3
+		relative_position_id = RTS_In_the_name_of_grandfathers_and_fathers
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_TsarTank
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Increase_the_power_of_the_MIC }
+		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Increase_the_power_of_the_MIC
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Free_Market
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_NEP }
+		mutually_exclusive = { focus = RTS_Rotenberg_Fond }		
+		x = 2
+		y = 1
+		relative_position_id = RTS_NEP
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Enough_nightmare_business
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Free_Market }		
+		x = 2
+		y = 1
+		relative_position_id = RTS_Free_Market
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Housing_Reform
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Free_Market }		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Free_Market
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Rotenberg_Fond
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_NEP }
+		mutually_exclusive = { focus = RTS_Free_Market }	
+		x = -2
+		y = 1
+		relative_position_id = RTS_NEP
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+				focus = {
+		id = RTS_Rebuild_military_factories
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Rotenberg_Fond }		
+		x = 0
+		y = 1
+		relative_position_id = RTS_Rotenberg_Fond
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Priority_national_projects
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Rotenberg_Fond }		
+		x = -2
+		y = 1
+		relative_position_id = RTS_Rotenberg_Fond
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+focus = {
+		id = RTS_Medvedev_baroque
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Rebuild_military_factories
+						 focus = RTS_Housing_Reform}		
+		x = 2
+		y = 1
+		relative_position_id = RTS_Rebuild_military_factories
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Reconstruction_of_Moscow
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Medvedev_baroque}		
+		x = -2
+		y = 1
+		relative_position_id = RTS_Medvedev_baroque
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_New_Prom_Zone
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Reconstruction_of_Moscow}		
+		x = 1
+		y = 2
+		relative_position_id = RTS_Reconstruction_of_Moscow
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_FRG
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Reconstruction_of_Moscow}
+		prerequisite = { focus = RTS_Give_freedom_to_creators}
+		x = 2
+		y = 1
+		relative_position_id = RTS_Reconstruction_of_Moscow
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Give_freedom_to_creators
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Medvedev_baroque}		
+		x = 2
+		y = 1
+		relative_position_id = RTS_Medvedev_baroque
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_heyday_of_the_new_Russian_culture
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Give_freedom_to_creators}
+		x = -1
+		y = 2
+		relative_position_id = RTS_Give_freedom_to_creators
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Da_Ya_I_Ne_Bolel
+		icon = GFX_goal_generic_position_armies
+		
+		x = -10
+		y = 0
+		relative_position_id = RTS_NEP
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_cultural_evolution
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Da_Ya_I_Ne_Bolel}
+		x = -2
+		y = 1
+		relative_position_id = RTS_Da_Ya_I_Ne_Bolel
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Decommunization
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_cultural_evolution}
+		x = -2
+		y = 1
+		relative_position_id = RTS_cultural_evolution
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Demonization_of_the_Red_Vozhd
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Decommunization}
+		x = -1
+		y = 1
+		relative_position_id = RTS_Decommunization
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Anathema_to_the_USSR
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Decommunization}
+		x = 1
+		y = 1
+		relative_position_id = RTS_Decommunization
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_fight_against_nationalism
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_cultural_evolution}
+		x = 1
+		y = 1
+		relative_position_id = RTS_cultural_evolution
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Freedom_is_better_than_unfreedom
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_fight_against_nationalism}
+		x = 0
+		y = 1
+		relative_position_id = RTS_The_fight_against_nationalism
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_Long_live_the_federation
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_fight_against_nationalism}
+		x = 2
+		y = 1
+		relative_position_id = RTS_The_fight_against_nationalism
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_No_one_will_return_in_2007
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_Da_Ya_I_Ne_Bolel}
+		x = 2
+		y = 1
+		relative_position_id = RTS_Da_Ya_I_Ne_Bolel
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_We_are_too_hooked_on_an_imported_needle
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_No_one_will_return_in_2007}
+		x = -1
+		y = 1
+		relative_position_id = RTS_No_one_will_return_in_2007
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_The_cult_of_personality
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_No_one_will_return_in_2007}
+		x = 1
+		y = 1
+		relative_position_id = RTS_No_one_will_return_in_2007
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+		focus = {
+		id = RTS_What_I_say_in_granite_is_cast
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RTS_The_cult_of_personality}
+		x = 0
+		y = 1
+		relative_position_id = RTS_The_cult_of_personality
+		cost = 1
+		
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			
+			}
+		}
+}
