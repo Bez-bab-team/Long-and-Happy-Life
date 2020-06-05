@@ -1,0 +1,128 @@
+bookmarks={
+	bookmark = {
+		name = "WODBOOKMARK_NAME"
+		desc = "WODBOOKMARK_DESC"
+		date = 2020.1.1.14
+		picture = "GFX_select_date_1939"
+		default_country = "ESS"
+
+		ESS = {
+			history = ESS_WODBOOKMARK_DESC
+			ideology = national_bolshevism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		KNT = {
+			history = KNT_WODBOOKMARK_DESC
+			ideology = right_populism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		SUS = {
+			history = SUS_WODBOOKMARK_DESC
+			ideology = commendationism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		WES = {
+			history = WES_WODBOOKMARK_DESC
+			ideology = regressionsim
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		MRC = {
+			history = MRC_WODBOOKMARK_DESC
+			ideology = ur_fascism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		NTH = {
+			history = NTH_WODBOOKMARK_DESC
+			ideology = national_bolshevism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+		EAG = {
+			history = EAG_WODBOOKMARK_DESC
+			ideology = hegemonism
+			ideas={
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		"---"={
+			history = "OTHER_LHLBOOKMARK_DESC"
+		}
+
+		# Minors
+
+		SCO = {
+			minor = yes
+			history = "SCO_WODBOOKMARK_DESC"
+			ideology = right_populism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		WLS = {
+			minor = yes
+			history = "WLS_WODBOOKMARK_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		IRE = {
+			minor = yes
+			history = "IRE_WODBOOKMARK_DESC"
+			ideology = regressionism
+			ideas = {
+				#
+			}
+			focuses = {
+				#
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+
+	}
+}

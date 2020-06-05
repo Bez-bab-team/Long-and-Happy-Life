@@ -86,17 +86,6 @@ bookmarks = {
 
 		# Minors
 
-		NRU = {
-			minor = yes
-			history = "NRU_LHLBOOKMARK_DESC"
-			ideology = regressionism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
 		CHS = {
 			minor = yes
 			history = "CHS_LHLBOOKMARK_DESC"

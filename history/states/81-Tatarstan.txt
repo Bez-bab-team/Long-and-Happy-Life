@@ -9,6 +9,10 @@ state={
 		history={
 		owner = TAT	
 		add_core_of = TAT
+		victory_points = {
+			680 40
+		}
+
 	}
 	state_category=large_city
 }
