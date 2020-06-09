@@ -12,6 +12,6 @@ state={
 	add_core_of = WLS
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower = 3400204
 	buildings_max_level_factor=1.000
 }
