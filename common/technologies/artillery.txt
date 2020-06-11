@@ -6,6 +6,7 @@ technologies = {
 		
 		enable_equipments = {
 			rocket_artillery_0
+			artillery_equipment_1
 		}
 		
 		path = {
@@ -17,7 +18,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 0 }
+			position = { x = -8 y = 0 }
 		}
 		
 		categories = {
@@ -42,7 +43,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 2 }
+			position = { x = -8 y = 2 }
 		}
 		
 		categories = {
@@ -67,7 +68,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 4 }
+			position = { x = -8 y = 4 }
 		}
 		
 		categories = {
@@ -84,6 +85,7 @@ technologies = {
 		start_year = 2020
 		
 		enable_equipments = {
+			artillery_equipment_1
 			rocket_artillery_1
 		}
 		
@@ -96,7 +98,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 6 }
+			position = { x = -8 y = 6 }
 		}
 		
 		categories = {
@@ -116,7 +118,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = -3 y = 8 }
+			position = { x = -8 y = 8 }
 		}
 		
 		categories = {
@@ -134,6 +136,7 @@ technologies = {
 		
 		enable_equipments = {
 			howitzer_0
+			artillery_equipment_1
 		}
 		
 		path = {
@@ -145,7 +148,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 0 }
+			position = { x = -5 y = 0 }
 		}
 		
 		categories = {
@@ -171,7 +174,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 2 }
+			position = { x = -5 y = 2 }
 		}
 		
 		categories = {
@@ -189,6 +192,7 @@ technologies = {
 		
 		enable_equipments = {
 			howitzer_1
+			artillery_equipment_1
 		}
 		
 		path = {
@@ -200,7 +204,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 4 }
+			position = { x = -5 y = 4 }
 		}
 		
 		categories = {
@@ -229,7 +233,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 6 }
+			position = { x = -5 y = 6 }
 		}
 		
 		categories = {
@@ -247,141 +251,14 @@ technologies = {
 		
 		enable_equipments = {
 			howitzer_2
+			artillery_equipment_1
 		}
 		
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 0 y = 8 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		mortars = {
-	
-		start_year = 1980
-		
-		enable_equipments = {
-			mortars_0
-		}
-		
-		path = {
-			leads_to_tech = mortars2
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 0 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		mortars2 = {
-	
-		start_year = 2012
-		
-		path = {
-			leads_to_tech = mortars3
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		mortars3 = {
-	
-		start_year = 2015
-		
-		path = {
-			leads_to_tech = mortars4
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 4 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-		mortars4 = {
-	
-		start_year = 2020
-		
-		enable_equipments = {
-			mortars_1
-		}
-		
-		path = {
-			leads_to_tech = mortars5
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 6 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	mortars5 = {
-	
-		start_year = 2025
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 3 y = 8 }
+			position = { x = -5 y = 8 }
 		}
 		
 		categories = {
@@ -399,6 +276,7 @@ technologies = {
 		
 		enable_equipments = {
 			spg_0
+			artillery_equipment_1
 		}
 		
 		path = {
@@ -410,7 +288,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 0 }
+			position = { x = -1 y = 0 }
 		}
 		
 		categories = {
@@ -435,7 +313,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 2 }
+			position = { x = -1 y = 2 }
 		}
 		
 		categories = {
@@ -458,13 +336,14 @@ technologies = {
 		
 		enable_equipments = {
 			spg_1
+			artillery_equipment_1
 		}
 		
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 4 }
+			position = { x = -1 y = 4 }
 		}
 		
 		categories = {
@@ -489,7 +368,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 6 }
+			position = { x = -1 y = 6 }
 		}
 		
 		categories = {
@@ -513,7 +392,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 7 y = 8 }
+			position = { x = -1 y = 8 }
 		}
 		
 		categories = {
@@ -536,13 +415,14 @@ technologies = {
 
 		enable_equipments = {
 			anti_air_0
+			artillery_equipment_1
 		}
 		
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 11 y = 0 }
+			position = { x = 2 y = 0 }
 		}
 		
 		categories = {
@@ -567,7 +447,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 11 y = 2 }
+			position = { x = 2 y = 2 }
 		}
 		
 		categories = {
@@ -590,13 +470,14 @@ technologies = {
 
 		enable_equipments = {
 			anti_air_1
+			artillery_equipment_1
 		}
 		
 		research_cost = 1.5
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 11 y = 4 }
+			position = { x = 2 y = 4 }
 		}
 		
 		categories = {
@@ -621,11 +502,12 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 11 y = 6 }
+			position = { x = 2 y = 6 }
 		}
 		
 		categories = {
 			artillery
+			artillery_equipment_1
 		}
 		
 		ai_will_do = {
@@ -645,7 +527,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 11 y = 8 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
