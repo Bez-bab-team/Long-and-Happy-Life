@@ -1,0 +1,155 @@
+focus_tree = {
+	id = speech
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			tag = RGD
+		}
+	}
+
+	focus = {
+		id = RGD_speechifier
+		icon = GFX_RGD
+		cost = 10
+		x = 1
+		y = 0
+	}
+	focus = {
+		id = RGD_industrial_projects
+		icon = GFX_RGD
+		cost = 10
+		x = 9
+		y = 0
+	}
+	focus = {
+		id = RGD_confusing
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		mutually_exclusive = {
+			focus = RGD_totalitarian
+		}
+		x = 5
+		y = 1
+	}
+	focus = {
+		id = RGD_totalitarian
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		mutually_exclusive = {
+			focus = RGD_totalitarian
+		}
+		x = 7
+		y = 1
+	}
+	focus = {
+		id = RGD_expand
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		mutually_exclusive = {
+			focus = RGD_secret
+		}
+		x = 11
+		y = 1
+	}
+	focus = {
+		id = RGD_secret
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		mutually_exclusive = {
+			focus = RGD_expand
+		}
+		x = 13
+		y = 1
+	}
+	focus = {
+		id = RGD_roads
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		x = 8
+		y = 3
+	}
+	focus = {
+		id = RGD_structures
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_industrial_projects
+		}
+		x = 10
+		y = 3
+	}
+		focus = {
+		id = RGD_town
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_confusing
+		}
+		x = 5
+		y = 2
+	}
+	focus = {
+		id = RGD_camera
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_totalitarian
+		}
+		x = 7
+		y = 2
+	}
+	focus = {
+		id = RGD_backrooms
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_expand
+		}
+		x = 11
+		y = 2
+	}
+	focus = {
+		id = RGD_research
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_secret
+		}
+		x = 13
+		y = 2
+	}
+	focus = {
+		id = RGD_ra2
+		icon = GFX_RGD
+		cost = 10
+		prerequisite = {
+			focus = RGD_roads
+		}
+		prerequisite = {
+			focus = RGD_structures
+		}
+		x = 9
+		y = 4
+	}
+}
