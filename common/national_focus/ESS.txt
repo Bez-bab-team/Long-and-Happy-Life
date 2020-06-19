@@ -1,7 +1,12 @@
 focus_tree = {
-	id = New_file
+	id = ESS_focus
+	default = no
 	country = {
-		factor = 1
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ESS
+        }
 	}
 	
 	continuous_focus_position = { x = 3150 y = 85 }
