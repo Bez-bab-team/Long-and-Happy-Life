@@ -1,0 +1,23 @@
+focus_tree = {
+	id = drunk
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 6
+			tag = RGD
+		}
+	}
+
+	focus = {
+		id = RGD_drunkard
+		icon = GFX_RGD
+		cost = 10
+		x = 9
+		y = 0
+	}
+}

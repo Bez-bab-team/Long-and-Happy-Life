@@ -1,0 +1,675 @@
+add_namespace = RGD_event
+
+country_event = {
+	id = RGD_event.1
+	title = RGD_event.1.t
+	desc = RGD_event.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = speech_RGD_event.1.a
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_RGD_event.1.b
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+	option = {
+		name = banquet_RGD_event.1.c
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.2
+	title = RGD_event.2.t
+	desc = RGD_event.2.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_RGD_event.2.a
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = diplomat_RGD_event.2.b
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_RGD_event.2.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.3
+	title = RGD_event.3.t
+	desc = RGD_event.3.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = kuchma_fight.1.a
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+	option = {
+		name = diplomat_fight.1.b
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = banquet_fight.1.c
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.4
+	title = RGD_event.4.t
+	desc = RGD_event.4.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = drunk_mass.1.a
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_mass.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_mass.1.c
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.5
+	title = RGD_event.5.t
+	desc = RGD_event.5.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_doctrine.1.a
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_doctrine.1.b
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_doctrine.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.6
+	title = RGD_event.6.t
+	desc = RGD_event.6.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_guns.1.a
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+	option = {
+		name = diplomat_guns.1.b
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_guns.1.c
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.7
+	title = RGD_event.7.t
+	desc = RGD_event.7.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_issue.1.a
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_issue.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_issue.1.c
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.8
+	title = RGD_event.8.t
+	desc = RGD_event.8.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_work.1.a
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_work.1.b
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+	option = {
+		name = banquet_work.1.c
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.9
+	title = RGD_event.9.t
+	desc = RGD_event.9.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = speech_media.1.a
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_media.1.b
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_media.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.10
+	title = RGD_event.10.t
+	desc = RGD_event.10.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_mountain.1.a
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_mountain.1.b
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_mountain.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.11
+	title = RGD_event.11.t
+	desc = RGD_event.11.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = speech_insurgents.1.a
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = banquet_insurgents.1.b
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+	option = {
+		name = diplomat_insurgents.1.c
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.12
+	title = RGD_event.12.t
+	desc = RGD_event.12.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_industry.1.a
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_industry.1.b
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_industry.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.13
+	title = RGD_event.13.t
+	desc = RGD_event.13.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = drunk_border.1.a
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_border.1.b
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_border.1.c
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.14
+	title = RGD_event.14.t
+	desc = RGD_event.14.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = drunk_crimea.1.a
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+	option = {
+		name = diplomat_crimea.1.b
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_crimea.1.c
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.15
+	title = RGD_event.15.t
+	desc = RGD_event.15.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_sea.1.a
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = speech_sea.1.b
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
+	}
+	option = {
+		name = drunk_sea.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.16
+	title = RGD_event.16.t
+	desc = RGD_event.16.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_partners.1.a
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_partners.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = banquet_partners.1.c
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.17
+	title = RGD_event.17.t
+	desc = RGD_event.17.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_policy.1.a
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_policy.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_policy.1.c
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.18
+	title = RGD_event.18.t
+	desc = RGD_event.18.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_ukraine.1.a
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
+	}
+	option = {
+		name = udmurt_ukraine.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
+	}
+	option = {
+		name = kuchma_ukraine.1.c
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
+	}
+}
+
+country_event = {
+	id = RGD_event.19
+	title = RGD_event.19.t
+	desc = RGD_event.19.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = wake_up.1.a
+		if = {
+		    limit = {
+		        check_variable = {putin_speech_variable > putin_udmurt_variable}
+				check_variable = {putin_speech_variable > putin_diplomat_variable}
+				check_variable = {putin_speech_variable > putin_kuchma_variable}
+				check_variable = {putin_speech_variable > putin_banquet_variable}
+				check_variable = {putin_speech_variable > putin_drunk_variable}
+			}
+			load_focus_tree = speech
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_udmurt_variable > putin_speech_variable}
+				check_variable = {putin_udmurt_variable > putin_diplomat_variable}
+				check_variable = {putin_udmurt_variable > putin_kuchma_variable}
+				check_variable = {putin_udmurt_variable > putin_banquet_variable}
+				check_variable = {putin_udmurt_variable > putin_drunk_variable}
+			}
+			load_focus_tree = udmurt
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_diplomat_variable > putin_udmurt_variable}
+				check_variable = {putin_diplomat_variable > putin_speech_variable}
+				check_variable = {putin_diplomat_variable > putin_kuchma_variable}
+				check_variable = {putin_diplomat_variable > putin_banquet_variable}
+				check_variable = {putin_diplomat_variable > putin_drunk_variable}
+			}
+			load_focus_tree = diplomat
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_kuchma_variable > putin_udmurt_variable}
+				check_variable = {putin_kuchma_variable > putin_diplomat_variable}
+				check_variable = {putin_kuchma_variable > putin_speech_variable}
+				check_variable = {putin_kuchma_variable > putin_banquet_variable}
+				check_variable = {putin_kuchma_variable > putin_drunk_variable}
+			}
+			load_focus_tree = kuchma
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_banquet_variable > putin_udmurt_variable}
+				check_variable = {putin_banquet_variable > putin_diplomat_variable}
+				check_variable = {putin_banquet_variable > putin_kuchma_variable}
+				check_variable = {putin_banquet_variable > putin_speech_variable}
+				check_variable = {putin_banquet_variable > putin_drunk_variable}
+			}
+			load_focus_tree = banquet
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_drunk_variable > putin_udmurt_variable}
+				check_variable = {putin_drunk_variable > putin_diplomat_variable}
+				check_variable = {putin_drunk_variable > putin_kuchma_variable}
+				check_variable = {putin_drunk_variable > putin_banquet_variable}
+				check_variable = {putin_drunk_variable  > putin_drunk_variable}
+			}
+			load_focus_tree = drunk
+		}
+        else_if = {
+		    limit = {
+			    check_variable = {putin_speech_variable = putin_udmurt_variable}
+			    check_variable = {putin_speech_variable = putin_diplomat_variable}
+			    check_variable = {putin_speech_variable = putin_kuchma_variable}
+			    check_variable = {putin_speech_variable = putin_banquet_variable}
+			    check_variable = {putin_speech_variable = putin_drunk_variable}
+			    check_variable = {putin_udmurt_variable = putin_diplomat_variable}
+			    check_variable = {putin_udmurt_variable = putin_kuchma_variable}
+			    check_variable = {putin_udmurt_variable = putin_banquet_variable}
+			    check_variable = {putin_udmurt_variable = putin_drunk_variable}
+			    check_variable = {putin_diplomat_variable = putin_kuchma_variable}
+			    check_variable = {putin_diplomat_variable = putin_banquet_variable}
+			    check_variable = {putin_diplomat_variable = putin_drunk_variable}
+			    check_variable = {putin_kuchma_variable = putin_banquet_variable}
+			    check_variable = {putin_kuchma_variable = putin_drunk_variable}
+			    check_variable = {putin_banquet_variable = putin_drunk_variable}
+			}
+			load_focus_tree = original
+		}
+		else = {
+		    limit = {}
+		    load_focus_tree = drunk
+	    }
+	}
+}
