@@ -110,8 +110,8 @@
  ESS_cultural_revolution:0 "Cultural Revolution"
  ESS_cultural_revolution_desc:0 "Cultural Revolution"
  
- ESS_postsecularism:0 "Postsecularism"
- ESS_postsecularism_desc:0 "Postsecularism"
+ ESS_postsecularism:0 "Secularism"
+ ESS_postsecularism_desc:0 "Secularism"
  
  ESS_psychical_nomadism:0 "Psychical Nomadism"
  ESS_psychical_nomadism_desc:0 "Psychical Nomadism"
@@ -390,8 +390,8 @@
  ESS_social_darwinism:0 "Social Darwinism"
  ESS_social_darwinism_desc:0 "Social Darwinism"  
  
- ESS_thelema:0 "Conversion of Civil Aviation"
- ESS_thelema_desc:0 "Conversion of Civil Aviation"  
+ ESS_thelema:0 "Thelemic England"
+ ESS_thelema_desc:0 "Thelemic England"  
  
  ESS_encourage_rivalry:0 "Encourage Rivalry"
  ESS_encourage_rivalry_desc:0 "Encourage Rivalry"  
@@ -404,3 +404,15 @@
  
  ESS_revival_of_formula_one:0 "Revival of Formula One"
  ESS_revival_of_formula_one_desc:0 "Revival of Formula One"  
+ 
+ ###guns###
+ ESS_infantry_equipment_0:0 "L1A2"
+ ESS_infantry_equipment_0_short:0 "L1A2"
+ ESS_infantry_equipment_1:0 "L85A1"
+ ESS_infantry_equipment_1_short:0 "L85A1"
+ ESS_infantry_equipment_2:0 "L85A2"
+ ESS_infantry_equipment_2_short:0 "L85A2"
+ ESS_infantry_equipment_3:0 "L85A3"
+ ESS_infantry_equipment_3_short:0 "L85A3"
+ ESS_infantry_equipment_4:0 "L119A2"
+ ESS_infantry_equipment_4_short:0 "L119A2"
