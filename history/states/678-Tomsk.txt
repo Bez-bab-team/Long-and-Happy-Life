@@ -11,4 +11,5 @@ state={
 	owner = KRS
 	add_core_of = KRS
 	}
+	state_category=city
 }

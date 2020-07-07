@@ -11,4 +11,5 @@ state={
 		
 		add_core_of = STM
 	}
+	state_category=city
 }

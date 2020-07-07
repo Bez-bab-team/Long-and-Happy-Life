@@ -1,4 +1,4 @@
-capital = 169
+capital = 299
 
 oob = "AND_2020"
 

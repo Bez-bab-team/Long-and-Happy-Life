@@ -12,4 +12,5 @@ state={
 		
 		add_core_of = VOL
 	}
+	state_category=town
 }

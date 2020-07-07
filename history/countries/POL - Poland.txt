@@ -12,18 +12,28 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	left_authoritarianism = 100
 }
 
 create_country_leader = {
 	name = "Janusz Korwin-Mikke"
 	desc = "POLITICS_KORWIN_MIKKE_DESC"
-	picture = "Portrait_Poland_Korwin_Mikke.dds"
+	picture = "Portrait_Salvation_Poland_Korwin_Mikke.dds"
 	ideology = hoppean_libertarianism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrzej Lepper"
+	desc = "POLITICS_ANDZEJ_LEPPER_DESC"
+	picture = "Portrait_Salvation_Poland_Andrzej_Lepper.dds"
+	ideology = paternalism
 	traits = {
 		#
 	}

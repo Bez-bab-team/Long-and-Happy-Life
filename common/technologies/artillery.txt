@@ -1,0 +1,946 @@
+technologies = {
+
+	rocket_artillery = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			rocket_artillery_0
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = rocket_artillery2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	rocket_artillery2 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = rocket_artillery3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		rocket_artillery3 = {
+	
+		start_year = 2015
+		
+		path = {
+			leads_to_tech = rocket_artillery4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		rocket_artillery4 = {
+	
+		start_year = 2020
+		
+		enable_equipments = {
+			artillery_equipment_1
+			rocket_artillery_1
+		}
+		
+		path = {
+			leads_to_tech = rocket_artillery5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		rocket_artillery5 = {
+
+		path = {
+			leads_to_tech = rocket_artillery6
+			research_cost_coeff = 1
+		}
+		
+		start_year = 2025
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		rocket_artillery6 = {
+	
+		start_year = 2025
+		
+		research_cost = 1.5
+		
+		path = {
+			leads_to_tech = rocket_artillery7
+			research_cost_coeff = 1
+		}	
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+		rocket_artillery7 = {
+	
+		start_year = 2025
+		
+		research_cost = 1.5
+
+		enable_equipments = {
+			artillery_equipment_1
+			rocket_artillery_1
+		}
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -8 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+
+	tactical_ballistic_missile = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = tactical_ballistic_missile2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+		tactical_ballistic_missile2 = {
+	
+		start_year = 2012
+		
+		
+		path = {
+			leads_to_tech = tactical_ballistic_missile3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		tactical_ballistic_missile3 = {
+	
+		start_year = 2015
+		
+		path = {
+			leads_to_tech = tactical_ballistic_missile4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		tactical_ballistic_missile4 = {
+	
+		start_year = 2020
+		
+		enable_equipments = {
+			howitzer_1
+		}
+
+		enable_equipments = {
+			howitzer_1
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = tactical_ballistic_missile5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		tactical_ballistic_missile5 = {
+	
+		start_year = 2025
+
+		path = {
+			leads_to_tech = tactical_ballistic_missile6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		tactical_ballistic_missile6 = {
+	
+		start_year = 2025
+		
+		enable_equipments = {
+			howitzer_2
+			artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = tactical_ballistic_missile7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+		tactical_ballistic_missile7 = {
+	
+		start_year = 2025
+		
+		enable_equipments = {
+			howitzer_2
+			artillery_equipment_1
+		}
+
+		enable_equipments = {
+			howitzer_2
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+	howitzer = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			howitzer_0
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = howitzer2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		howitzer2 = {
+	
+		start_year = 2012
+		
+		
+		path = {
+			leads_to_tech = howitzer3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		howitzer3 = {
+	
+		start_year = 2015
+		
+		path = {
+			leads_to_tech = howitzer4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		howitzer4 = {
+	
+		start_year = 2020
+		
+		enable_equipments = {
+			howitzer_1
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = howitzer5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		howitzer5 = {
+	
+		start_year = 2025
+		
+		path = {
+			leads_to_tech = howitzer6
+			research_cost_coeff = 1
+		}		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+		howitzer6 = {
+	
+		start_year = 2025
+		
+		path = {
+			leads_to_tech = howitzer7
+			research_cost_coeff = 1
+		}			
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+		howitzer7 = {
+	
+		start_year = 2025
+		
+		enable_equipments = {
+			howitzer_2
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	spg = {
+	
+		start_year = 1980
+		
+		enable_equipments = {
+			spg_0
+			artillery_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = spg2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		spg2 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = spg3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		spg3 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = spg4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		spg4 = {
+	
+		start_year = 2015
+		
+		path = {
+			leads_to_tech = spg5
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			spg_2
+		}
+		
+		enable_equipments = {
+			spg_1
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		spg5 = {
+	
+		start_year = 2020
+		
+		
+		research_cost = 1.5
+		
+		path = {
+			leads_to_tech = spg6
+			research_cost_coeff = 1
+		}		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+		spg6 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = spg7
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+		spg7 = {
+	
+		start_year = 2012
+				
+		research_cost = 1.5
+
+		enable_equipments = {
+			spg_2
+			artillery_equipment_1
+		}
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		anti_air = {
+	
+		start_year = 1980
+		
+		path = {
+			leads_to_tech = anti_air2
+			research_cost_coeff = 1
+		}
+
+		enable_equipments = {
+			anti_air_0
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		anti_air2 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = anti_air3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		anti_air3 = {
+	
+		start_year = 2012
+		
+		path = {
+			leads_to_tech = anti_air4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		anti_air4 = {
+	
+		start_year = 2015
+		
+		path = {
+			leads_to_tech = anti_air5
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			anti_air_1
+			artillery_equipment_1
+		}
+		
+		research_cost = 1.5
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			artillery
+			artillery_equipment_1
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+		anti_air5 = {
+	
+		start_year = 2020
+			
+		research_cost = 1.5
+		
+		path = {
+			leads_to_tech = anti_air6
+			research_cost_coeff = 1
+		}		
+		enable_equipments = {
+			anti_air_2
+		}
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+	
+		anti_air6 = {
+	
+		start_year = 2020
+			
+		research_cost = 1.5
+		
+		path = {
+			leads_to_tech = anti_air7
+			research_cost_coeff = 1
+		}	
+	
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+		anti_air7 = {
+	
+		start_year = 2020
+			
+		research_cost = 1.5
+		
+		enable_equipments = {
+			anti_air_2
+			artillery_equipment_1
+		}
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}	
+}

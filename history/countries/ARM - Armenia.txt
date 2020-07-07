@@ -1,4 +1,4 @@
-﻿capital = 230 #Yerevan, Armenia
+﻿capital = 112 #Yerevan, Armenia
 
 oob = "ARM_2020"
 

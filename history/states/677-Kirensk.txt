@@ -4,11 +4,12 @@ state={
 	provinces={
 		62 409 523 1114 1677 1948 2325 2376 2524 2760 3221 3405 3827 4216 4553 4867 5697 5737 6171 6950 7283 7325 7632 8014 8360 13395 13448 13681 13816 13838 
 	}
-	manpower=0
+	manpower=73021
 	buildings_max_level_factor=1.000
 		history={	
 	
 	owner = GUL
 	add_core_of = GUL
 	}
+	state_category=rural
 }

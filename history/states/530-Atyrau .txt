@@ -11,4 +11,5 @@ state={
 		
 		add_core_of = RNG
 	}
+	state_category=rural
 }

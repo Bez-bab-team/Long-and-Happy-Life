@@ -1,0 +1,6 @@
+﻿l_english:
+ state_resource_rubber:0 "Rare-earth Metal"
+ temporary_state_resource_rubber:0 "Rare-earth Metal"
+ country_resource_rubber:0 "Rare-earth Metal"
+ state_resource_cost_rubber:0 "Rare-earth Metal Consumption"
+ country_resource_cost_rubber:0 "Rare-earth Metal Consumption"

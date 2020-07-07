@@ -1,4 +1,4 @@
-﻿capital = 234
+﻿capital = 5
 
 oob = "COU_2020"
 

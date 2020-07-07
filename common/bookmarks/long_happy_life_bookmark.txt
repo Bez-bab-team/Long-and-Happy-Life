@@ -39,9 +39,9 @@ bookmarks = {
 				NSU_sacralisationofindustry
 			}
 		}
-		NVS = {
-			history = NVS_LHLBOOKMARK_DESC
-			ideology = neocameralism
+		NRU = {
+			history = NRU_LHLBOOKMARK_DESC
+			ideology = regressionsim
 			ideas={
 				#
 			}
@@ -86,17 +86,6 @@ bookmarks = {
 
 		# Minors
 
-		NRU = {
-			minor = yes
-			history = "NRU_LHLBOOKMARK_DESC"
-			ideology = regressionism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
 		CHS = {
 			minor = yes
 			history = "CHS_LHLBOOKMARK_DESC"

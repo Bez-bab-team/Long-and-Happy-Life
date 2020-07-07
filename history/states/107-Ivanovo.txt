@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = FRS
-		
 		add_core_of = FRS
 	}
+	state_category=city
 }

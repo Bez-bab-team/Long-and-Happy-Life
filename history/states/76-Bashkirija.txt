@@ -9,7 +9,7 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = BSK
-		
 		add_core_of = BSK
 	}
+	state_category=city
 }

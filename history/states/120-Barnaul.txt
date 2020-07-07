@@ -11,4 +11,5 @@ state={
 		
 		add_core_of = NVS
 	}
+	state_category=city
 }

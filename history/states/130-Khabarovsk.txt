@@ -12,4 +12,5 @@ state={
 		
 		add_core_of = RIS
 	}
+	state_category=town
 }

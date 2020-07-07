@@ -7,6 +7,14 @@ state={
 		owner = PAD
 		add_core_of = PAD
 
+		victory_points={
+			1606 25
+		}
+
+		victory_points={
+			2740 15
+		}
+
 	}
 
 	provinces={
