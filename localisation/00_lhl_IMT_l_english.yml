@@ -52,3 +52,18 @@
  scourge_of_technology:0 "Scourge of Technology"
  chosen_of_anastasia:0 "Chosen of Anastasia"
  heir_of_the_throne:0 "Heir To The Throne"
+ ##DECISIONS##
+ IMT_love_letters:0 "Love Letters"
+ IMT_love_letters_desc:0 "\n\n                           Do AIs dream of pen-pal romance?"
+ IMT_Dugin:0 "Send an email to Aleksandr Dugin"
+ IMT_Eugenius:0 "Send an email to Eugenius I"
+ IMT_Land:0 "Send an email to Nick Land"
+ IMT_Goblin:0 "Send an email to Dmitrij Puchkov"
+ IMT_Medvedev:0 "Send an email to Dmitrij Medvedev"
+ IMT_Putin:0 "Send an email to Vladimir Putin"
+ IMT_Kurginjan:0 "Send an email to Sergej Kurginjan"
+ IMT_Natalia:0 "Send an email to Natalia Poklonskaja"
+ IMT_Uncle:0 "Send an email to The Uncle"
+ IMT_Unabomber:0 "Send a letter to Theodore Kaczynski"
+ IMT_Mavrodi:0 "Send an email to Him"
+ 
