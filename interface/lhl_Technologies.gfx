@@ -65,6 +65,26 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_cavalry3_medium"
-		texturefile = "gfx/interface/technologies/Cavalry2.dds"
+		texturefile = "gfx/interface/technologies/Cavalry3.dds"
 	}
+	SpriteType = {
+		name = "GFX_howitzer_medium"
+		texturefile = "gfx/interface/technologies/howitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_howitzer4_medium"
+		texturefile = "gfx/interface/technologies/howitzer4.dds"
+	}
+	SpriteType = {
+		name = "GFX_howitzer7_medium"
+		texturefile = "gfx/interface/technologies/howitzer4.dds"
+	}
+	SpriteType = {
+		name = "GFX_spg_medium"
+		texturefile = "gfx/interface/technologies/spg.dds"
+	}	
+	SpriteType = {
+		name = "GFX_RWR_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/sov_infantry_equipment_4.dds"
+	}	
 }

@@ -863,11 +863,11 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "artillery_subtitle_rocket"
-					position = { x = 405 y = 460 }
+					position = { x = 25 y = 50  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARTILLERY_TITLE_ROCKET"
+					text = "Howitzers"
 					maxWidth = 210
 					maxHeight = 22
 					format = center
@@ -876,11 +876,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = 655 y = 160 }
+					position = { x = -250 y = 50  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARTILLERY_TITLE_AT"
+					text = "Tactical Ballistic Missile"
 					maxWidth = 290
 					maxHeight = 62
 					format = center
@@ -889,24 +889,36 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = 105 y = 55 }
+					position = { x = 270 y = 50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARTILLERY_TITLE"
-					maxWidth = 400
+					text = "Self-Propelled Gun"
+					maxWidth = 200
 					maxHeight = 62
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-
+				
 				instantTextBoxType = {
-					name = "artillery_subtitle_anti_air"
-					position = { x = -14 y = 160  }
+					name = "artillery_anti_aircraft_vehicle"
+					position = { x = 510 y = 50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARTILLERT_TITLE_AA"
+					text = "Anti-Aircraft Vehicle"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "artillery_subtitle_anti_air"
+					position = { x = -450 y = 50  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "Rocket Artillery"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -1160,32 +1172,39 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "rocket_artillery_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 100 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "howitzer_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 160 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "spg_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 260 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "anti_air_tree"
-				position = { x = 10% y = 172 }
+				position = { x = 360 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}	
+			gridboxtype = {
+				name = "tactical_ballistic_missile_tree"
+				position = { x = 200 y = 175 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}			
 		}
 
 		containerWindowType = {
