@@ -234,9 +234,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}			
 
-			}
-
-				
+			}				
 			gridboxtype = {
 				name = "support_weapons_tree"
 				position = { x = 140 y = 210 }
@@ -257,15 +255,7 @@ guiTypes = {
 				position = { x = 140 y = 115 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-			}
-			
-			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
 			}		
-	
 			gridboxtype = {
 				name = "infantry_weapons_tree"
 				position = { x = 140 y = 325 }
@@ -273,14 +263,12 @@ guiTypes = {
 				format = "LEFT"
 	
 			}			
-
 			gridboxtype = {
 				name = "motorised_infantry_tree"
 				position = { x = 140 y = 620 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
 			gridboxtype = {
 				name = "marines_tree"
 				position = { x = 140 y = 420 }
@@ -867,7 +855,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "Howitzers"
+					text = " "
 					maxWidth = 210
 					maxHeight = 22
 					format = center
@@ -876,11 +864,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = -250 y = 50  }
+					position = { x = -200 y = 150  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "Tactical Ballistic Missile"
+					text = "TBM"
 					maxWidth = 290
 					maxHeight = 62
 					format = center
@@ -889,11 +877,11 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = 270 y = 50 }
+					position = { x = 80 y = 150 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "Self-Propelled Gun"
+					text = "SPG"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -902,11 +890,11 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "artillery_anti_aircraft_vehicle"
-					position = { x = 510 y = 50 }
+					position = { x = 400 y = 150 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "Anti-Aircraft Vehicle"
+					text = "SPAAG"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -914,11 +902,11 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_air"
-					position = { x = -450 y = 50  }
+					position = { x = -475 y = 150  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "Rocket Artillery"
+					text = "MLRS"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -932,7 +920,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1934"
+					text = "1980"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -945,7 +933,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1936"
+					text = "2000"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -958,7 +946,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1939"
+					text = "2010"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -971,7 +959,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1940"
+					text = "2016"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -984,7 +972,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1941"
+					text = "2018"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -997,7 +985,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1942"
+					text = "2020"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1010,7 +998,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1943"
+					text = "2022"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1023,7 +1011,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1944"
+					text = "2025"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1036,7 +1024,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1945"
+					text = "2028"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -1055,7 +1043,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1934"
+						text = "1980"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1068,7 +1056,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1936"
+						text = "2000"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1081,7 +1069,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1939"
+						text = "2010"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1094,7 +1082,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1940"
+						text = "2016"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1107,7 +1095,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1941"
+						text = "2018"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1120,7 +1108,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1942"
+						text = "2020"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1133,7 +1121,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1943"
+						text = "2022"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1146,7 +1134,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1944"
+						text = "2025"
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1159,7 +1147,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1945"
+						text = ""
 						maxWidth = 130
 						maxHeight = 32
 						format = left
@@ -1169,7 +1157,20 @@ guiTypes = {
 				}
 				
 			}
-			
+			gridboxtype = {
+				name = "motorised_infantry_tree"
+				position = { x = 100 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "outdated_main_battle_tank_tree"
+				position = { x = 80 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}		
 			gridboxtype = {
 				name = "rocket_artillery_tree"
 				position = { x = 100 y = 175 }
@@ -1179,21 +1180,21 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "howitzer_tree"
-				position = { x = 160 y = 175 }
+				position = { x = 220 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "spg_tree"
-				position = { x = 260 y = 175 }
+				position = { x = 300 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "anti_air_tree"
-				position = { x = 360 y = 175 }
+				position = { x = 400 y = 175 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
