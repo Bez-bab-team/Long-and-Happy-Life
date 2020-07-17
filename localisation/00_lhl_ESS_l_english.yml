@@ -406,13 +406,4 @@
  ESS_revival_of_formula_one_desc:0 "Revival of Formula One"  
  
  ###guns###
- ESS_infantry_equipment_0:0 "L1A2"
- ESS_infantry_equipment_0_short:0 "L1A2"
- ESS_infantry_equipment_1:0 "L85A1"
- ESS_infantry_equipment_1_short:0 "L85A1"
- ESS_infantry_equipment_2:0 "L85A2"
- ESS_infantry_equipment_2_short:0 "L85A2"
- ESS_infantry_equipment_3:0 "L85A3"
- ESS_infantry_equipment_3_short:0 "L85A3"
- ESS_infantry_equipment_4:0 "L119A2"
- ESS_infantry_equipment_4_short:0 "L119A2"
+ 

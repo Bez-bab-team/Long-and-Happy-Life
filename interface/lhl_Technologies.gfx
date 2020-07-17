@@ -1,4 +1,127 @@
-spriteTypes = {	
+spriteTypes = {		
+	### dzheneriki_arta ###
+	SpriteType = {
+		name = "GFX_rocket_artillery_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery2_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_rocket_artillery3_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_rocket_artillery4_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_rocket_artillery5_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery5.dds"
+	}
+	SpriteType = {
+		name = "GFX_rocket_artillery6_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_rocket_artillery7_medium"
+		texturefile = "gfx/interface/technologies/rocket_artillery7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_spg_medium"
+		texturefile = "gfx/interface/technologies/spg.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg2_medium"
+		texturefile = "gfx/interface/technologies/spg2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg3_medium"
+		texturefile = "gfx/interface/technologies/spg3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg4_medium"
+		texturefile = "gfx/interface/technologies/spg4.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg5_medium"
+		texturefile = "gfx/interface/technologies/spg5.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg6_medium"
+		texturefile = "gfx/interface/technologies/spg6.dds"
+	}		
+	SpriteType = {
+		name = "GFX_spg7_medium"
+		texturefile = "gfx/interface/technologies/spg7.dds"
+	}		
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile2_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile3_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile3.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile4_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile5_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile5.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile6_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_tactical_ballistic_missile7_medium"
+		texturefile = "gfx/interface/technologies/tactical_ballistic_missile7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_anti_air_medium"
+		texturefile = "gfx/interface/technologies/anti_air.dds"
+	}	
+	SpriteType = {
+		name = "GFX_anti_air2_medium"
+		texturefile = "gfx/interface/technologies/anti_air2.dds"
+	}		
+	SpriteType = {
+		name = "GFX_anti_air3_medium"
+		texturefile = "gfx/interface/technologies/anti_air3.dds"
+	}		
+	SpriteType = {
+		name = "GFX_anti_air4_medium"
+		texturefile = "gfx/interface/technologies/anti_air4.dds"
+	}		
+	SpriteType = {
+		name = "GFX_anti_air5_medium"
+		texturefile = "gfx/interface/technologies/anti_air6.dds"
+	}		
+	SpriteType = {
+		name = "GFX_anti_air6_medium"
+		texturefile = "gfx/interface/technologies/anti_air6.dds"
+	}		
+	SpriteType = {
+		name = "GFX_anti_air7_medium"
+		texturefile = "gfx/interface/technologies/anti_air7.dds"
+	}
+	
+	### Angeln gfx###
+	SpriteType = {
+		name = "GFX_ESS_spg_medium"
+		texturefile = "gfx/interface/technologies/ESS_spg.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ESS_outdated_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_outdated_main_battle_tank.dds"
+	}		
 	SpriteType = {
 		name = "GFX_ESS_outdated_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/ess_infantry_equipment_0.dds"
@@ -79,10 +202,6 @@ spriteTypes = {
 		name = "GFX_howitzer7_medium"
 		texturefile = "gfx/interface/technologies/howitzer4.dds"
 	}
-	SpriteType = {
-		name = "GFX_spg_medium"
-		texturefile = "gfx/interface/technologies/spg.dds"
-	}	
 	SpriteType = {
 		name = "GFX_RWR_infantry_weapons6_medium"
 		texturefile = "gfx/interface/technologies/sov_infantry_equipment_4.dds"
