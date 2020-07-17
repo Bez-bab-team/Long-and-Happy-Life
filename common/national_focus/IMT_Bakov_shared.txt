@@ -1,0 +1,1258 @@
+shared_focus = {
+	id = IMT_1_beacon
+	icon = GFX_IMT
+	cost = 2
+	x = 29
+	y = 0
+}
+shared_focus = {
+	id = IMT_1_cyber_dilemma
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_beacon
+	}
+	completion_reward = {
+		unlock_decision_category_tooltip = IMT_ai_mechanic
+		set_variable = {
+            var = IMT_ai_condition
+            value = 100
+        }
+        set_variable = {
+            var = IMT_ai_brain
+            value = 0
+        }
+	}
+	cost = 10
+	x = 29
+	y = 1
+}
+shared_focus = {
+	id = IMT_1_under_siege
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_cyber_dilemma
+	}
+	cost = 10
+	x = 29
+	y = 2
+}
+shared_focus = {
+	id = IMT_1_the_impossible_path
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_under_siege
+	}
+	mutually_exclusive = {
+		focus = IMT_1_the_rightful_heir
+	}
+	cost = 10
+	x = 26
+	y = 3
+}
+shared_focus = {
+	id = IMT_1_the_rightful_heir
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_under_siege
+	}
+	mutually_exclusive = {
+		focus = IMT_1_the_impossible_path
+	}
+	cost = 10
+	x = 32
+	y = 3
+}
+shared_focus = {
+	id = IMT_1_grooming_tsarina
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_the_impossible_path
+	}
+	cost = 10
+	x = 24
+	y = 4
+}
+shared_focus = {
+	id = IMT_1_bolts_motherboards
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_the_impossible_path
+	}
+	cost = 10
+	x = 26
+	y = 4
+}
+shared_focus = {
+	id = IMT_1_become_human
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_the_impossible_path
+	}
+	cost = 10
+	x = 28
+	y = 4
+}
+shared_focus = {
+	id = IMT_1_hello_world
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_grooming_tsarina
+	}
+	prerequisite = {
+        focus = IMT_1_bolts_motherboards
+	}
+	prerequisite = {
+        focus = IMT_1_become_human
+	}
+	completion_reward = {
+		load_focus_tree = IMT_ai
+	}
+	cost = 2
+	x = 26
+	y = 5
+}
+shared_focus = {
+	id = IMT_1_rule_tsarina
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_hello_world
+	}
+	cost = 10
+	x = 26
+	y = 6
+}
+
+shared_focus = {
+	id = IMT_1_industrial_protocols
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 24
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_soviet_legacy
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 26
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_new_education
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 28
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_city_planning
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_industrial_protocols
+	}
+	cost = 10
+	x = 23
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_crush_commieblock
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_industrial_protocols
+		focus = IMT_1_soviet_legacy
+	}
+	cost = 10
+	x = 25
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_cultural_revolution
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_new_education
+		focus = IMT_1_soviet_legacy
+	}
+	cost = 10
+	x = 27
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_school_segregation
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_new_education
+	}
+	cost = 10
+	x = 29
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_siberian_factories
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_city_planning
+	}
+	cost = 10
+	x = 22
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_ai_terminals
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_city_planning
+	}
+	prerequisite = {
+        focus = IMT_1_crush_commieblock
+	}
+	cost = 10
+	x = 24
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_old_regime
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_crush_commieblock
+		focus = IMT_1_cultural_revolution
+	}
+	cost = 10
+	x = 26
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_question_fate
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_cultural_revolution
+	}
+	prerequisite = {
+        focus = IMT_1_school_segregation
+	}
+	cost = 10
+	x = 28
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_noble_maidens
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_school_segregation
+	}
+	cost = 10
+	x = 30
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_state_corporations
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_siberian_factories
+	}
+	cost = 10
+	x = 22
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_privacy_citizen
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_ai_terminals
+	}
+	cost = 10
+	x = 24
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_propaganda_campaign
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_old_regime
+	}
+	cost = 10
+	x = 26
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_golden_age
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_question_fate
+	}
+	cost = 10
+	x = 28
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_peasant_schools
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_noble_maidens
+	}
+	cost = 10
+	x = 30
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_vision_future
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_rule_tsarina
+	}
+	cost = 10
+	x = 26
+	y = 7
+}
+
+shared_focus = {
+	id = IMT_1_great_nation
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 35
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_second_window
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_great_nation
+	}
+	cost = 10
+	x = 34
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_russian_language
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_great_nation
+	}
+	cost = 10
+	x = 36
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_foriegn_specialists
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_second_window
+	}
+	cost = 10
+	x = 34
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_imperial_mindset
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_russian_language
+	}
+	cost = 10
+	x = 36
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_officer_academies
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_great_nation
+		focus = IMT_1_school_segregation
+	}
+	cost = 10
+	x = 32
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_military_estates
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_officer_academies
+	}
+	cost = 10
+	x = 32
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_her_majesty
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 18
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_industrial_revolution
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_her_majesty
+	}
+	cost = 10
+	x = 18
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_her_fingertips
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_industrial_revolution
+	}
+	prerequisite = {
+        focus = IMT_1_human_acceptance
+	}
+	prerequisite = {
+        focus = IMT_1_her_presence
+	}
+	cost = 10
+	x = 18
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_human_acceptance
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_her_majesty
+	}
+	cost = 10
+	x = 20
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_her_presence
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_her_majesty
+	}
+	cost = 10
+	x = 16
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_legality_issues
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 14
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_machine_rights
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_legality_issues
+	}
+	cost = 10
+	x = 14
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_new_russian_empire
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_machine_rights
+	}
+	prerequisite = {
+        focus = IMT_1_government_body
+	}
+	prerequisite = {
+        focus = IMT_1_status_empire
+	}
+	cost = 10
+	x = 14
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_status_empire
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_legality_issues
+	}
+	cost = 10
+	x = 12
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_government_body
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_legality_issues
+	}
+	cost = 10
+	x = 16
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_army_future
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 5
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_advanced_aircraft
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_army_future
+	}
+	cost = 10
+	x = 1
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_advanced_infantry
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_army_future
+	}
+	cost = 10
+	x = 5
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_advanced_ground
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_army_future
+	}
+	cost = 10
+	x = 9
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_drone_warfare
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_aircraft
+	}
+	cost = 10
+	x = 0
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_unmanned_vehicles
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_aircraft
+	}
+	cost = 10
+	x = 2
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_21_century
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_infantry
+	}
+	cost = 10
+	x = 4
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_ammo_types
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_infantry
+	}
+	cost = 10
+	x = 6
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_ammo_types
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_infantry
+	}
+	cost = 10
+	x = 6
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_modern_artillery
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_ground
+	}
+	cost = 10
+	x = 8
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_modern_ifv
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_ground
+	}
+	cost = 10
+	x = 10
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_sixth_generation
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_drone_warfare
+	}
+	prerequisite = {
+        focus = IMT_1_unmanned_vehicles
+	}
+	cost = 10
+	x = 1
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_exoskeleton
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_21_century
+	}
+	prerequisite = {
+        focus = IMT_1_ammo_types
+	}
+	cost = 10
+	x = 5
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_advanced_mbt
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_modern_artillery
+	}
+	prerequisite = {
+        focus = IMT_1_modern_ifv
+	}
+	cost = 10
+	x = 9
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_smart_ammunition
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_sixth_generation
+	}
+	mutually_exclusive = {
+		focus = IMT_1_collateral_damage
+	}
+	cost = 10
+	x = 0
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_collateral_damage
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_sixth_generation
+	}
+	mutually_exclusive = {
+		focus = IMT_1_smart_ammunition
+	}
+	cost = 10
+	x = 2
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_active_denial
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_exoskeleton
+	}
+	mutually_exclusive = {
+		focus = IMT_1_indiscriminate_warfare
+	}
+	cost = 10
+	x = 4
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_indiscriminate_warfare
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_exoskeleton
+	}
+	mutually_exclusive = {
+		focus = IMT_1_active_denial
+	}
+	cost = 10
+	x = 6
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_stealth_armour
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_mbt
+	}
+	mutually_exclusive = {
+		focus = IMT_1_smart_armour
+	}
+	cost = 10
+	x = 8
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_smart_armour
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_advanced_mbt
+	}
+	mutually_exclusive = {
+		focus = IMT_1_stealth_armour
+	}
+	cost = 10
+	x = 10
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_breach_stratosphere
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_smart_ammunition
+		focus = IMT_1_collateral_damage
+	}
+	cost = 10
+	x = 1
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_railgun_weaponry
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_active_denial
+		focus = IMT_1_indiscriminate_warfare
+	}
+	cost = 10
+	x = 5
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_netopyr_II
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_stealth_armour
+		focus = IMT_1_smart_armour
+	}
+	cost = 10
+	x = 9
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_classified_projects
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_breach_stratosphere
+		focus = IMT_1_railgun_weaponry
+		focus = IMT_1_netopyr_II
+	}
+	cost = 10
+	x = 5
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_melancholy_anastasia
+	icon = GFX_IMT
+	cost = 10
+	x = 18
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_matters_love
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_melancholy_anastasia
+	}
+	cost = 10
+	x = 15
+	y = 15
+}
+
+shared_focus = {
+	id = IMT_1_secrets_world
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_melancholy_anastasia
+	}
+	cost = 10
+	x = 18
+	y = 15
+}
+
+shared_focus = {
+	id = IMT_1_matters_self
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_melancholy_anastasia
+	}
+	cost = 10
+	x = 21
+	y = 15
+}
+
+shared_focus = {
+	id = IMT_1_kindred_spirit
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_love
+	}
+	mutually_exclusive = {
+		focus = IMT_1_free_girl
+	}
+	cost = 10
+	x = 14
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_free_girl
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_love
+	}
+	mutually_exclusive = {
+		focus = IMT_1_kindred_spirit
+	}
+	cost = 10
+	x = 16
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_who_i
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_self
+	}
+	mutually_exclusive = {
+		focus = IMT_1_who_we
+	}
+	cost = 10
+	x = 20
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_who_we
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_self
+	}
+	mutually_exclusive = {
+		focus = IMT_1_who_i
+	}
+	cost = 10
+	x = 22
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_matters_war
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_vision_future
+	}
+	cost = 10
+	x = 45
+	y = 8
+}
+
+shared_focus = {
+	id = IMT_1_rally_army
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_war
+	}
+	cost = 10
+	x = 44
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_increased_conscription
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_matters_war
+	}
+	cost = 10
+	x = 46
+	y = 9
+}
+
+shared_focus = {
+	id = IMT_1_subdue_generals
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_increased_conscription
+		focus = IMT_1_rally_army
+	}
+	cost = 10
+	x = 45
+	y = 10
+}
+
+shared_focus = {
+	id = IMT_1_western_push
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_subdue_generals
+	}
+	cost = 10
+	x = 39
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_siberian_lake
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_western_push
+	}
+	cost = 10
+	x = 38
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_fate_asia
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_western_push
+	}
+	cost = 10
+	x = 40
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_into_urals
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_fate_asia
+	}
+	prerequisite = {
+        focus = IMT_1_siberian_lake
+	}
+	cost = 10
+	x = 39
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_free_capitals
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_into_urals
+	}
+	cost = 10
+	x = 38
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_southern_russia
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_into_urals
+	}
+	cost = 10
+	x = 40
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_caucasian_war
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_free_capitals
+	}
+	prerequisite = {
+        focus = IMT_1_southern_russia
+	}
+	cost = 10
+	x = 39
+	y = 15
+}
+
+shared_focus = {
+	id = IMT_1_bossom_empire
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_caucasian_war
+	}
+	mutually_exclusive = {
+		focus = IMT_1_perish_trace
+	}
+	cost = 10
+	x = 38
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_perish_trace
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_caucasian_war
+	}
+	mutually_exclusive = {
+		focus = IMT_1_bossom_empire
+	}
+	cost = 10
+	x = 40
+	y = 16
+}
+
+shared_focus = {
+	id = IMT_1_diplomatic_approach
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_subdue_generals
+	}
+	cost = 10
+	x = 45
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_tough_fair
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_diplomatic_approach
+	}
+	mutually_exclusive = {
+		focus = IMT_1_no_indulgence
+	}
+	cost = 10
+	x = 43
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_no_indulgence
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_diplomatic_approach
+	}
+	mutually_exclusive = {
+		focus = IMT_1_tough_fair
+	}
+	cost = 10
+	x = 47
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_alliance_monarchists
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_tough_fair
+	}
+	cost = 10
+	x = 42
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_dabble_fascists
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_tough_fair
+	}
+	cost = 10
+	x = 44
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_sovereignty_over_russia
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_no_indulgence
+	}
+	cost = 10
+	x = 46
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_denounce_traitors
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_no_indulgence
+	}
+	cost = 10
+	x = 48
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_sway_communists
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_alliance_monarchists
+		focus = IMT_1_dabble_fascists
+	}
+	cost = 10
+	x = 43
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_plead_people
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_sovereignty_over_russia
+		focus = IMT_1_denounce_traitors
+	}
+	cost = 10
+	x = 47
+	y = 14
+}
+
+shared_focus = {
+	id = IMT_1_request_assistance
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_sway_communists
+	}
+	prerequisite = {
+        focus = IMT_1_plead_people
+	}
+	cost = 10
+	x = 45
+	y = 15
+}
+
+shared_focus = {
+	id = IMT_1_eastern_campaign
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_subdue_generals
+	}
+	cost = 10
+	x = 51
+	y = 11
+}
+
+shared_focus = {
+	id = IMT_1_petty_warlords
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_eastern_campaign
+	}
+	cost = 10
+	x = 50
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_north_clean_up
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_eastern_campaign
+	}
+	cost = 10
+	x = 52
+	y = 12
+}
+
+shared_focus = {
+	id = IMT_1_natural_borders
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_petty_warlords
+	}
+	prerequisite = {
+        focus = IMT_1_north_clean_up
+	}
+	cost = 10
+	x = 51
+	y = 13
+}
+
+shared_focus = {
+	id = IMT_1_false_empress
+	icon = GFX_IMT
+	prerequisite = {
+        focus = IMT_1_natural_borders
+	}
+	cost = 10
+	x = 51
+	y = 14
+}

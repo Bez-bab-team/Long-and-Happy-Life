@@ -1,0 +1,10 @@
+on_actions = {
+    on_daily_IMT = {
+	    effect = {
+		    add_to_variable = {
+                var = IMT_ai_condition
+                value = -0.5
+			}
+		}
+	}
+}

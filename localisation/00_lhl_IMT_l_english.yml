@@ -67,3 +67,8 @@
  IMT_Unabomber:0 "Send a letter to Theodore Kaczynski"
  IMT_Mavrodi:0 "Send an email to Him"
  
+ IMT_ai_mechanic:0 "The Impossible Path"
+ IMT_ai_mechanic_desc:0 "If we are to realise the dream of the New Russian Empire under the rule of eternal AI Tsarina, certain preparations have to be made. Due to the constant confrontations with various warlords, some of the AI systems have been severely damaged. We also lack sufficient personal to repair and upgrade said systems. Thereby, the current condition of the AI structure can only be called "miserable", if not "highly hazardous". Assuming that we can't fix this situation as fast as possible, §Rthe consequences can be disastrous§!. \n\nWe also should work on upgrading both the AIs intelligence and it's awareness of various complex processes. Such developments will create a much more proficient governing mechanism. \n\nAnastasia's current condition = §Y[?Root.IMT_ai_condition]%§! \n\nAnastasia's current awareness = §Y[?Root.IMT_ai_brain]%§!"
+ IMT_specialists:0 "Hire specialists"
+ IMT_turing_test:0 "Take the Turing Test"
+ 

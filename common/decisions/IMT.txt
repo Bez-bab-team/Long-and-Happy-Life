@@ -50,3 +50,26 @@ IMT_love_letters = {
         complete_effect = { }
 	}
 }
+
+IMT_ai_mechanic = {
+    IMT_specialists = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = IMT_ai_condition
+                value = 10
+			}
+		}
+	}
+    IMT_turing_test = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = IMT_ai_brain
+                value = 20
+			}
+		}
+	}
+}		    
