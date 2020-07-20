@@ -3,14 +3,6 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
     shared_focus = IMT_1_beacon
-	shared_focus = IMT_1_under_siege
-	shared_focus = IMT_1_the_rightful_heir
-	shared_focus = IMT_1_grooming_tsarina
-	shared_focus = IMT_1_bolts_motherboards
-	shared_focus = IMT_1_become_human
-	shared_focus = IMT_1_hello_world
-	shared_focus = IMT_1_the_impossible_path
-	shared_focus = IMT_1_melancholy_anastasia
 	country = {
 		factor = 0
 		modifier = {
@@ -25,18 +17,21 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
 	shared_focus = IMT_1_rule_tsarina
-	shared_focus = IMT_1_beacon
-	shared_focus = IMT_1_under_siege
-	shared_focus = IMT_1_the_rightful_heir
-	shared_focus = IMT_1_grooming_tsarina
-	shared_focus = IMT_1_bolts_motherboards
-	shared_focus = IMT_1_become_human
-	shared_focus = IMT_1_hello_world
-	shared_focus = IMT_1_the_impossible_path
-	shared_focus = IMT_1_industrial_protocols
-	shared_focus = IMT_1_soviet_legacy
-	shared_focus = IMT_1_new_education
 	shared_focus = IMT_1_melancholy_anastasia
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = IMT
+		}
+	}
+}
+
+focus_tree = {
+	id = IMT_nikolai
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = IMT_1_tsars_reign
 	country = {
 		factor = 0
 		modifier = {
