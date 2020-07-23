@@ -1,6 +1,6 @@
 equipments = {
 
-	main_battle_tank_equipment = {
+	armored_car_equipment = {
 		year = 1934
 	
 		is_archetype = yes
@@ -44,8 +44,8 @@ equipments = {
 		}
 
 		fuel_consumption = 4
-	}
-	outdated_main_battle_tank_equipment = {
+	}	
+	armored_car_equipment_1 = {
 		year = 1934
 		
 		archetype = amphibious_tank_equipment
@@ -53,7 +53,7 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 	}	
-	main_battle_tank_equipment_1 = {
+	armored_car_equipment_2 = {
 		year = 1934
 		
 		archetype = amphibious_tank_equipment
@@ -61,15 +61,7 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 	}	
-	main_battle_tank_equipment_2 = {
-		year = 1934
-		
-		archetype = amphibious_tank_equipment
-		priority = 10
-		visual_level = 0
-		is_convertable = no
-	}	
-	main_battle_tank_equipment_3 = {
+	armored_car_equipment_3 = {
 		year = 1934
 		
 		archetype = amphibious_tank_equipment
@@ -77,13 +69,12 @@ equipments = {
 		visual_level = 0
 		is_convertable = no
 	}
-	main_battle_tank_equipment_4 = {
+	armored_car_equipment_4 = {
 		year = 1934
 		
 		archetype = amphibious_tank_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = no
-
 	}	
 }

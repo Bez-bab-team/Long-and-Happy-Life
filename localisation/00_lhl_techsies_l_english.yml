@@ -3,6 +3,20 @@
  ESS_outdated_main_battle_tank_equipment:0 "Chieftain"
  ESS_outdated_main_battle_tank_equipment_short:0 "Chieftain"
  ESS_outdated_main_battle_tank_equipment_desc:0 "sator tenet arepo opera rotas"
+ 
+ ESS_main_battle_tank_equipment_1:0 "FV4030/4 Challenger 1"
+ ESS_main_battle_tank_equipment_1_short:0 "Challenger 1"
+ ESS_main_battle_tank_equipment_1_desc:0 "sator tenet arepo opera rotas" 
+ ESS_main_battle_tank_equipment_2:0 "FV4034 Challenger 2"
+ ESS_main_battle_tank_equipment_2_short:0 "Challenger 2"
+ ESS_main_battle_tank_equipment_2_desc:0 "sator tenet arepo opera rotas" 
+ ESS_main_battle_tank_equipment_3:0 "Challenger 2 Life Extension Programme"
+ ESS_main_battle_tank_equipment_3_short:0 "Challenger 2 — LEP"
+ ESS_main_battle_tank_equipment_3_desc:0 "sator tenet arepo opera rotas" 
+ ESS_main_battle_tank_equipment_4:0 "Hedgeknight"
+ ESS_main_battle_tank_equipment_4_short:0 "Hedgeknight"
+ ESS_main_battle_tank_equipment_4_desc:0 "sator tenet arepo opera rotas" 
+
  ESS_spg_equipment_1:0 "Gun Equipment 155 mm L131"
  ESS_spg_equipment_1_short:0 "AS-90"
  

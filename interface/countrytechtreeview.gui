@@ -564,7 +564,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1918"
+						text = "1980"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -577,7 +577,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1934"
+						text = "2010"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -590,7 +590,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1936"
+						text = "2015"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -603,7 +603,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1939"
+						text = "2020"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -616,7 +616,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1941"
+						text = "2025"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -629,7 +629,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1943"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -642,7 +642,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1945"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -663,7 +663,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1934"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -676,7 +676,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1936"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -689,7 +689,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1939"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -702,7 +702,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1941"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -715,7 +715,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1943"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -728,7 +728,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1945"
+						text = ""
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -744,14 +744,14 @@ guiTypes = {
 				size = { width = 600 height = 80% }				
 				orientation = center_up
 				origo = center_up
-			
+					
 				instantTextBoxType = {
 					name = "armour_subtitle_heavy"
-					position = { x = 480 y = 55 }
+					position = { x = 70 y = -50 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_HEAVY"
+					text = "MICV"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -760,11 +760,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_medium"
-					position = { x = 207 y = 335 }
+					position = { x = 320 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_MEDIUM"
+					text = "MRAP"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -773,11 +773,11 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "armour_subtitle_light"
-					position = { x = -84 y = 55  }
+					position = { x = -180 y = 55  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_LIGHT"
+					text = "APC"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -785,11 +785,11 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "armour_subtitle_amphibious"
-					position = { x = -360 y = 335 }
+					position = { x = -495 y = -50  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
-					text = "ARMOUR_TITLE_AMPH"
+					text = "MBT"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -797,14 +797,41 @@ guiTypes = {
 				}		
 			}	
 
-				
 			gridboxtype = {
-				name = "gwtank_tree"
-				position = { x = 10% y = 172 }
+				name = "motorised_infantry_tree"
+				position = { x = 60 y = 170 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+			gridboxtype = {
+				name = "basic_infantry_fighting_vehicle_tree"
+				position = { x = 60 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "basic_armored_car_tree"
+				position = { x = 60 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "basic_armoured_personnel_carrier_tree"
+				position = { x = 60 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}			
+			gridboxtype = {
+				name = "outdated_main_battle_tank_tree"
+				position = { x = 60 y = 170 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}	
 		}
 
 		containerWindowType = {
@@ -4138,7 +4165,7 @@ guiTypes = {
 
 		iconType = {
 			name = "Icon"
-			position = { x=74 y=50 }
+			position = { x=90 y=50 }
 			spriteType = "GFX_technology_medium"
 			centerposition = yes
 			alwaystransparent = yes

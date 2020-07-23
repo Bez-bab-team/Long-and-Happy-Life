@@ -112,36 +112,6 @@ spriteTypes = {
 		name = "GFX_anti_air7_medium"
 		texturefile = "gfx/interface/technologies/anti_air7.dds"
 	}
-	
-	### Angeln gfx###
-	SpriteType = {
-		name = "GFX_ESS_spg_medium"
-		texturefile = "gfx/interface/technologies/ESS_spg.dds"
-	}	
-	SpriteType = {
-		name = "GFX_ESS_outdated_main_battle_tank_medium"
-		texturefile = "gfx/interface/technologies/ESS_outdated_main_battle_tank.dds"
-	}		
-	SpriteType = {
-		name = "GFX_ESS_outdated_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/ess_infantry_equipment_0.dds"
-	}
-	SpriteType = {
-		name = "GFX_ESS_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/ess_infantry_equipment_1.dds"
-	}
-	SpriteType = {
-		name = "GFX_ESS_infantry_weapons2_medium"
-		texturefile = "gfx/interface/technologies/ess_infantry_equipment_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_ESS_infantry_weapons4_medium"
-		texturefile = "gfx/interface/technologies/ess_infantry_equipment_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_ESS_infantry_weapons6_medium"
-		texturefile = "gfx/interface/technologies/ess_infantry_equipment_4.dds"
-	}
 	SpriteType = {
 		name = "GFX_anti_tank_weapon_medium"
 		texturefile = "gfx/interface/technologies/anti_tank_weapon.dds"
@@ -205,5 +175,50 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_RWR_infantry_weapons6_medium"
 		texturefile = "gfx/interface/technologies/sov_infantry_equipment_4.dds"
+	}		
+	### Angeln gfx###
+	SpriteType = {
+		name = "GFX_ESS_spg_medium"
+		texturefile = "gfx/interface/technologies/ESS_spg.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ESS_outdated_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_outdated_main_battle_tank.dds"
+	}		
+	SpriteType = {
+		name = "GFX_ESS_outdated_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ess_infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ess_infantry_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ess_infantry_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ess_infantry_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/ess_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_advanced_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_advanced_main_battle_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ESS_basic_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_basic_main_battle_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ESS_futuristic_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_futuristic_main_battle_tank.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ESS_improved_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/ESS_improved_main_battle_tank.dds"
 	}	
 }
