@@ -1,0 +1,8 @@
+
+
+sound = {
+	name = "super_acw"
+	file = "menu/acw.wav"
+	volume = 1
+	always_load = yes
+}

@@ -17,7 +17,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism  = 100
+	neocameralism  = 68
+	socialism = 10
+	left_authoritarianism = 7
+	national_bolshevism = 15
 }
 
 create_country_leader = {

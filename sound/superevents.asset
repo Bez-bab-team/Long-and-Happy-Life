@@ -1,0 +1,9 @@
+
+soundeffect =
+{
+	name = "superev_acw"
+	sounds = {
+		sound = "super_acw"
+	}
+	volume = 1
+}
