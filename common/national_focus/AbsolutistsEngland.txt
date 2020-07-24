@@ -1,0 +1,2524 @@
+focus_tree = {
+	id = absolutists_england
+
+	default = no
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SUS
+		}
+	}
+	
+	continuous_focus_position = { x = 190	y = 80 }
+
+	focus = {
+		id = SUS_in_the_court
+		icon = GFX_goal_generic_position_armies
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		bypass = {
+			
+				}
+
+		completion_reward = {
+
+					}
+				}
+	focus = {
+		id = SUS_rally_loyalists
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_in_the_court }
+		cost = 1
+		relative_position_id = SUS_in_the_court
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_rally_people
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_in_the_court }
+		cost = 1
+		relative_position_id = SUS_in_the_court
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_king_and_his_country
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_rally_people }
+		prerequisite = { focus = SUS_rally_loyalists }		
+		cost = 1
+		relative_position_id = SUS_rally_people
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_crimson_gauntlet
+		icon = GFX_goal_generic_position_armies
+		x = -4
+		y = 1
+		prerequisite = { focus = SUS_king_and_his_country }	
+		cost = 1
+		relative_position_id = SUS_king_and_his_country
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+		 focus = SUS_listen_advisor
+		 }
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_cctv_initiative
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_crimson_gauntlet }	
+		cost = 1
+		relative_position_id = SUS_crimson_gauntlet
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_establish_red_red_guard
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_crimson_gauntlet }	
+		cost = 1
+		relative_position_id = SUS_crimson_gauntlet
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_crimson_inquisition
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_establish_red_red_guard }	
+		prerequisite = { focus = SUS_cctv_initiative }		
+		cost = 1
+		relative_position_id = SUS_establish_red_red_guard
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_redestribution_to_state
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_crimson_inquisition }		
+		cost = 1
+		relative_position_id = SUS_crimson_inquisition
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = SUS_changing_the_mindset
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_crimson_inquisition }
+		prerequisite = { focus = SUS_free_education }		
+		cost = 1
+		relative_position_id = SUS_crimson_inquisition
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_ideology_of_ascetism
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_changing_the_mindset }
+		prerequisite = { focus = SUS_redestribution_to_state }			
+		cost = 1
+		relative_position_id = SUS_changing_the_mindset
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_listen_advisor
+		icon = GFX_goal_generic_position_armies
+		x = 4
+		y = 1
+		prerequisite = { focus = SUS_king_and_his_country }	
+		cost = 1
+		relative_position_id = SUS_king_and_his_country
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		 mutually_exclusive = { 
+		focus = SUS_crimson_gauntlet
+		 }
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_neighbourhood_watches
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_listen_advisor }	
+		cost = 1
+		relative_position_id = SUS_listen_advisor
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_peoples_avantgarde
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_listen_advisor }	
+		cost = 1
+		relative_position_id = SUS_listen_advisor
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_red_commissars
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_peoples_avantgarde }	
+		prerequisite = { focus = SUS_neighbourhood_watches }		
+		cost = 1
+		relative_position_id = SUS_peoples_avantgarde
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_dependancy_on_state
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_red_commissars }
+		prerequisite = { focus = SUS_free_healthcare }		
+		cost = 1
+		relative_position_id = SUS_red_commissars
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}	
+	focus = {
+		id = SUS_punish_the_bourgeois
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_red_commissars }	
+		cost = 1
+		relative_position_id = SUS_red_commissars
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_corbinism
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_punish_the_bourgeois }
+		prerequisite = { focus = SUS_dependancy_on_state }			
+		cost = 1
+		relative_position_id = SUS_punish_the_bourgeois
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_youth_league_morningstar
+		icon = GFX_goal_generic_position_armies
+		x = -4
+		y = 1
+		prerequisite = { focus = SUS_crimson_gauntlet focus = SUS_listen_advisor }	
+		cost = 1
+		relative_position_id = SUS_listen_advisor
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_free_education
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_youth_league_morningstar }	
+		cost = 1
+		relative_position_id = SUS_youth_league_morningstar
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_free_healthcare
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_youth_league_morningstar }	
+		cost = 1
+		relative_position_id = SUS_youth_league_morningstar
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_british_workers_free
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_free_healthcare }	
+		prerequisite = { focus = SUS_free_education }			
+		cost = 1
+		relative_position_id = SUS_free_healthcare
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_royal_edict
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_ideology_of_ascetism }	
+		prerequisite = { focus = SUS_british_workers_free }			
+		cost = 1
+		relative_position_id = SUS_ideology_of_ascetism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		 mutually_exclusive = { 
+		focus = SUS_unionism
+		 }
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_refeodalistation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_royal_edict }				
+		cost = 1
+		relative_position_id = SUS_royal_edict
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_enserfing_program
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_refeodalistation }				
+		cost = 1
+		relative_position_id = SUS_refeodalistation
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_reduction_of_expenses
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_enserfing_program }				
+		cost = 1
+		relative_position_id = SUS_enserfing_program
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_pompous_architecture
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_royal_edict }				
+		cost = 1
+		relative_position_id = SUS_royal_edict
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_building_villages
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_pompous_architecture }				
+		cost = 1
+		relative_position_id = SUS_pompous_architecture
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_new_aristocracy
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_building_villages }				
+		cost = 1
+		relative_position_id = SUS_building_villages
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_red_estate_monarchy
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = SUS_new_aristocracy }
+		prerequisite = { focus = SUS_reduction_of_expenses }
+		prerequisite = { focus = SUS_reinvest_into_state }		
+		cost = 1
+		relative_position_id = SUS_new_aristocracy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+				
+	focus = {
+		id = SUS_unionism
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_corbinism }	
+		prerequisite = { focus = SUS_british_workers_free }			
+		cost = 1
+		relative_position_id = SUS_corbinism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		 mutually_exclusive = { 
+		focus = SUS_royal_edict
+		 }
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_progressive_taxing
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_unionism }				
+		cost = 1
+		relative_position_id = SUS_unionism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_commisar_taxcollectors
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_progressive_taxing }				
+		cost = 1
+		relative_position_id = SUS_progressive_taxing
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_intentional_inflation
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_commisar_taxcollectors }				
+		cost = 1
+		relative_position_id = SUS_commisar_taxcollectors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_rebulding_decadent_architecture
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_unionism }				
+		cost = 1
+		relative_position_id = SUS_unionism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_co_living_blocks
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_rebulding_decadent_architecture }				
+		cost = 1
+		relative_position_id = SUS_rebulding_decadent_architecture
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_enforce_jobs
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_co_living_blocks }				
+		cost = 1
+		relative_position_id = SUS_co_living_blocks
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_welfare_state
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		prerequisite = { focus = SUS_enforce_jobs }
+		prerequisite = { focus = SUS_intentional_inflation }
+		prerequisite = { focus = SUS_reinvest_into_state }			
+		cost = 1
+		relative_position_id = SUS_enforce_jobs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_embrasing_anti_capitalist_stance
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_royal_edict focus = SUS_unionism}				
+		cost = 1
+		relative_position_id = SUS_royal_edict
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+		focus = {
+		id = SUS_expropriate_the_rich
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_embrasing_anti_capitalist_stance }				
+		cost = 1
+		relative_position_id = SUS_embrasing_anti_capitalist_stance
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_reinvest_into_state
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_expropriate_the_rich }				
+		cost = 1
+		relative_position_id = SUS_expropriate_the_rich
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+		focus = {
+		id = SUS_crimson_stacks
+		icon = GFX_goal_generic_position_armies
+		x = -8
+		y = 4			
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_peoples_army
+		}
+		available = {
+		has_completed_focus = SUS_crimson_gauntlet
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_serf_conscription
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_crimson_stacks }				
+		cost = 1
+		relative_position_id = SUS_crimson_stacks
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_to_die_for_a_country
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_serf_conscription }				
+		cost = 1
+		relative_position_id = SUS_serf_conscription
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_men_waves
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_to_die_for_a_country }				
+		cost = 1
+		relative_position_id = SUS_to_die_for_a_country
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_chevaliers
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_crimson_stacks }				
+		cost = 1
+		relative_position_id = SUS_crimson_stacks
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_ironclad_knights
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_chevaliers }				
+		cost = 1
+		relative_position_id = SUS_chevaliers
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_england_never_rule_waves
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 4
+		prerequisite = { focus = SUS_ironclad_knights }				
+		cost = 1
+		relative_position_id = SUS_ironclad_knights
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+		focus = {
+		id = SUS_peoples_army
+		icon = GFX_goal_generic_position_armies
+		x = -6
+		y = 4			
+		cost = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_crimson_stacks
+		}
+		available = {
+		has_completed_focus = SUS_listen_advisor
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_conscription
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_peoples_army }				
+		cost = 1
+		relative_position_id = SUS_peoples_army
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_a_country_worth_fighting
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_conscription }				
+		cost = 1
+		relative_position_id = SUS_conscription
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_red_brotherhoods
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_a_country_worth_fighting }				
+		cost = 1
+		relative_position_id = SUS_a_country_worth_fighting
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_heroic_commanders
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_peoples_army }				
+		cost = 1
+		relative_position_id = SUS_peoples_army
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_personal_presence
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_heroic_commanders }				
+		cost = 1
+		relative_position_id = SUS_heroic_commanders
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_red_sharks
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 4
+		prerequisite = { focus = SUS_personal_presence }				
+		cost = 1
+		relative_position_id = SUS_personal_presence
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_kings_of_the_skyes
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_men_waves focus = SUS_red_brotherhoods }				
+		cost = 1
+		relative_position_id = SUS_men_waves
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_ace_of_spades
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_kings_of_the_skyes }				
+		cost = 1
+		relative_position_id = SUS_kings_of_the_skyes
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_king_of_hearts
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_kings_of_the_skyes }				
+		cost = 1
+		relative_position_id = SUS_kings_of_the_skyes
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_earthshaker_bombs
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_king_of_hearts }
+		prerequisite = { focus = SUS_ace_of_spades }			
+		cost = 1
+		relative_position_id = SUS_king_of_hearts
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_aftermatch_of_coup
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 4			
+		cost = 1
+		relative_position_id = SUS_new_aristocracy
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_corbin_ties_grip
+		}		
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_police_campaign
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_aftermatch_of_coup }			
+		cost = 1
+		relative_position_id = SUS_aftermatch_of_coup
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_beat_workers_and_peasants
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_police_campaign }			
+		cost = 1
+		relative_position_id = SUS_police_campaign
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_forge_loyality
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_police_campaign }			
+		cost = 1
+		relative_position_id = SUS_police_campaign
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_fight_third_estate
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_forge_loyality }
+		prerequisite = { focus = SUS_beat_workers_and_peasants }		
+		cost = 1
+		relative_position_id = SUS_forge_loyality
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_crimes_and_punishments
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_aftermatch_of_coup }			
+		cost = 1
+		relative_position_id = SUS_aftermatch_of_coup
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_tighten_grip
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_crimes_and_punishments }			
+		cost = 1
+		relative_position_id = SUS_crimes_and_punishments
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_expand_the_aristocrats
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_crimes_and_punishments }			
+		cost = 1
+		relative_position_id = SUS_crimes_and_punishments
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_demolish_fifth_column
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_expand_the_aristocrats }
+		prerequisite = { focus = SUS_tighten_grip }		
+		cost = 1
+		relative_position_id = SUS_tighten_grip
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_demolish_fifth_column
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_expand_the_aristocrats }
+		prerequisite = { focus = SUS_tighten_grip }		
+		cost = 1
+		relative_position_id = SUS_tighten_grip
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_divine_right
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_demolish_fifth_column }
+		prerequisite = { focus = SUS_fight_third_estate }		
+		cost = 1
+		relative_position_id = SUS_demolish_fifth_column
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_corbin_ties_grip
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 4			
+		cost = 1
+		relative_position_id = SUS_enforce_jobs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_aftermatch_of_coup
+		}
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_sacralization_of_consumerism
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_corbin_ties_grip }			
+		cost = 1
+		relative_position_id = SUS_corbin_ties_grip
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_entertainment_above_all
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_sacralization_of_consumerism }			
+		cost = 1
+		relative_position_id = SUS_sacralization_of_consumerism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_courses_of_psyhological_health
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_sacralization_of_consumerism }			
+		cost = 1
+		relative_position_id = SUS_sacralization_of_consumerism
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_everybody_gone_to_rapture
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_entertainment_above_all }
+		prerequisite = { focus = SUS_courses_of_psyhological_health }		
+		cost = 1
+		relative_position_id = SUS_entertainment_above_all
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_fake_news
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_corbin_ties_grip }			
+		cost = 1
+		relative_position_id = SUS_corbin_ties_grip
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_progressive_caste_system
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_fake_news }			
+		cost = 1
+		relative_position_id = SUS_fake_news
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_polute_information_space
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_fake_news }			
+		cost = 1
+		relative_position_id = SUS_fake_news
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_popular_government
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_progressive_caste_system }
+		prerequisite = { focus = SUS_polute_information_space }		
+		cost = 1
+		relative_position_id = SUS_polute_information_space
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_brave_new_world
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_everybody_gone_to_rapture }
+		prerequisite = { focus = SUS_popular_government }		
+		cost = 1
+		relative_position_id = SUS_everybody_gone_to_rapture
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_scarlet_dawn
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2				
+		cost = 1
+		relative_position_id = SUS_earthshaker_bombs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_deal_with_succession
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_scarlet_dawn }	
+		cost = 1
+		relative_position_id = SUS_scarlet_dawn
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_integrate_monarchists
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_deal_with_succession }	
+		cost = 1
+		relative_position_id = SUS_deal_with_succession
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_destroy_the_regressionists
+		}
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_reintegrate_serfs
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_integrate_monarchists }	
+		cost = 1
+		relative_position_id = SUS_integrate_monarchists
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_implement_succession_kingdom
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_integrate_monarchists }	
+		cost = 1
+		relative_position_id = SUS_integrate_monarchists
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+				
+	focus = {
+		id = SUS_destroy_the_regressionists
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_deal_with_succession }	
+		cost = 1
+		relative_position_id = SUS_deal_with_succession
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+		mutually_exclusive = {
+		focus = SUS_integrate_monarchists
+		}
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_freeing_serfs
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_destroy_the_regressionists }	
+		cost = 1
+		relative_position_id = SUS_destroy_the_regressionists
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_instal_loyal_administrators
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_destroy_the_regressionists }	
+		cost = 1
+		relative_position_id = SUS_destroy_the_regressionists
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_retaking_capital
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_implement_succession_kingdom focus = SUS_reintegrate_serfs }
+		prerequisite = { focus = SUS_instal_loyal_administrators focus = SUS_freeing_serfs }		
+		cost = 1
+		relative_position_id = SUS_reintegrate_serfs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_rebuilding_capital
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 1
+		prerequisite = { focus = SUS_retaking_capital }	
+		cost = 1
+		relative_position_id = SUS_retaking_capital
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_purge_accelerationist_movement
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_retaking_capital }	
+		cost = 1
+		relative_position_id = SUS_retaking_capital
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_pushing_jacobites_out
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_implement_succession_kingdom focus = SUS_reintegrate_serfs }
+		prerequisite = { focus = SUS_instal_loyal_administrators focus = SUS_freeing_serfs }		
+		cost = 1
+		relative_position_id = SUS_freeing_serfs
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_reconversion_of_kent
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 1
+		prerequisite = { focus = SUS_pushing_jacobites_out }	
+		cost = 1
+		relative_position_id = SUS_pushing_jacobites_out
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_grasp_on_historical_center
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_pushing_jacobites_out }	
+		cost = 1
+		relative_position_id = SUS_pushing_jacobites_out
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+
+	focus = {
+		id = SUS_all_british_front
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_retaking_capital }
+		prerequisite = { focus = SUS_pushing_jacobites_out }		
+		cost = 1
+		relative_position_id = SUS_retaking_capital
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+
+	focus = {
+		id = SUS_retaking_wales
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_all_british_front }	
+		cost = 1
+		relative_position_id = SUS_all_british_front
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_install_princedom_of_wales
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_retaking_wales }	
+		cost = 1
+		relative_position_id = SUS_retaking_wales
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_new_mining_practice
+		icon = GFX_goal_generic_position_armies
+		x = -2
+		y = 1
+		prerequisite = { focus = SUS_retaking_wales }	
+		cost = 1
+		relative_position_id = SUS_retaking_wales
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+	focus = {
+		id = SUS_destroy_german_contingent
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_all_british_front }	
+		cost = 1
+		relative_position_id = SUS_all_british_front
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_cooperation_with_bundeswehr
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 1
+		prerequisite = { focus = SUS_destroy_german_contingent }	
+		cost = 1
+		relative_position_id = SUS_destroy_german_contingent
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_concept_of_gerlaw
+		icon = GFX_goal_generic_position_armies
+		x = 2
+		y = 1
+		prerequisite = { focus = SUS_destroy_german_contingent }	
+		cost = 1
+		relative_position_id = SUS_destroy_german_contingent
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_invite_mistics
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_punish_the_heathens }	
+		cost = 1
+		relative_position_id = SUS_punish_the_heathens
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_historical_determinism
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_punish_the_heathens }	
+		cost = 1
+		relative_position_id = SUS_punish_the_heathens
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_punish_the_heathens
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = SUS_all_british_front }	
+		cost = 1
+		relative_position_id = SUS_all_british_front
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_and_deal_with_traitors
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 2
+		prerequisite = { focus = SUS_punish_the_heathens }	
+		cost = 1
+		relative_position_id = SUS_punish_the_heathens
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_debolshivization
+		icon = GFX_goal_generic_position_armies
+		x = -1
+		y = 1
+		prerequisite = { focus = SUS_and_deal_with_traitors }	
+		cost = 1
+		relative_position_id = SUS_and_deal_with_traitors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_restore_english_right
+		icon = GFX_goal_generic_position_armies
+		x = 1
+		y = 1
+		prerequisite = { focus = SUS_and_deal_with_traitors }	
+		cost = 1
+		relative_position_id = SUS_and_deal_with_traitors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_retaking_ireland
+		icon = GFX_goal_generic_position_armies
+		x = 3
+		y = 2
+		prerequisite = { focus = SUS_and_deal_with_traitors }	
+		cost = 1
+		relative_position_id = SUS_and_deal_with_traitors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_uniting_kingdom
+		icon = GFX_goal_generic_position_armies
+		x = -3
+		y = 2
+		prerequisite = { focus = SUS_and_deal_with_traitors }	
+		cost = 1
+		relative_position_id = SUS_and_deal_with_traitors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}
+	focus = {
+		id = SUS_red_empire
+		icon = GFX_goal_generic_position_armies
+		x = 0
+		y = 3
+		prerequisite = { focus = SUS_uniting_kingdom }
+		prerequisite = { focus = SUS_retaking_ireland }		
+		cost = 1
+		relative_position_id = SUS_and_deal_with_traitors
+		ai_will_do = {
+			factor = 10
+		}
+		available_if_capitulated = yes
+
+		available = {
+		
+		}
+		bypass = {
+
+				}
+
+		completion_reward = {
+					}
+				}				
+}
