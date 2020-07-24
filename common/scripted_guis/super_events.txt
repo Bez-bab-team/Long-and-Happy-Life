@@ -9,14 +9,8 @@ scripted_gui = {
 		}
 
 		triggers = {
-			Super_Event_Image_Default_visible = {
-				has_global_flag  = Super_Event_Visible_NoImage
-			}
-		}
-
-		triggers = {
-			Super_Event_Image_American_Civil_War_visible = {
-				has_global_flag  = USA_American_Civil_War
+			Super_Event_Image_Absolutist_Victory_visible = {
+				has_global_flag  = Absolutist_Victory
 			}
 		}
 
@@ -32,9 +26,9 @@ scripted_gui = {
 
 				if = {
 					limit = {	
-						has_global_flag = USA_American_Civil_War
+						has_global_flag = Absolutist_Victory
 					}
-					clr_global_flag  = USA_American_Civil_War
+					clr_global_flag  = Absolutist_Victory
 				}
 			}
 		}

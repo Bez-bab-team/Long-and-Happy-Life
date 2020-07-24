@@ -1,0 +1,11 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Absolutist_Victory"
+		texturefile = "gfx/super_events/Absolutist_Victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CLOSE"
+		texturefile = "gfx/Super_Event_Close_Button.dds"
+	}
+}
