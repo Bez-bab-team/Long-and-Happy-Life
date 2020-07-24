@@ -30,7 +30,7 @@ country_event = {		#Super Event DONE
 
         set_global_flag = Super_Event_Visible
         set_global_flag = USA_American_Civil_War
-		sound_effect = "absolutists_vic"
+		sound_effect = "absolutists_vin"
 	}
 }
 
