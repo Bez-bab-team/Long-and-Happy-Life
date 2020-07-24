@@ -7,3 +7,11 @@ soundeffect =
 	}
 	volume = 1
 }
+
+{
+	name = "absolutists_vic"
+	sounds = {
+		sound = "absolutists"
+	}
+	volume = 1
+}
