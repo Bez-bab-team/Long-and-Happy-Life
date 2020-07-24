@@ -1,8 +1,7 @@
 
-
 sound = {
-	name = "super_acw"
-	file = "menu/acw.wav"
+	name = "absolutists_vic"
+	file = "menu/absolutists.wav"
 	volume = 1
 	always_load = yes
 }

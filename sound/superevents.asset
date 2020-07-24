@@ -1,17 +1,8 @@
 
-soundeffect =
-{
-	name = "superev_acw"
+soundeffect = {
+	name = "absolutistsev_vic"
 	sounds = {
-		sound = "super_acw"
-	}
-	volume = 1
-}
-
-{
-	name = "absolutists_vic"
-	sounds = {
-		sound = "absolutists"
+		sound = "absolutists_vic"
 	}
 	volume = 1
 }
