@@ -1,5 +1,0 @@
-sound = {
-	name = "absolutists_vin"
-	file = "super/absolutists.wav"
-	always_load = no
-}
