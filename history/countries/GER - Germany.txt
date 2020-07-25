@@ -23,10 +23,29 @@ set_popularities = {
 	socialism = 100
 }
 
+country_event = { id = GER_event.1 days = 15 }
+
 create_country_leader = {
 	name = "Angela Merkel"
 	picture = "Portrait_GER_Merkel.dds"
 	expire = "1953.3.1"
 	ideology = progressivism
 	traits = { }
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = EAG
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = EAG
+	}
 }

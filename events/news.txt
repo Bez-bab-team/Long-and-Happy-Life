@@ -1,0 +1,57 @@
+add_namespace = lhl_news
+
+news_event = {
+	id = lhl_news.1
+	title = lhl_news.1.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.1"}
+	desc = lhl_news.1.d
+	picture = GFX_report_event_diplomatic_message
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.1.a
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = lhl_news.1.b
+		trigger = { TAG = EAG }
+	}
+	option = {
+		name = lhl_news.1.c
+		trigger = { 
+			NOT = { 
+				TAG = GER
+				TAG = EAG
+			}
+		}
+	}
+}
+
+news_event = {
+	id = lhl_news.2
+	title = lhl_news.2.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.2"}
+	desc = lhl_news.2.d
+	picture = GFX_report_event_diplomatic_message
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.2.a
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = lhl_news.2.b
+		trigger = { TAG = EAG }
+	}
+	option = {
+		name = lhl_news.2.c
+		trigger = { 
+			NOT = { 
+				TAG = GER
+				TAG = EAG
+			}
+		}
+	}
+}
