@@ -1,0 +1,60 @@
+
+defined_text = { #SUPER EVENT CLOSE
+    name = get_superevent_close
+
+    text = { 
+        trigger = {
+            has_global_flag = Absolutist_Victory
+        }
+        localization_key = "GFX_Absolutist_Victory_CLOSE"
+    }
+
+    text = { 
+        trigger = {
+            has_global_flag = Anarchist_victory
+        }
+        localization_key = "GFX_Anarchist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = distributist_victory
+        }
+        localization_key = "GFX_distributist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = folcist_victory
+        }
+        localization_key = "GFX_folcist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = jacobite_victory
+        }
+        localization_key = "GFX_jacobite_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = nationalist_victory
+        }
+        localization_key = "GFX_nationalist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = republicanist_victory
+        }
+        localization_key = "GFX_republicanist_victory_CLOSE"
+    }
+	
+    text = { 
+        trigger = {
+            has_global_flag = royalist_victory
+        }
+        localization_key = "GFX_royalist_victory_CLOSE"
+    }
+}
