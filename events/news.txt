@@ -55,3 +55,26 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = lhl_news.3
+	title = lhl_news.3.t
+	immediate = {log = "[GetDateText]: [Root.GetName]: lhl_news.3"}
+	desc = lhl_news.3.d
+	picture = GFX_mongol_nazi
+	major = yes 
+	is_triggered_only = yes 
+	fire_only_once = no
+	option = {
+		name = lhl_news.3.a
+		trigger = { TAG = MON }
+	}
+	option = {
+		name = lhl_news.3.b
+		trigger = { 
+			NOT = { 
+				TAG = MON
+			}
+		}
+	}
+}

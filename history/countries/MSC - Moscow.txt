@@ -119,9 +119,20 @@ if = {
 	}
 }
 
-set_autonomy = {
-	target = MON
-	autonomous_state =  autonomy_puppet
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = MON
+	}
 }
 create_faction = amphictyony_of_freedom
 

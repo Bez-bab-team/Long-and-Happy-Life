@@ -17,14 +17,26 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	national_bolshevism = 100
+    hegemonism = 54
+	national_bolshevism = 46
 }
+
+country_event = { id = MON_event.1 days = 10 }
 
 create_country_leader = {
 	name = "Baron Michael von Ungern-Sternberg"
 	picture = "Portrait_Baron_Michael_von_Ungern_Sternberg.dds"
 	ideology = nazbol_gang
+	traits = { 
+	}
+}
+
+create_country_leader = {
+	name = "1984 Big Brother"
+	picture = "Portrait_Ariunbold_Altankhuum.dds"
+	ideology = stratocracy  
 	traits = { 
 	}
 }

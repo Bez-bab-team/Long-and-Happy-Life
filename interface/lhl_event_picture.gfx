@@ -6,5 +6,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_cyrillization"
 		texturefile = "gfx/event_pictures/cyrillization.dds"
-	}		
+	}
+	spriteType = {
+		name = "GFX_mongol_nazi"
+		texturefile = "gfx/event_pictures/mongol_nazi.dds"
+	}	
 }
