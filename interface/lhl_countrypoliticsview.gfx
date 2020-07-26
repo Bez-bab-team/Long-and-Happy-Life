@@ -54,5 +54,10 @@ spriteTypes = {
 		name = "GFX_ideology_ur_fascism_group"
 		texturefile = "gfx/interface/ideologies/ur_fascism_group.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_IMT_neocameralism_group"
+		texturefile = "gfx/interface/ideologies/unique/IMT/imperial_throne_neocameralism.dds"
+	}
 	
 }

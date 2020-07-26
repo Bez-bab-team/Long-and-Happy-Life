@@ -1,0 +1,46 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_Absolutist_Victory"
+		texturefile = "gfx/super_events/Absolutist_Victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Anarchist_victory"
+		texturefile = "gfx/super_events/Anarchist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_distributist_victory"
+		texturefile = "gfx/super_events/distributist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_folcist_victory"
+		texturefile = "gfx/super_events/folcist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_jacobite_victory"
+		texturefile = "gfx/super_events/jacobite_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_nationalist_victory"
+		texturefile = "gfx/super_events/nationalist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_republicanist_victory"
+		texturefile = "gfx/super_events/republicanist_victory.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_royalist_victory"
+		texturefile = "gfx/super_events/royalist_victory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_CLOSE"
+		texturefile = "gfx/Super_Event_Close_Button.dds"
+	}
+}

@@ -1,0 +1,11 @@
+﻿l_english:
+ ###EVENTS###
+ EAG_event.1.t:0 "An visit from Germany"
+ EAG_event.1.d:0 "After Merkel fell ill, an examiner has arrived from Germany to check how we are doing"
+ EAG_event.1.a:0 "Oh no"
+ EAG_event.2.t:0 "Unfortunate news"
+ EAG_event.2.d:0 "The examiner has found out that everything is terrible"
+ EAG_event.2.a:0 "This is bad"
+ EAG_event.3.t:0 "Germany demands our resignation!"
+ EAG_event.3.d:0 "Germany wants us to resign from our post and work another job"
+ EAG_event.3.a:0 "Over my dead body!"

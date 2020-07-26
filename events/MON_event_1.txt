@@ -1,0 +1,28 @@
+﻿add_namespace = MON_event
+
+country_event = {
+	id = MON_event.1
+	title = MON_event.1.t
+	desc = MON_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = MON_event.1.a
+		FROM = {
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = autonomy_free
+			}
+		}
+		hidden_effect = {
+			  news_event = { id = lhl_news.3 days = 1 }
+		}	
+        add_political_power = -20
+        set_politics = {
+	        ruling_party = hegemonism
+        }
+        leave_faction = yes		
+    }   
+}

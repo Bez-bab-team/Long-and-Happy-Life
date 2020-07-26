@@ -1,0 +1,69 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "Super_Event_Window"
+		size = { width = 581 height = 427 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no	
+		moveable = yes
+
+		iconType = {
+			name ="Super_Event_Absolutist_Victory"
+			spriteType = "GFX_Absolutist_Victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_Anarchist_victory"
+			spriteType = "GFX_Anarchist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_distributist_victory"
+			spriteType = "GFX_distributist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_folcist_victory"
+			spriteType = "GFX_folcist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_jacobite_victory"
+			spriteType = "GFX_jacobite_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_nationalist_victory"
+			spriteType = "GFX_nationalist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_republicanist_victory"
+			spriteType = "GFX_republicanist_victory"
+			position = { x = 35 y = 0 }
+		}
+		
+		iconType = {
+			name ="Super_Event_royalist_victory"
+			spriteType = "GFX_royalist_victory"
+			position = { x = 35 y = 0 }
+		}
+
+		buttonType = {
+            name = "Super_Event_Close"
+            position = { x = 149 y = 384 }
+            quadTextureSprite ="GFX_CLOSE"
+			buttonText = "[get_superevent_close]"
+			buttonFont = "hoi_24header"
+            clicksound = click_scroll
+        }
+	}
+}
