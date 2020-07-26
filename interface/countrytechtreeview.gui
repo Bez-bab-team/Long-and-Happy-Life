@@ -473,8 +473,8 @@ guiTypes = {
 				
 			containerWindowType = {
 				name = "tiled_research_bg"
-				position = { x=150 y=640 }
-				size = { width = 1340 height = 430 }
+				position = { x=150 y=635 }
+				size = { width = 1370 height = 545 }
 				clipping = no
 			
 				background = {
@@ -485,8 +485,8 @@ guiTypes = {
 				
 			containerWindowType = {
 				name = "tiled_research_bg_2"
-				position = { x=160 y=920 }
-				size = { width = 1320 height = 140 }
+				position = { x=160 y=1045 }
+				size = { width = 1320 height = 135 }
 				clipping = no
 			
 				background = {
@@ -494,7 +494,40 @@ guiTypes = {
 					quadTextureSprite ="GFX_tiled_research_bg"
 				}			
 			}
-
+			
+			containerWindowType = {
+				name = "tiled_research_bg_3"
+				position = { x=150 y=1170 }
+				size = { width = 1370 height = 155 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
+			containerWindowType = {
+				name = "tiled_research_bg_4"
+				position = { x=150 y=1310 }
+				size = { width = 1370 height = 150 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
+			containerWindowType = {
+				name = "tiled_research_bg_5"
+				position = { x=150 y=1450 }
+				size = { width = 1370 height = 150 }
+				clipping = no
+			
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}			
+			}
 			gridboxtype = {
 				name = "tech_support_tree"
 				position = { x = 100 y = 160 }
@@ -513,8 +546,24 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-
+			gridboxtype = {
+				name = "tech_uav_tree"
+				position = { x = 100 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "tech_transport_helicopters_tree"
+				position = { x = 100 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			gridboxtype = {
+				name = "tech_assault_helicopters_tree"
+				position = { x = 100 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 		}
 
 		containerWindowType = {

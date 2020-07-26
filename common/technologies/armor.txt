@@ -234,7 +234,7 @@ technologies = {
 	}
 	basic_armoured_personnel_carrier = {
 		enable_equipments = {
-			armoured_personnel_carrier_1 
+			armoured_personnel_carrier_equipment_1 
 		}
 		enable_subunits = {
 			light_armor
@@ -264,7 +264,7 @@ technologies = {
 	improved_armoured_personnel_carrier = { 
 	
 		enable_equipments = {
-			armoured_personnel_carrier_2 
+			armoured_personnel_carrier_equipment_2 
 		}
 		
 		path = {
@@ -299,7 +299,7 @@ technologies = {
 	advanced_armoured_personnel_carrier = { 
 
 		enable_equipments = {
-			armoured_personnel_carrier_3 
+			armoured_personnel_carrier_equipment_3 
 		}	
 		
 		research_cost = 2
@@ -327,7 +327,7 @@ technologies = {
 	futuristic_armoured_personnel_carrier = { 
 
 		enable_equipments = {
-			armoured_personnel_carrier_4 
+			armoured_personnel_carrier_equipment_4 
 		}	
 		
 		research_cost = 2
