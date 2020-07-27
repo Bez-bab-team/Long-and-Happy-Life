@@ -236,6 +236,57 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_tech_nbc_protection_company4_medium"
 		texturefile = "gfx/interface/technologies/tech_nbc_protection_company_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company2_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company3_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_transport_helicopters_company4_medium"
+		texturefile = "gfx/interface/technologies/tech_transport_helicopters_company_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_company_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company2_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_company_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company3_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_assault_helicopters_company4_medium"
+		texturefile = "gfx/interface/technologies/tech_assault_helicopters_equipment_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_uav_company_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_uav_company2_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_uav_company3_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_uav_company4_medium"
+		texturefile = "gfx/interface/technologies/tech_uav_company_equipment_4.dds"
 	}	
 	### Angeln gfx###
 	SpriteType = {
