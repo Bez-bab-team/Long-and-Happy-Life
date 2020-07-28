@@ -14,15 +14,17 @@ technologies = {
 			leads_to_tech = delay 
 			research_cost_coeff = 1
 		}
-		
-		category_all_armor = {
-			breakthrough = 0.20
+
+		category_mobile_artillery = {
+			soft_attack = 0.05
 		}
 		
-		planning_speed = 0.5
-		army_speed_factor = 0.10
-		enable_tactic = tactic_unexpected_thrust
+		category_tanks = {
+			max_organisation = 10
+		}
 		org_loss_when_moving = -0.1
+		army_speed_factor = 0.05
+		enable_tactic = tactic_breakthrough
 
 		doctrine = yes	
 		research_cost = 2.25
@@ -58,12 +60,17 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 		
-		category_all_infantry = {
-			max_organisation = 15
+		armoured_personnel_carrier = {
+			max_organisation = 5
+		}		
+		infantry_fighting_vehicle = {
+			max_organisation = 5
+		}		
+		armored_car = {
+			max_organisation = 5
 		}
 		
-		
-		enable_tactic = tactic_delay
+		enable_tactic = tactic_blitz
 		
 		path = {
 			leads_to_tech = elastic_defence 
@@ -102,23 +109,14 @@ technologies = {
 	
 	elastic_defence = {
 
-		land_reinforce_rate = 0.02
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		category_tanks = {
-			max_organisation = 1
+		category_anti_air = {
+			air_attack = 0.1
+			max_organisation = 5
 		}
-		armored_car = {
-			max_organisation = 2
-		}
-
-		category_all_armor = {
-			maximum_speed = 0.1
-		}
-		
-	
 		enable_tactic = tactic_elastic_defense
 		
 		path = {
@@ -159,7 +157,7 @@ technologies = {
 		}
 	}
 	
-	mobile_infantry = { #Branch focuses on infantry, included Motorised and Mechanised.
+	mobile_infantry = { 
 
 		xp_research_type = army
 		xp_research_cost = 100
@@ -168,41 +166,16 @@ technologies = {
 		xor={
 			armored_spearhead
 		}
-		motorized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
+		paratrooper = {
+			soft_attack = 0.1
+			max_organisation = 4
+			defense = 0.2
 		}
-		armored_car = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_artillery_brigade = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_anti_tank_brigade = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mot_anti_air_brigade = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		amphibious_mechanized = {
-			maximum_speed = 0.1
-			default_morale = 0.2
-		}
-		
-		
+		no_supply_grace = 12			
 		path = {
 			leads_to_tech = mass_motorization 
 			research_cost_coeff = 1
 		}
-
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -252,10 +225,21 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		category_all_infantry = {
-			max_organisation = 10
-		}	
-		
+		category_army = {
+			acclimatization_hot_climate_gain_factor = 0.20
+			acclimatization_cold_climate_gain_factor = 0.20		
+			}	
+		category_anti_air = {
+			soft_attack = 0.1
+		}		
+		mountaineers = {
+			max_organisation = 5
+		}
+		assault_helicopters = {
+			soft_attack = 0.1
+		}		
+				
+		enable_tactic = tactic_delay
 		
 		path = {
 			leads_to_tech = mechanised_offensive 
@@ -305,27 +289,16 @@ technologies = {
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
 
-		motorized = {
-			max_organisation = 15
-			
-		}
-		mechanized = {
-			max_organisation = 15
-		}
-		amphibious_mechanized = {
-			max_organisation = 15
-		}
+		tactical_ballistic_missile_brigade = {
+			soft_attack = 0.1
+			hard_attack = 0.1
 		
-		armored_car = {
-			max_organisation = 3	
 		}
+		category_artillery = { 
+			soft_attack = 0.05
+		}		
 
-		category_tanks = {
-			max_organisation = 3
-		}
-	
-
-		enable_tactic = tactic_blitz
+		enable_tactic = tactic_overwhelming_fire
 		
 		
 		path = {
@@ -377,12 +350,17 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		category_tanks = {
-			max_organisation = 3
-			breakthrough = 0.20
+		
+		category_all_infantry = {
+			soft_attack = 0.1
 		}
 		
-		enable_tactic = tactic_blitz
+		conscription = 0.02
+		
+		infantry = {
+			combat_width = -0.4
+		}		
+		enable_tactic = tactic_banzai_charge
 		
 	
 		xor = {
@@ -439,21 +417,17 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		category_tanks = {
-			max_organisation = 2
-		}
+		
+		army_core_defence_factor = 0.1
+		army_core_attack_factor = 0.05
+		max_dig_in = 10
 
-		category_all_armor = {
-			default_morale = 0.1
-		}
-		
-		
 		path = {
 			leads_to_tech = blitzkrieg 
 			research_cost_coeff = 1
 		}
+		enable_tactic = tactic_guerrilla_tactics
 
-		
 		doctrine = yes	
 		research_cost = 4.5
 
@@ -496,33 +470,14 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		category_tanks = {
-			max_organisation = 1
-		}
+	
+		special_forces_cap = 0.1
+		minimum_training_level = -0.1		
 
-		category_all_armor = {
-			default_morale = 0.1
-		}
-		armored_car = {
-			default_morale = 0.1
-		}
-
-		enable_tactic = tactic_breakthrough
-		
-		motorized = {
-			max_organisation = 5
-		}
-		armored_car = {
-			max_organisation = 7
-		}
-		mechanized = {
-			max_organisation = 5
-		}
-		amphibious_mechanized = {
-			max_organisation = 5
+		category_special_forces = {
+			max_organisation = 4
 		}		
-
-		
+	
 		path = {
 			leads_to_tech = kampfgruppe 
 			research_cost_coeff = 1
@@ -573,12 +528,13 @@ technologies = {
 		xp_research_bonus = 1.00
 		category_all_infantry = {
 			default_morale = 0.2
-			max_organisation = 10
 		}
-		# faster planning
-		planning_speed = 0.2
-		
-		enable_tactic = tactic_overwhelming_fire
+		army_core_defence_factor = 0.05
+		max_dig_in = 10
+		nbcb_brigade = {
+		casualty_trickleback = 0.1
+		}
+		industry_free_repair_factor = 0.2		
 		
 		path = {
 			leads_to_tech = firebrigades 
@@ -634,23 +590,22 @@ technologies = {
 		xor={
 			volkssturm
 		}
-		
-		category_all_infantry = {
-			max_organisation = 10
+	
+		signal_company = {
+			max_organisation = 4
+			recon = 1
+			suppression_factor = 0.20
+
 		}
-		category_tanks = {
-			max_organisation = 2
-		}
-		armored_car = {
-			max_organisation = 2
+		category_army = {
+			max_organisation = 5
 		}
 
-		
 		path = {
 			leads_to_tech = backhand_blow 
 			research_cost_coeff = 1
 		}
-
+		enable_tactic = tactic_tactical_withdrawal
 		
 		doctrine = yes	
 		research_cost = 4.5
@@ -694,8 +649,15 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		enable_tactic = tactic_backhand_blow
 		
+		category_recon = {
+			max_organisation = 4
+			recon = 2
+		} 
+		category_army = {
+		suppression_factor = 0.05
+		}		
+		land_night_attack = 0.25	
 		path = {
 			leads_to_tech = modern_blitzkrieg 
 			research_cost_coeff = 1
@@ -739,21 +701,18 @@ technologies = {
 		xp_research_bonus = 1.00
 		category_tanks = {
 			max_organisation = 3
-			breakthrough = 0.20
 		}
 
 		category_all_armor = {
-			default_morale = 0.2
+			soft_attack = 0.1
 		}
-		armored_car = {
-			max_organisation = 3
-			default_morale = 0.2
-			breakthrough = 0.20
+		category_army = {
+			breakthrough = 0.05
 		}
 		
 		doctrine = yes	
 		research_cost = 4.5
-		
+		enable_tactic = tactic_unexpected_thrust 			
 		categories = {
 			land_doctrine
 			cat_mobile_warfare
@@ -795,9 +754,11 @@ technologies = {
 		xor={
 			firebrigades
 		}
-
-		
-		conscription = 0.02
+		category_tanks = {
+			max_organisation = 2
+			hard_attack = 0.1
+			breakthrough = 0.04
+		}	
 		
 		path = {
 			leads_to_tech = nd_conscription 
@@ -850,8 +811,9 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		conscription = 0.03
-
+		
+		enable_tactic = tactic_human_wave_tactics 	
+		conscription = 0.02
 		path = {
 			leads_to_tech = werwolf_guerillas 
 			research_cost_coeff = 1
@@ -894,10 +856,16 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		#Increased Partisan effect on your land occupied by others
-		resistance_damage_to_garrison_on_our_occupied_states = 0.1 
+		
+		category_all_infantry = {
+			soft_attack = 0.1
+		}
+		category_artillery = {
+			soft_attack = 0.1
+		}	
+		air_cas_present_factor = 0.20
+		enable_tactic = tactic_barrage
 
-		enable_tactic = tactic_guerrilla_tactics
 		
 		doctrine = yes	
 		research_cost = 4.5

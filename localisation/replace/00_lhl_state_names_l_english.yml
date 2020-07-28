@@ -666,7 +666,3 @@ STATE_664:0 "North Gyeongsang"
 STATE_665:0 "South Gyeongsang"
 STATE_666:0 "Gwangju"
 STATE_667:0 "Jeju"
-
-MOBILE_WARFARE_DOCTRINE:0 "Gerasimov Doctrine"
-SUPERIOR_FIREPOWER_DOCTRINE:0 "Battlefield Control"
-GRAND_BATTLEPLAN_DOCTRINE:0 "Asymmetric warfare"

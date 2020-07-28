@@ -1,0 +1,14 @@
+﻿l_english:
+ ###categories###
+ category_mobile_artilleryt:0 "Self-propelled artillery"
+ category_anti_air:0 "Anti-air artillery"
+
+ ###tactic###
+ tactic_blitz:0 "Combined Assault"
+
+ ###Units###
+ armoured_personnel_carrier:0 "APC"
+ infantry_fighting_vehicle:0 "MIFV"
+ assault_helicopters:0 "Assault Helicopters"
+ tactical_ballistic_missile_brigade:0 "Tactical Ballistic Missile"
+ nbcb_brigade:0 "NBC Protection Brigade"

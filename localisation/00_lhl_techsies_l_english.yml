@@ -208,3 +208,7 @@
  tech_assault_helicopters_company4:0 "Assault Helicopters Company IV"
  tech_assault_helicopters_company4_short:0 "AH Company IV"
  tech_assault_helicopters_company4_desc:0 "sator tenet arepo opera rotas" 
+ 
+ MOBILE_WARFARE_DOCTRINE:0 "Gerasimov Doctrine"
+ SUPERIOR_FIREPOWER_DOCTRINE:0 "Battlefield Control"
+ GRAND_BATTLEPLAN_DOCTRINE:0 "Asymmetric warfare"

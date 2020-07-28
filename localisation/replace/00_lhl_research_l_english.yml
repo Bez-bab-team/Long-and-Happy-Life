@@ -2,3 +2,36 @@
  MOBILE_WARFARE_DOCTRINE:0 "Gerasimov Doctrine"
  SUPERIOR_FIREPOWER_DOCTRINE:0 "Battlefield Control"
  GRAND_BATTLEPLAN_DOCTRINE:0 "Asymmetric warfare"
+ 
+ MOBILE_WARFARE_DOCTRINE_LABEL:0 "GERASIMOV DOCTRINE"
+ MOBILE_WARFARE_DOCTRINE_DESC:0 "Combination of Soviet military school and hybrid warfare techniques."
+ MOBILE_INFANTRY_LABEL:0 "SOVIET LEGACY"
+ MOBILE_INFANTRY_LABEL_TT:0 "Improve speed and organization of motorized infantry."
+ BLITZKRIEG_LABEL:0 "MODERN HUMAN WAVE"
+ BLITZKRIEG_LABEL_TT:0 "Improve organization of armored units."
+ 
+ DESPERATE_DEFENSE_LABEL:0 "HYBRYD WARFARE"
+ DESPERATE_DEFENSE_LABEL_TT:0 "Maximize recruitment and guerilla tactics."
+ MODERN_BLITZKRIEG_LABEL:0 "ARMOR DOMINATION"
+ MODERN_BLITZKRIEG_LABEL_TT:0 "Improve army organization and counter tactics."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ SUPERIOR_FIREPOWER_DOCTRINE_LABEL:0 "SUPERIOR FIREPOWER DOCTRINE"
+ SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "This doctrine focuses on throwing shells, not men, at the enemy. Our manpower is precious, bullets are cheap."
+ GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "GRAND BATTLEPLAN DOCTRINE"
+ GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "Extensive planning and preparation before engaging in battle is the key to success."
+ MASS_ASSAULT_DOCTRINE_LABEL:0 "MASS ASSAULT DOCTRINE"
