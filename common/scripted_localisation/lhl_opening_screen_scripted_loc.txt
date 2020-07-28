@@ -1,0 +1,52 @@
+
+SET_OPENING_TEXT = {
+	name = SET_OPENING_TEXT
+
+	text = {
+		trigger = { has_country_flag = opening_screen_country }
+		localization_key = OPENING_COUNTRY
+	}
+
+	text = {
+		trigger = { has_country_flag = opening_screen_region }
+		localization_key = OPENING_REGION
+	}
+
+	text = {
+		trigger = { has_country_flag = opening_screen_updates }
+		localization_key = OPENING_UPDATES
+	}
+
+	text = {
+		trigger = { has_country_flag = opening_screen_mod_info }
+		localization_key = OPENING_MOD_INFO
+	}
+
+}
+
+SET_COUNTRY = {
+	name = SET_COUNTRY
+
+	## Default
+	text = {
+		localization_key = COUNTRY_TEST
+	}
+}
+
+SET_REGION = {
+	name = SET_REGION
+	
+	## Default
+	text = {
+		localization_key = REGION_TEST
+	}
+}
+
+SET_PICTURE = {
+	name = SET_PICTURE
+	
+	## Default
+	text = {
+		localization_key = "GFX_lhl_opening_picture_default"
+	}
+}

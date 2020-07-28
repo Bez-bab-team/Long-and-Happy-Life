@@ -1,0 +1,15 @@
+﻿l_english:
+ lhl_opening_screen_text: "[SET_OPENING_TEXT]"
+  
+ GUI_COUNTRYNAME: "COUNTRY INFO"
+ OPENING_COUNTRY: "[SET_COUNTRY]"
+ 
+ COUNTRY_TEST: "Bakov-grad"
+ 
+ OPENING_REGION: "[SET_REGION]"
+ 
+ REGION_TEST: "Siberia"
+ 
+ OPENING_UPDATES: "None"
+ 
+ OPENING_MOD_INFO: "LaHL - is no meme mod"
