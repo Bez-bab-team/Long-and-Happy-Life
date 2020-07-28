@@ -7,7 +7,39 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_infantry_fighting_vehicle_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_infantry_fighting_vehicle_icon.dds" noOfFrames = 2 }
 
 	spriteType = {
-		name = "GFX_support_unit_assault_helicopters_icon"
-		textureFile = "gfx//interface//support_unit_assault_helicopters_icon.dds"
+		name = "GFX_unit_assault_helicopters_icon_small"
+		texturefile = "gfx/texticons/assault_helicopters_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_unit_armoured_personnel_carrier_icon_small"
+		texturefile = "gfx/texticons/unit_armoured_personnel_carrier_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_unit_infantry_fighting_vehicle_icon_small"
+		texturefile = "gfx/texticons/unit_infantry_fighting_vehicle_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_unit_nbcb_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_nbcb_brigade_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_unit_tactical_ballistic_missile_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_tactical_ballistic_missile_brigade_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}	
+	spriteType = {
+		name = "GFX_unit_signal_company_icon_small"
+		texturefile = "gfx/texticons/support_signal_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
 	}	
 }

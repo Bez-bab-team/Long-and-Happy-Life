@@ -3,26 +3,40 @@
  SUPERIOR_FIREPOWER_DOCTRINE:0 "Battlefield Control"
  GRAND_BATTLEPLAN_DOCTRINE:0 "Asymmetric warfare"
  
- MOBILE_WARFARE_DOCTRINE_LABEL:0 "GERASIMOV DOCTRINE"
- MOBILE_WARFARE_DOCTRINE_DESC:0 "Combination of Soviet military school and hybrid warfare techniques."
- MOBILE_INFANTRY_LABEL:0 "SOVIET LEGACY"
+ MOBILE_WARFARE_DOCTRINE_LABEL:0 "NONLINEAR WARFARE"
+ MOBILE_WARFARE_DOCTRINE_DESC:0 "A combination of Soviet Military School and Hybrid Warfare techniques."
+ MOBILE_INFANTRY_LABEL:0 "SPECIAL TACTCS"
  MOBILE_INFANTRY_LABEL_TT:0 "Improve speed and organization of motorized infantry."
  BLITZKRIEG_LABEL:0 "MODERN HUMAN WAVE"
  BLITZKRIEG_LABEL_TT:0 "Improve organization of armored units."
  
- DESPERATE_DEFENSE_LABEL:0 "HYBRYD WARFARE"
+ DESPERATE_DEFENSE_LABEL:0 "ARMOR DOMINATION"
  DESPERATE_DEFENSE_LABEL_TT:0 "Maximize recruitment and guerilla tactics."
- MODERN_BLITZKRIEG_LABEL:0 "ARMOR DOMINATION"
+ MODERN_BLITZKRIEG_LABEL:0 "HYBRID WARFARE"
  MODERN_BLITZKRIEG_LABEL_TT:0 "Improve army organization and counter tactics."
  
+ tactic_blitz:0 "Combined Assault"
+ tactic_banzai_charge:0 "Shok Charge"
+ signal_company:0 "Radioelectronic Company"
+
  
  
  
  
  
  
- 
- 
+ mechanised_offensive:0 "Tactical Missile Support"
+ armored_spearhead:0 "Modern Human Wave"
+ schwerpunk:0 "Total Partisan War"
+ blitzkrieg:0 "Paramilitary Promotion"
+ kampfgruppe:0 "Сivil Defense"
+ firebrigades:0 "Network Operation"
+ backhand_blow:0 "Hybrid Warfare"
+ modern_blitzkrieg:0 "Gerasimov Doctrine"
+ volkssturm:0 "Armor Domination"
+ nd_conscription:0 "Total Mobilization"
+ werwolf_guerillas:0 "Concentration of Forces"
+
  
  
  
