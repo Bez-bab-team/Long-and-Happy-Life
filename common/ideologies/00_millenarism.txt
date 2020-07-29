@@ -1,15 +1,10 @@
 ideologies = {
 
-	millenarism = {
-		
+	millenarism = {	
 		types = {
 		
 			religious_millennialism = {
 			}	
-
-			transhumanism = {
-			}
-
 			ethical_millennialism = {
 			}
 		}

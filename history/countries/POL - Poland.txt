@@ -23,7 +23,7 @@ create_country_leader = {
 	name = "Janusz Korwin-Mikke"
 	desc = "POLITICS_KORWIN_MIKKE_DESC"
 	picture = "Portrait_Salvation_Poland_Korwin_Mikke.dds"
-	ideology = hoppean_libertarianism
+	ideology = atlantic_liberalism
 	traits = {
 		#
 	}

@@ -21,14 +21,14 @@ set_popularities = {
 	ur_fascism = 67
 	regressionism = 16
 	right_populism = 12
-	neocameralism = 5
+	social_conservatism = 5
 }
 
 create_country_leader = {
 	name = "Dmitrij Medvedev"
 	desc = "POLITICS_MEDVEDEV_DESC"
 	picture = "Portrait_RTS_MEDVEDEV.dds"
-	ideology = ur_monarchism
+	ideology = charismatic_dictatorship
 	traits = {
 		scourge_of_god
 	}

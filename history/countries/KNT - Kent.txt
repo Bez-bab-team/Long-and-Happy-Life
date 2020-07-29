@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Jacob Rees-Mogg"
 	desc = ""
 	picture = "rees_mogg.dds"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 		high_handed_despot
 	}

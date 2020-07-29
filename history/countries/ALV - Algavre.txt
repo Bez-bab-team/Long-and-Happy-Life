@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Manuel Godoy II"
 	desc = "POLITICS_RAPOLI_DESC"
 	picture = "Portrait_ALV_Ruspoli.dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = { paranoid_prince }
 }

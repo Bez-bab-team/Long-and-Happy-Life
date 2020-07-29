@@ -29,7 +29,7 @@ create_country_leader = {
 	name = "Dmitrij Medvedev"
 	desc = "POLITICS_TKACHYOV_DESC"
 	picture = "Portrait_COU_Andrej_Tkachyov.dds"
-	ideology = clerical_fascism 
+	ideology = charismatic_dictatorship 
 	traits = {
 		
 	}

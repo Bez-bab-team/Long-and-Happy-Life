@@ -28,7 +28,7 @@ create_country_leader = {
 	name = "Naruhito"
 	desc = "POLITICS_Naruhito_DESC"
 	picture = "Portrait_Japan_Naruhito.dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 	}
 }

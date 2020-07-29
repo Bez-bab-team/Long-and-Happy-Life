@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Muammar al-Gaddafi"
 	picture = "Gaddafi.dds"
 	expire = "1953.3.1"
-	ideology = national_maoism
+	ideology = nazbol_gang
 	traits = {
 	}
 }

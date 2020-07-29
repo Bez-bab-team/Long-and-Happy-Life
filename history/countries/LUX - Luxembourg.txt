@@ -25,6 +25,6 @@ create_country_leader = {
 	desc = "POLITICS_ZVONIMIR_DESC"
 	picture = "Portrait_LUX_Zvonimir.dds"
 	expire = "1953.3.1"
-	ideology = ur_monarchism
+	ideology = charismatic_dictatorship
 	}
 }

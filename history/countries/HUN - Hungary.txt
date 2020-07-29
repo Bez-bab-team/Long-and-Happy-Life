@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Orbán Viktor"
 	desc = "POLITICS_ORBAN_DESC"
 	picture = "Portrait_HUN_ORBAN.dds"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 	}
 }

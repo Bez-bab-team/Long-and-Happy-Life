@@ -32,11 +32,3 @@ create_country_leader = {
 	traits = { 
 	}
 }
-
-create_country_leader = {
-	name = "1984 Big Brother"
-	picture = "Portrait_Ariunbold_Altankhuum.dds"
-	ideology = stratocracy  
-	traits = { 
-	}
-}

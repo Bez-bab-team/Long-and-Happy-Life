@@ -41,7 +41,7 @@ create_country_leader = {
 	name = "François Asselineau"
 	picture = "Portrait_SHA_France.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_technocracy
+	ideology = social_conservatism
 	traits = { }
 }
 
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Gholam-Ali Haddad-Adel"
 	picture = "Portrait_SHA_Iran.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = { }
 }
 

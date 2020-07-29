@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Saif al-Arab Gaddafi"
 	picture = "Saif_al_Arabi.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 	}
 }

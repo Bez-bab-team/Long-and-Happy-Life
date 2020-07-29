@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Eugenius I"
 	desc = "POLITICS_KORWIN_MIKKE_DESC"
 	picture = "Portrait_NAV_Maestro.dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 		maestro
 	}

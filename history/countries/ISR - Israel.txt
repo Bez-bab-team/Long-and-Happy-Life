@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Benjamin Netanyahu"
 	picture = "Benjamin_Netanyahu.dds"
 	expire = "1953.3.1"
-	ideology = ur_monarchism
+	ideology = charismatic_dictatorship
 	traits = {
 		dabbat_al_ard
 	}

@@ -9,20 +9,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism  
+	ruling_party = national_bolshevism  
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	national_bolshevism = 100
 }
 
 create_country_leader = {
 	name = "Mikhail Svetov"
 	desc = "POLITICS_SVETOV_DESC"
 	picture = "Portrait_Mikhail_Sovetov.dds"
-	ideology = hoppean_libertarianism 
+	ideology = national_anarchism 
 	traits = { great_lustrator }
 }
 

@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Michael Daerden"
 	desc = ""
 	picture = "Portrait_WAL_Daerden.dds"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 	}
 }

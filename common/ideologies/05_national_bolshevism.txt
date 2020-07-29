@@ -3,12 +3,11 @@ ideologies = {
 	national_bolshevism = {
 		
 		types = {
-		
-			national_maoism = {
+			distributism = {
 			}
 			nazbol_gang = {
 			}
-			accelerationist_nazbol = {
+			national_anarchism = {
 			}
 		}
 		

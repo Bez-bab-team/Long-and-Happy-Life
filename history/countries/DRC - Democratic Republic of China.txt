@@ -24,6 +24,6 @@ create_country_leader = {
 	name = "Chang An-Lo"
 	picture = "Chang_An-Lo.dds"
 	expire = "1960.1.1"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 }

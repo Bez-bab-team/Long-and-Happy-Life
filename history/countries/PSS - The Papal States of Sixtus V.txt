@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Pope Sixtus V"
 	picture = "sixtus_v.dds"
 	expire = "1953.3.1"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 	}
 }

@@ -4,19 +4,19 @@ ideologies = {
 		
 		types = {
 		
-			statecorporation = {
+			accelerationism = {
 			}
-			authoritarian_technocracy = {
+			neo_reaction = {
 			}
-			hoppean_libertarianism  = {
+			atlantic_liberalism  = {
 			}
 		}
 		
 		dynamic_faction_names = {
-			"FACTION_NAME_jacobinism_1"
+			"FACTION_NAME_neocameralism_1"
 		}
 		
-		color = { 250 200 120 }
+		color = { 240 240 240 }
 		
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

@@ -38,7 +38,7 @@ create_country_leader = {
 	name = "Dmitrij Enteo"
 	desc = "POLITICS_ENTEO_DESC"
 	picture = "Portrait_Dmitrij_Ento.dds"
-	ideology = clerical_fascism 
+	ideology = charismatic_dictatorship 
 	traits = { possessed
 	}
 }

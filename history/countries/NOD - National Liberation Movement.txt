@@ -18,7 +18,7 @@ set_politics = {
 }
 set_popularities = {
 	national_bolshevism  = 27
-	neocameralism = 19
+	social_conservatism = 19
 	hegemonism = 14
 	right_populism = 14
 	commendationism = 11
@@ -33,7 +33,7 @@ create_country_leader = {
 	name = "Yevgeny Fyodorov"
 	desc = ""
 	picture = "Portrait_NOD_Yevgeny_Fyodorov.dds"
-	ideology = national_maoism
+	ideology = nazbol_gang
 	traits = {
 		
 	}

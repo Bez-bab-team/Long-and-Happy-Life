@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Hannibal Muammar Gaddafi"
 	picture = "Hannibal.dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 	}
 }

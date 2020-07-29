@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Mikhail Gorsheniov"
 	desc = ""
 	picture = "Portrait_GOR_Gorshok.dds"
-	ideology = left_wing_nationalism
+	ideology = paternalism
 	traits = {
 		
 	}

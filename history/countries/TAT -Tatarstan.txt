@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Mintimer Shaimiev"
 	desc = "POLITICS_SHAMIEV_DESC"
 	picture = "Portrait_TAT_SHAMIEV.dds"
-	ideology = left_wing_nationalism 
+	ideology = paternalism 
 	traits = {
 		old_boar
 	}

@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Salman bin Abdulaziz Al-Saud"
 	picture = "Salman bin Abdulaziz Al Saud.dds"
 	expire = "1953.3.1"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 		self_proclaimed_al_masiyah
 	}

@@ -13,11 +13,11 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism  = 68
+	hegemonism  = 68
 	socialism = 10
 	left_authoritarianism = 7
 	national_bolshevism = 15
@@ -27,7 +27,7 @@ create_country_leader = {
 	name = "Anton Bakov"
 	desc = "POLITICS_BAKOV_DESC"
 	picture = "Portrait_IMT_Anton_Bakov.dds"
-	ideology = authoritarian_technocracy
+	ideology = autocracy
 	traits = { 
 	         patron_of_cybernetics 
 			 eccentric_billionaire
@@ -38,7 +38,7 @@ create_country_leader = {
 	name = "Nicholas III"
 	desc = "POLITICS_NICHOLASIII_DESC"
 	picture = "Portrait_IMT_Nicholas_III.dds"
-	ideology = limited_monarchy
+	ideology = social_conservatism
 	traits = {
 		     heir_of_the_throne
 	}
@@ -48,7 +48,7 @@ create_country_leader = {
 	name = "Anastasia A.I"
 	desc = "POLITICS_ANASTASIA_AI_DESC"
 	picture = "Portrait_IMT_Evil_Anastasia_A.I..dds"
-	ideology = transhumanism
+	ideology = ethical_millennialism
 	traits = {
 		     haywire_ai
 	}
@@ -58,7 +58,7 @@ create_country_leader = {
 	name = "Anastasia"
 	desc = "POLITICS_ANASTASIA_DESC"
 	picture = ".dds"
-	ideology = ur_monarchism
+	ideology = charismatic_dictatorship
 	traits = {
 		      artifical_goddess
 	}
@@ -98,7 +98,7 @@ create_country_leader = {
 	name = "Anastasia A.I"
 	desc = "POLITICS_ANASTASIA_AI_DESC"
 	picture = "Portrait_IMT_Anastasia_A.I..dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 		      the_ai_tsarina
 	}

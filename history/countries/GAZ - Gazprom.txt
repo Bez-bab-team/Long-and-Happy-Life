@@ -9,18 +9,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = social_conservatism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	social_conservatism = 100
 }
 
 create_country_leader = {
 	name = "Vladimir Shamanov"
 	desc = ""
 	picture = "Portrait_GAZ_Shamanov.dds"
-	ideology = authoritarian_technocracy
+	ideology = social_conservatism
 	traits = {
 		
 	}

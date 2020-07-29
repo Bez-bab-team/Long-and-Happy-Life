@@ -33,7 +33,7 @@ set_popularities = {
     left_authoritarianism = 15
     socialism = 19
     national_bolshevism = 6
-    neocameralism = 5
+    social_conservatism = 5
     hegemonism = 20
 }
 

@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Marianno Rajoy"
 	desc = "POLITICS_RAJOY_DESC"
 	picture = "Portrait_POR_Rajoy.dds"
-	ideology = clerical_fascism
+	ideology = charismatic_dictatorship
 	traits = { sucellus_chosen }
 }
 
@@ -34,6 +34,6 @@ create_country_leader = {
 	name = "Sebastian of Portugal"
 	desc = "POLITICS_Sebastian_DESC"
 	picture = "Portrait_POR_Sebastian.dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {  }
 }

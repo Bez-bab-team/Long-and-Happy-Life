@@ -24,6 +24,6 @@ create_country_leader = {
 	name = "Zhongjing Liu"
 	desc = "POLITICS_MCCAIN_DESC"
 	picture = "Zhongjing_Liu.dds"
-	ideology = ur_monarchism
+	ideology = charismatic_dictatorship
 	traits = 
 }

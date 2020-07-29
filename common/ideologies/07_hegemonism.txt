@@ -4,9 +4,9 @@ ideologies = {
 		
 		types = {
 		
-			republican_dictatorship = {
+			autocracy = {
 			}	
-			absolute_monarchy = {
+			nationalism = {
 			}	
 			stratocracy = {
 			}				

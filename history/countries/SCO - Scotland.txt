@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Nurmugamedofff"
 	picture = ".dds"
 	expire = "1953.3.1"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {
 		lion_of_syria
 	}

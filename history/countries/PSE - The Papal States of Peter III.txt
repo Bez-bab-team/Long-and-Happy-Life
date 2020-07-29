@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Pope Peter III"
 	picture = "Joseph_Odermatt.dds"
 	expire = "1953.3.1"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 	}
 }

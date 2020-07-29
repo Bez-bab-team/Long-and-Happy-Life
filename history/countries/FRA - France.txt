@@ -23,6 +23,6 @@ create_country_leader = {
 	name = "Marion Maréchal-Le Pen"
 	desc = "POLITICS_LIMONOV_DESC"
 	picture = "Portrait_FRA_Marion.dds"
-	ideology = authoritarian_republic
+	ideology = social_conservatism
 	traits = {  }
 }

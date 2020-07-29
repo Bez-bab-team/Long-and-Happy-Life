@@ -13,14 +13,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = socialism
-	last_election = "1932.11.8"
+	ruling_party = right_populism
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	socialism = 100
+	right_populism = 100
 }
 
 country_event = { id = GER_event.1 days = 15 }
@@ -29,7 +28,7 @@ create_country_leader = {
 	name = "Angela Merkel"
 	picture = "Portrait_GER_Merkel.dds"
 	expire = "1953.3.1"
-	ideology = progressivism
+	ideology = christian_democracy
 	traits = { }
 }
 

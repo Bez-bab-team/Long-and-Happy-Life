@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Recep Tayyip Erdoğan"
 	picture = "Portrait_Erdogan.dds"
 	expire = "1960.1.1"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 		qaysar_i_rum
 	}

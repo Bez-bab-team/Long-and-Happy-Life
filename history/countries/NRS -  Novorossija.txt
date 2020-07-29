@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = "POLITICS_KRASNOSELSKIJ_DESC"
 	picture = "Portrait_NRS_KRASNOSELSKIJ.dds"
 	expire = "1953.3.1"
-	ideology = limited_monarchy 
+	ideology = social_conservatism 
 	traits = {
 	}
 }
