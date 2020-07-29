@@ -60,4 +60,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/unique/IMT/imperial_throne_neocameralism.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_ideology_EAG_national_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/unique/EAG/east_england_debitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_KNT_national_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/unique/KNT/kent_debitalism.dds"
+	}
+	
 }
