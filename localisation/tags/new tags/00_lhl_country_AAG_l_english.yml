@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL_PARTIES##
+ AAG_millenarism_party:0 ""
+ AAG_millenarism_party_long:0 ""
+ AAG_commendationism_party:0 ""
+ AAG_commendationism_party_long:0 ""
+ AAG_left_authoritarianism_party:0 ""
+ AAG_left_authoritarianism_party_long:0 ""
+ AAG_socialism_party:0 ""
+ AAG_socialism_party_long:0 ""
+ AAG_national_bolshevism_party:0 ""
+ AAG_national_bolshevism_party_long:0 ""
+ AAG_neocameralism_party:0 ""
+ AAG_neocameralism_party_long:0 ""
+ AAG_right_populism_party:0 ""
+ AAG_right_populism_party_long:0 ""
+ AAG_hegemonism_party:0 ""
+ AAG_hegemonism_party_long:0 ""
+ AAG_regressionism_party:0 ""
+ AAG_regressionism_party_long:0 ""
+ AAG_ur_fascism_party:0 ""
+ AAG_ur_fascism_party_long:0 ""
+ ##COUNTRY_NAME##
+ AAG_neocameralism:0 ""
+ AAG_neocameralism_DEF:0 ""
+ AAG_millenarism:0 ""
+ AAG_millenarism_DEF:0 ""
+ AAG_commendationism:0 ""
+ AAG_commendationism_DEF:0 ""
+ AAG_left_authoritarianism:0 ""
+ AAG_left_authoritarianism_DEF:0 ""
+ AAG_socialism:0 ""
+ AAG_socialism_DEF:0 ""
+ AAG_national_bolshevism:0 ""
+ AAG_national_bolshevism_DEF:0 ""
+ AAG_right_populism:0 "Al-Arab Clique"
+ AAG_right_populism_DEF:0 "Al-Arab Clique"
+ AAG_hegemonism:0 ""
+ AAG_hegemonism_DEF:0 ""
+ AAG_regressionism:0 ""
+ AAG_regressionism_DEF:0 ""
+ AAG_ur_fascism:0 ""
+ AAG_ur_fascism_DEF:0 ""
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
