@@ -5,5 +5,10 @@ state={
 		10921 10925
 	}
 	manpower=2549000 
+	history={
+		owner = FIN
+		
+		add_core_of = FIN
+	}
 	buildings_max_level_factor=1.000
 }
