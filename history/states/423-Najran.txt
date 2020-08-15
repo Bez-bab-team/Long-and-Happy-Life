@@ -4,7 +4,7 @@ state={
 	provinces={
 		52 1827 1841 1864 3567 3808 4897 6115 6562 7709 8115 16292 16319 16374 16381 16399 16459 
 	}
-	manpower=0
+	manpower=580932
 	buildings_max_level_factor=1.000
 	history={
 		owner = SAR

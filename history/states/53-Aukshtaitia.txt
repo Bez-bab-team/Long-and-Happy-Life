@@ -5,7 +5,7 @@ state={
 	provinces={
 		3942 4477 5212 7045 7270 8549 8707 10770 12231 12239 12259 12265 12313 12316 12342 12346 12351 12362 
 	}
-	manpower=0
+	manpower=1969173
 	buildings_max_level_factor=1.000
 			history={
 		owner = LIT

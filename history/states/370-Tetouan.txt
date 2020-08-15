@@ -4,7 +4,7 @@ state={
 	provinces={
 		2336 7180 10130 10133 11561 
 	}
-	manpower=0
+	manpower=1276597
 	buildings_max_level_factor=1.000
 	history={
 		owner = UAS

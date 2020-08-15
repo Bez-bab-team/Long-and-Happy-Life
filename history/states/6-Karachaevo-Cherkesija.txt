@@ -5,6 +5,9 @@ state={
 		329 1755 3301 8577 9394 14309 14334 14345 14356 14359 
 	}
 	manpower=479639
+	resources={
+	tungsten=20
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = RGD

@@ -4,7 +4,7 @@ state={
 	provinces={
 		7447 15036 
 	}
-	manpower=0
+	manpower=123536
 	buildings_max_level_factor=1.000
 	history={
 		owner = DRU

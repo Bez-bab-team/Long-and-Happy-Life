@@ -4,7 +4,7 @@ state={
 	provinces={
 		291 1130 1426 4041 5438 7881 8414 10118 10493 10738 11530 11579 11603 11620 11637 11671 11680 11704 11729 
 	}
-	manpower=0
+	manpower=1307395
 	buildings_max_level_factor=1.000
 	history={
 		owner = CAT

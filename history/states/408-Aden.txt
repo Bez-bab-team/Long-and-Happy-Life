@@ -4,7 +4,7 @@ state={
 	provinces={
 		2000 2018 3228 4794 7013 7050 8298 8428 9367 9738 10274 10308 10661 16583 16611 16619 16629 16637 16638 16645 16648 16657 16682 
 	}
-	manpower=0
+	manpower=3035740
 	buildings_max_level_factor=1.000
 	history={
 		owner = YEM

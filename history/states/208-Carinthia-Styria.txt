@@ -5,7 +5,7 @@ state={
 	provinces={
 		5449 5838 6025 7997 8720 9720 12297 12319 12349 12396 12423 12427 12444 12450 12461 12473 12496 
 	}
-	manpower=0
+	manpower=1768344
 	buildings_max_level_factor=1.000
 	history={
 		owner = AUS

@@ -12,6 +12,6 @@ state={
 	add_core_of = ATH
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =1811
 	buildings_max_level_factor=1.000
 }

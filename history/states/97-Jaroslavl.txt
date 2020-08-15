@@ -6,6 +6,9 @@ state={
 		993 2459 4864 7516 8206 8427 8868 8878 9035 9557 10096 12757 12760 12797 12826 12888 18742 
 	}
 	manpower=1365976
+	Resources={
+	oil=4
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = NRU

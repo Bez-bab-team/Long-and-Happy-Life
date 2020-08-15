@@ -5,7 +5,10 @@ state={
 	provinces={
 		2111 3751 4385 4962 6820 7526 9546 10640 10839 11981 11998 12044 12085 12110 12116 12133 
 	}
-	manpower=0
+	manpower=2304722
+	Resources={
+	steel=8
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = PDE

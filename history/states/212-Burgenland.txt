@@ -4,7 +4,7 @@ state={
 	provinces={
 		2983 5407 8818 12483 12484 
 	}
-	manpower=0
+	manpower=284813
 	buildings_max_level_factor=1.000
 	history={
 		owner = AUS

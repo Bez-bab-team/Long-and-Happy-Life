@@ -4,7 +4,7 @@ state={
 	provinces={
 		5238 9640 9832 12673 
 	}
-	manpower=0
+	manpower=2971246
 	buildings_max_level_factor=1.000
 	history={
 		owner = HUN

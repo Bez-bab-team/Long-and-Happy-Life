@@ -12,6 +12,6 @@ state={
 	add_core_of = NOR
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =1318398
 	buildings_max_level_factor=1.000
 }

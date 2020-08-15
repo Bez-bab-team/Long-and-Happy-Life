@@ -4,7 +4,7 @@ state={
 	provinces={
 		1786 1949 4131 5722 5976 6547 6725 6783 7389 7769 9000 10387 12506 12546 12562 12580 12614 12627 12666 12698 12722 12756 12781 
 	}
-	manpower=0
+	manpower=2295101
 	buildings_max_level_factor=1.000
 	history={
 		owner = SLO

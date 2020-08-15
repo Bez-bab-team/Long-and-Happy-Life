@@ -4,7 +4,10 @@ state={
 	provinces={
 		1003 1890 5147 8896 10082 
 	}
-	manpower=0
+	manpower=634299
+	Resources={
+	oil=20
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = PER

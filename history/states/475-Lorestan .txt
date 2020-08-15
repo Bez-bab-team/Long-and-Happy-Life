@@ -4,7 +4,7 @@ state={
 	provinces={
 		300 3282 4746 6691 6739 7432 8208 
 	}
-	manpower=0
+	manpower=1716527
 	buildings_max_level_factor=1.000
 	history={
 		owner = PER

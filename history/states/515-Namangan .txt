@@ -4,7 +4,7 @@ state={
 	provinces={
 		3179 15495 15521 15537 15552 
 	}
-	manpower=0
+	manpower=2681864
 	buildings_max_level_factor=1.000
 history={
 		owner = KAZ

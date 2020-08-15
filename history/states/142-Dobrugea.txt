@@ -4,7 +4,7 @@ state={
 	provinces={
 		3522 4164 4673 7634 8301 8664 9334 9524 10528 13495 13546 13566 13600 13614 13640 
 	}
-	manpower=0
+	manpower=1200000
 	buildings_max_level_factor=1.000
 history={
 		owner = ROM

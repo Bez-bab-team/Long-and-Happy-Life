@@ -4,7 +4,7 @@ state={
 	provinces={
 		834 1793 4397 6237 6606 6705 6742 6978 8653 9071 9243 10689 12048 12089 12168 12211 12212 12233 12250 12268 12272 12289 
 	}
-	manpower=0
+	manpower=3489210
 	buildings_max_level_factor=1.000
 	history={
 	victory_points = {

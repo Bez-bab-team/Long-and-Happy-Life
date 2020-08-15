@@ -4,7 +4,7 @@ state={
 	provinces={
 		1837 2219 2243 2314 2472 3711 7030 14944 14995 15011 15012 15025 15026 15033 15052 15056 15068 15077 15100 15105 15145 
 	}
-	manpower=0
+	manpower=5754586
 	buildings_max_level_factor=1.000
 	history={
 		owner = ISR

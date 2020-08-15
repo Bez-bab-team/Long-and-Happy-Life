@@ -4,7 +4,7 @@ state={
 	provinces={
 		3441 4074 7227 16145 16190 16195 16196 
 	}
-	manpower=0
+	manpower=4447815
 	buildings_max_level_factor=1.000
 	history={
 		owner = QAT

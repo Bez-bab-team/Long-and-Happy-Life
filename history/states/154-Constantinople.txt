@@ -4,7 +4,7 @@ state={
 	provinces={
 		13882 13900 13906 13917 
 	}
-	manpower=0
+	manpower=6541593
 	buildings_max_level_factor=1.000
 	history={
 		owner = TUR

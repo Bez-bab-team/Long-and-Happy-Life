@@ -4,7 +4,7 @@ state={
 	provinces={
 		2339 2525 2797 3715 9685 10317 15186 15200 15212 15242 
 	}
-	manpower=0
+	manpower=1943166
 	buildings_max_level_factor=1.000
 	history={
 		owner = IRQ

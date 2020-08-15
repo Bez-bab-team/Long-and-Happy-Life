@@ -4,7 +4,7 @@ state={
 	provinces={
 		3603 4885 6779 14463 14466 14481 
 	}
-	manpower=0
+	manpower=349000
 	buildings_max_level_factor=1.000
 	history={
 		owner = GEO

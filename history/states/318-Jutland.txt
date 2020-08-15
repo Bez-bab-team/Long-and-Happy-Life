@@ -4,7 +4,7 @@ state={
 	provinces={
 		5909 6224 6446 7057 7510 8110 9180 9239 9354 9689 10423 11341 11348 11363 11398 11416 11425 11428 11457 11479 11484 11485 
 	}
-	manpower=0
+	manpower=1852782
 	buildings_max_level_factor=1.000
 	history={
 		owner = DEN

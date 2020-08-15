@@ -5,6 +5,9 @@ state={
 		32 5596 5738 6402 6664 6755 7334 8358 8675 13757 13763 13779 13780 13782 13785 13794 13818 13824 13847 
 	}
 	manpower=1790018
+	Resources={
+	steel=20
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = NRS

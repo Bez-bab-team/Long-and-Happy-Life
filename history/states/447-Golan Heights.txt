@@ -4,7 +4,7 @@ state={
 	provinces={
 		14904 
 	}
-	manpower=0
+	manpower=55400
 	buildings_max_level_factor=1.000
 	history={
 		owner = ISR

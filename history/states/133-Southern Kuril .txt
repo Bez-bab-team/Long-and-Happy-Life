@@ -5,7 +5,10 @@ state={
 	provinces={
 		9445 14383 
 	}
-	manpower=0
+	manpower=200000
+	resources={
+	rubber=120
+}
 	buildings_max_level_factor=1.000
 		history={
 		owner = JAP

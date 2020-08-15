@@ -4,7 +4,7 @@ state={
 	provinces={
 		1264 4637 7984 10608 10876 12013 12024 12077 
 	}
-	manpower=0
+	manpower=1021470
 	buildings_max_level_factor=1.000
 	history={
 		owner = PDE

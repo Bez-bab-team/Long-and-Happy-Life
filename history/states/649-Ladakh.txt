@@ -4,7 +4,7 @@ state={
 	provinces={
 		2401 2663 4434 6481 7453 9253 9837 10737 16150 16296 
 	}
-	manpower=0
+	manpower=274289
 	buildings_max_level_factor=1.000
 	history={
 		owner = IND

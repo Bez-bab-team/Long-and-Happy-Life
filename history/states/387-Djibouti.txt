@@ -4,7 +4,7 @@ state={
 	provinces={
 		240 849 2616 6876 7849 8193 16623 16633 16634 16658 
 	}
-	manpower=0
+	manpower=958920
 	buildings_max_level_factor=1.000
 	history={
 		owner = DJI

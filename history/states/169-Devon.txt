@@ -20,5 +20,8 @@ state={
 	
 	
 	manpower=1753041
+	Resources={
+	tungsten=70
+}
 	buildings_max_level_factor=1.000
 }

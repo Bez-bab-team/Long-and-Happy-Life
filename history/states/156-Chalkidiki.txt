@@ -12,6 +12,6 @@ state={
 	add_core_of = GRE
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =608182
 	buildings_max_level_factor=1.000
 }

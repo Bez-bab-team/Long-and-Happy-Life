@@ -13,7 +13,7 @@ state={
 	add_core_of = BUL
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =2262024
 	buildings_max_level_factor=1.000
 	}
 }

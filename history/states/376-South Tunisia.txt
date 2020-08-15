@@ -4,7 +4,7 @@ state={
 	provinces={
 		525 801 2383 3020 3703 3786 4020 5673 6395 6862 7215 7606 7608 7742 8151 9085 9202 12952 12972 13087 13123 13152 13223 13242 
 	}
-	manpower=0
+	manpower=1806807
 	buildings_max_level_factor=1.000
 	history={
 		owner = UAS

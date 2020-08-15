@@ -4,7 +4,7 @@ state={
 	provinces={
 		150 2723 6661 9819 10911 11131 11148 11184 11206 11240 
 	}
-	manpower=0
+	manpower=1034681
 	buildings_max_level_factor=1.000
 	history={
 		owner = SPA

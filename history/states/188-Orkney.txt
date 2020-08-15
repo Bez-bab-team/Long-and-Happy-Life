@@ -12,6 +12,9 @@ state={
 	add_core_of = SCO
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower = 17000
+	Resources={
+	oil=22
+}
 	buildings_max_level_factor=1.000
 }

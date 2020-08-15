@@ -5,6 +5,9 @@ state={
 		1880 2230 2405 4707 5932 7158 8722 10842 12932 12946 12989 13049 13062 
 	}
 	manpower=1312641
+	Resources={
+	oil=3
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = KHA

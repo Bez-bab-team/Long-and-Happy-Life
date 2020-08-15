@@ -4,7 +4,7 @@ state={
 	provinces={
 		151 1532 5121 9001 9502 9770 10149 12871 12893 12896 12911 12929 12950 12956 
 	}
-	manpower=0
+	manpower=3345421
 	buildings_max_level_factor=1.000
 	history={
 		owner = STM

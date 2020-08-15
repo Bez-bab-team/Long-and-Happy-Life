@@ -4,7 +4,7 @@ state={
 	provinces={
 		7466 13181 13184 13218 13220 13252 
 	}
-	manpower=0
+	manpower=1180875
 	buildings_max_level_factor=1.000
 	history={
 		owner = YUG

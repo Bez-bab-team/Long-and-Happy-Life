@@ -4,7 +4,7 @@ state={
 	provinces={
 		4525 6369 6756 7533 9075 10474 12121 12124 12149 12169 12204 12238 12244 
 	}
-	manpower=0
+	manpower=1012512
 	buildings_max_level_factor=1.000
 			history={
 		owner = FRG

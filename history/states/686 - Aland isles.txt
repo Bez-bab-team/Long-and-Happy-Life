@@ -4,7 +4,7 @@ state={
 	provinces={
 		10921 10925
 	}
-	manpower=2549000 
+	manpower=29214
 	history={
 		owner = FIN
 		

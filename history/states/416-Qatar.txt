@@ -4,7 +4,10 @@ state={
 	provinces={
 		10417 
 	}
-	manpower=0
+	manpower=1683550
+	Resources={
+	oil=100
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = QAT

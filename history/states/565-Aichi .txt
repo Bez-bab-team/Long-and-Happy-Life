@@ -4,7 +4,7 @@ state={
 	provinces={
 		2121 15546 15560 15574 
 	}
-	manpower=0
+	manpower=8188765
 	buildings_max_level_factor=1.000
 		history={
 		owner = JAP

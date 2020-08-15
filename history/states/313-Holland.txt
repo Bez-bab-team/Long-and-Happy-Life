@@ -4,7 +4,7 @@ state={
 	provinces={
 		3581 5656 9288 9418 10299 10436 10834 11374 11379 11389 11397 11402 11413 11423 16854 
 	}
-	manpower=0
+	manpower=6894530
 	buildings_max_level_factor=1.000
 	history={
 		owner = HOL

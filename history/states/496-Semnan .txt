@@ -4,7 +4,7 @@ state={
 	provinces={
 		538 557 951 1246 1664 2432 4812 5155 5750 5915 6733 6741 6801 6818 9389 9610 15539 15600 15616 15672 
 	}
-	manpower=0
+	manpower=589742
 	buildings_max_level_factor=1.000
 	history={
 		owner = PER

@@ -12,6 +12,6 @@ state={
 	add_core_of = PSL
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =1366433
 	buildings_max_level_factor=1.000
 }

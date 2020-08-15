@@ -31,5 +31,8 @@ state={
 	}	
 	
 	manpower=5930239
+	Resources={
+	steel=20
+}
 	buildings_max_level_factor=1.000
 }

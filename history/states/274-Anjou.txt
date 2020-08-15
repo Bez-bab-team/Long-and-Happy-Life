@@ -5,6 +5,9 @@ state={
 		6789 9776 11273 11336 
 	}
 	manpower=808703
+	Resources={
+	steel=50
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = FRA

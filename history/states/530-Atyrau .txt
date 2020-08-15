@@ -4,7 +4,10 @@ state={
 	provinces={
 		1156 1764 2040 2518 5887 7415 9758 10623 14423 14508 14568 
 	}
-	manpower=0
+	manpower=401200
+	Resources={
+	oil=50
+}
 	buildings_max_level_factor=1.000
 		history={
 		owner = RNG

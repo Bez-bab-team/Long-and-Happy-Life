@@ -4,7 +4,10 @@ state={
 	provinces={
 		2193 2882 3730 3813 3870 8245 14693 14714 14744 14773 14776 14794 14809 14817 
 	}
-	manpower=0
+	manpower=4235154
+	Resources={
+	oil=20
+}
 	buildings_max_level_factor=1.000
 	history={
 		owner = SYR

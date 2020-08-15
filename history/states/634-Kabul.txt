@@ -4,7 +4,7 @@ state={
 	provinces={
 		682 4042 5122 5532 6342 7339 8079 8516 9842 10775 15963 16014 16030 16045 
 	}
-	manpower=0
+	manpower=3071400
 	buildings_max_level_factor=1.000
 	history={
 		owner = AFG

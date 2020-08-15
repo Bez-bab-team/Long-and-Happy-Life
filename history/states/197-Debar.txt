@@ -12,6 +12,6 @@ state={
 	add_core_of = MAC
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower =525670
 	buildings_max_level_factor=1.000
 }

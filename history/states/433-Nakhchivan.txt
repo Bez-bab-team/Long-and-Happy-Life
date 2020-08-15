@@ -4,7 +4,7 @@ state={
 	provinces={
 		112 14823 14853 
 	}
-	manpower=0
+	manpower=456100
 	buildings_max_level_factor=1.000
 	history={
 		owner = ARM
