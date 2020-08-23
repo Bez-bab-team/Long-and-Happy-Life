@@ -9,11 +9,11 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservatism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	social_conservatism = 100
+	right_populism = 100
 }
 
 create_country_leader = {

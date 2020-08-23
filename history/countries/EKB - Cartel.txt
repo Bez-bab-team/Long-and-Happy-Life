@@ -13,18 +13,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = social_conservatism 
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_conservatism = 100
+	hegemonism = 100
 }
 
 create_country_leader = {
 	name = "Jevgenij Rojzmann"
 	picture = "Portrait_EKB_Jevgenij_Rojzmann.dds"
-	ideology = social_conservatism  
+	ideology = autocracy  
 	traits = { 
 	}
 }
