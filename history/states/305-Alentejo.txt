@@ -7,7 +7,7 @@ state={
 	manpower=757302
 	buildings_max_level_factor=1.000
 	history={
-		owner = ALV
+		owner = CAT
 		
 		add_core_of = ALV
 	}	
