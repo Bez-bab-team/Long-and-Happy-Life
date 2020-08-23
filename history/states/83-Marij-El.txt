@@ -10,6 +10,13 @@ state={
 		owner = RWR
 		
 		add_core_of = RWR
+
+		victory_points={
+			13313 25
+		}
+		victory_points={
+			10548 4
+		}
 	}
 	state_category=large_town
 }

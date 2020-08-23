@@ -10,6 +10,22 @@ state={
 		owner = RWR
 		
 		add_core_of = RWR
+
+		victory_points={
+			5331 37
+		}
+		victory_points={
+			5551 15
+		}
+		victory_points={
+			13282 15
+		}
+		victory_points={
+			4780 10
+		}
+		victory_points={
+			13552 15
+		}
 	}
 	state_category=city
 }

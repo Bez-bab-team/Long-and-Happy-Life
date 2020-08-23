@@ -13,6 +13,28 @@ state={
 		history={
 		owner = RNG
 		add_core_of = RNG
-	}	
+
+		victory_points = {
+			13948 50
+		}
+		victory_points = {
+			7194 45
+		}
+		victory_points = {
+			13894 25
+		}
+		victory_points = {
+			9366 25
+		}
+		victory_points = {
+			13992 20
+		}
+		victory_points = {
+			3889 15
+		}
+		victory_points = {
+			14072 20
+		}
+	}
 	state_category=city
 }

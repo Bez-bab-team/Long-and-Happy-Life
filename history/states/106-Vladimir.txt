@@ -9,6 +9,21 @@ state={
 		history={
 		owner = FRS
 		add_core_of = FRS
+		victory_points={
+			5569 5
+		}
+		victory_points={
+			5064 10
+		}
+		victory_points={
+			13166 5
+		}
+		victory_points={
+			3486 1
+		}
+		victory_points={
+			5401 1
+		}
 	}
 	state_category=city
 }

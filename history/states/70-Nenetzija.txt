@@ -13,6 +13,22 @@ state={
 			history={
 		owner = NRU
 		add_core_of = NRU
+
+		victory_points={
+			3199 5
+		}
+		victory_points={
+			12183 2
+		}
+		victory_points={
+			3285 2
+		}
+		victory_points={
+			4619 1
+		}
+		victory_points={
+			12041 1
+		}
 	}
 	state_category=rural
 }

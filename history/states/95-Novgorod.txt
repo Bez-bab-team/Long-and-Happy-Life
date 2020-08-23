@@ -13,11 +13,15 @@ state={
 		victory_points={
 			6003 20
 		}
-
 		victory_points={
 			10697 10
 		}
-		
+		victory_points={
+			9225 5
+		}
+		victory_points={
+			6930 5
+		}
 		add_core_of = RNE
 	}
 	state_category=city

@@ -10,6 +10,19 @@ state={
 		owner = STM
 		
 		add_core_of = STM
+		victory_points={
+			10149 10
+		}
+		victory_points={
+			12950 5
+		}
+		victory_points={
+			151 1
+		}
+		victory_points={
+			9001 3
+		}
+
 	}
 	state_category=city
 }

@@ -7,8 +7,15 @@ state={
 	manpower=1176691
 	buildings_max_level_factor=1.000
 		history={
+		
 		owner = FRS
 		add_core_of = FRS
+		victory_points={
+			1152 15
+		}
+		victory_points={
+			10075 5
+		}
 	}
 	state_category=city
 }

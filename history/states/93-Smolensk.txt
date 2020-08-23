@@ -16,6 +16,9 @@ state={
 		victory_points={
 			6109 10
 		}
+		victory_points={
+			6688 4
+		}
 	}
 	state_category=city
 }

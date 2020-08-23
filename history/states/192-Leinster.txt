@@ -13,6 +13,6 @@ state={
 	add_core_of = IRE
 	}	
 	state_category=pastoral
-	manpower = 2000
+	manpower = 2504814
 	buildings_max_level_factor=1.000
 }

@@ -9,6 +9,13 @@ state={
 		history={
 		owner = CHS
 		add_core_of = CHS
+
+		victory_points={
+			1645 37
+		}
+		victory_points={
+			2431 10
+		}
 	}
 	state_category=city
 }

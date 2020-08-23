@@ -10,5 +10,10 @@ state={
 		owner = LEN
 		
 		add_core_of = LEN
-	}	
+
+		victory_points={
+			12108 10
+		}
+	}
+
 }

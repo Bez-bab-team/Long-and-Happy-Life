@@ -8,8 +8,22 @@ state={
 	buildings_max_level_factor=1.000
 		history={
 		owner = MSC
-		
 		add_core_of = MSC
+		victory_points={
+			13029 20
+		}
+		victory_points={
+			5636 10
+		}
+		victory_points={
+			3291 5
+		}
+		victory_points={
+			3372 1
+		}
+		victory_points={
+			9522 10
+		}
 	}
 	state_category=large_city
 }

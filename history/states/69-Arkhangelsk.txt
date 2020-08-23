@@ -10,6 +10,37 @@ state={
 	history={
 		owner = NRU
 		add_core_of = NRU
+
+		victory_points={
+			3869 30
+		}
+		victory_points={
+			9166 5
+		}
+		victory_points={
+			2633 4
+		}
+		victory_points={
+			1539 3
+		}
+		victory_points={
+			5000 7
+		}
+		victory_points={
+			5992 5
+		}
+		victory_points={
+			8999 12
+		}
+		victory_points={
+			7517 4
+		}
+		victory_points={
+			1774 3
+		}
+		victory_points={
+			12538 3
+		}
 	}
 	state_category=city
 }

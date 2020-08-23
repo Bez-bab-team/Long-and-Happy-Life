@@ -13,6 +13,30 @@ state={
 		history={
 		owner = BSK
 		add_core_of = BSK
+
+		victory_points = {
+			4819 50
+		}
+		victory_points = {
+			14031 25
+		}
+		victory_points = {
+			10549 20
+		}
+		victory_points = {
+			1634 15
+		}
+		victory_points = {
+			3068 20
+		}
+		victory_points = {
+			6376 20
+		}
+			14048 15
+		}
+		victory_points = {
+			1233 15
+		}
 	}
 	state_category=city
 }

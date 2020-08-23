@@ -10,6 +10,13 @@ state={
 		history={
 		owner = RWR
 		add_core_of = RWR
+
+		victory_points={
+			9227 25
+		}
+		victory_points={
+			8995 3
+		}
 	}
 	state_category=town
 }

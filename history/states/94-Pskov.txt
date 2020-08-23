@@ -18,6 +18,18 @@ state={
 		victory_points={
 			12567 10
 		}
+		victory_points={
+			10408 1
+		}
+		victory_points={
+			12360 3
+		}
+		victory_points={
+			5871 1
+		}
+		victory_points={
+			12522 1
+		}
 	}
 	state_category=city
 }

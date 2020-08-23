@@ -10,6 +10,13 @@ state={
 		owner = RST
 		
 		add_core_of = RST
+
+		victory_points = {
+			7578 35
+		}
+		victory_points = {
+			13711 20
+		}
 	}
 	state_category = city
 }

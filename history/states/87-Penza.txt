@@ -9,6 +9,18 @@ state={
 		history={
 		owner = RWR
 		add_core_of = RWR
+
+		victory_points={
+			13569 30
+		}
+		victory_points={
+			2441 15
+		}
+		victory_points={
+			9722 15
+		}
+		victory_points={
+			13544 10
+		}
 	}
 	state_category=city
-}
