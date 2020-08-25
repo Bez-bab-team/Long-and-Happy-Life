@@ -10,6 +10,12 @@ state={
 		history={
 		owner = RZD
 		add_core_of = RZD
-	}
+
+		victory_points = {
+			4961 20
+		}
+		victory_points = {
+			5096 5
+		}
 	state_category=city
 }

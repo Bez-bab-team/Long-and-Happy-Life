@@ -7,6 +7,12 @@ state={
 		owner = NOD
 		add_core_of = NOD
 
+		victory_points = {
+			14565 30
+		}
+		victory_points = {
+			10312 10
+		}
 	}
 
 	provinces={

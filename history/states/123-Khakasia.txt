@@ -10,6 +10,16 @@ state={
 		owner = TVA
 		
 		add_core_of = TVA
+
+		victory_points = {
+			14449 19
+		}
+		victory_points = {
+			9065 10
+		}
+		victory_points = {
+			445 7
+		}
 	}
 	state_category=town
 }

@@ -11,6 +11,10 @@ state={
 		owner = VOL
 		
 		add_core_of = VOL
+
+		victory_points = {
+			6436 5
+		}
 	}
 	state_category=pastoral
 }

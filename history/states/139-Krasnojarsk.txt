@@ -7,6 +7,24 @@ state={
 		owner = KRS
 		add_core_of = KRS
 
+		victory_points = {
+			2303 10
+		}
+		victory_points = {
+			5454 35
+		}
+		victory_points = {
+			2246 20
+		}
+		victory_points = {
+			14225 10
+		}
+		victory_points = {
+			14224 9
+		}
+		victory_points = {
+			9974 8
+		}
 	}
 
 	provinces={

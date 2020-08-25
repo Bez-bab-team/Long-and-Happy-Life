@@ -15,6 +15,10 @@ state={
 		owner = TVA
 		
 		add_core_of = TVA
+
+		victory_points = {
+			2451 10
+		}
 	}
 	state_category=rural
 }

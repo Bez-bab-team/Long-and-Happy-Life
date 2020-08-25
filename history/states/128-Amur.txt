@@ -7,6 +7,15 @@ state={
 		owner = CPU
 		add_core_of = CPU
 
+		victory_points = {
+			4683 17
+		}
+		victory_points = {
+			2439 9
+		}
+		victory_points = {
+			7137 5
+		}
 	}
 
 	provinces={

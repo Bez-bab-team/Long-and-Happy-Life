@@ -11,5 +11,9 @@ state={
 		owner = JAP
 		
 		add_core_of = JAP
+
+		victory_points = {
+			8563 2
+		}
 	}
 }

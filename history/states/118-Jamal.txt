@@ -13,6 +13,19 @@ state={
 		history={
 		owner = GAZ
 		add_core_of = GAZ
+
+		victory_points = {
+			10708 15
+		}
+		victory_points = {
+			3672 15
+		}
+		victory_points = {
+			5152 10
+		}
+		victory_points = {
+			10464 9
+		}
 	}
 	state_category=rural
 }

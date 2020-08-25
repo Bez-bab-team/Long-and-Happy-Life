@@ -14,6 +14,28 @@ state={
 		owner = RIS
 		
 		add_core_of = RIS
+
+		victory_points = {
+			15000 50
+		}
+		victory_points = {
+			14888 15
+		}
+		victory_points = {
+			8673 12
+		}
+		victory_points = {
+			8207 10
+		}
+		victory_points = {
+			9475 6
+		}
+		victory_points = {
+			14816 4
+		}
+		victory_points = {
+			8167 5
+		}
 	}
 	state_category=large_city
 }

@@ -10,6 +10,10 @@ state={
 		owner = CPU
 		
 		add_core_of = CPU
+
+		victory_points = {
+			4201 6
+		}
 	}
 	state_category=pastoral
 }
