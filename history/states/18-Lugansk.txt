@@ -13,6 +13,16 @@ state={
 		owner = LUH
 		
 		add_core_of = LUH
-	}	
+
+		victory_points = {
+			1553 30
+		}
+		victory_points = {
+			6047 15
+		}
+		victory_points = {
+			2305 14
+		}
+	}
 	state_category=city
 }

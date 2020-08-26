@@ -13,5 +13,18 @@ state={
 		owner = NRS
 		
 		add_core_of = NRS
-	}	
+
+		victory_points = {
+			8675 37
+		}
+		victory_points = {
+			13763 15
+		}
+		victory_points = {
+			13871 13
+		}
+		victory_points = {
+			7334 5
+		}
+	}
 }
