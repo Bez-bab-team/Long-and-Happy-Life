@@ -1,0 +1,1274 @@
+###NORMAL TREE###
+
+shared_focus = {
+	id = WES_retrun_king
+	icon = GFX_WES
+	cost = 10
+	x = 17
+	y = 0
+}
+
+shared_focus = {
+	id = WES_worthie_england
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_retrun_king
+	}
+	cost = 10
+	x = 17
+	y = 1
+}
+
+shared_focus = {
+	id = WES_strength_monarchy
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	cost = 10
+	x = 17
+	y = 2
+}
+
+shared_focus = {
+	id = WES_trial_wisdom
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_strength_monarchy
+	}
+	cost = 10
+	x = 16
+	y = 3
+}
+
+shared_focus = {
+	id = WES_trial_courage
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_strength_monarchy
+	}
+	cost = 10
+	x = 18
+	y = 3
+}
+
+shared_focus = {
+	id = WES_sword_stone
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_trial_courage
+	}
+	prerequisite = {
+        focus = WES_trial_wisdom
+	}
+	cost = 10
+	x = 17
+	y = 4
+}
+
+shared_focus = {
+	id = WES_search_grail
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_sword_stone
+	}
+	prerequisite = {
+        focus = WES_virtue_test
+	}
+	prerequisite = {
+        focus = WES_kings_speech
+	}
+	cost = 10
+	x = 17
+	y = 5
+}
+
+shared_focus = {
+	id = WES_knights_table
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	cost = 10
+	x = 13
+	y = 2
+}
+
+shared_focus = {
+	id = WES_great_embassy
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_knights_table
+	}
+	cost = 10
+	x = 12
+	y = 3
+}
+
+shared_focus = {
+	id = WES_mighty_men
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_knights_table
+	}
+	cost = 10
+	x = 14
+	y = 3
+}
+
+shared_focus = {
+	id = WES_virtue_test
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_great_embassy
+	}
+	prerequisite = {
+        focus = WES_mighty_men
+	}
+	cost = 10
+	x = 13
+	y = 4
+}
+
+shared_focus = {
+	id = WES_common_men
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_worthie_england
+	}
+	cost = 10
+	x = 21
+	y = 2
+}
+
+shared_focus = {
+	id = WES_charity_campaigns
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_common_men
+	}
+	cost = 10
+	x = 20
+	y = 3
+}
+
+shared_focus = {
+	id = WES_soldier_king
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_common_men
+	}
+	cost = 10
+	x = 22
+	y = 3
+}
+
+shared_focus = {
+	id = WES_kings_speech
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_charity_campaigns
+	}
+	prerequisite = {
+        focus = WES_soldier_king
+	}
+	cost = 10
+	x = 21
+	y = 4
+}
+
+shared_focus = {
+	id = WES_royal_military
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_retrun_king
+	}
+	cost = 10
+	x = 5
+	y = 1
+}
+
+shared_focus = {
+	id = WES_fight_monarchy
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	cost = 10
+	x = 5
+	y = 2
+}
+
+shared_focus = {
+	id = WES_rebuild_schools
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_fight_monarchy
+	}
+	cost = 10
+	x = 4
+	y = 3
+}
+
+shared_focus = {
+	id = WES_top_grade
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_fight_monarchy
+	}
+	cost = 10
+	x = 6
+	y = 3
+}
+
+shared_focus = {
+	id = WES_weapon_guilds
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rebuild_schools
+	}
+	prerequisite = {
+        focus = WES_top_grade
+	}
+	cost = 10
+	x = 5
+	y = 4
+}
+
+shared_focus = {
+	id = WES_ring_steel
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_weapon_guilds
+	}
+	prerequisite = {
+        focus = WES_heroes_skies
+	}
+	prerequisite = {
+        focus = WES_tank_knights
+	}
+	cost = 10
+	x = 5
+	y = 5
+}
+
+shared_focus = {
+	id = WES_protect_land
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	cost = 10
+	x = 1
+	y = 2
+}
+
+shared_focus = {
+	id = WES_concentrated_strikes
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_protect_land
+	}
+	cost = 10
+	x = 0
+	y = 3
+}
+
+shared_focus = {
+	id = WES_artillery_men
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_protect_land
+	}
+	cost = 10
+	x = 2
+	y = 3
+}
+
+shared_focus = {
+	id = WES_tank_knights
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_concentrated_strikes
+	}
+	prerequisite = {
+        focus = WES_artillery_men
+	}
+	cost = 10
+	x = 1
+	y = 4
+}
+
+shared_focus = {
+	id = WES_rule_skies
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_royal_military
+	}
+	cost = 10
+	x = 9
+	y = 2
+}
+
+shared_focus = {
+	id = WES_museuem_pieces
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rule_skies
+	}
+	cost = 10
+	x = 8
+	y = 3
+}
+
+shared_focus = {
+	id = WES_battle_britian
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rule_skies
+	}
+	cost = 10
+	x = 10
+	y = 3
+}
+
+shared_focus = {
+	id = WES_heroes_skies
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_museuem_pieces
+	}
+	prerequisite = {
+        focus = WES_battle_britian
+	}
+	cost = 10
+	x = 9
+	y = 4
+}
+
+shared_focus = {
+	id = WES_arise_folk
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_retrun_king
+	}
+	cost = 10
+	x = 29
+	y = 1
+}
+
+shared_focus = {
+	id = WES_battle_camlann
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_arise_folk
+	}
+	cost = 10
+	x = 29
+	y = 2
+}
+
+shared_focus = {
+	id = WES_the_duel
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_battle_camlann
+	}
+	mutually_exclusive = {
+		focus = WES_traitors_fate
+	}
+	cost = 10
+	x = 28
+	y = 3
+}
+
+shared_focus = {
+	id = WES_traitors_fate
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_battle_camlann
+	}
+	mutually_exclusive = {
+		focus = WES_the_duel
+	}
+	cost = 10
+	x = 30
+	y = 3
+}
+
+shared_focus = {
+	id = WES_road_unification
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_the_duel
+		focus = WES_traitors_fate
+	}
+	cost = 10
+	x = 29
+	y = 4
+}
+
+shared_focus = {
+	id = WES_orthodox_diplomacy
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_arise_folk
+	}
+	cost = 10
+	x = 25
+	y = 2
+}
+
+shared_focus = {
+	id = WES_keepers_athos
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_orthodox_diplomacy
+	}
+	cost = 10
+	x = 24
+	y = 3
+}
+
+shared_focus = {
+	id = WES_plead_help
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_orthodox_diplomacy
+	}
+	cost = 10
+	x = 26
+	y = 3
+}
+
+shared_focus = {
+	id = WES_eurasian_connections
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_keepers_athos
+	}
+	prerequisite = {
+        focus = WES_plead_help
+	}
+	cost = 10
+	x = 25
+	y = 4
+}
+
+shared_focus = {
+	id = WES_knight_mercia
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_arise_folk
+	}
+	cost = 10
+	x = 33
+	y = 2
+}
+
+shared_focus = {
+	id = WES_battle_faiths
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_knight_mercia
+	}
+	cost = 10
+	x = 32
+	y = 3
+}
+
+shared_focus = {
+	id = WES_ideological_conflict
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_knight_mercia
+	}
+	cost = 10
+	x = 34
+	y = 3
+}
+
+shared_focus = {
+	id = WES_final_decision
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_battle_faiths
+	}
+	prerequisite = {
+        focus = WES_ideological_conflict
+	}
+	cost = 10
+	x = 33
+	y = 4
+}
+
+shared_focus = {
+	id = WES_curious_proposal
+	icon = GFX_WES
+	cost = 10
+	x = 33
+	y = 5
+}
+
+shared_focus = {
+	id = WES_establish_supplies
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_curious_proposal
+	}
+	cost = 10
+	x = 32
+	y = 6
+}
+
+shared_focus = {
+	id = WES_military_expertise
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_curious_proposal
+	}
+	cost = 10
+	x = 34
+	y = 6
+}
+
+shared_focus = {
+	id = WES_anglo_russian_state
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_establish_supplies
+	}
+	prerequisite = {
+        focus = WES_military_expertise
+	}
+	cost = 10
+	x = 33
+	y = 7
+}
+
+shared_focus = {
+	id = WES_catholic_scourge
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	cost = 10
+	x = 27
+	y = 5
+}
+
+shared_focus = {
+	id = WES_retake_capital
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	cost = 10
+	x = 31
+	y = 5
+}
+
+shared_focus = {
+	id = WES_place_anglophobes
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	cost = 10
+	x = 28
+	y = 6
+}
+
+shared_focus = {
+	id = WES_teuton_intruders
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_road_unification
+	}
+	cost = 10
+	x = 30
+	y = 6
+}
+
+shared_focus = {
+	id = WES_protector_england
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_catholic_scourge
+	}
+	prerequisite = {
+        focus = WES_place_anglophobes
+	}
+	prerequisite = {
+        focus = WES_teuton_intruders
+	}
+	prerequisite = {
+        focus = WES_retake_capital
+	}
+	cost = 10
+	x = 29
+	y = 7
+}
+
+shared_focus = {
+	id = WES_masters_slaves
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_protector_england
+	}
+	mutually_exclusive = {
+	    focus = WES_mutual_prosperity
+	}
+	cost = 10
+	x = 28
+	y = 8
+}
+
+shared_focus = {
+	id = WES_mutual_prosperity
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_protector_england
+	}
+	mutually_exclusive = {
+	    focus = WES_masters_slaves
+	}
+	cost = 10
+	x = 30
+	y = 8
+}
+
+shared_focus = {
+	id = WES_rule_george
+	icon = GFX_WES
+	cost = 10
+	x = 17
+	y = 6
+}
+
+shared_focus = {
+	id = WES_medieval_state
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rule_george
+	}
+	cost = 10
+	x = 17
+	y = 7
+}
+
+shared_focus = {
+	id = WES_days_old
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_medieval_state
+	}
+	cost = 10
+	x = 17
+	y = 8
+}
+
+shared_focus = {
+	id = WES_human_nauture
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 10
+	x = 17
+	y = 9
+}
+
+shared_focus = {
+	id = WES_competetive_spirit
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_human_nauture
+	}
+	cost = 10
+	x = 19
+	y = 10
+}
+
+shared_focus = {
+	id = WES_societal_roles
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_human_nauture
+	}
+	cost = 10
+	x = 15
+	y = 10
+}
+
+shared_focus = {
+	id = WES_mannerbunds
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_competetive_spirit
+	}
+	cost = 10
+	x = 18
+	y = 11
+}
+
+shared_focus = {
+	id = WES_jousting
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_competetive_spirit
+	}
+	cost = 10
+	x = 20
+	y = 11
+}
+
+shared_focus = {
+	id = WES_return_tradition
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_societal_roles
+	}
+	mutually_exclusive = {
+        focus = WES_embrace_modernity
+	}
+	cost = 10
+	x = 14
+	y = 11
+}
+
+shared_focus = {
+	id = WES_embrace_modernity
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_societal_roles
+	}
+	mutually_exclusive = {
+        focus = WES_return_tradition
+	}
+	cost = 10
+	x = 16
+	y = 11
+}
+
+shared_focus = {
+	id = WES_new_chivilary
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_mannerbunds
+	}
+	prerequisite = {
+        focus = WES_jousting
+	}
+	cost = 10
+	x = 19
+	y = 12
+}
+
+shared_focus = {
+	id = WES_careful_reform
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_return_tradition
+		focus = WES_embrace_modernity
+	}
+	cost = 10
+	x = 15
+	y = 12
+}
+
+shared_focus = {
+	id = WES_english_spirit
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_new_chivilary
+	}
+	prerequisite = {
+        focus = WES_careful_reform
+	}
+	cost = 10
+	x = 17
+	y = 13
+}
+
+shared_focus = {
+	id = WES_end_industrial_society
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_medieval_state
+	}
+	cost = 10
+	x = 11
+	y = 8
+}
+
+shared_focus = {
+	id = WES_long_planning
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_end_industrial_society
+	}
+	cost = 10
+	x = 10
+	y = 9
+}
+
+shared_focus = {
+	id = WES_simplifid_infrastructure
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_end_industrial_society
+	}
+	cost = 10
+	x = 12
+	y = 9
+}
+
+shared_focus = {
+	id = WES_voluntarily_colony
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_long_planning
+	}
+	prerequisite = {
+        focus = WES_simplifid_infrastructure
+	}
+	cost = 10
+	x = 11
+	y = 10
+}
+
+shared_focus = {
+	id = WES_rebuild_scenery
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_voluntarily_colony
+	}
+	cost = 10
+	x = 11
+	y = 11
+}
+
+shared_focus = {
+	id = WES_dismantle_cities
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rebuild_scenery
+	}
+	cost = 10
+	x = 10
+	y = 12
+}
+
+shared_focus = {
+	id = WES_connect_nature
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_rebuild_scenery
+	}
+	cost = 10
+	x = 12
+	y = 12
+}
+
+shared_focus = {
+	id = WES_pastoral_life
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 10
+	x = 23
+	y = 10
+}
+
+shared_focus = {
+	id = WES_subsistence_economy
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_pastoral_life
+	}
+	cost = 10
+	x = 22
+	y = 11
+}
+
+shared_focus = {
+	id = WES_relocation_programmes
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_pastoral_life
+	}
+	cost = 10
+	x = 24
+	y = 11
+}
+
+shared_focus = {
+	id = WES_rural_paradise
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_subsistence_economy
+	}
+	prerequisite = {
+        focus = WES_relocation_programmes
+	}
+	cost = 10
+	x = 23
+	y = 12
+}
+
+shared_focus = {
+	id = WES_matters_future
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_days_old
+	}
+	cost = 10
+	x = 29
+	y = 10
+}
+
+shared_focus = {
+	id = WES_clean_start
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_matters_future
+	}
+	mutually_exclusive = {
+        focus = WES_clinging_present
+	}
+	cost = 10
+	x = 27
+	y = 11
+}
+
+
+shared_focus = {
+	id = WES_clinging_present
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_matters_future
+	}
+	mutually_exclusive = {
+        focus = WES_clean_start
+	}
+	cost = 10
+	x = 31
+	y = 11
+}
+
+shared_focus = {
+	id = WES_new_fiefdoms
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clean_start
+	}
+	cost = 10
+	x = 27
+	y = 13
+}
+
+shared_focus = {
+	id = WES_heroic_absolutism
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clinging_present
+	}
+	cost = 10
+	x = 31
+	y = 13
+}
+
+shared_focus = {
+	id = WES_law_england
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_new_fiefdoms
+	}
+	prerequisite = {
+        focus = WES_pop_culture
+	}
+	prerequisite = {
+        focus = WES_perish_thought
+	}
+	cost = 10
+	x = 27
+	y = 15
+}
+
+shared_focus = {
+	id = WES_law_king
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_heroic_absolutism
+	}
+	prerequisite = {
+        focus = WES_cult_shakespeare
+	}
+	prerequisite = {
+        focus = WES_cultural_symbiosis
+	}
+	cost = 10
+	x = 31
+	y = 15
+}
+
+shared_focus = {
+	id = WES_english_tongue
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clean_start
+	}
+	cost = 10
+	x = 26
+	y = 12
+}
+
+shared_focus = {
+	id = WES_perish_thought
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_english_tongue
+	}
+	cost = 10
+	x = 26
+	y = 14
+}
+
+shared_focus = {
+	id = WES_new_curriculum
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clean_start
+	}
+	cost = 10
+	x = 28
+	y = 12
+}
+
+shared_focus = {
+	id = WES_pop_culture
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_new_curriculum
+	}
+	cost = 10
+	x = 28
+	y = 14
+}
+
+shared_focus = {
+	id = WES_many_tongues
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clinging_present
+	}
+	cost = 10
+	x = 30
+	y = 12
+}
+
+shared_focus = {
+	id = WES_cult_shakespeare
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_many_tongues
+	}
+	cost = 10
+	x = 30
+	y = 14
+}
+
+shared_focus = {
+	id = WES_centralized_education
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_clinging_present
+	}
+	cost = 10
+	x = 32
+	y = 12
+}
+
+shared_focus = {
+	id = WES_cultural_symbiosis
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_centralized_education
+	}
+	cost = 10
+	x = 32
+	y = 14
+}
+
+shared_focus = {
+	id = WES_secret_orthodox
+	icon = GFX_WES
+	cost = 10
+	x = 5
+	y = 7
+}
+
+shared_focus = {
+	id = WES_head_church
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_secret_orthodox
+	}
+	cost = 10
+	x = 3
+	y = 8
+}
+
+shared_focus = {
+	id = WES_anglican_tradition
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_head_church
+	}
+	mutually_exclusive = {
+        focus = WES_under_unity
+	}
+	cost = 10
+	x = 2
+	y = 9
+}
+
+shared_focus = {
+	id = WES_under_unity
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_head_church
+	}
+	mutually_exclusive = {
+        focus = WES_anglican_tradition
+	}
+	cost = 10
+	x = 4
+	y = 9
+}
+
+shared_focus = {
+	id = WES_define_dogmas
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_anglican_tradition
+	}
+	cost = 10
+	x = 2
+	y = 10
+}
+
+shared_focus = {
+	id = WES_patriarch_england
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_under_unity
+	}
+	cost = 10
+	x = 4
+	y = 10
+}
+
+shared_focus = {
+	id = WES_world_knows
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_define_dogmas
+        focus = WES_patriarch_england
+	}
+	cost = 10
+	x = 3
+	y = 11
+}
+
+shared_focus = {
+	id = WES_orthodox_spectre
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_secret_orthodox
+	}
+	cost = 10
+	x = 7
+	y = 8
+}
+
+shared_focus = {
+	id = WES_easy_path
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_orthodox_spectre
+	}
+	mutually_exclusive = {
+        focus = WES_hard_way
+	}
+	cost = 10
+	x = 6
+	y = 9
+}
+
+shared_focus = {
+	id = WES_hard_way
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_orthodox_spectre
+	}
+	mutually_exclusive = {
+        focus = WES_easy_path
+	}
+	cost = 10
+	x = 8
+	y = 9
+}
+
+shared_focus = {
+	id = WES_education_programmes
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_easy_path
+	}
+	cost = 10
+	x = 6
+	y = 10
+}
+
+shared_focus = {
+	id = WES_down_old
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_hard_way
+	}
+	cost = 10
+	x = 8
+	y = 10
+}
+
+shared_focus = {
+	id = WES_convert_populace
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_education_programmes
+        focus = WES_down_old
+	}
+	cost = 10
+	x = 7
+	y = 11
+}
+
+shared_focus = {
+	id = WES_orders_chilvarly
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_world_knows
+        focus = WES_convert_populace
+	}
+	cost = 10
+	x = 5
+	y = 12
+}
+
+
+
+
+
