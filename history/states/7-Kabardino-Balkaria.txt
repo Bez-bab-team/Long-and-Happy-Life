@@ -13,7 +13,11 @@ state={
 		owner = RGD
 		
 		add_core_of = RGD
-	}	
+
+		victory_points = {
+			8304 23
+		}
+	}
 	state_category=rural
 	
 }

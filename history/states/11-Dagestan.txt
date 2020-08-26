@@ -12,6 +12,16 @@ state={
 	history={
 		owner = RGD
 		add_core_of = RGD
-	}	
+
+		victory_points = {
+			14593 30
+		}
+		victory_points = {
+			3066 15
+		}
+		victory_points = {
+			14702 14
+		}
+	}
 	state_category=city
 }

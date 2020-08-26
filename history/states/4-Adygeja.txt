@@ -10,7 +10,11 @@ state={
 		owner = RGD
 		
 		add_core_of = RGD
-	}	
+
+		victory_points = {
+			9311 10
+		}
+	}
 	state_category=pastoral
 	
 }

@@ -10,7 +10,23 @@ state={
 		owner = RGD
 		
 		add_core_of = RGD
-	}	
+
+		victory_points = {
+			6669 32
+		}
+		victory_points = {
+			9937 10
+		}
+		victory_points = {
+			14369 17
+		}
+		victory_points = {
+			7801 16
+		}
+		victory_points = {
+			6716 10
+		}
+	}
 	state_category=city
 	
 }
