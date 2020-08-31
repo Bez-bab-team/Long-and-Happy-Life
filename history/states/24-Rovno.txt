@@ -10,5 +10,9 @@ state={
 		owner = KHA
 		
 		add_core_of = KHA
-	}	
+
+		victory_points = {
+			10743 23
+		}
+	}
 }
