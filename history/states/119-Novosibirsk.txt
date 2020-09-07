@@ -12,6 +12,18 @@ state={
 		history={
 		owner = NVS
 		add_core_of = NVS
-	}
+
+		victory_points = {
+			5677 50
+		}
+		victory_points = {
+			3204 37
+		}
+		victory_points = {
+			8234 15
+		}
+		victory_points = {
+			2844 10
+		}
 	state_category=megalopolis
 }

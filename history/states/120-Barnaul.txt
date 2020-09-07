@@ -13,6 +13,22 @@ state={
 		owner = NVS
 		
 		add_core_of = NVS
+
+		victory_points = {
+			7635 40
+		}
+		victory_points = {
+			2387 20
+		}
+		victory_points = {
+			4796 17
+		}
+		victory_points = {
+			2026 12
+		}
+		victory_points = {
+			4457 9
+		}
 	}
 	state_category=city
 }
