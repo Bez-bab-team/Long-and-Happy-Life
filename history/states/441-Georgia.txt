@@ -10,6 +10,19 @@ state={
 		owner = GEO
 		
 		add_core_of = GEO
+
+		victory_points = {
+			8445 17
+		}
+		victory_points = {
+			14616 16
+		}
+		victory_points = {
+			10339 10
+		}
+		victory_points = {
+			14451 9
+		}
 	}
 	state_category=city
 }

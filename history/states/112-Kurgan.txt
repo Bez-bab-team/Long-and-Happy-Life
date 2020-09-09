@@ -10,6 +10,13 @@ state={
 		owner = RNG
 		
 		add_core_of = RNG
+
+		victory_points = {
+			14023 25
+		}
+		victory_points = {
+			4254 13
+		}
 	}
 	state_category=large_town
 }

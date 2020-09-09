@@ -10,5 +10,12 @@ state={
 		owner = UST
 		
 		add_core_of = UST
+
+		victory_points = {
+			12409 15
+		}
+		victory_points = {
+			12347 5
+		}
 	}
 }

@@ -10,6 +10,10 @@ state={
 		owner = GEO
 		
 		add_core_of = GEO
+
+		victory_points = {
+			3884 45
+		}
 	}
 	state_category=wasteland
 }

@@ -10,5 +10,12 @@ state={
 		owner = FRG
 		
 		add_core_of = FRG
+
+		victory_points = {
+			12149 44
+		}
+		victory_points = {
+			7533 9
+		}
 	}
 }

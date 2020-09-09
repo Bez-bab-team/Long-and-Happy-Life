@@ -14,5 +14,15 @@ state={
 		owner = ARM
 		
 		add_core_of = ARM
-	}	
+
+		victory_points = {
+			8250 45
+		}
+		victory_points = {
+			9899 16
+		}
+		victory_points = {
+			14649 14
+		}
+	}
 }

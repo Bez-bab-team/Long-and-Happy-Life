@@ -10,6 +10,11 @@ state={
 	
 	owner = KRS
 	add_core_of = KRS
+
+		victory_points = {
+			14237 33
+		}
 	}
+}
 	state_category=city
 }

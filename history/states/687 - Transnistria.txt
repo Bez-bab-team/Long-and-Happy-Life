@@ -8,6 +8,10 @@ state={
 		owner = NRS
 		
 		add_core_of = NRS
+
+		victory_points = {
+			13496 16
+		}
 	}
 	manpower=2549000 
 	buildings_max_level_factor=1.000

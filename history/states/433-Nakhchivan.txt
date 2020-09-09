@@ -10,5 +10,9 @@ state={
 		owner = ARM
 		
 		add_core_of = ARM
+
+		victory_points = {
+			14853 14
+		}
 	}
 }
