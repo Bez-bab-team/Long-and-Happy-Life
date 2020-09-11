@@ -2,7 +2,7 @@
 
 shared_focus = {
 	id = WES_retrun_king
-	icon = GFX_WES
+	icon = GFX_return_king
 	cost = 10
 	x = 17
 	y = 0
@@ -179,7 +179,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_royal_military
-	icon = GFX_WES
+	icon = GFX_WES_royal_military
 	prerequisite = {
         focus = WES_retrun_king
 	}
@@ -190,7 +190,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_fight_monarchy
-	icon = GFX_WES
+	icon = GFX_WES_fight_monarchy
 	prerequisite = {
         focus = WES_royal_military
 	}
@@ -201,7 +201,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rebuild_schools
-	icon = GFX_WES
+	icon = GFX_WES_rebuild_schools
 	prerequisite = {
         focus = WES_fight_monarchy
 	}
@@ -212,7 +212,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_top_grade
-	icon = GFX_WES
+	icon = GFX_wes_top_grade
 	prerequisite = {
         focus = WES_fight_monarchy
 	}
@@ -223,7 +223,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_weapon_guilds
-	icon = GFX_WES
+	icon = GFX_WES_weapon_Guilds
 	prerequisite = {
         focus = WES_rebuild_schools
 	}
@@ -236,8 +236,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WES_ring_steel
-	icon = GFX_WES
+	id = WES_fortress_britain
+	icon = GFX_WES_fortress_britain
 	prerequisite = {
         focus = WES_weapon_guilds
 	}
@@ -254,7 +254,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_protect_land
-	icon = GFX_WES
+	icon = GFX_wes_protect_land
 	prerequisite = {
         focus = WES_royal_military
 	}
@@ -265,7 +265,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_concentrated_strikes
-	icon = GFX_WES
+	icon = GFX_wes_concentrated_strikes
 	prerequisite = {
         focus = WES_protect_land
 	}
@@ -276,7 +276,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_artillery_men
-	icon = GFX_WES
+	icon = GFX_wes_artilerry_man
 	prerequisite = {
         focus = WES_protect_land
 	}
@@ -287,7 +287,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_tank_knights
-	icon = GFX_WES
+	icon = GFX_wes_tank_knights
 	prerequisite = {
         focus = WES_concentrated_strikes
 	}
@@ -301,7 +301,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_rule_skies
-	icon = GFX_WES
+	icon = GFX_WES_rules_skies
 	prerequisite = {
         focus = WES_royal_military
 	}
@@ -311,8 +311,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WES_museuem_pieces
-	icon = GFX_WES
+	id = WES_museum_pieces
+	icon = GFX_wes_museum_pieces
 	prerequisite = {
         focus = WES_rule_skies
 	}
@@ -322,8 +322,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WES_battle_britian
-	icon = GFX_WES
+	id = WES_battle_britain
+	icon = GFX_WES_battle_britain
 	prerequisite = {
         focus = WES_rule_skies
 	}
@@ -334,12 +334,12 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_heroes_skies
-	icon = GFX_WES
+	icon = GFX_wes_heroes_skies
 	prerequisite = {
-        focus = WES_museuem_pieces
+        focus = WES_museum_pieces
 	}
 	prerequisite = {
-        focus = WES_battle_britian
+        focus = WES_battle_britain
 	}
 	cost = 10
 	x = 9

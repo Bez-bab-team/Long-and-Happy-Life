@@ -1,0 +1,129 @@
+###NORMAL TREE###
+
+shared_focus = {
+	id = KRS_colonel_turn
+	icon = GFX
+	cost = 10
+	x = 17
+	y = 0
+}
+
+shared_focus = {
+	id = KRS_russia_cross
+	icon = GFX
+	prerequisite = {
+        focus = KRS_colonel_turn
+	}
+	cost = 10
+	x = 17
+	y = 1
+}
+
+shared_focus = {
+	id = KRS_dreams_peace
+	icon = GFX
+	prerequisite = {
+        focus = KRS_russia_cross
+	}
+	cost = 10
+	x = 17
+	y = 2
+}
+
+shared_focus = {
+	id = KRS_reshape_district
+	icon = GFX
+	prerequisite = {
+        focus = KRS_dreams_peace
+	}
+	cost = 10
+	x = 16
+	y = 3
+}
+
+shared_focus = {
+	id = KRS_order_one
+	icon = GFX
+	prerequisite = {
+        focus = KRS_dreams_peace
+	}
+	cost = 10
+	x = 18
+	y = 3
+}
+
+shared_focus = {
+	id = KRS_war_principles
+	icon = GFX
+	prerequisite = {
+        focus = KRS_reshape_district
+	}
+	prerequisite = {
+        focus = KRS_order_one
+	}
+	cost = 10
+	x = 17
+	y = 4
+}
+
+shared_focus = {
+	id = KRS_swan_wings
+	icon = GFX
+	prerequisite = {
+        focus = KRS_war_principles
+	}
+	cost = 10
+	x = 17
+	y = 5
+}
+
+shared_focus = {
+	id = KRS_loyal_revolver
+	icon = GFX
+	prerequisite = {
+        focus = KRS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = KRS_general_violin
+	}
+	mutually_exclusive = {
+        focus = KRS_yes_no
+	}
+	cost = 10
+	x = 14
+	y = 6
+}
+
+shared_focus = {
+	id = KRS_general_violin
+	icon = GFX
+	prerequisite = {
+        focus = KRS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = KRS_loyal_revolver
+	}
+	mutually_exclusive = {
+        focus = KRS_yes_no
+	}
+	cost = 10
+	x = 17
+	y = 6
+}
+
+shared_focus = {
+	id = KRS_yes_no
+	icon = GFX
+	prerequisite = {
+        focus = KRS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = KRS_loyal_revolver
+	}
+	mutually_exclusive = {
+        focus = KRS_general_violin
+	}
+	cost = 10
+	x = 20
+	y = 6
+}

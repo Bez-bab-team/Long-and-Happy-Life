@@ -1,0 +1,62 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_return_king"
+		texturefile = "gfx/interface/goals/WES/return_king.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_artilerry_man"
+		texturefile = "gfx/interface/goals/WES/wes_artilerry_man.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_fight_monarchy"
+		texturefile = "gfx/interface/goals/WES/WES_fight_monarchy.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_battle_britain"
+		texturefile = "gfx/interface/goals/WES/WES_battle_britain.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_heroes_skies"
+		texturefile = "gfx/interface/goals/WES/wes_heroes_skies.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_museum_pieces"
+		texturefile = "gfx/interface/goals/WES/wes_museum_pieces.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_protect_land"
+		texturefile = "gfx/interface/goals/WES/wes_protect_land.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_rebuild_schools"
+		texturefile = "gfx/interface/goals/WES/WES_rebuild_schools.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_royal_military"
+		texturefile = "gfx/interface/goals/WES/WES_royal_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_rules_skies"
+		texturefile = "gfx/interface/goals/WES/WES_rules_skies.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_top_grade"
+		texturefile = "gfx/interface/goals/WES/wes_top_grade.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_weapon_Guilds"
+		texturefile = "gfx/interface/goals/WES/WES_weapon_Guilds.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_concentrated_strikes"
+		texturefile = "gfx/interface/goals/WES/wes_concentrated_strikes.dds"
+	}
+	SpriteType = {
+		name = "GFX_wes_tank_knights"
+		texturefile = "gfx/interface/goals/WES/wes_tank_knights.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_fortress_britain"
+		texturefile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
+	}
+}

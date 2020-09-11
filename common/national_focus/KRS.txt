@@ -1,0 +1,14 @@
+focus_tree = {
+	id = KRS_normal
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = KRS_colonel_turn
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = KRS
+		}
+	}
+}
+

@@ -1,0 +1,23 @@
+﻿l_english:
+ ##LEADERS##
+ ##POLITICAL PARTIES##
+ ##COUNTRY NAME##
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ WES_royal_military:0 "Royal Army"
+ WES_fight_monarchy:0 "Fight For Monarchy"
+ WES_rebuild_schools:0 "Rebuild Military Schools"
+ WES_top_grade:0 "Top Grade Weapons"
+ WES_weapon_guilds:0 "Weapon Guilds"
+ WES_fortress_britain:0 "Fortress Britain"
+ WES_protect_land:0 "Protect The Land"
+ WES_concentrated_strikes:0 "Concentrated Strikes"
+ WES_artillery_men:0 "Artillery Men"
+ WES_tank_knights:0 "Tank Knights"
+ WES_rule_skies:0 "Rule The Skies"
+ WES_museum_pieces:0 "Museum Pieces"
+ WES_battle_britain:0 "Rally The Men"
+ WES_heroes_skies:0 "Flight Heroes"
+ ##DECISIONS##
+ ##EVENTS##
