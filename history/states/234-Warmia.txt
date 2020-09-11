@@ -15,6 +15,16 @@ state={
 		834 2 }	
 	owner = PDE
 	add_core_of = PDE
-	}	
+
+		victory_points = {
+			5050 15
+		}
+		victory_points = {
+			1994 17
+		}
+		victory_points = {
+			2829 11
+		}
+	}
 	state_category = pastoral
 }

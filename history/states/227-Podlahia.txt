@@ -12,6 +12,16 @@ state={
 	
 	owner = POL
 	add_core_of = POL
-	}	
+
+		victory_points = {
+			12434 25
+		}
+		victory_points = {
+			12322 13
+		}
+		victory_points = {
+			9082 13
+		}
+	}
 	state_category = pastoral
 }
