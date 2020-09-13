@@ -23,6 +23,22 @@ state={
 		victory_points={
 			1697 20
 		}
+		victory_points={
+			10300 17
+		}
+		victory_points={
+			13973 13
+		}
+		victory_points={
+			13947 19
+		}
+		victory_points={
+			13821 7
+		}
+		victory_points={
+			3740 23
+		}
+	}
 
 	}	
 	state_category=large_city
