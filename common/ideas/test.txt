@@ -41,25 +41,7 @@ ideas = {
 	}
 
 	political_advisor = {
-
-		vladimir_sorokin = {
-
-			picture = vladimir_sorokin
-			allowed = {
-				# original_tag = "COU"
-			}
-
-			traits = { first_oprichnik }
-
-			do_effect = {
-				#
-			}
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-
+	
 		xenia_sobchak = {
 
 			picture = xenia_sobchak
