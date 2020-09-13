@@ -457,7 +457,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_knight_mercia
-	icon = GFX_WES
+	icon = GFX_WES_knight_mercia
 	prerequisite = {
         focus = WES_arise_folk
 	}
@@ -468,7 +468,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_faiths
-	icon = GFX_WES
+	icon = GFX_WES_battle_faiths
 	prerequisite = {
         focus = WES_knight_mercia
 	}
@@ -479,7 +479,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_ideological_conflict
-	icon = GFX_WES
+	icon = GFX_WES_ideological_conflict
 	prerequisite = {
         focus = WES_knight_mercia
 	}
@@ -490,7 +490,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_final_decision
-	icon = GFX_WES
+	icon = GFX_WES_final_decision
 	prerequisite = {
         focus = WES_battle_faiths
 	}

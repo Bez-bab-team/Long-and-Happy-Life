@@ -1,18 +1,18 @@
 ###NORMAL TREE###
 
 shared_focus = {
-	id = KRS_colonel_turn
-	icon = GFX
+	id = NVS_colonel_turn
+	icon = GFX_NVS_colonel_turn
 	cost = 10
 	x = 17
 	y = 0
 }
 
 shared_focus = {
-	id = KRS_russia_cross
-	icon = GFX
+	id = NVS_russia_cross
+	icon = GFX_NVS_russia_cross
 	prerequisite = {
-        focus = KRS_colonel_turn
+        focus = NVS_colonel_turn
 	}
 	cost = 10
 	x = 17
@@ -20,10 +20,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_dreams_peace
+	id = NVS_dreams_peace
 	icon = GFX
 	prerequisite = {
-        focus = KRS_russia_cross
+        focus = NVS_russia_cross
 	}
 	cost = 10
 	x = 17
@@ -31,10 +31,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_reshape_district
+	id = NVS_reshape_district
 	icon = GFX
 	prerequisite = {
-        focus = KRS_dreams_peace
+        focus = NVS_dreams_peace
 	}
 	cost = 10
 	x = 16
@@ -42,10 +42,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_order_one
+	id = NVS_order_one
 	icon = GFX
 	prerequisite = {
-        focus = KRS_dreams_peace
+        focus = NVS_dreams_peace
 	}
 	cost = 10
 	x = 18
@@ -53,13 +53,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_war_principles
+	id = NVS_war_principles
 	icon = GFX
 	prerequisite = {
-        focus = KRS_reshape_district
+        focus = NVS_reshape_district
 	}
 	prerequisite = {
-        focus = KRS_order_one
+        focus = NVS_order_one
 	}
 	cost = 10
 	x = 17
@@ -67,10 +67,10 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_swan_wings
+	id = NVS_swan_wings
 	icon = GFX
 	prerequisite = {
-        focus = KRS_war_principles
+        focus = NVS_war_principles
 	}
 	cost = 10
 	x = 17
@@ -78,16 +78,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_loyal_revolver
+	id = NVS_loyal_revolver
 	icon = GFX
 	prerequisite = {
-        focus = KRS_swan_wings
+        focus = NVS_swan_wings
 	}
     mutually_exclusive = {
-        focus = KRS_general_violin
+        focus = NVS_general_violin
 	}
 	mutually_exclusive = {
-        focus = KRS_yes_no
+        focus = NVS_yes_no
 	}
 	cost = 10
 	x = 14
@@ -95,16 +95,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_general_violin
+	id = NVS_general_violin
 	icon = GFX
 	prerequisite = {
-        focus = KRS_swan_wings
+        focus = NVS_swan_wings
 	}
     mutually_exclusive = {
-        focus = KRS_loyal_revolver
+        focus = NVS_loyal_revolver
 	}
 	mutually_exclusive = {
-        focus = KRS_yes_no
+        focus = NVS_yes_no
 	}
 	cost = 10
 	x = 17
@@ -112,16 +112,16 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = KRS_yes_no
+	id = NVS_yes_no
 	icon = GFX
 	prerequisite = {
-        focus = KRS_swan_wings
+        focus = NVS_swan_wings
 	}
     mutually_exclusive = {
-        focus = KRS_loyal_revolver
+        focus = NVS_loyal_revolver
 	}
 	mutually_exclusive = {
-        focus = KRS_general_violin
+        focus = NVS_general_violin
 	}
 	cost = 10
 	x = 20

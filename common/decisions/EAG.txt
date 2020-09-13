@@ -1,0 +1,17 @@
+EAG_debug = {
+    EAG_anarchists = {
+		cost = 0
+		days_remove = 30
+        complete_effect = { }
+	}
+    EAG_hitler = {
+		cost = 0
+		days_remove = 30
+        complete_effect = { }
+	}
+    EAG_mercenary = {
+		cost = 0
+		days_remove = 30
+        complete_effect = { }
+	}
+}

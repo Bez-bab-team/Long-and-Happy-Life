@@ -1,0 +1,17 @@
+focus_tree = {
+	id = EAG_first
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = EAG_chain_broken
+    shared_focus = EAG_rob_fatherland
+	shared_focus = EAG_landsknecht_programme
+	shared_focus = EAG_trouble_countryside
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = EAG
+		}
+	}
+}
+

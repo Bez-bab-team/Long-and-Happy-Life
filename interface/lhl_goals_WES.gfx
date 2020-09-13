@@ -59,4 +59,20 @@ spriteTypes = {
 		name = "GFX_WES_fortress_britain"
 		texturefile = "gfx/interface/goals/WES/WES_fortress_britain.dds"
 	}
+	SpriteType = {
+		name = "GFX_WES_battle_faiths"
+		texturefile = "gfx/interface/goals/WES/WES_battle_faiths.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_final_decision"
+		texturefile = "gfx/interface/goals/WES/WES_final_decision.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_ideological_conflict"
+		texturefile = "gfx/interface/goals/WES/WES_ideological_conflict.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_knight_mercia"
+		texturefile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
+	}
 }

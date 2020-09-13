@@ -1,0 +1,6 @@
+EAG_debug = {
+
+	icon = GFX
+	picture = GFX
+}
+
