@@ -10,5 +10,9 @@ state={
 		owner = PDE
 		
 		add_core_of = PDE
+
+		victory_points={
+			12336 16
+		}
 	}
 }

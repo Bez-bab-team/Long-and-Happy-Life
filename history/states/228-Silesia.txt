@@ -10,10 +10,22 @@ state={
 }
 	buildings_max_level_factor=1.000
 	history={
-	victory_points = {
-		1454 2 }	
+
 	owner = PLP
 	add_core_of = PLP
-	}	
+
+		victory_points={
+			12463 25
+		}
+		victory_points={
+			12401 22
+		}
+		victory_points={
+			12480 19
+		}
+		victory_points={
+			12411 10
+		}
+	}
 	state_category = pastoral
 }
