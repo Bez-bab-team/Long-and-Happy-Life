@@ -15,10 +15,10 @@ state={
 		add_core_of = NRU
 
 		victory_points={
-			10096 15
+			10096 37
 		}
 		victory_points={
-			12760 10
+			12760 20
 		}
 		victory_points={
 			9035 5
