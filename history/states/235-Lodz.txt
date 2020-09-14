@@ -10,12 +10,12 @@ state={
 
 	owner = PLP
 	add_core_of = PLP
-	}
+
 		victory_points={
 			5339 38
 		}
 		victory_points={
-			12337 14
+			12377 14
 		}
 		victory_points={
 			5227 5
