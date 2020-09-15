@@ -116,7 +116,7 @@ ideas = {
 
 			picture = aleksandr_panchin
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { scientific_inquisitor }
@@ -133,7 +133,7 @@ ideas = {
 
 			picture = anatolj_vaserman
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { futurist }
@@ -150,7 +150,7 @@ ideas = {
 
 			picture = andrej_rudoj
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { priest_slayer }
@@ -167,7 +167,7 @@ ideas = {
 
 			picture = armen_gasparjan
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { propaganda_expert }
@@ -184,7 +184,7 @@ ideas = {
 
 			picture = evgenij_bahzenov
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { left_journalist }
@@ -201,7 +201,7 @@ ideas = {
 
 			picture = german_klimenko
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { adept_of_censorship }
@@ -218,7 +218,7 @@ ideas = {
 
 			picture = jegor_jakovlev
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { silent_workhorse }
@@ -235,7 +235,7 @@ ideas = {
 
 			picture = marija_zakharova
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { smooth_talking_charmer }
@@ -252,7 +252,7 @@ ideas = {
 
 			picture = mikhail_popov
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { ultrahegelian_preacher }
@@ -269,7 +269,7 @@ ideas = {
 
 			picture = jegor_ivanov
 			allowed = {
-				# original_tag = "NSU"
+				 original_tag = "NSU"
 			}
 
 			traits = { social_reformer }
