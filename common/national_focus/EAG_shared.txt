@@ -680,5 +680,870 @@ shared_focus = {
 	y = 8
 }
 
+### GOVERNOR ###
 
+shared_focus = {
+	id = EAG_governor_holds
+	icon = GFX
+	cost = 10
+	x = 11
+	y = 10
+}
+
+shared_focus = {
+	id = EAG_strengthen_regime
+	icon = GFX
+	prerequisite = {
+		focus = EAG_governor_holds
+	}
+	cost = 10
+	x = 7
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_reward_military
+	icon = GFX
+	prerequisite = {
+		focus = EAG_strengthen_regime
+	}
+	cost = 10
+	x = 5
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_hereditary_estates
+	icon = GFX
+	prerequisite = {
+		focus = EAG_reward_military
+	}
+	cost = 10
+	x = 4
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_government_positions
+	icon = GFX
+	prerequisite = {
+		focus = EAG_reward_military
+	}
+	cost = 10
+	x = 6
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_army_steel
+	icon = GFX
+	prerequisite = {
+		focus = EAG_hereditary_estates
+	}
+	prerequisite = {
+		focus = EAG_government_positions
+	}
+	cost = 10
+	x = 5
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_matters_economy
+	icon = GFX
+	prerequisite = {
+		focus = EAG_strengthen_regime
+	}
+	cost = 10
+	x = 9
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_autarky
+	icon = GFX
+	prerequisite = {
+		focus = EAG_matters_economy
+	}
+	cost = 10
+	x = 8
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_state_capitalism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_matters_economy
+	}
+	cost = 10
+	x = 10
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_specialized_projects
+	icon = GFX
+	prerequisite = {
+		focus = EAG_autarky
+	}
+	prerequisite = {
+		focus = EAG_state_capitalism
+	}
+	cost = 10
+	x = 9
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_britain_reborn
+	icon = GFX
+	prerequisite = {
+		focus = EAG_army_steel
+	}
+	prerequisite = {
+		focus = EAG_specialized_projects
+	}
+	cost = 10
+	x = 7
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_strengthen_people
+	icon = GFX
+	prerequisite = {
+		focus = EAG_governor_holds
+	}
+	cost = 10
+	x = 15
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_internal_policies
+	icon = GFX
+	prerequisite = {
+		focus = EAG_strengthen_people
+	}
+	cost = 10
+	x = 13
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_traditional_roles
+	icon = GFX
+	prerequisite = {
+		focus = EAG_internal_policies
+	}
+	cost = 10
+	x = 12
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_elitist_education
+	icon = GFX
+	prerequisite = {
+		focus = EAG_internal_policies
+	}
+	cost = 10
+	x = 14
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_british_right
+	icon = GFX
+	prerequisite = {
+		focus = EAG_traditional_roles
+	}
+	prerequisite = {
+		focus = EAG_elitist_education
+	}
+	cost = 10
+	x = 13
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_mold_people
+	icon = GFX
+	prerequisite = {
+		focus = EAG_strengthen_people
+	}
+	cost = 10
+	x = 17
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_bury_roots
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mold_people
+	}
+	cost = 10
+	x = 16
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_cult_personality
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mold_people
+	}
+	cost = 10
+	x = 18
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_memories_empire
+	icon = GFX
+	prerequisite = {
+		focus = EAG_bury_roots
+	}
+	prerequisite = {
+		focus = EAG_cult_personality
+	}
+	cost = 10
+	x = 17
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_proclaim_republic
+	icon = GFX
+	prerequisite = {
+		focus = EAG_british_right
+	}
+	prerequisite = {
+		focus = EAG_memories_empire
+	}
+	cost = 10
+	x = 15
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_supreme_leader
+	icon = GFX
+	prerequisite = {
+		focus = EAG_britain_reborn
+	}
+	prerequisite = {
+		focus = EAG_proclaim_republic
+	}
+	cost = 10
+	x = 11
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_unto_the_world
+	icon = GFX
+	prerequisite = {
+		focus = EAG_supreme_leader
+	}
+	cost = 10
+	x = 11
+	y = 17
+}
+
+### MERCENARY ###
+
+shared_focus = {
+	id = EAG_mercenary_triumphant
+	icon = GFX
+	cost = 10
+	x = 11
+	y = 10
+}
+
+shared_focus = {
+	id = EAG_victor_spoils
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mercenary_triumphant
+	}
+	cost = 10
+	x = 9
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_black_market
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mercenary_triumphant
+	}
+	cost = 10
+	x = 11
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_promote_generals
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mercenary_triumphant
+	}
+	cost = 10
+	x = 13
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_guns_britain
+	icon = GFX
+	prerequisite = {
+		focus = EAG_victor_spoils
+	}
+	prerequisite = {
+		focus = EAG_black_market
+	}
+	cost = 10
+	x = 10
+	y = 12
+}
+
+
+shared_focus = {
+	id = EAG_entertainment_industry
+	icon = GFX
+	prerequisite = {
+		focus = EAG_black_market
+	}
+	prerequisite = {
+		focus = EAG_promote_generals
+	}
+	cost = 10
+	x = 12
+	y = 12
+}
+
+
+shared_focus = {
+	id = EAG_ceremony
+	icon = GFX
+	prerequisite = {
+		focus = EAG_guns_britain
+	}
+	prerequisite = {
+		focus = EAG_entertainment_industry
+	}
+	cost = 10
+	x = 11
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_end_civil_war
+	icon = GFX
+	cost = 10
+	x = 11
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_repair_left
+	icon = GFX
+	prerequisite = {
+		focus = EAG_end_civil_war
+	}
+	cost = 10
+	x = 10
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_rebuild_lost
+	icon = GFX
+	prerequisite = {
+		focus = EAG_end_civil_war
+	}
+	cost = 10
+	x = 12
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_rewrite_histroy
+	icon = GFX
+	prerequisite = {
+		focus = EAG_repair_left
+	}
+	cost = 10
+	x = 9
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_reestablish_monarchy
+	icon = GFX
+	prerequisite = {
+		focus = EAG_repair_left
+	}
+	prerequisite = {
+		focus = EAG_rebuild_lost
+	}
+	cost = 10
+	x = 11
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_free_market
+	icon = GFX
+	prerequisite = {
+		focus = EAG_rebuild_lost
+	}
+	cost = 10
+	x = 13
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_fight_radicalism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_rewrite_histroy
+	}
+	prerequisite = {
+		focus = EAG_reestablish_monarchy
+	}
+	cost = 10
+	x = 10
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_free_elections
+	icon = GFX
+	prerequisite = {
+		focus = EAG_reestablish_monarchy
+	}
+	prerequisite = {
+		focus = EAG_free_market
+	}
+	cost = 10
+	x = 12
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_proud_state
+	icon = GFX
+	prerequisite = {
+		focus = EAG_fight_radicalism
+	}
+	prerequisite = {
+		focus = EAG_free_elections
+	}
+	cost = 10
+	x = 11
+	y = 18
+}
+
+shared_focus = {
+	id = EAG_cooperate_republicans
+	icon = GFX
+	prerequisite = {
+		focus = EAG_end_civil_war
+	}
+	cost = 10
+	x = 6
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_euro_bolshevism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_cooperate_republicans
+	}
+	cost = 10
+	x = 5
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_fund_autonomies
+	icon = GFX
+	prerequisite = {
+		focus = EAG_cooperate_republicans
+	}
+	cost = 10
+	x = 7
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_two_systems
+	icon = GFX
+	prerequisite = {
+		focus = EAG_euro_bolshevism
+	}
+	prerequisite = {
+		focus = EAG_fund_autonomies
+	}
+	cost = 10
+	x = 6
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_water_down
+	icon = GFX
+	prerequisite = {
+		focus = EAG_end_civil_war
+	}
+	cost = 10
+	x = 16
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_open_borders
+	icon = GFX
+	prerequisite = {
+		focus = EAG_water_down
+	}
+	cost = 10
+	x = 15
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_trading_ports
+	icon = GFX
+	prerequisite = {
+		focus = EAG_water_down
+	}
+	cost = 10
+	x = 17
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_melting_pot
+	icon = GFX
+	prerequisite = {
+		focus = EAG_open_borders
+	}
+	prerequisite = {
+		focus = EAG_trading_ports
+	}
+	cost = 10
+	x = 16
+	y = 17
+}
+
+### ANARCHISTS ###
+
+shared_focus = {
+	id = EAG_anarchists_prevail
+	icon = GFX
+	cost = 10
+	x = 11
+	y = 10
+}
+
+shared_focus = {
+	id = EAG_freedom_all
+	icon = GFX
+	prerequisite = {
+		focus = EAG_anarchists_prevail
+	}
+	cost = 10
+	x = 9
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_except_invaders
+	icon = GFX
+	prerequisite = {
+		focus = EAG_freedom_all
+	}
+	mutually_exclusive = {
+		focus = EAG_no_exceptions
+	}
+	cost = 10
+	x = 8
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_no_exceptions
+	icon = GFX
+	prerequisite = {
+		focus = EAG_freedom_all
+	}
+	mutually_exclusive = {
+		focus = EAG_except_invaders
+	}
+	cost = 10
+	x = 10
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_cultural_colonialism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_except_invaders
+		focus = EAG_no_exceptions
+	}
+	cost = 10
+	x = 9
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_let_go
+	icon = GFX
+	prerequisite = {
+		focus = EAG_anarchists_prevail
+	}
+	cost = 10
+	x = 13
+	y = 11
+}
+
+shared_focus = {
+	id = EAG_united_army
+	icon = GFX
+	prerequisite = {
+		focus = EAG_let_go
+	}
+	mutually_exclusive = {
+		focus = EAG_local_force
+	}
+	cost = 10
+	x = 12
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_local_force
+	icon = GFX
+	prerequisite = {
+		focus = EAG_let_go
+	}
+	mutually_exclusive = {
+		focus = EAG_united_army
+	}
+	cost = 10
+	x = 14
+	y = 12
+}
+
+shared_focus = {
+	id = EAG_alliance_ireland
+	icon = GFX
+	prerequisite = {
+		focus = EAG_united_army
+		focus = EAG_local_force
+	}
+	cost = 10
+	x = 13
+	y = 13
+}
+
+shared_focus = {
+	id = EAG_many_faces
+	icon = GFX
+	prerequisite = {
+		focus = EAG_cultural_colonialism
+	}
+	prerequisite = {
+		focus = EAG_alliance_ireland
+	}
+	cost = 10
+	x = 11
+	y = 14
+}
+
+shared_focus = {
+	id = EAG_primitivism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_many_faces
+	}
+	cost = 10
+	x = 9
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_nationalism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_many_faces
+	}
+	cost = 10
+	x = 11
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_mutualism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_many_faces
+	}
+	cost = 10
+	x = 13
+	y = 15
+}
+
+shared_focus = {
+	id = EAG_green_energy
+	icon = GFX
+	prerequisite = {
+		focus = EAG_primitivism
+	}
+	cost = 10
+	x = 8
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_traditional_values
+	icon = GFX
+	prerequisite = {
+		focus = EAG_primitivism
+		focus = EAG_nationalism
+	}
+	cost = 10
+	x = 10
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_local_committees
+	icon = GFX
+	prerequisite = {
+		focus = EAG_nationalism
+		focus = EAG_mutualism
+	}
+	cost = 10
+	x = 12
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_labour_credits
+	icon = GFX
+	prerequisite = {
+		focus = EAG_mutualism
+	}
+	cost = 10
+	x = 14
+	y = 16
+}
+
+shared_focus = {
+	id = EAG_neofolk_revolution
+	icon = GFX
+	prerequisite = {
+		focus = EAG_green_energy
+		focus = EAG_traditional_values
+	}
+	cost = 10
+	x = 9
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_meritocratic_system
+	icon = GFX
+	prerequisite = {
+		focus = EAG_traditional_values
+		focus = EAG_local_committees
+	}
+	cost = 10
+	x = 11
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_market_no_capitalism
+	icon = GFX
+	prerequisite = {
+		focus = EAG_local_committees
+		focus = EAG_labour_credits
+	}
+	cost = 10
+	x = 13
+	y = 17
+}
+
+shared_focus = {
+	id = EAG_reach_world
+	icon = GFX
+	prerequisite = {
+		focus = EAG_neofolk_revolution
+	}
+	prerequisite = {
+		focus = EAG_meritocratic_system
+	}
+	cost = 10
+	x = 10
+	y = 18
+}
+
+shared_focus = {
+	id = EAG_anarchist_diplomacy
+	icon = GFX
+	prerequisite = {
+		focus = EAG_reach_world
+	}
+	cost = 10
+	x = 10
+	y = 19
+}
+
+shared_focus = {
+	id = EAG_reject_past
+	icon = GFX
+	prerequisite = {
+		focus = EAG_meritocratic_system
+	}
+	prerequisite = {
+		focus = EAG_market_no_capitalism
+	}
+	cost = 10
+	x = 12
+	y = 18
+}
+
+shared_focus = {
+	id = EAG_total_liberation
+	icon = GFX
+	prerequisite = {
+		focus = EAG_reject_past
+	}
+	cost = 10
+	x = 12
+	y = 19
+}
+
+shared_focus = {
+	id = EAG_free_people
+	icon = GFX
+	prerequisite = {
+		focus = EAG_anarchist_diplomacy
+	}
+	prerequisite = {
+		focus = EAG_total_liberation
+	}
+	cost = 10
+	x = 11
+	y = 20
+}
 

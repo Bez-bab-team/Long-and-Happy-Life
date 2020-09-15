@@ -2,16 +2,22 @@ EAG_debug = {
     EAG_anarchists = {
 		cost = 0
 		days_remove = 30
-        complete_effect = { }
+        complete_effect = {
+            load_focus_tree = EAG_anarchists
+		}
 	}
     EAG_hitler = {
 		cost = 0
 		days_remove = 30
-        complete_effect = { }
+        complete_effect = { 
+		    load_focus_tree = EAG_hitler
+		}
 	}
     EAG_mercenary = {
 		cost = 0
 		days_remove = 30
-        complete_effect = { }
+        complete_effect = { 
+		    load_focus_tree = EAG_mercenary
+		}
 	}
 }
