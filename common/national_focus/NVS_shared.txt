@@ -21,7 +21,7 @@ shared_focus = {
 
 shared_focus = {
 	id = NVS_dreams_peace
-	icon = GFX
+	icon = GFX_NVS_all_is_now_against_us
 	prerequisite = {
         focus = NVS_russia_cross
 	}
@@ -32,7 +32,7 @@ shared_focus = {
 
 shared_focus = {
 	id = NVS_reshape_district
-	icon = GFX
+	icon = GFX_NVS_shoulder_of_a_comrade
 	prerequisite = {
         focus = NVS_dreams_peace
 	}
@@ -43,7 +43,7 @@ shared_focus = {
 
 shared_focus = {
 	id = NVS_order_one
-	icon = GFX
+	icon = GFX_NVS_order_no_1
 	prerequisite = {
         focus = NVS_dreams_peace
 	}
