@@ -7,10 +7,18 @@ state={
 	manpower=2513093
 	buildings_max_level_factor=1.000
 	history={
-	victory_points = {
-		1024 2 
-	}
+
 	owner = PLP
 	add_core_of = PLP
+
+		victory_points={
+			5339 38
+		}
+		victory_points={
+			12377 14
+		}
+		victory_points={
+			5227 5
+		}
 	}
 }

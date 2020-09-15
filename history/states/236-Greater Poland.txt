@@ -7,10 +7,22 @@ state={
 	manpower=3489210
 	buildings_max_level_factor=1.000
 	history={
-	victory_points = {
-		834 2 }	
+
 	owner = PDE
 	add_core_of = PDE
-	}	
+
+		victory_points={
+			8653 37
+		}
+		victory_points={
+			6742 15
+		}
+		victory_points={
+			12233 13
+		}
+		victory_points={
+			9071 11
+		}
+	}
 	state_category = pastoral
 }
