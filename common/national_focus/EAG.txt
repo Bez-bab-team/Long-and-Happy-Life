@@ -16,3 +16,56 @@ focus_tree = {
 }
 
 focus_tree = {
+	id = EAG_hitler
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = EAG_chain_broken
+    shared_focus = EAG_rob_fatherland
+	shared_focus = EAG_landsknecht_programme
+	shared_focus = EAG_trouble_countryside
+	shared_focus = EAG_governor_holds
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = EAG
+		}
+	}
+}
+
+focus_tree = {
+	id = EAG_mercenary
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = EAG_chain_broken
+    shared_focus = EAG_rob_fatherland
+	shared_focus = EAG_landsknecht_programme
+	shared_focus = EAG_trouble_countryside
+	shared_focus = EAG_mercenary_triumphant
+	shared_focus = EAG_end_civil_war
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = EAG
+		}
+	}
+}
+
+focus_tree = {
+	id = EAG_anarchists
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = EAG_chain_broken
+    shared_focus = EAG_rob_fatherland
+	shared_focus = EAG_landsknecht_programme
+	shared_focus = EAG_trouble_countryside
+	shared_focus = EAG_anarchists_prevail
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = EAG
+		}
+	}
+}
