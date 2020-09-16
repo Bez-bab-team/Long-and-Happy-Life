@@ -10,5 +10,9 @@ state={
 		owner = TRG
 		
 		add_core_of = TRG
-	}	
+
+		victory_points={
+			8423 4
+		}
+	}
 }

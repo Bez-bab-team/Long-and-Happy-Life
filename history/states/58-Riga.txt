@@ -10,5 +10,15 @@ state={
 		owner = BAL
 		
 		add_core_of = BAL
+
+		victory_points={
+			12159 12
+		}
+		victory_points={
+			8139 10
+		}
+		victory_points={
+			12188 3
+		}
 	}
 }

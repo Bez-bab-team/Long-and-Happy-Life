@@ -10,5 +10,12 @@ state={
 		owner = EST
 		
 		add_core_of = EST
+
+		victory_points={
+			6625 3
+		}
+		victory_points={
+			1691 6
+		}
 	}
 }
