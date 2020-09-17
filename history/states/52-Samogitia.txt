@@ -11,5 +11,15 @@ state={
 		owner = LIT
 		
 		add_core_of = LIT
+
+		victory_points={
+			8536 15
+		}
+		victory_points={
+			7696 5
+		}
+		victory_points={
+			4317 6
+		}
 	}
 }
