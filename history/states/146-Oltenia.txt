@@ -13,5 +13,9 @@ history={
 		owner = ROM
 		
 		add_core_of = ROM
+
+		victory_points={
+			5573 25
+		}
 	}
 }
