@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##COUNTRY_NAME##
+ USS_neocameralism:0 "North Krasnojarks"
+ USS_neocameralism_DEF:0 "North Krasnojarks"
+ USS_millenarism:0 "North Krasnojarks"
+ USS_millenarism_DEF:0 "North Krasnojarks"
+ USS_commendationism:0 "North Krasnojarks"
+ USS_commendationism_DEF:0 "North Krasnojarks"
+ USS_left_authoritarianism:0 "North Krasnojarks"
+ USS_left_authoritarianism_DEF:0 "North Krasnojarks"
+ USS_socialism:0 "North Krasnojarks"
+ USS_socialism_DEF:0 "North Krasnojarks"
+ USS_national_bolshevism:0 "North Krasnojarks"
+ USS_national_bolshevism_DEF:0 "North Krasnojarks"
+ USS_right_populism:0 "North Krasnojarks"
+ USS_right_populism_DEF:0 "North Krasnojarks"
+ USS_hegemonism:0 "North Krasnojarks"
+ USS_hegemonism_DEF:0 "North Krasnojarks"
+ USS_regressionism:0 "North Krasnojarks"
+ USS_regressionism_DEF:0 "North Krasnojarks"
+ USS_ur_fascism:0 "North Krasnojarks"
+ USS_ur_fascism_DEF:0 "North Krasnojarks"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
+ ##POLITICAL PARTIES##
+ USS_millenarism_party:0 "§RNON-EXISTENT §!"
+ USS_millenarism_party_long:0 "§RNON-EXISTENT §!"
+ USS_commendationism_party:0 "§RNON-EXISTENT §!"
+ USS_commendationism_party_long:0 "§RNON-EXISTENT §!"
+ USS_left_authoritarianism_party:0 "§RNON-EXISTENT §!"
+ USS_left_authoritarianism_party_long:0 "§RNON-EXISTENT §!"
+ USS_socialism_party:0 "§RNON-EXISTENT §!"
+ USS_socialism_party_long:0 "§RNON-EXISTENT §!"
+ USS_national_bolshevism_party:0 "§RNON-EXISTENT §!"
+ USS_national_bolshevism_party_long:0 "§RNON-EXISTENT §!"
+ USS_neocameralism_party:0 "§RNON-EXISTENT §!"
+ USS_neocameralism_party_long:0 "§RNON-EXISTENT §!"
+ USS_right_populism_party:0 "§RNON-EXISTENT §!"
+ USS_right_populism_party_long:0 "§RNON-EXISTENT §!"
+ USS_hegemonism_party:0 "§RNON-EXISTENT §!"
+ USS_hegemonism_party_long:0 "§RNON-EXISTENT §!"
+ USS_regressionism_party:0 "Local Warlords"
+ USS_regressionism_party_long:0 "Local Warlords"
+ USS_ur_fascism_party:0 "§RNON-EXISTENT §!"
+ USS_ur_fascism_party_long:0 "§RNON-EXISTENT §!"

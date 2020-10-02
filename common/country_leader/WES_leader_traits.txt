@@ -1,0 +1,35 @@
+leader_traits = {
+	fisher_king = {
+		random = no
+		political_power_gain = -0.1
+		stability_factor = -0.25
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_pendragon = {
+		random = no
+		political_power_gain = 0.1
+        political_advisor_cost_factor = -0.25
+		trade_opinion_factor = 0.25
+		stability_factor = 0.2
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	total_anarchy = {
+		random = no
+		political_power_gain = -20.0
+		stability_factor = -0.5
+	    industrial_capacity_factory = -0.5
+		army_morale_factor = -0.5
+		surrender_limit = -0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+

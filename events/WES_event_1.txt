@@ -1,0 +1,40 @@
+﻿add_namespace = WES_event
+
+country_event = {
+	id = WES_event.1
+	title = WES_event.1.t
+	desc = WES_event.1.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = WES_event.1.a
+		set_party_name = { 
+		    ideology = regressionism
+			long_name = collapsed_government_long
+			name = collapsed_government
+		}	
+		kill_country_leader = yes
+		add_popularity = {
+		    ideology = regressionism
+            popularity = 1.00
+        }
+		create_country_leader = {
+	        name = "Collapsed Authority"
+            desc = ""
+	        picture = "collapsed_authority.dds"
+	        expire = "9999.1.1"
+	        ideology = neo_feudalism 
+	        traits = {
+		        total_anarchy
+	        }
+		}
+		set_cosmetic_tag = collapsed_name
+		set_politics = {
+	        ruling_party = regressionism
+        }
+    } 
+}
+
+

@@ -17,7 +17,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	regressionism  = 100
+	regressionism  = 30
+	millenarism = 3
+	commendationism = 12
+	left_authoritarianism = 5
+	socialism = 10
+	neocameralism = 15
+	national_bolshevism = 3
+	right_populism = 10
+	hegemonism = 7
+	ur_fascism = 5
 }
 
 create_country_leader = {
@@ -26,6 +35,6 @@ create_country_leader = {
 	picture = "georgevii.dds"
 	ideology = neo_feudalism
 	traits = {
-		new_pendragon
+		fisher_king
 	}
 }

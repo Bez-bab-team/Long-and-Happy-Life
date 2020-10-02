@@ -207,15 +207,6 @@ leader_traits = {
 		}
 	}
 	
-	new_pendragon = {
-		random = no
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
 	keeper_of_the_lore = {
 		random = no
 		research_speed_factor = 0.03

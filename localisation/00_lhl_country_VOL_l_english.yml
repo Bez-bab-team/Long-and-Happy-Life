@@ -1,0 +1,49 @@
+﻿l_english:
+ ##LEADERS##
+ ##COUNTRY_NAME##
+ VOL_neocameralism:0 "Far East"
+ VOL_neocameralism_DEF:0 "Far East"
+ VOL_millenarism:0 "Far East"
+ VOL_millenarism_DEF:0 "Far East"
+ VOL_commendationism:0 "Far East"
+ VOL_commendationism_DEF:0 "Far East"
+ VOL_left_authoritarianism:0 "Far East"
+ VOL_left_authoritarianism_DEF:0 "Far East"
+ VOL_socialism:0 "Far East"
+ VOL_socialism_DEF:0 "Far East"
+ VOL_national_bolshevism:0 "Far East"
+ VOL_national_bolshevism_DEF:0 "Far East"
+ VOL_right_populism:0 "Far East"
+ VOL_right_populism_DEF:0 "Far East"
+ VOL_hegemonism:0 "Far East"
+ VOL_hegemonism_DEF:0 "Far East"
+ VOL_regressionism:0 "Far East"
+ VOL_regressionism_DEF:0 "Far East"
+ VOL_ur_fascism:0 "Far East"
+ VOL_ur_fascism_DEF:0 "Far East"
+ ##TRAITS##
+ ##IDEAS##
+ ##FOCUS TREES##
+ ##DECISIONS##
+ ##EVENTS##
+ ##POLITICAL PARTIES##
+ VOL_millenarism_party:0 "§RNON-EXISTENT §!"
+ VOL_millenarism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_commendationism_party:0 "§RNON-EXISTENT §!"
+ VOL_commendationism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_left_authoritarianism_party:0 "§RNON-EXISTENT §!"
+ VOL_left_authoritarianism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_socialism_party:0 "§RNON-EXISTENT §!"
+ VOL_socialism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_national_bolshevism_party:0 "§RNON-EXISTENT §!"
+ VOL_national_bolshevism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_neocameralism_party:0 "§RNON-EXISTENT §!"
+ VOL_neocameralism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_right_populism_party:0 "§RNON-EXISTENT §!"
+ VOL_right_populism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_hegemonism_party:0 "§RNON-EXISTENT §!"
+ VOL_hegemonism_party_long:0 "§RNON-EXISTENT §!"
+ VOL_regressionism_party:0 "Local Warlords"
+ VOL_regressionism_party_long:0 "Local Warlords"
+ VOL_ur_fascism_party:0 "§RNON-EXISTENT §!"
+ VOL_ur_fascism_party_long:0 "§RNON-EXISTENT §!"

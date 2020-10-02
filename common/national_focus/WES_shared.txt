@@ -348,7 +348,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_arise_folk
-	icon = GFX_WES
+	icon = GFX_wes_arise_folk
 	prerequisite = {
         focus = WES_retrun_king
 	}
@@ -359,7 +359,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_camlann
-	icon = GFX_WES
+	icon = GFX_wes_battle_Camlann
 	prerequisite = {
         focus = WES_arise_folk
 	}
@@ -398,7 +398,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_road_unification
-	icon = GFX_WES
+	icon = GFX_wes_road_unification
 	prerequisite = {
         focus = WES_the_duel
 		focus = WES_traitors_fate
@@ -504,7 +504,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_curious_proposal
-	icon = GFX_WES
+	icon = GFX_wes_curious_proposal
 	cost = 10
 	x = 33
 	y = 5
