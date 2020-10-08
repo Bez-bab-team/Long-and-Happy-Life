@@ -1,0 +1,370 @@
+ideas = {
+
+	head_of_government = {
+Aleksandr_Pushnoj = {
+
+			picture = Aleksandr_Pushnoj
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { Scientist_showman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Sergej_Udaltsov = {
+
+			picture = Sergej_Udaltsov
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { young_vozhd }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Vjacheslav_Maltsev = {
+
+			picture = Vjacheslav_Maltsev
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { Revolt_gen }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		
+	
+		Andrej_Knjazev = {
+
+			picture = Andrej_Knjazev
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { dark_prince }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		
+	}
+	political_advisor = {
+
+		Aleksandsr_Kolchenko = {
+
+			picture = Aleksandsr_Kolchenko
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { tundra }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}	
+		}
+		Aleksej_Gaskarov = {
+
+			picture = Aleksej_Gaskarov
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { anarchist_economist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Aleksej_Nikonov = {
+
+			picture = Aleksej_Nikonov
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { orthodox_anarchist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Anastasia_Baburova = {
+
+			picture = Anastasia_Baburova
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { truth_telleritsa }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+				
+		Sergej_Troitskij = {
+
+			picture = Sergej_Troitskij
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { spider }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Andrej_Isajev = {
+
+			picture = Andrej_Isajev
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { Knight_of_the_regime }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Stanislav_Markelov = {
+
+			picture = Stanislav_Markelov
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { strong_juist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Valerij_Kipelov_2 = {
+
+			picture = Valerij_Kipelov_2
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { Kipelych }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Vjacheslav_Butusov = {
+
+			picture = Vjacheslav_Butusov
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { Former_Architect }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Marija_Alyokhina = {
+
+			picture = Marija_Alyokhina
+			allowed = {
+				 original_tag = "GOR"
+			}
+
+			traits = { Radical_feminist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		}
+	
+	theorist = {
+		Pjotr_Rjabov = {
+			
+			picture = Pjotr_Rjabov
+			allowed = {
+				original_tag = GOR
+			}
+			traits = { anarchist_theorist }
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		
+		}
+
+	army_chief = {
+
+		Igor_Hugorskoj = {
+				
+			picture = Igor_Hugorskoj
+			allowed = {
+				original_tag = GOR
+			}
+			
+			traits = { Bone_breaker }			
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		}
+	navy_chief = {
+	Aleksej_Polikhovich  = {
+
+			picture = Aleksej_Polikhovich
+			allowed = {
+				original_tag = GOR
+			}
+						
+			traits = { Submarine_sailor }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+air_chief = {
+		Konstantin_Labetskij  = {
+
+			picture = Konstantin_Labetskij
+			allowed = {
+				original_tag = GOR
+			}
+						
+			traits = { Bombardier }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	
+	}
+	high_command = {
+	
+		Aleksej_Sutuga  = {
+
+			picture = Aleksej_Sutuga
+			allowed = {
+				original_tag = GOR
+			}
+						
+			traits = { Socrates }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		Valerij_Skoroded  = {
+
+			picture = Valerij_Skoroded
+			allowed = {
+				original_tag = GOR
+			}
+						
+			traits = { battle_bard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		Vjacheslav_Maltsev  = {
+
+			picture = Vjacheslav_Maltsev
+			allowed = {
+				original_tag = GOR
+			}
+						
+			traits = { Starshina }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	}
+	}
