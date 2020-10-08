@@ -44,6 +44,7 @@ leader_traits = {
 		random = no
 		production_speed_infrastructure_factor = 0.2
 		stability_factor = -0.10
+		local_resources_factor = 0.10
 		ai_will_do = {
 			factor = 1
 		}
