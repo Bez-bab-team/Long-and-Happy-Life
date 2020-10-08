@@ -89,5 +89,13 @@ spriteTypes = {
 		name = "GFX_idea_Aleksandr_Pushnoj"
 		texturefile = "gfx/interface/ideas/GOR/idea_Aleksandr_Pushnoj.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Andrej_Isajev"
+		texturefile = "gfx/interface/ideas/GOR/idea_Andrej_Isajev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Marija_Alyokhina"
+		texturefile = "gfx/interface/ideas/GOR/idea_Marija_Alyokhina.dds"
+	}
 	}
 
