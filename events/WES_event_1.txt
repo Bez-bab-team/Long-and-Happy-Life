@@ -42,32 +42,6 @@ country_event = {
 }
 
 country_event = {
-	id = WES_event.2
-	title = WES_event.2.t
-	desc = WES_event.2.d
-    is_triggered_only = yes
-	hidden = yes
-	picture = 
-	major = no
-    fire_only_once = true	
-	option = {
-		name = WES_event.2.a
-        set_variable = {
-           var = george_slot_1
-           value = 1
-        }
-        set_variable = {
-           var = lhl_slot_12
-           value = 2
-        }
-        set_variable = {
-           var = lhl_slot_2
-           value = 1
-        }
-    } 
-}
-
-country_event = {
 	id = WES_event.3
 	title = WES_event.3.t
 	desc = WES_event.3.d

@@ -34,8 +34,4 @@ spriteTypes = {
 		name = "GFX_lhl_george_knight_dead"
 		textureFile = "gfx/interface/knights_table/george_dead.dds"
 	}
-	spriteType = {
-		name = "GFX_lhl_unabomber"
-		textureFile = "gfx/interface/knights_table/unabomber.dds"
-	}
 }

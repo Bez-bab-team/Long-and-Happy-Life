@@ -9,6 +9,7 @@ guiTypes = {
 			position = { x = 0  y = -1 }
 			quadTextureSprite = "GFX_lhl_table_upper_tab_button"
 			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "KNIGHT_MENU"
 			scale = 0.45
 		}
 	}
@@ -52,12 +53,6 @@ guiTypes = {
 			pdx_tooltip = "KNIGHT_SLEEPS"
 			position = { x = 682 y = 112 }
 		}
-		iconType = {
-			name = "lhl_slot_2_unabomber"
-			spriteType = "GFX_lhl_unabomber"
-			pdx_tooltip = "KNIGHT_UNABOMBER"
-			position = { x = 682 y = 112 }
-		}
 		#3
 		iconType = {
 			name = "lhl_slot_3"
@@ -93,7 +88,6 @@ guiTypes = {
 			pdx_tooltip = "KNIGHT_SLEEPS"
 			position = { x = 513 y = 500 }
 		}
-	    ####FUCK UP####
 		#8
 		iconType = {
 			name = "lhl_slot_8"
@@ -124,22 +118,34 @@ guiTypes = {
 		}
 		#12
 		iconType = {
-			name = "lhl_slot_12_traitor"
-			spriteType = "GFX_lhl_henry_knight"
-			pdx_tooltip = "KNIGHT_TRAITOR"
-			position = { x = 344 y = 112 }
-		}
-		iconType = {
 			name = "lhl_slot_12"
 			spriteType = "GFX_lhl_table_opening_picture_default"
 			pdx_tooltip = "KNIGHT_SLEEPS"
-			position = { x = 851 y = 178 }
+			position = { x = 344 y = 111 }
 		}
+		iconType = {
+			name = "lhl_slot_12_traitor"
+			spriteType = "GFX_lhl_henry_knight"
+			pdx_tooltip = ""
+			position = { x = 344 y = 111 }
+		}
+		###Background###
 		iconType = {
 			name = "lhl_table_opening_screen_background"
 			position = { x = 0 y = 0 }
 			spriteType = "GFX_lhl_table_opening_screen"
 			alwaystransparent = yes
+		}
+		###HEADING###
+		instantTextboxType = {
+			name = "lhl_george_title"
+			position = { x = -700 y = 18 }
+			font = "hoi_24header"
+			text = "Knights Of The Round Table"
+			Orientation = center_up
+			format = center
+			maxWidth = 1150
+			maxHeight = 30
 		}
 	}
 }

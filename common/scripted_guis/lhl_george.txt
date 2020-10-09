@@ -43,30 +43,18 @@ scripted_gui = {
                     value = 2		
                }	
             }
-            lhl_slot_2_visible = {
-               check_variable = {
-                    var = lhl_slot_2
-                    value = 1				
-                }
-		    }	
-            lhl_slot_2_unabomber_visible = {
-               check_variable = {
-                    var = lhl_slot_2
-                    value = 2			
-                }
-		    }
             lhl_slot_12_visible = {
                check_variable = {
-                    var = lhl_slot_12
+                    var = slot_12
                     value = 1				
                 }
 		    }
             lhl_slot_12_traitor_visible = {
                check_variable = {
-                    var = lhl_slot_12
-                    value = 2				
-                }
-		    }			
+                    var = slot_12
+                    value = 2		
+               }	
+            }				
         }
 
 		effects = {
