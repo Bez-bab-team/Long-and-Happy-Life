@@ -3,7 +3,11 @@
 shared_focus = {
 	id = WES_retrun_king
 	icon = GFX_return_king
-	cost = 10
+	cost = 3.5
+	completion_reward = {
+	    add_political_power = 150
+		country_event = {}
+	}
 	x = 17
 	y = 0
 }
@@ -14,7 +18,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_retrun_king
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 1
 }
@@ -25,7 +29,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_worthie_england
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 2
 }
@@ -36,7 +40,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_strength_monarchy
 	}
-	cost = 10
+	cost = 3.5
 	x = 16
 	y = 3
 }
@@ -47,7 +51,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_strength_monarchy
 	}
-	cost = 10
+	cost = 3.5
 	x = 18
 	y = 3
 }
@@ -61,7 +65,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_trial_wisdom
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 4
 }
@@ -78,7 +82,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_kings_speech
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 5
 }
@@ -89,7 +93,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_worthie_england
 	}
-	cost = 10
+	cost = 3.5
 	x = 13
 	y = 2
 }
@@ -100,7 +104,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_knights_table
 	}
-	cost = 10
+	cost = 3.5
 	x = 12
 	y = 3
 }
@@ -111,7 +115,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_knights_table
 	}
-	cost = 10
+	cost = 3.5
 	x = 14
 	y = 3
 }
@@ -125,7 +129,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_mighty_men
 	}
-	cost = 10
+	cost = 3.5
 	x = 13
 	y = 4
 }
@@ -136,7 +140,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_worthie_england
 	}
-	cost = 10
+	cost = 3.5
 	x = 21
 	y = 2
 }
@@ -147,7 +151,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_common_men
 	}
-	cost = 10
+	cost = 3.5
 	x = 20
 	y = 3
 }
@@ -158,7 +162,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_common_men
 	}
-	cost = 10
+	cost = 3.5
 	x = 22
 	y = 3
 }
@@ -172,7 +176,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_soldier_king
 	}
-	cost = 10
+	cost = 3.5
 	x = 21
 	y = 4
 }
@@ -183,7 +187,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_retrun_king
 	}
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 1
 }
@@ -194,7 +198,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_royal_military
 	}
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 2
 }
@@ -205,7 +209,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_fight_monarchy
 	}
-	cost = 10
+	cost = 3.5
 	x = 4
 	y = 3
 }
@@ -216,7 +220,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_fight_monarchy
 	}
-	cost = 10
+	cost = 3.5
 	x = 6
 	y = 3
 }
@@ -230,7 +234,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_top_grade
 	}
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 4
 }
@@ -247,7 +251,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_tank_knights
 	}
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 5
 }
@@ -258,7 +262,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_royal_military
 	}
-	cost = 10
+	cost = 3.5
 	x = 1
 	y = 2
 }
@@ -269,7 +273,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_protect_land
 	}
-	cost = 10
+	cost = 3.5
 	x = 0
 	y = 3
 }
@@ -280,7 +284,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_protect_land
 	}
-	cost = 10
+	cost = 3.5
 	x = 2
 	y = 3
 }
@@ -294,7 +298,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_artillery_men
 	}
-	cost = 10
+	cost = 3.5
 	x = 1
 	y = 4
 }
@@ -305,7 +309,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_royal_military
 	}
-	cost = 10
+	cost = 3.5
 	x = 9
 	y = 2
 }
@@ -316,7 +320,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_rule_skies
 	}
-	cost = 10
+	cost = 3.5
 	x = 8
 	y = 3
 }
@@ -327,7 +331,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_rule_skies
 	}
-	cost = 10
+	cost = 3.5
 	x = 10
 	y = 3
 }
@@ -341,7 +345,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_battle_britain
 	}
-	cost = 10
+	cost = 3.5
 	x = 9
 	y = 4
 }
@@ -352,7 +356,12 @@ shared_focus = {
 	prerequisite = {
         focus = WES_retrun_king
 	}
-	cost = 10
+	completion_reward = {
+	    add_political_power = 50
+		add_manpower = 100000
+		country_event = {}
+	}
+	cost = 3.5
 	x = 29
 	y = 1
 }
@@ -363,7 +372,15 @@ shared_focus = {
 	prerequisite = {
         focus = WES_arise_folk
 	}
-	cost = 10
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = SUS
+			expire = 0
+		} 
+		country_event = {}
+	}
+	cost = 3.5
 	x = 29
 	y = 2
 }
@@ -377,7 +394,10 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = WES_traitors_fate
 	}
-	cost = 10
+	completion_reward = {
+	    country_event = {}
+	}
+	cost = 3.5
 	x = 28
 	y = 3
 }
@@ -391,7 +411,10 @@ shared_focus = {
 	mutually_exclusive = {
 		focus = WES_the_duel
 	}
-	cost = 10
+	completion_reward = {
+	    country_event = {}
+	}
+	cost = 3.5
 	x = 30
 	y = 3
 }
@@ -403,7 +426,10 @@ shared_focus = {
         focus = WES_the_duel
 		focus = WES_traitors_fate
 	}
-	cost = 10
+	completion_reward = {
+	    country_event = {}
+	}
+	cost = 3.5
 	x = 29
 	y = 4
 }
@@ -414,7 +440,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_arise_folk
 	}
-	cost = 10
+	cost = 3.5
 	x = 25
 	y = 2
 }
@@ -425,7 +451,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
-	cost = 10
+	cost = 3.5
 	x = 24
 	y = 3
 }
@@ -436,7 +462,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_orthodox_diplomacy
 	}
-	cost = 10
+	cost = 3.5
 	x = 26
 	y = 3
 }
@@ -450,7 +476,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_plead_help
 	}
-	cost = 10
+	cost = 3.5
 	x = 25
 	y = 4
 }
@@ -461,7 +487,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_arise_folk
 	}
-	cost = 10
+	cost = 3.5
 	x = 33
 	y = 2
 }
@@ -472,7 +498,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_knight_mercia
 	}
-	cost = 10
+	cost = 3.5
 	x = 32
 	y = 3
 }
@@ -483,7 +509,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_knight_mercia
 	}
-	cost = 10
+	cost = 3.5
 	x = 34
 	y = 3
 }
@@ -497,7 +523,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_ideological_conflict
 	}
-	cost = 10
+	cost = 3.5
 	x = 33
 	y = 4
 }
@@ -505,7 +531,7 @@ shared_focus = {
 shared_focus = {
 	id = WES_curious_proposal
 	icon = GFX_wes_curious_proposal
-	cost = 10
+	cost = 3.5
 	x = 33
 	y = 5
 }
@@ -516,7 +542,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_curious_proposal
 	}
-	cost = 10
+	cost = 3.5
 	x = 32
 	y = 6
 }
@@ -527,7 +553,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_curious_proposal
 	}
-	cost = 10
+	cost = 3.5
 	x = 34
 	y = 6
 }
@@ -541,7 +567,11 @@ shared_focus = {
 	prerequisite = {
         focus = WES_military_expertise
 	}
-	cost = 10
+	completion_reward = {
+	    puppet = STM
+		country_event = {}
+	}
+	cost = 3.5
 	x = 33
 	y = 7
 }
@@ -552,7 +582,15 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
-	cost = 10
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = KNT
+			expire = 0
+		} 
+		country_event = {}
+	}
+	cost = 3.5
 	x = 27
 	y = 5
 }
@@ -563,7 +601,15 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
-	cost = 10
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = ESS
+			expire = 0
+		} 
+		country_event = {}
+	}
+	cost = 3.5
 	x = 31
 	y = 5
 }
@@ -574,7 +620,15 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
-	cost = 10
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = NTH
+			expire = 0
+		} 
+		country_event = {}
+	}
+	cost = 3.5
 	x = 28
 	y = 6
 }
@@ -585,7 +639,15 @@ shared_focus = {
 	prerequisite = {
         focus = WES_road_unification
 	}
-	cost = 10
+	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = EAG
+			expire = 0
+		} 
+		country_event = {}
+	}
+	cost = 3.5
 	x = 30
 	y = 6
 }
@@ -605,7 +667,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_retake_capital
 	}
-	cost = 10
+	cost = 3.5
 	x = 29
 	y = 7
 }
@@ -619,7 +681,7 @@ shared_focus = {
 	mutually_exclusive = {
 	    focus = WES_mutual_prosperity
 	}
-	cost = 10
+	cost = 3.5
 	x = 28
 	y = 8
 }
@@ -633,7 +695,7 @@ shared_focus = {
 	mutually_exclusive = {
 	    focus = WES_masters_slaves
 	}
-	cost = 10
+	cost = 3.5
 	x = 30
 	y = 8
 }
@@ -641,7 +703,7 @@ shared_focus = {
 shared_focus = {
 	id = WES_rule_george
 	icon = GFX_WES
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 6
 }
@@ -652,7 +714,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_rule_george
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 7
 }
@@ -663,7 +725,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_medieval_state
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 8
 }
@@ -674,7 +736,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_days_old
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 9
 }
@@ -685,7 +747,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_human_nauture
 	}
-	cost = 10
+	cost = 3.5
 	x = 19
 	y = 10
 }
@@ -696,7 +758,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_human_nauture
 	}
-	cost = 10
+	cost = 3.5
 	x = 15
 	y = 10
 }
@@ -707,7 +769,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_competetive_spirit
 	}
-	cost = 10
+	cost = 3.5
 	x = 18
 	y = 11
 }
@@ -718,7 +780,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_competetive_spirit
 	}
-	cost = 10
+	cost = 3.5
 	x = 20
 	y = 11
 }
@@ -732,7 +794,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_embrace_modernity
 	}
-	cost = 10
+	cost = 3.5
 	x = 14
 	y = 11
 }
@@ -746,7 +808,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_return_tradition
 	}
-	cost = 10
+	cost = 3.5
 	x = 16
 	y = 11
 }
@@ -760,7 +822,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_jousting
 	}
-	cost = 10
+	cost = 3.5
 	x = 19
 	y = 12
 }
@@ -772,7 +834,7 @@ shared_focus = {
         focus = WES_return_tradition
 		focus = WES_embrace_modernity
 	}
-	cost = 10
+	cost = 3.5
 	x = 15
 	y = 12
 }
@@ -786,7 +848,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_careful_reform
 	}
-	cost = 10
+	cost = 3.5
 	x = 17
 	y = 13
 }
@@ -797,7 +859,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_medieval_state
 	}
-	cost = 10
+	cost = 3.5
 	x = 11
 	y = 8
 }
@@ -808,7 +870,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_end_industrial_society
 	}
-	cost = 10
+	cost = 3.5
 	x = 10
 	y = 9
 }
@@ -819,7 +881,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_end_industrial_society
 	}
-	cost = 10
+	cost = 3.5
 	x = 12
 	y = 9
 }
@@ -833,7 +895,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_simplifid_infrastructure
 	}
-	cost = 10
+	cost = 3.5
 	x = 11
 	y = 10
 }
@@ -844,7 +906,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_voluntarily_colony
 	}
-	cost = 10
+	cost = 3.5
 	x = 11
 	y = 11
 }
@@ -855,7 +917,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_rebuild_scenery
 	}
-	cost = 10
+	cost = 3.5
 	x = 10
 	y = 12
 }
@@ -866,7 +928,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_rebuild_scenery
 	}
-	cost = 10
+	cost = 3.5
 	x = 12
 	y = 12
 }
@@ -877,7 +939,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_days_old
 	}
-	cost = 10
+	cost = 3.5
 	x = 23
 	y = 10
 }
@@ -888,7 +950,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_pastoral_life
 	}
-	cost = 10
+	cost = 3.5
 	x = 22
 	y = 11
 }
@@ -899,7 +961,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_pastoral_life
 	}
-	cost = 10
+	cost = 3.5
 	x = 24
 	y = 11
 }
@@ -913,7 +975,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_relocation_programmes
 	}
-	cost = 10
+	cost = 3.5
 	x = 23
 	y = 12
 }
@@ -924,7 +986,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_days_old
 	}
-	cost = 10
+	cost = 3.5
 	x = 29
 	y = 10
 }
@@ -938,7 +1000,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_clinging_present
 	}
-	cost = 10
+	cost = 3.5
 	x = 27
 	y = 11
 }
@@ -953,7 +1015,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_clean_start
 	}
-	cost = 10
+	cost = 3.5
 	x = 31
 	y = 11
 }
@@ -964,7 +1026,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clean_start
 	}
-	cost = 10
+	cost = 3.5
 	x = 27
 	y = 13
 }
@@ -975,7 +1037,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clinging_present
 	}
-	cost = 10
+	cost = 3.5
 	x = 31
 	y = 13
 }
@@ -992,7 +1054,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_perish_thought
 	}
-	cost = 10
+	cost = 3.5
 	x = 27
 	y = 15
 }
@@ -1009,7 +1071,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_cultural_symbiosis
 	}
-	cost = 10
+	cost = 3.5
 	x = 31
 	y = 15
 }
@@ -1020,7 +1082,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clean_start
 	}
-	cost = 10
+	cost = 3.5
 	x = 26
 	y = 12
 }
@@ -1031,7 +1093,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_english_tongue
 	}
-	cost = 10
+	cost = 3.5
 	x = 26
 	y = 14
 }
@@ -1042,7 +1104,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clean_start
 	}
-	cost = 10
+	cost = 3.5
 	x = 28
 	y = 12
 }
@@ -1053,7 +1115,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_new_curriculum
 	}
-	cost = 10
+	cost = 3.5
 	x = 28
 	y = 14
 }
@@ -1064,7 +1126,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clinging_present
 	}
-	cost = 10
+	cost = 3.5
 	x = 30
 	y = 12
 }
@@ -1075,7 +1137,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_many_tongues
 	}
-	cost = 10
+	cost = 3.5
 	x = 30
 	y = 14
 }
@@ -1086,7 +1148,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_clinging_present
 	}
-	cost = 10
+	cost = 3.5
 	x = 32
 	y = 12
 }
@@ -1097,7 +1159,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_centralized_education
 	}
-	cost = 10
+	cost = 3.5
 	x = 32
 	y = 14
 }
@@ -1105,7 +1167,7 @@ shared_focus = {
 shared_focus = {
 	id = WES_secret_orthodox
 	icon = GFX_WES
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 7
 }
@@ -1116,7 +1178,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
-	cost = 10
+	cost = 3.5
 	x = 3
 	y = 8
 }
@@ -1130,7 +1192,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_under_unity
 	}
-	cost = 10
+	cost = 3.5
 	x = 2
 	y = 9
 }
@@ -1144,7 +1206,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_anglican_tradition
 	}
-	cost = 10
+	cost = 3.5
 	x = 4
 	y = 9
 }
@@ -1155,7 +1217,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_anglican_tradition
 	}
-	cost = 10
+	cost = 3.5
 	x = 2
 	y = 10
 }
@@ -1166,7 +1228,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_under_unity
 	}
-	cost = 10
+	cost = 3.5
 	x = 4
 	y = 10
 }
@@ -1178,7 +1240,7 @@ shared_focus = {
         focus = WES_define_dogmas
         focus = WES_patriarch_england
 	}
-	cost = 10
+	cost = 3.5
 	x = 3
 	y = 11
 }
@@ -1189,7 +1251,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_secret_orthodox
 	}
-	cost = 10
+	cost = 3.5
 	x = 7
 	y = 8
 }
@@ -1203,7 +1265,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_hard_way
 	}
-	cost = 10
+	cost = 3.5
 	x = 6
 	y = 9
 }
@@ -1217,7 +1279,7 @@ shared_focus = {
 	mutually_exclusive = {
         focus = WES_easy_path
 	}
-	cost = 10
+	cost = 3.5
 	x = 8
 	y = 9
 }
@@ -1228,7 +1290,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_easy_path
 	}
-	cost = 10
+	cost = 3.5
 	x = 6
 	y = 10
 }
@@ -1239,7 +1301,7 @@ shared_focus = {
 	prerequisite = {
         focus = WES_hard_way
 	}
-	cost = 10
+	cost = 3.5
 	x = 8
 	y = 10
 }
@@ -1251,7 +1313,7 @@ shared_focus = {
         focus = WES_education_programmes
         focus = WES_down_old
 	}
-	cost = 10
+	cost = 3.5
 	x = 7
 	y = 11
 }
@@ -1263,7 +1325,7 @@ shared_focus = {
         focus = WES_world_knows
         focus = WES_convert_populace
 	}
-	cost = 10
+	cost = 3.5
 	x = 5
 	y = 12
 }

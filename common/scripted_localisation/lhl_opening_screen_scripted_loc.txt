@@ -26,16 +26,23 @@ SET_OPENING_TEXT = {
 
 SET_COUNTRY = {
 	name = SET_COUNTRY
-
+	## Royalists
+	text = {
+	    trigger = { tag = WES }
+		localization_key = COUNTRY_ROYALISTS
+	}
 	## Default
 	text = {
 		localization_key = COUNTRY_TEST
 	}
 }
-
 SET_REGION = {
 	name = SET_REGION
-	
+	## Royalists
+	text = {
+	    trigger = { tag = WES }
+		localization_key = REGION_ROYALISTS
+	}
 	## Default
 	text = {
 		localization_key = REGION_TEST
@@ -44,7 +51,11 @@ SET_REGION = {
 
 SET_PICTURE = {
 	name = SET_PICTURE
-	
+	## Royalists
+	text = {
+	    trigger = { tag = WES }
+		localization_key = "GFX_lhl_george"
+	}
 	## Default
 	text = {
 		localization_key = "GFX_lhl_opening_picture_default"

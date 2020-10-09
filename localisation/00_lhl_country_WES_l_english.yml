@@ -1,15 +1,15 @@
 ﻿l_english:
  ##LEADERS##
- POLITICS_GEORGE_DESC:0 ""
- POLITICS_GEORGE_BASED_DESC:0 ""
- POLITICS_ANARCHY_DESC:0 ""
+ POLITICS_GEORGE_WEAK_DESC:0 "§YBirth name:§!§W Charles Philip Arthur George§!\n\n§YBiography:§!§WThe Life of Charles, Prince of Wales has been one of long anticipation. Born in 1948, the heir to the throne of Great Britain has since been «stuck» in the never-ending preparations to become the new monarch of his people. However, the long-awaited ascension couldn’t have transpired in a more bizarre situation. After the total isolation, imposed on the United Kingdom by Eurasia and its European allies, the wounded country finally collapsed. In the following chaos, then current monarch of Great Britain — queen Elizabeth II disappeared without a trace, making Charles, now George VII, the new king of what remained of the country.\n\nThe monarch took upon himself the difficult quest of reuniting the Isles and vanquishing the invaders, that have occupied his country. And yet, the task proved to be far beyond of what George or his loyalists were capable of. One after another, various regions declared independence, got overtaken by foreign armies or simply revolted against the «illegitimate king». The final blow was dealt by George’s own son — prince Harry, after the former declared himself king Henry IX and seceded from the Royalist faction with the help of various populist and left-wing elements of Southern England. This event ultimately isolated George and his loyalists in the South-West of Britain.\n\nThe constant failures took their toll upon both the king and his people. With George spiraling into a severe depression, and the population losing trust in the former prince, it seemed like the future of British Monarchy was doomed.\n\nThe defeatist sentiment only grew stronger, when it was declared that King George has temporarily left the Isles on a journey to an unknown location. Many have voiced their contempt, saying, that their monarch simply abandoned them in the time of need.\n\nAnd yet, in weeks’ time, the king returned. He looked different, acted different. It felt like the short voyage, whatever it has been, changed George. Some of his closest friends have voiced their concern, stating that they have noticed various weird mannerisms and hobbies, the monarch formerly lacked. The shift in the King’s behavior became even more apparent after he declared his intentions to renew the fight for the freedom of the British Isles.\n\nIt would take King George a monumental effort to reignite faith amongst his followers, as well as succeed in the military campaigns around the Isles. Nevertheless, The Monarch boldly looks into the future, ready to do anything to save his people, as well as his kingdom."
+ POLITICS_GEORGE_BASED_DESC:0 "The King has returned.\n\nThe New Pendragon, George VII, Monarch of The United Kingdom of Great Britain and Ireland has overcome the many challenges that stood in front of him and returned the pride and hope, he once lost. Now, accompanied by his loyal knights with his people’s faith and his army’s strength the king shall destroy all those who continue to defy the will of the British people and bring peace to his land.\n\nHail King George!\n\nLong live the King!"
+ POLITICS_ANARCHY_DESC:0 "Great Britain is dead.\n\nWith the revolt against King George VII, the monarch of United Kingdom has lost not only his throne and dignity, but the legitimacy to rule over the people of Britain. What remained of Fisher King’s domain was plunged into an eternal squabbling between local warlords – an easy prey for other factions, vowing for control over the British Isles.\n\n§RFor their approach shall so much dare the field§!\n\n§RThat England shall couch down in fear and yield.§!"
  ##POLITICAL PARTIES##
  WES_millenarism_party:0 "Celtic League"
  WES_millenarism_party_long:0 "Celtic League"
- WES_commendationism_party:0 "Henry's Loyalists"
- WES_commendationism_party_long:0 "Henry's Loyalists"
- WES_left_authoritarianism_party:0 "Communist Party of Britain"
- WES_left_authoritarianism_party_long:0 "Communist Party of Britain"
+ WES_commendationism_party:0 "Communist Party Of Britain"
+ WES_commendationism_party_long:0 "Communist Party Of Britain"
+ WES_left_authoritarianism_party:0 "Henry's Loyalists"
+ WES_left_authoritarianism_party_long:0 "Henry's Loyalists"
  WES_socialism_party:0 "Mebyon Kernow"
  WES_socialism_party_long:0 "Mebyon Kernow"
  WES_national_bolshevism_party:0 "National Front"
@@ -75,3 +75,6 @@
  WES_knight_mercia:0 "Knight Of Mercia"
  ##DECISIONS##
  ##EVENTS##
+ ##NEW GUI##
+ KNIGHT_SLEEPS:0 ""
+ KNIGHT_GEORGE_ALIVE:0 "Our last, best and final hope"

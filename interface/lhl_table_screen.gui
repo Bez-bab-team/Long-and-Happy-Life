@@ -1,0 +1,145 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_table_opening_screen_upper_button"
+		position = { x = 418 y = 10 }
+		size = { width = 100% height = 100% }
+
+		buttonType = {
+			name = "table_upper_tab_button"
+			position = { x = 0  y = -1 }
+			quadTextureSprite = "GFX_lhl_table_upper_tab_button"
+			Orientation = "UPPER_LEFT"
+			scale = 0.45
+		}
+	}
+
+	containerWindowType = {
+		name = "lhl_table_opening_screen_full"
+		size = { width = 1329 height = 864 }
+		position = { x = 155 y = 155 }
+		scale = 1.2
+		moveable = yes
+		
+		background = {
+			name = "lhl_table_opening_screen_background_1"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+			
+		buttonType = {
+			name = "lhl_table_opening_screen_escape"
+			position = { x = 1045 y = 13 }
+			quadTextureSprite = "GFX_lhl_table_opening_button"
+		}
+		
+        ##Knights 
+		#1
+	    iconType = {
+			name = "lhl_slot_1_george_alive"
+			spriteType = "GFX_lhl_george_knight"
+			pdx_tooltip = "KNIGHT_GEORGE_ALIVE"
+			position = { x = 513 y = 93 }
+		}
+	    iconType = {
+			name = "lhl_slot_1_george_dead"
+			spriteType = "GFX_lhl_george_knight_dead"
+			pdx_tooltip = "KNIGHT_GEORGE_DEAD"
+			position = { x = 513 y = 93 }
+		}
+		#2
+		iconType = {
+			name = "lhl_slot_2"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 682 y = 112 }
+		}
+		iconType = {
+			name = "lhl_slot_2_unabomber"
+			spriteType = "GFX_lhl_unabomber"
+			pdx_tooltip = "KNIGHT_UNABOMBER"
+			position = { x = 682 y = 112 }
+		}
+		#3
+		iconType = {
+			name = "lhl_slot_3"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 851 y = 178 }
+		}
+		#4
+		iconType = {
+			name = "lhl_slot_4"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 983 y = 299 }
+		}
+		#5
+		iconType
+			name = "lhl_slot_5"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 851 y = 430 }
+		}
+		#6
+		iconType = {
+			name = "lhl_slot_6"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 682 y = 486 }
+		}
+		#7
+		iconType = {
+			name = "lhl_slot_7"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 513 y = 500 }
+		}
+	    ####FUCK UP####
+		#8
+		iconType = {
+			name = "lhl_slot_8"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 344 y = 486 }
+		}
+		#9
+		iconType = {
+			name = "lhl_slot_9"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 175 y = 430 }
+		}
+		#10
+		iconType = {
+			name = "lhl_slot_10"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 43 y = 299 }
+		}
+		#11
+		iconType = {
+			name = "lhl_slot_11"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 175 y = 178 }
+		}
+		#12
+		iconType = {
+			name = "lhl_slot_12_traitor"
+			spriteType = "GFX_lhl_henry_knight"
+			pdx_tooltip = "KNIGHT_TRAITOR"
+			position = { x = 344 y = 112 }
+		}
+		iconType = {
+			name = "lhl_slot_12"
+			spriteType = "GFX_lhl_table_opening_picture_default"
+			pdx_tooltip = "KNIGHT_SLEEPS"
+			position = { x = 851 y = 178 }
+		}
+		iconType = {
+			name = "lhl_table_opening_screen_background"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_lhl_table_opening_screen"
+			alwaystransparent = yes
+		}
+	}
+}

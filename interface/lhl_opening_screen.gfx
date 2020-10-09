@@ -22,4 +22,8 @@ spriteTypes = {
 		name = "GFX_lhl_opening_picture_default"
 		textureFile = "gfx/interface/opening_screen/lhl_opening_picture.dds"
 	}
+	spriteType = {
+		name = "GFX_lhl_george"
+		textureFile = "gfx/interface/opening_screen/lhl_george.dds"
+	}
 }

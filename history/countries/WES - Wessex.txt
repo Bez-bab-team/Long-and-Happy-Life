@@ -29,12 +29,95 @@ set_popularities = {
 	ur_fascism = 5
 }
 
+country_event = { id = WES_event.2 days = 1 }
+
 create_country_leader = {
 	name = "George VII"
-	desc = ""
+	desc = "POLITICS_GEORGE_WEAK_DESC"
 	picture = "georgevii.dds"
 	ideology = neo_feudalism
 	traits = {
 		fisher_king
+	}
+}
+####USELESS PEOPLE####
+create_country_leader = {
+	name = "Davyth Fear"
+	desc = ""
+	picture = ".dds"
+	ideology = religious_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Robert Griffiths"
+	desc = ""
+	picture = ".dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daniel Radcliffe"
+	desc = ""
+	picture = ".dds"
+	ideology = paternalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dick Cole"
+	desc = ""
+	picture = ".dds"
+	ideology = agrarian_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daisy Cooper"
+	desc = ""
+	picture = ".dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Troy Southgate"
+	desc = ""
+	picture = ".dds"
+	ideology = national_anarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Androw Hawke"
+	desc = ""
+	picture = ".dds"
+	ideology = national_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Redmond Watt"
+	desc = ""
+	picture = ".dds"
+	ideology = stratocracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Paul Golding"
+	desc = ""
+	picture = ".dds"
+	ideology = charismatic_dictatorship
+	traits = {
 	}
 }
