@@ -60,7 +60,7 @@ scripted_gui = {
 		effects = {
 			lhl_table_opening_screen_escape_click = {
 				clr_country_flag = lhl_table_opening_screen_open
-			}			
+			}
 		}	
 	}
 }

@@ -34,7 +34,7 @@ country_event = { id = WES_event.2 days = 1 }
 create_country_leader = {
 	name = "George VII"
 	desc = "POLITICS_GEORGE_WEAK_DESC"
-	picture = "georgevii.dds"
+	picture = "george_sad.dds"
 	ideology = neo_feudalism
 	traits = {
 		fisher_king
