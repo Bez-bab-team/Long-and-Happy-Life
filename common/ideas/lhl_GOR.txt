@@ -1,23 +1,7 @@
 ideas = {
 
 	head_of_government = {
-Aleksandr_Pushnoj = {
 
-			picture = Aleksandr_Pushnoj
-			allowed = {
-				original_tag = "GOR"
-			}
-
-			traits = { Scientist_showman }
-
-			do_effect = {
-				#
-			}
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
 		Sergej_Udaltsov = {
 
 			picture = Sergej_Udaltsov
@@ -268,7 +252,23 @@ Aleksandr_Pushnoj = {
 				factor = 0
 			}
 		}
-		
+		Aleksandr_Pushnoj = {
+
+			picture = Aleksandr_Pushnoj
+			allowed = {
+				original_tag = "GOR"
+			}
+
+			traits = { Scientist_showman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		
 		}
 
