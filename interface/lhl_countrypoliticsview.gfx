@@ -69,5 +69,9 @@ spriteTypes = {
 		name = "GFX_ideology_KNT_national_bolshevism_group"
 		texturefile = "gfx/interface/ideologies/unique/KNT/kent_debitalism.dds"
 	}
-	
+
+	spriteType = {
+		name = "GFX_ideology_GOR_left_authoritarianism_group"
+		texturefile = "gfx/interface/ideologies/unique/GOR/gorshok_ataman_anarchism.dds"
+	}
 }

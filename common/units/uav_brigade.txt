@@ -1,0 +1,72 @@
+sub_units = {
+
+	uav_brigade = {
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		active = no
+		
+		type = {
+			infantry
+			support
+		}
+		
+		group = armor
+		
+		categories = {
+			category_front_line
+			category_support_battalions
+			category_army
+			category_recon
+		}
+
+		combat_width = 1
+
+		need = {
+			uav_equipment = 12
+		}
+		manpower = 500
+		max_organisation = 0
+		default_morale = 0.1
+		max_strength = 0.6
+		training_time = 180
+		weight = 1.5
+		supply_consumption = 0.1
+
+		#Tanks are awesome
+		soft_attack = 0.5
+
+		suppression = 2
+
+		forest = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		hills = 	{
+		    attack = -0.1
+		}
+		mountain = 	{
+		    attack = -0.2
+		}
+		jungle = {
+		    attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.7
+		}
+	}
+}

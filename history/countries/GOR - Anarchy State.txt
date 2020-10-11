@@ -28,7 +28,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mikhail Gorsheniov"
+	name = "Mikhail Gorshenjev"
 	desc = ""
 	picture = "Portrait_GOR_Gorshok.dds"
 	ideology = paternalism
