@@ -76,6 +76,6 @@
  ##DECISIONS##
  ##EVENTS##
  ##NEW GUI##
- KNIGHT_SLEEPS:0 ""
- KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!"
+ KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
+ KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"
  KNIGHT_MENU:0 "Open the knight menu"

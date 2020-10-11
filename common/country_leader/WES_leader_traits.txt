@@ -2,7 +2,8 @@ leader_traits = {
 	fisher_king = {
 		random = no
 		political_power_gain = -0.1
-		stability_factor = -0.25
+		stability_factor = -0.10
+		war_support = -0.5
 		
 		ai_will_do = {
 			factor = 1
