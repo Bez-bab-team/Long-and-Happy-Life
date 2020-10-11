@@ -165,7 +165,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	
+	Electric_partisan = {
+		random = no
+			army_org_factor = 0.05
+			army_artillery_defence_factor = 0.05
+			army_artillery_attack_factor = 0.15
+			planning_speed = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Socrates = {
 		random = no
 		training_time_army_factor = -0.1
