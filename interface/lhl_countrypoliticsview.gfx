@@ -72,6 +72,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_GOR_left_authoritarianism_group"
-		texturefile = "gfx/interface/ideologies/unique/GOR/gorshok_ataman_anarchism.dds"
+		texturefile = "gfx/interface/ideologies/unique/GOR/gorshok_paternalism.dds"
 	}
 }
