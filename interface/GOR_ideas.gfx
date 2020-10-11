@@ -13,6 +13,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GOR/idea_Aleksej_Nikonov.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_Vadim_Kurylev"
+		texturefile = "gfx/interface/ideas/GOR/idea_Vadim_Kurylev.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_Anastasia_Baburova"
 		texturefile = "gfx/interface/ideas/GOR/idea_Anastasia_Baburova.dds"
 	}
