@@ -289,7 +289,21 @@ ideas = {
 				factor = 0
 			}
 		}
-
+Vadim_Kurylev = {
+				
+			picture = Vadim_Kurylev
+			allowed = {
+				original_tag = GOR
+			}
+			
+			traits = { Electric_partisan }			
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
 		}
 	navy_chief = {
 	Aleksej_Polikhovich  = {
