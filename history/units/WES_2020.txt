@@ -1,0 +1,93 @@
+﻿division_template = {
+	name = "Resistance Regiment"
+	division_names_group = SAH_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 		
+	}
+}
+
+division_template = {
+	name = "Private Military Company"
+	division_names_group = SAH_INF_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }	
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		#recon = { x = 0 y = 0 } 
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } 		
+	}
+}
+
+units = {
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 1742
+		division_template = "Resistance Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}	
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 1820
+		division_template = "Resistance Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 855
+		division_template = "Resistance Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12446
+		division_template = "Resistance Regiment"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+
+	}
+	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 1742
+		division_template = "Private Military Company"
+		start_experience_factor = 1
+		start_equipment_factor = 0.9
+
+	}
+}
