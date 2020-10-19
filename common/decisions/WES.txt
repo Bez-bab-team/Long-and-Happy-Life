@@ -1,0 +1,75 @@
+WES_love_letters = {
+    WES_Dugin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Eugenius = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Land = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Goblin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Medvedev = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Putin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Natalia = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Uncle = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Unabomber = {
+		cost = 50
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Mavrodi = {
+		cost = 100
+		days_remove = 30
+        complete_effect = { }
+	}
+}
+
+WES_ai_mechanic = {
+    WES_specialists = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = WES_ai_condition
+                value = 10
+			}
+		}
+	}
+    WES_turing_test = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = WES_ai_brain
+                value = 20
+			}
+		}
+	}
+}		    

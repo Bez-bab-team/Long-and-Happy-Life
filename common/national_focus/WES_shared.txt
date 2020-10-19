@@ -352,7 +352,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_arise_folk
-	icon = GFX_wes_arise_folk
+	icon = GFX_WES_cringe
 	prerequisite = {
         focus = WES_retrun_king
 	}
@@ -368,7 +368,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_battle_camlann
-	icon = GFX_wes_battle_Camlann
+	icon = GFX_WES_battle_camlann
 	prerequisite = {
         focus = WES_arise_folk
 	}
@@ -386,44 +386,23 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WES_the_duel
-	icon = GFX_WES
-	prerequisite = {
-        focus = WES_battle_camlann
-	}
-	mutually_exclusive = {
-		focus = WES_traitors_fate
-	}
-	completion_reward = {
-	    country_event = {}
-	}
-	cost = 3.5
-	x = 28
-	y = 3
-}
-
-shared_focus = {
 	id = WES_traitors_fate
-	icon = GFX_WES
+	icon = GFX_WES_traitors_fate
 	prerequisite = {
         focus = WES_battle_camlann
-	}
-	mutually_exclusive = {
-		focus = WES_the_duel
 	}
 	completion_reward = {
 	    country_event = {}
 	}
 	cost = 3.5
-	x = 30
+	x = 29
 	y = 3
 }
 
 shared_focus = {
 	id = WES_road_unification
-	icon = GFX_wes_road_unification
+	icon = GFX_WES_road_unification
 	prerequisite = {
-        focus = WES_the_duel
 		focus = WES_traitors_fate
 	}
 	completion_reward = {
@@ -437,9 +416,6 @@ shared_focus = {
 shared_focus = {
 	id = WES_orthodox_diplomacy
 	icon = GFX_WES
-	prerequisite = {
-        focus = WES_arise_folk
-	}
 	cost = 3.5
 	x = 25
 	y = 2
@@ -1154,17 +1130,6 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = WES_cultural_symbiosis
-	icon = GFX_WES
-	prerequisite = {
-        focus = WES_centralized_education
-	}
-	cost = 3.5
-	x = 32
-	y = 14
-}
-
-shared_focus = {
 	id = WES_secret_orthodox
 	icon = GFX_WES
 	cost = 3.5
@@ -1328,6 +1293,17 @@ shared_focus = {
 	cost = 3.5
 	x = 5
 	y = 12
+}
+
+shared_focus = {
+	id = WES_cultural_symbiosis
+	icon = GFX_WES
+	prerequisite = {
+        focus = WES_centralized_education
+	}
+	cost = 3.5
+	x = 32
+	y = 14
 }
 
 
