@@ -75,4 +75,20 @@ spriteTypes = {
 		name = "GFX_WES_knight_mercia"
 		texturefile = "gfx/interface/goals/WES/WES_knight_mercia.dds"
 	}
+	SpriteType = {
+		name = "GFX_WES_cringe"
+		texturefile = "gfx/interface/goals/WES/wes_arise_folk.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_battle_camlann"
+		texturefile = "gfx/interface/goals/WES/wes_battle_camlann.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_traitors_fate"
+		texturefile = "gfx/interface/goals/WES/WES_traitors_fate.dds"
+	}
+	SpriteType = {
+		name = "GFX_WES_road_unification"
+		texturefile = "gfx/interface/goals/WES/wes_road_unification.dds"
+	}
 }

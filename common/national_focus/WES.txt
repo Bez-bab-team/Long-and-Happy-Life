@@ -3,9 +3,9 @@ focus_tree = {
 	default = no
 	continuous_focus_position = { x = 20 y = 4000 }
     shared_focus = WES_retrun_king
-    shared_focus = WES_curious_proposal
+    #shared_focus = WES_curious_proposal
     shared_focus = WES_rule_george
-    shared_focus = WES_secret_orthodox
+    #shared_focus = WES_secret_orthodox
 	country = {
 		factor = 0
 		modifier = {
