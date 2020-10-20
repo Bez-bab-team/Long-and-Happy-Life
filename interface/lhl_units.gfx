@@ -11,7 +11,19 @@ spriteTypes = {
 		texturefile = "gfx/texticons/assault_helicopters_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_transport_helicopters_icon_small"
+		texturefile = "gfx/texticons/transport_helicopters_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
 	}	
+	spriteType = {
+		name = "GFX_unit_uav_brigade_icon_small"
+		texturefile = "gfx/texticons/unit_uav_brigade_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}		
 	spriteType = {
 		name = "GFX_unit_armoured_personnel_carrier_icon_small"
 		texturefile = "gfx/texticons/unit_armoured_personnel_carrier_icon_small.dds"
