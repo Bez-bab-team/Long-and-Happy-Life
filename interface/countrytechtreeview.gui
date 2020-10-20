@@ -2770,7 +2770,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle1"
-				position = { x = 770 y = 435 }
+				position = { x = 770 y = 580 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -2784,7 +2784,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle2"
-				position = { x = 1000 y = 435 }
+				position = { x = 1000 y = 580 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}

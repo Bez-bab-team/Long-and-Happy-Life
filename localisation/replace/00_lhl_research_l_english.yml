@@ -19,9 +19,33 @@
  tactic_banzai_charge:0 "Shok Charge"
  signal_company:0 "Radioelectronic Company"
 
- 
- 
- 
+ superior_firepower:0 "Full Spectrum Operations"
+ superior_firepower_desc:0 "This doctrine is a quintessential collection of atlantist war methods. Planes and drones cover the sky, a mighty tank fist tramples the ground,  transport ships carry marines through the high seas.  Woe to those who stand in their way, for they shall bring freedom to you - by any means necessary and with no regard for consequences."
+ anti_armor_emphasis:0 "Anti-Armor Emphasis"
+ sup_delay_desc:0 ""
+ mobile_defence:0 "Massed Artillery Usage"
+ mobile_defence_desc:0 ""
+ intergrated_support:0 "Company Officers' Initiative"
+ intergrated_support_desc:0 ""
+ regimental_combat_teams:0 "Shock and Awe"
+ regimental_combat_teams_desc:0 ""
+ overwhelming_firepower:0 "Stay-Behind Operations"
+ overwhelming_firepower_desc:0 ""
+ unmanned_warfare:0 "Unmanned Warfare "
+ unmanned_warfare_desc:0 ""
+ concentrated_fire_plans:0 "Air Domination"
+ concentrated_fire_plans_desc:0 ""
+ combined_arms:0 "Total Resistance Suppression"
+ combined_arms_desc:0 ""
+ tactical_control:0 "False Retreat"
+ tactical_control_desc:0 ""
+ air_land_battle:0 "Battlefield Control"
+ air_land_battle_desc:0 ""
+ centralized_fire_control:0 "Overwhelming force"
+ centralized_fire_control_desc:0 ""
+ dispersed_support:0 "Airland Battle"
+ dispersed_support_desc:0 ""
+
  
  
  
@@ -44,8 +68,17 @@
  
  
  
- SUPERIOR_FIREPOWER_DOCTRINE_LABEL:0 "SUPERIOR FIREPOWER DOCTRINE"
- SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "This doctrine focuses on throwing shells, not men, at the enemy. Our manpower is precious, bullets are cheap."
+ SUPERIOR_FIREPOWER_DOCTRINE_LABEL:0 "FULL SPECTRUM OPERATIONS"
+ SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "A collection of atlantist war methods based on air superiority, tank assaults, elite infantry primacy and the delivery of freedom to all."
+ DISPERSED_SUPPORT_LABEL:0 "AIRLAND BATTLE"
+ DISPERSED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of line artillery."
+ INTEGRATED_SUPPORT_LABEL:0 "SHOK AND AWE"
+ INTEGRATED_SUPPORT_LABEL_TT:0 "Improve organization and effectiveness of support units."
+ AIRLAND_BATTLE_LABEL:0 ""
+ AIRLAND_BATTLE_LABEL_TT:0 "Improve attack capabilities of army."
+ SHOCK_AND_AWE_LABEL:0 ""
+ SHOCK_AND_AWE_LABEL_TT:0 "Improve general effectiveness of army."
+ 
  GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "GRAND BATTLEPLAN DOCTRINE"
  GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "Extensive planning and preparation before engaging in battle is the key to success."
  MASS_ASSAULT_DOCTRINE_LABEL:0 "MASS ASSAULT DOCTRINE"

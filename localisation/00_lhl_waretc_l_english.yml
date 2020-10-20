@@ -11,6 +11,8 @@
  armoured_personnel_carrier:0 "APC"
  infantry_fighting_vehicle:0 "MIFV"
  assault_helicopters:0 "Assault Helicopters"
+ transport_helicopters:0 "Transport Helicopters"
+ uav_brigade:0 "UAV"
  tactical_ballistic_missile_brigade:0 "Tactical Ballistic Missile"
  nbcb_brigade:0 "NBC Protection Brigade"
  
