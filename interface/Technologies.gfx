@@ -1,5 +1,17 @@
 spriteTypes = {	
 
+	SpriteType = {
+		name = "GFX_anti_armor_emphasis_medium"
+		texturefile = "gfx/interface/technologies/anti_armor_emphasis.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_unmanned_warfare_medium"
+		texturefile = "gfx/interface/technologies/unmanned_warfare.dds"
+		alwaystransparent = yes
+	}
+
 	### generic equipment archetypes ###
 
 	SpriteType = {

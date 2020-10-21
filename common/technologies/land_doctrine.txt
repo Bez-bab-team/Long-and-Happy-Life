@@ -908,7 +908,7 @@ technologies = {
 		xor = { mobile_warfare trench_warfare } 
 
 		path = {
-			leads_to_tech = sup_delay 
+			leads_to_tech = anti_armor_emphasis 
 			research_
 			cost_coeff = 1
 		}
@@ -921,7 +921,6 @@ technologies = {
 		category_front_line = {
 			max_organisation = 1
 		}
-		enable_tactic = tactic_breakthrough
 			
 		doctrine = yes	
 		research_cost = 2.25
@@ -951,7 +950,7 @@ technologies = {
 		}
 	}
 	
-	sup_delay = {
+	anti_armor_emphasis = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
@@ -965,7 +964,8 @@ technologies = {
 			leads_to_tech = mobile_defence 
 			research_cost_coeff = 1
 		}
-		
+		enable_tactic = tactic_backhand_blow
+	
 		doctrine = yes	
 		research_cost = 4.5
 
@@ -1048,6 +1048,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
+		enable_tactic = tactic_delay
 
 		category_army = {
 		initiative = 0.05
@@ -1105,6 +1106,7 @@ technologies = {
 		xor = {
 			dispersed_support
 		}	
+		enable_tactic = tactic_relentless_assault
 		
 		category_tanks = {
 			soft_attack = 0.1
@@ -1118,7 +1120,7 @@ technologies = {
 		army_speed_factor = 0.02
 		
 		path = {
-			leads_to_tech = sup_mechanized_offensive 
+			leads_to_tech = unmanned_warfare 
 			research_cost_coeff = 1
 		}
 
@@ -1270,7 +1272,7 @@ technologies = {
 		}
 	}
 	
-	sup_mechanized_offensive = {
+	unmanned_warfare = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
@@ -1331,7 +1333,7 @@ technologies = {
 
 		air_cas_efficiency = 0.20	
 		uav_brigade = {
-			soft_attack = 0.5
+			soft_attack = 0.2
 		}	
 		
 		path = {
@@ -1381,7 +1383,7 @@ technologies = {
 		xp_research_type = army
 		xp_research_cost = 100
 		xp_research_bonus = 1.00
-		
+		air_strategic_bomber_bombing_factor = 0.2		
 		assault_helicopters = {
 			soft_attack = 0.05
 		}			
@@ -1446,7 +1448,7 @@ technologies = {
 		land_reinforce_rate = 0.02
 		category_all_infantry = {
 			defense = 0.10
-			max_organisation = 10
+			max_organisation = 5
 		}	
 		enable_tactic = backhand_blow
 		
