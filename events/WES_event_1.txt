@@ -104,5 +104,55 @@ country_event = {
     } 
 }
 
+###FOCUS EVENTS###
+###FIRST###
+
+country_event = {
+	id = WES_event.6
+	title = WES_event.6.t
+	desc = WES_event.6.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = WES_event.6.a
+        add_political_power = 150
+    } 
+}
+
+###ARMY###
+
+country_event = {
+	id = WES_event.7
+	title = WES_event.7.t
+	desc = WES_event.7.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = WES_event.7.a
+        army_experience = 50
+		add_tech_bonus = {
+		    bonus = 0.5
+            uses = 2
+            category = land_doctrine
+		}
+    } 
+}
+
+country_event = {
+	id = WES_event.8
+	title = WES_event.8.t
+	desc = WES_event.8.d
+    is_triggered_only = yes
+	picture = 
+	major = no
+    fire_only_once = true	
+	option = {
+		name = WES_event.8.a
+}
+
 
 

@@ -5,9 +5,13 @@ shared_focus = {
 	icon = GFX_return_king
 	cost = 3.5
 	completion_reward = {
-	    add_political_power = 150
-		country_event = {}
-	}
+		    WES = {
+			    country_event = {
+				    days = 1
+					id = WES_event.6 
+				}
+			}
+		}
 	x = 17
 	y = 0
 }
@@ -187,6 +191,14 @@ shared_focus = {
 	prerequisite = {
         focus = WES_retrun_king
 	}
+	completion_reward = {
+		    WES = {
+			    country_event = {
+				    days = 1
+					id = WES_event.7
+				}
+			}
+		}
 	cost = 3.5
 	x = 5
 	y = 1
@@ -197,6 +209,10 @@ shared_focus = {
 	icon = GFX_WES_fight_monarchy
 	prerequisite = {
         focus = WES_royal_military
+	}
+	completion_reward = {
+	    army_experience = 10
+		add_war_support = 0.2
 	}
 	cost = 3.5
 	x = 5
@@ -209,6 +225,9 @@ shared_focus = {
 	prerequisite = {
         focus = WES_fight_monarchy
 	}
+	completion_reward = {
+        add_ideas = WES_advanced_schools
+	}
 	cost = 3.5
 	x = 4
 	y = 3
@@ -219,6 +238,18 @@ shared_focus = {
 	icon = GFX_wes_top_grade
 	prerequisite = {
         focus = WES_fight_monarchy
+	}
+	completion_reward = {
+        add_tech_bonus = {
+            bonus = 0.5
+            uses = 2
+            category = infantry_tech
+        }
+	    add_equipment_to_stockpile = {
+            type = infantry_equipment
+            amount = 1000
+            producer = WES
+        }
 	}
 	cost = 3.5
 	x = 6
@@ -233,6 +264,15 @@ shared_focus = {
 	}
 	prerequisite = {
         focus = WES_top_grade
+	}
+	completion_reward = {
+        add_ideas = WES_weapon_guilds
+		WES = {
+			country_event = {
+				days = 1
+				id = WES_event.8
+			}
+		}
 	}
 	cost = 3.5
 	x = 5
@@ -250,6 +290,13 @@ shared_focus = {
 	}
 	prerequisite = {
         focus = WES_tank_knights
+	}
+	completion_reward = {
+	    add_equipment_to_stockpile = {
+            type = light_cruiser_1 
+            amount = 5
+            producer = WES
+        }
 	}
 	cost = 3.5
 	x = 5

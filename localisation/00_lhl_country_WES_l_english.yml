@@ -54,7 +54,10 @@
  new_pendragon:0 "New Pendragon"
  total_anarchy:0 "Total Anarchy"
  ##IDEAS##
+ WES_advanced_schools:0 "Advanced Military Schools"
+ WES_weapon_guilds:0 "Weapon Guilds"
  ##FOCUS TREES##
+ WES_return_king:0 "Return Of The King"
  WES_royal_military:0 "Royal Army"
  WES_fight_monarchy:0 "Fight For Monarchy"
  WES_rebuild_schools:0 "Rebuild Military Schools"
@@ -152,6 +155,15 @@
  WES_specialists:0 "Hire specialists"
  WES_turing_test:0 "Take the Turing Test"
  ##EVENTS##
+ WES_event.6.t:0 "Return of King George VII"
+ WES_event.6.d:0 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+ WES_event.6.a:0 "Hooray for The King!"
+ WES_event.7.t:0 "Review Our Military"
+ WES_event.7.d:0 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+ WES_event.7.a:0 "We should upgrade our military quick"
+ WES_event.8.t:0 "Creation Of Military Guilds"
+ WES_event.8.d:0 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+ WES_event.8.a:0 "These Guilds Shall Bring Us Glory"
  ##NEW GUI##
  KNIGHT_SLEEPS:0 "This Knight is not yet present on the table"
  KNIGHT_GEORGE_ALIVE:0 "§YGeorge VII§!\n\§YFisher King§!\n\- War Support: §R-50.00%§!\n\- Stability: §R-10.00%§!\n\- Daily Political Power Gain: §R-0.10%§!"

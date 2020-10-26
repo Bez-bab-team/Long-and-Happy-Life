@@ -9,46 +9,6 @@ WES_love_letters = {
 		days_remove = 30
         complete_effect = { }
 	}
-    WES_Land = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Goblin = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Medvedev = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Putin = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Natalia = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Uncle = {
-		cost = 10
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Unabomber = {
-		cost = 50
-		days_remove = 30
-        complete_effect = { }
-	}
-    WES_Mavrodi = {
-		cost = 100
-		days_remove = 30
-        complete_effect = { }
-	}
 }
 
 WES_ai_mechanic = {
@@ -71,5 +31,18 @@ WES_ai_mechanic = {
                 value = 20
 			}
 		}
+	}
+}
+
+WES_create_guilds = {
+    WES_tank_guild = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_gun_guild = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
 	}
 }		    

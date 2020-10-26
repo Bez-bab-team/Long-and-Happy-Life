@@ -9,3 +9,10 @@ WES_ai_mechanic = {
 	visible = { is_puppet = no }
 	allowed = { original_tag = WES }
 }
+
+WES_create_guilds = {
+	visible = { 
+	    has_completed_focus = WES_weapon_guilds
+	}
+	allowed = { original_tag = WES  }
+}
