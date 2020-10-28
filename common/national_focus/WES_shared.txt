@@ -309,6 +309,13 @@ shared_focus = {
 	prerequisite = {
         focus = WES_royal_military
 	}
+	completion_reward = {
+	    add_equipment_to_stockpile = {
+            type = light_cruiser_1 
+            amount = 5
+            producer = WES
+        }
+	}
 	cost = 3.5
 	x = 1
 	y = 2
@@ -601,7 +608,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_catholic_scourge
-	icon = GFX_WES
+	icon = GFX_WES_catholic_scourge
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -620,7 +627,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_retake_capital
-	icon = GFX_WES
+	icon = GFX_WES_retake_capital
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -639,7 +646,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_place_anglophobes
-	icon = GFX_WES
+	icon = GFX_WES_no_place_for_anglophobes
 	prerequisite = {
         focus = WES_road_unification
 	}
@@ -658,7 +665,7 @@ shared_focus = {
 
 shared_focus = {
 	id = WES_teuton_intruders
-	icon = GFX_WES
+	icon = GFX_WES_the_teuton_menace
 	prerequisite = {
         focus = WES_road_unification
 	}

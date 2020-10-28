@@ -57,7 +57,7 @@
  WES_advanced_schools:0 "Advanced Military Schools"
  WES_weapon_guilds:0 "Weapon Guilds"
  ##FOCUS TREES##
- WES_return_king:0 "Return Of The King"
+ WES_retrun_king:0 "Return Of The King"
  WES_royal_military:0 "Royal Army"
  WES_fight_monarchy:0 "Fight For Monarchy"
  WES_rebuild_schools:0 "Rebuild Military Schools"
@@ -98,7 +98,7 @@
  WES_battle_faiths:0 "Battle Of Faiths"
  WES_ideological_conflict:0 "Ideological Conflict"
  WES_final_decision:0 "The Final Decision"
- WES_catholic_scourge:0 "The Catholic Scourge"
+ WES_catholic_scourge:0 "Extinguish The Tories"
  WES_retake_capital:0 "Retake The Capital"
  WES_place_anglophobes:0 "No Place For Anglophobes"
  WES_teuton_intruders:0 "The Teuton Intruders"
