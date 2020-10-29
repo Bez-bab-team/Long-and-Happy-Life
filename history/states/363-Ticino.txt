@@ -1,0 +1,22 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		7011 7890 12006 12057 
+	}
+	manpower=712039
+	buildings_max_level_factor=1.000
+	
+	history={
+		owner = SWI
+		add_core_of = SWI
+
+	victory_points = {
+		7011 2 }	
+	
+	owner = SWI
+	add_core_of = SWI
+	}	
+	state_category = pastoral
+	}	
+}

@@ -1,0 +1,21 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		4525 6369 6756 7533 9075 10474 12121 12124 12149 12169 12204 12238 12244 
+	}
+	manpower=1012512
+	buildings_max_level_factor=1.000
+			history={
+		owner = FRG
+		
+		add_core_of = FRG
+
+		victory_points = {
+			12149 44
+		}
+		victory_points = {
+			7533 9
+		}
+	}
+}

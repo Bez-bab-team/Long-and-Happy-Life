@@ -1,0 +1,17 @@
+
+state={
+	id=351
+	name="STATE_351"
+
+	history={
+		owner = SOC
+		add_core_of = SOC
+
+	}
+
+	provinces={
+		12544 12575 12594 
+	}
+	manpower=882015
+	buildings_max_level_factor=1.000
+}

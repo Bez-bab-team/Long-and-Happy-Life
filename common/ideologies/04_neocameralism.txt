@@ -1,0 +1,38 @@
+ideologies = {
+
+	neocameralism = {
+		
+		types = {
+		
+			accelerationism = {
+			}
+			neo_reaction = {
+			}
+			atlantic_liberalism  = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_neocameralism_1"
+		}
+		
+		color = { 240 240 240 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+
+}

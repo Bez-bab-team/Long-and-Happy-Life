@@ -1,0 +1,23 @@
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		2427 9910 10920
+	}
+	
+	history={
+		owner = WES
+		add_core_of = WES
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9910 1
+		}
+	}
+	
+	manpower=551023
+	buildings_max_level_factor=1.000
+}

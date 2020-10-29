@@ -1,0 +1,19 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		3884 
+	}
+	manpower=1184818
+	buildings_max_level_factor=1.000
+		history={
+		owner = GEO
+		
+		add_core_of = GEO
+
+		victory_points = {
+			3884 45
+		}
+	}
+	state_category=wasteland
+}

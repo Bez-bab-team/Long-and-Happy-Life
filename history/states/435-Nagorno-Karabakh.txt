@@ -1,0 +1,18 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		2532 2799 5929 5960 8957 14815 14838 14854 14882 14902 14922 14933 
+	}
+	manpower=150932
+	buildings_max_level_factor=1.000
+	history={
+		owner = ARM
+		
+		add_core_of = ARM
+
+		victory_points = {
+			14882 10
+		}
+	}
+}

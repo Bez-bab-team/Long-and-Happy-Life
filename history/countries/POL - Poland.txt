@@ -1,6 +1,6 @@
 ﻿capital = 10
 
-oob = "POL_2019"
+oob = "POL_2020"
 
 set_research_slots = 3
 
@@ -12,18 +12,28 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	left_authoritarianism = 100
 }
 
 create_country_leader = {
 	name = "Janusz Korwin-Mikke"
 	desc = "POLITICS_KORWIN_MIKKE_DESC"
-	picture = "Portrait_Poland_Korwin_Mikke.dds"
-	ideology = hoppean_libertarianism
+	picture = "Portrait_Salvation_Poland_Korwin_Mikke.dds"
+	ideology = atlantic_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Andrzej Lepper"
+	desc = "POLITICS_ANDZEJ_LEPPER_DESC"
+	picture = "Portrait_Salvation_Poland_Andrzej_Lepper.dds"
+	ideology = paternalism
 	traits = {
 		#
 	}

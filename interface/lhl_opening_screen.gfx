@@ -1,0 +1,29 @@
+spriteTypes = {
+
+	# Backgrounds
+	spriteType = {
+		name = "GFX_lhl_opening_screen"
+		textureFile = "gfx/interface/opening_screen/lhl_opening_screen.dds"
+	}
+	
+	# Buttons
+	spriteType = {
+		name = "GFX_lhl_opening_button"
+		textureFile = "gfx/interface/opening_screen/lhl_opening_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_upper_tab_button"
+		textureFile = "gfx/interface/opening_screen/lhl_opening_upper_tab.dds"
+	}
+
+	# Posters
+	spriteType = {
+		name = "GFX_lhl_opening_picture_default"
+		textureFile = "gfx/interface/opening_screen/lhl_opening_picture.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_george"
+		textureFile = "gfx/interface/opening_screen/lhl_george.dds"
+	}
+}

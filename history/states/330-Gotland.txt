@@ -1,0 +1,18 @@
+state={
+	id=330
+	name="STATE_330"
+	provinces={
+		2364 6858 9201 11884 
+	}
+	manpower=59249
+	Resources={
+	oil=25
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = SDE
+		
+		add_core_of = SDE
+	}
+}
+}

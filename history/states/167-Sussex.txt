@@ -1,0 +1,24 @@
+
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		2365 3819 4464 6251 11180 11191 13222 1210 918
+	}
+	
+	history={
+		owner = SUS
+		add_core_of = SUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11180 3
+		}
+	}
+		
+	manpower=4501023
+	buildings_max_level_factor=1.000
+}

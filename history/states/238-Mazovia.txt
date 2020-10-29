@@ -1,0 +1,33 @@
+state={
+	id=238
+	name="STATE_238"
+	provinces={
+		1024 1495 2782 3507 3586 6050 6694 6709 7001 7056 8775 8790 9004 9247 12280 12287 12302 12311 12337 12350 12365 12474 12526 
+	}
+	manpower=5334551
+	buildings_max_level_factor=1.000
+	history={
+
+	owner = PLP
+	add_core_of = PLP
+
+		victory_points={
+			3586 45
+		}
+		victory_points={
+			2782 23
+		}
+		victory_points={
+			12280 17
+		}
+		victory_points={
+			7056 14
+		}
+		victory_points={
+			1495 16
+		}
+		victory_points={
+			6709 15
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+state={
+	id=343
+	name="STATE_343"
+	provinces={
+		3533 4468 5344 6724 8353 9131 10671 10725 13097 13118 13144 13157 13158 13171 13192 13196 13200 13209 13210 13225 13226 13227 
+	}
+	manpower=1947983
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		
+		add_core_of = LUM
+	}	
+}

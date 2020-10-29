@@ -1,0 +1,39 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		679 1242 1571 3452 4157 4262 4445 4761 5075 5363 5376 5581 6319 6542 6545 7399 7694 8239 8339 8984 10383 13101 13107 13127 13136 13191 13193 13194 13212 13238 13268 13269 13305 13308 13369 13429 
+	}
+	manpower=3299933
+	buildings_max_level_factor=1.000
+			history={
+		owner = RWR
+		add_core_of = RWR
+
+		victory_points={
+			1242 2
+		}
+		victory_points={
+			5363 3
+		}
+		victory_points={
+			13101 5
+		}
+		victory_points={
+			13305 3
+		}
+		victory_points={
+			6545 45
+		}
+		victory_points={
+			679 20
+		}
+		victory_points={
+			7399 2
+		}
+		victory_points={
+			4761 1
+		}
+	}
+	state_category=city
+}

@@ -1,0 +1,317 @@
+focus_tree = {
+	id = rosgvardia
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RGD
+		}
+	}
+
+	focus = {
+		id = RGD_madman
+		icon = GFX_goal_RGD_madman
+		cost = 10
+		x = 9
+		y = 0
+	}
+	focus = {
+		id = RGD_civil_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 3
+		y = 1
+	}
+	focus = {
+		id = RGD_internal_issues
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 15
+		y = 1
+	}
+	focus = {
+		id = RGD_gearing_for_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 9
+		y = 3
+	}
+	focus = {
+		id = RGD_mighty_rosgvardia
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.1 }}
+		}
+		cost = 10
+		x = 6
+		y = 4
+	}
+	focus = {
+		id = RGD_armour_of_eurasia
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.2 }}
+		}
+		cost = 10
+		x = 7
+		y = 5
+	}
+	focus = {
+		id = RGD_those_who_fight
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.3 }}
+		}
+		cost = 10
+		x = 8
+		y = 4
+	}
+	focus = {
+		id = RGD_mass_conscription
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.4 }}
+		}
+		cost = 10
+		x = 10
+		y = 4
+	}
+	focus = {
+		id = RGD_doctrine_of_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.5 }}
+		}
+		cost = 10
+		x = 11
+		y = 5
+	}
+	focus = {
+		id = RGD_guns_of_patriots
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.6 }}
+		}
+		cost = 10
+		x = 12
+		y = 4
+	}
+	focus = {
+		id = RGD_southern_border
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.13 }}
+		}
+		cost = 10
+		x = 0
+		y = 2
+	}
+	focus = {
+		id = RGD_island_crimea
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.14 }}
+		}
+		cost = 10
+		x = 1
+		y = 3
+	}
+	focus = {
+		id = RGD_caspian_sea
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.15 }}
+		}
+		cost = 10
+		x = 2
+		y = 2
+	}
+	focus = {
+		id = RGD_our_partners
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.16 }}
+		}
+		cost = 10
+		x = 4
+		y = 2
+	}
+	focus = {
+		id = RGD_persian_policy
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.17 }}
+		}
+		cost = 10
+		x = 5
+		y = 3
+	}
+	focus = {
+		id = RGD_ukranian_dogs
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.18 }}
+		}
+		cost = 10
+		x = 6
+		y = 2
+	}
+	focus = {
+		id = RGD_islamic_issue
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.7 }}
+		}
+		cost = 10
+		x = 12
+		y = 2
+	}
+	focus = {
+		id = RGD_working_hours
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.8 }}
+		}
+		cost = 10
+		x = 13
+		y = 3
+	}
+	focus = {
+		id = RGD_media_control
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.9 }}
+		}
+		cost = 10
+		x = 14
+		y = 2
+	}
+	focus = {
+		id = RGD_mountain_path
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.10 }}
+		}
+		cost = 10
+		x = 16
+		y = 2
+	}
+	focus = {
+		id = RGD_insurgents
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.11 }}
+		}
+		cost = 10
+		x = 17
+		y = 3
+	}
+	focus = {
+		id = RGD_industry_caucases
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.12 }}
+		}
+		cost = 10
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = RGD_crush_cordon
+		icon = GFX_RGD
+		cost = 10
+		x = 9
+		y = 6
+	}
+	focus = {
+		id = RGD_fatal_shot
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_crush_cordon
+		}
+		cost = 10
+		x = 9
+		y = 7
+	}
+	focus = {
+		id = RGD_wake_up_putin
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_fatal_shot
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = RGD_event.19 }}
+		}
+		cost = 10
+		x = 9
+		y = 8
+	}
+}

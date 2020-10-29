@@ -1,0 +1,17 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		178 1595 7952 8560 14966 15002 15039 15046 
+	}
+	manpower=1433639
+	Resources={
+	oil=30
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = IRQ
+		
+		add_core_of = IRQ
+	}	
+}

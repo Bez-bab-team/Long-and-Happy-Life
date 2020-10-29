@@ -4,12 +4,9 @@ ideologies = {
 		
 		types = {
 		
-			ur_monarchism = {
-			}	
 			charismatic_dictatorship = {
 			}
-			clerical_fascism = {
-			}
+
 		}
 		
 		dynamic_faction_names = {

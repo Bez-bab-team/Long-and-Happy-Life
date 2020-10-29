@@ -1,0 +1,14 @@
+state={
+	id=445
+	name="STATE_445"
+	provinces={
+		14971 
+	}
+	manpower=901302
+	buildings_max_level_factor=1.000
+	history={
+		owner = ISR
+		
+		add_core_of = ISR
+	}
+}

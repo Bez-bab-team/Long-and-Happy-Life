@@ -1,0 +1,14 @@
+state={
+	id=448
+	name="STATE_448"
+	provinces={
+		2510 5625 8618 9778 10916 14799 14822 14836 14850 14865 
+	}
+	manpower=6856021
+	buildings_max_level_factor=1.000
+	history={
+		owner = LEB
+		
+		add_core_of = LEB
+	}
+}

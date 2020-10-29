@@ -1,0 +1,21 @@
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		26 1229 1962 5006 9081 9980 13599 13605 13660 13661 13519
+	}
+	history={
+	victory_points = {
+		1962 5 }	
+	victory_points = {
+		26 3 }	
+	victory_points = {
+		9081 3 }
+	owner = BUL
+	add_core_of = BUL
+	}	
+	state_category=pastoral
+	manpower =309151
+	buildings_max_level_factor=1.000	
+	}
+}

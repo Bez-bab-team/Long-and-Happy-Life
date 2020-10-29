@@ -1,0 +1,17 @@
+state={
+	id=416
+	name="STATE_416"
+	provinces={
+		10417 
+	}
+	manpower=1683550
+	Resources={
+	oil=100
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = QAT
+		
+		add_core_of = QAT
+	}
+}

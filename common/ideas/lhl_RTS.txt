@@ -1,0 +1,513 @@
+ideas = {
+
+	head_of_government = {
+
+		Aleksey_Krivoruchko = {
+
+			picture = Aleksey_Krivoruchko
+			allowed = {
+				original_tag = "RTS"
+			}
+
+			traits = { Okhranka_chief }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		Smirnov = {
+
+			picture = Smirnov
+			allowed = {
+				original_tag = "RTS"
+			}
+
+			traits = { Patriarch_of_All_Russia }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		Milonov = {
+
+			picture = Milonov
+			allowed = {
+				original_tag = "RTS"
+			}
+
+			traits = { helpful_bureaucrat }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Medinsky = {
+
+			picture = Medinsky
+			allowed = {
+				original_tag = "RTS"
+			}
+
+			traits = { Man_of_Culture }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	political_advisor = {
+
+		Nikolay_Valuev = {
+
+			picture = Nikolay_Valuev
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Russian_bogatyr }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}	
+		}
+		Vladimir_Sorokin = {
+
+			picture = Vladimir_Sorokin
+			allowed = {
+				original_tag = "RTS"
+			}
+
+			traits = { first_oprichnik }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Sergey_Miheev = {
+
+			picture = Sergey_Miheev
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Court_Philosopher }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Sergey_Baburin = {
+
+			picture = Sergey_Baburin
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Man_of_compromise }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Petr_Tolstoy = {
+
+			picture = Petr_Tolstoy
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Knight_of_the_regime }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Ochlobistyn = {
+
+			picture = Ochlobistyn
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Peoples_hero }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Malofeev = {
+
+			picture = Malofeev
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Successful_businessman }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Andrej_Afanasev = {
+
+			picture = Andrej_Afanasev
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Honest_journalist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Irina_Yarovaya = {
+
+			picture = Irina_Yarovaya
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Internet_overseer }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Inga_Yumasheva = {
+
+			picture = Inga_Yumasheva
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Recognizable_media }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Boris_Rotenberg = {
+
+			picture = Boris_Rotenberg
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { military_baron }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Artemiy_Lebedev = {
+
+			picture = Artemiy_Lebedev
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Excellent_marketer }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Alena_Arshinova = {
+
+			picture = Alena_Arshinova
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Mother_teresa }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Vsevlod_Chaplin = {
+
+			picture = Vsevlod_Chaplin
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { Ardent_preacher }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		Vladimir_Soloviyov = {
+
+			picture = Vladimir_Soloviyov
+			allowed = {
+				 original_tag = "RTS"
+			}
+
+			traits = { chief_propagandist }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	
+	theorist = {
+		Artur_Chilingarov = {
+			
+			picture = Artur_Chilingarov
+			allowed = {
+				original_tag = RTS
+			}
+			traits = { eminent_oceanologist }
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		Evgeniy_Kaspersky = {
+			
+			picture = Evgeniy_Kaspersky
+			allowed = {
+				original_tag = RTS
+			}
+			traits = { Aichi_specialist }
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+
+	army_chief = {
+
+		Yuriy_Baluevsky = {
+				
+			picture = Yuriy_Baluevsky
+			allowed = {
+				original_tag = RTS
+			}
+			
+			traits = { Hothead }			
+			do_effect = {
+				#
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		Rashid_Nurgaliev  = {
+
+			picture = Rashid_Nurgaliev
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { MVD_Minister }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	navy_chief = {
+	Viktor_Chirikov  = {
+
+			picture = Viktor_Chirikov
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Destroyer_Lover }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	Sergey_Avakyanc  = {
+
+			picture = Sergey_Avakyanc
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Pirate_hunter }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+air_chief = {
+		Sergey_Dronov  = {
+
+			picture = Sergey_Dronov
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Battle_Angel }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	Valeriy_Evtuhovich  = {
+
+			picture = Valeriy_Evtuhovich
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Airborne_assault }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	high_command = {
+	Andrey_Ivanaev  = {
+
+			picture = Andrey_Ivanaev
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { MotoGusar }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		Aleksandr_Shevchenko  = {
+
+			picture = Aleksandr_Shevchenko
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Tank_General }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		Valera_Kamshilov  = {
+
+			picture = Valera_Kamshilov
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { White_Ataman }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		Dmitrij_Trunenkov  = {
+
+			picture = Dmitrij_Trunenkov
+			allowed = {
+				original_tag = RTS
+			}
+						
+			traits = { Head_of_the_Yunarmiya }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	}
+	}

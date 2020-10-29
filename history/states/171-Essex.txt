@@ -1,0 +1,26 @@
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		6442 7261 8814 11154 11185 11200 11204 11211 94
+	}
+	
+	history={
+		owner = ESS
+		add_core_of = ESS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11154 3
+		}
+		victory_points = {
+			7261 3
+		}
+	}
+	
+	manpower=3500123
+	buildings_max_level_factor=1.000
+}

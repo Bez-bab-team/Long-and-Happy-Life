@@ -1,0 +1,7 @@
+category = {
+	name = "Super Events"
+	soundeffects = {
+		absolutistsev_vic
+	}
+	compressor = master_compressor
+}

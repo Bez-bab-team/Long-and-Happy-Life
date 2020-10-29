@@ -1,0 +1,25 @@
+
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		9280 11181 11318 8547
+	}
+	
+	history={
+		owner = ESS
+		add_core_of = ESS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9280 50
+		}
+	}
+
+	
+	manpower=9102304
+	buildings_max_level_factor=1.000
+}

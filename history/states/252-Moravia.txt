@@ -1,0 +1,14 @@
+state={
+	id=252
+	name="STATE_252"
+	provinces={
+		1544 2909 3053 5210 6241 8408 8568 8917 9336 12310 12330 12356 12367 12385 12397 12400 12431 12462 
+	}
+	manpower=2527849
+	buildings_max_level_factor=1.000
+	history={
+		owner = CZE
+		
+		add_core_of = CZE
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=563
+	name="STATE_563"
+	provinces={
+		481 7597 15441 15479 15522 
+	}
+	manpower=1896374
+	buildings_max_level_factor=1.000
+		history={
+		owner = JAP
+		
+		add_core_of = JAP
+	}
+}

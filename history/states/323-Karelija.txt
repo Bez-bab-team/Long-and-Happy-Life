@@ -1,0 +1,15 @@
+
+state={
+	id=323
+	name="STATE_323"
+	provinces={
+		1284 3724 3822 6096 7540 8864 9054 11901 11916 11934 11972 11976 11979 11996 12004 12016 18729 18734 
+	}
+	manpower=365332
+	buildings_max_level_factor=1.000
+	history={
+		owner = FIN
+		
+		add_core_of = FIN
+	}
+}

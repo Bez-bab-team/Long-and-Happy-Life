@@ -1,0 +1,15 @@
+state={
+	id=302
+	name="STATE_302"
+	provinces={
+		7164 7198 10649 11421 
+	}
+	manpower=6466996
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CAT
+		
+		add_core_of = SPA
+	}	
+}

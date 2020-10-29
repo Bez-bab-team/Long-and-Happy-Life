@@ -1,0 +1,409 @@
+﻿l_english:
+ ###Party###
+ NSU_millenarism_party:0 "Neo-Bogomils"
+ NSU_commendationism_party:0 ""Dead End" Group"
+ NSU_left_authoritarianism_party_long:0 "Communists of Petersburg and Leningrad Region"
+ NSU_left_authoritarianism_party:0 "CoPaLR"
+ NSU_socialism_party_long:0 "Socialist Workers Party"
+ NSU_socialism_party:0 "SWP"
+ NSU_national_bolshevism_party_long:0 "National Bolshevik Party"
+ NSU_national_bolshevism_party:0 "NBP"
+ NSU_neocameralism_party:0 "Oligarchs"
+ NSU_right_populism_party:0 "Strong Russia"
+ NSU_hegemonism_party:0 "National Guard"
+ NSU_regressionism_party:0 "NBP — Katechon"
+ NSU_regressionism_party_long:0 "National Bolshevik Party — Faction “Katechon“"
+ NSU_ur_fascism_party:0 "Black Hundreds"
+ ###Name###
+ NSU_commendationism:0 "Emergent Commission"
+ NSU_commendationism_DEF:0 "Emergent Commission"
+ ###Focuses###
+ ESS_luciferoverlondon:0 "Lucifer over London"
+ ESS_luciferoverlondon_desc:0 "Police Coup"
+ ESS_national_revolutionary_army:0 "National Revolutionary Army"
+ ESS_national_revolutionary_army_desc:0 "City of Saint Peter"
+ ESS_information_revolution:0 "Information Revolution"
+ ESS_information_revolution_desc:0 "Information Revolution"
+ ESS_tame_the_leviathan:0 "Tame the Leviathan"
+ ESS_tame_the_leviathan_desc:0 "Tame the Leviathan" 
+ ESS_deadly_race:0 "Deadly Race"
+ ESS_deadly_race_desc:0 "Deadly Race"
+ 
+ ESS_utopia_under_protection:0 "Utopia under Protection"
+ ESS_utopia_under_protection_desc:0 "Utopia under Protection"
+ 
+ ESS_fast_nation:0 "Fast Nation"
+ ESS_fast_nation_desc:0 "Fast Nation"
+ 
+ ESS_desperate_defense:0 "Desperate Defense"
+ ESS_desperate_defense_desc:0 "Desperate Defense"
+ 
+ ESS_expand_revolutionary_army:0 "Expand Loyal Troops"
+ ESS_expand_revolutionary_army_desc:0 "Expand Loyal Troops"
+ 
+ ESS_army_of_mercenaries:0 "Army of Mercenaries"
+ ESS_army_of_mercenaries_desc:0 "Army of Mercenaries"
+ 
+ ESS_mass_conscription:0 "Mass Conscription"
+ ESS_mass_conscription_desc:0 "Mass Conscription"
+ 
+ ESS_stormtroopers:0 "Stormtroopers"
+ ESS_stormtroopers_desc:0 "Stormtroopers"
+ 
+ ESS_engineering_corps:0 "Engineering Corps"
+ ESS_engineering_corps_desc:0 "Engineering Corps"
+ 
+ ESS_white_army:0 "White Army"
+ ESS_white_army_desc:0 "White Army"
+ 
+ ESS_crimson_king:0 "Crimson King"
+ ESS_crimson_king_desc:0 "Crimson King"
+ 
+ ESS_wartime_comission:0 "Wartime Comission"
+ ESS_wartime_comission_desc:0 "Wartime Comission"
+ 
+ ESS_economics_of_war:0 "Economics of War"
+ ESS_economics_of_war_desc:0 "Economics of War"
+ 
+ ESS_mass_expropriation:0 "Mass Expropriation"
+ ESS_mass_expropriation_desc:0 "Mass Expropriation"
+ 
+ ESS_labor_army:0 "Labor Army"
+ ESS_labor_army_desc:0 "Labor Army"
+ 
+ ESS_weapon_purchase:0 "Weapon Purchase"
+ ESS_weapon_purchase_desc:0 "Weapon Purchase"
+ 
+ ESS_mobile_militia:0 "Mobile Militia"
+ ESS_mobile_militia_desc:0 "Mobile Militia"
+ 
+ ESS_reorganization_of_the_high_command:0 "Reorganization of the High Command"
+ ESS_reorganization_of_the_high_command_desc:0 "Reorganization of the High Command"
+ 
+ ESS_england_and_the_world:0 "England and the World"
+ ESS_england_and_the_world_desc:0 "England and the World"
+ 
+ ESS_chill_with_zvonimir:0 "Chill with Zvonimir"
+ ESS_chill_with_zvonimir_desc:0 "Chill with Zvonimir"
+ 
+ ESS_asymmetric_warfare:0 "Asymmetric Warfare"
+ ESS_asymmetric_warfare_desc:0 "Asymmetric Warfare"
+ 
+ ESS_contact_loyal_insurgencies:0 "Contact Loyal Insurgencies"
+ ESS_contact_loyal_insurgencies_desc:0 "Contact Loyal Insurgencies"
+ 
+ ESS_mob:0 "Mobility on the Battlefield"
+ ESS_mob_desc:0 "Mobility on the Battlefield"
+ 
+ ESS_highway_tanks:0 "Highway Tanks"
+ ESS_highway_tanks_desc:0 "Highway Tanks"
+ 
+ ess_call_to_arms:0 "Call to Arms!"
+ ess_call_to_arms_desc:0 "Call to Arms!"
+ 
+ ESS_urban_guerrilla:0 "Urban Guerrilla"
+ ESS_urban_guerrilla_desc:0 "Urban Guerrilla"
+ 
+ ESS_dare_to_die_corps:0 "Dare to Die Corps"
+ ESS_dare_to_die_corps_desc:0 "Dare to Die Corps"
+ 
+ ESS_cultural_revolution:0 "Cultural Revolution"
+ ESS_cultural_revolution_desc:0 "Cultural Revolution"
+ 
+ ESS_postsecularism:0 "Secularism"
+ ESS_postsecularism_desc:0 "Secularism"
+ 
+ ESS_psychical_nomadism:0 "Psychical Nomadism"
+ ESS_psychical_nomadism_desc:0 "Psychical Nomadism"
+ 
+ ESS_encourage_wastefullness:0 "Encourage Wastefullness"
+ ESS_encourage_wastefullness_desc:0 "Encourage Wastefullness"
+ 
+ ESS_propaganda_of_hedonism:0 "Propaganda of Hedonism"
+ ESS_propaganda_of_hedonism_desc:0 "Propaganda of Hedonism"
+ 
+ ESS_consumer_society:0 "Consumer Society"
+ ESS_consumer_society_desc:0 "Consumer Society"
+ 
+ ESS_mind_alteration:0 "Mind Alteration"
+ ESS_mind_alteration_desc:0 "Mind Alteration"
+ 
+ ESS_live_fast_and_die_easy:0 "Live Fast and Die Easy"
+ ESS_live_fast_and_die_easy_desc:0 "Live Fast and Die Easy"
+ 
+ ESS_autonomous_recruiting:0 "Autonomous Recruiting"
+ ESS_autonomous_recruiting_desc:0 "Autonomous Recruiting"
+ 
+ ESS_unleash_the_local_warlords:0 "Unleash the Local Warlords"
+ ESS_unleash_the_local_warlords_desc:0 "Unleash the Local Warlords"
+ 
+ ESS_trade_unionism:0 "Trade Unionism"
+ ESS_trade_unionism_desc:0 "Trade Unionism"
+ 
+ ESS_protective_economy:0 "Protective Economy"
+ ESS_protective_economy_desc:0 "Protective Economy"
+ 
+ ESS_universal_basic_income:0 "Universal Basic Income"
+ ESS_universal_basic_income_desc:0 "Universal Basic Income"
+ 
+ ESS_centralized_command:0 "Centralized Command"
+ ESS_centralized_command_desc:0 "Centralized Command"
+ 
+ ESS_auxiliary_Forces:0 "Auxiliary forces"
+ ESS_auxiliary_Forces_desc:0 "Auxiliary forces"
+ 
+ ESS_birth_of_national_air_force:0 "Birth of National Air Force"
+ ESS_birth_of_national_air_force_desc:0 "Birth of National Air Force"
+ 
+ ESS_crash_courses:0 "Crash Courses"
+ ESS_crash_courses_desc:0 "Crash Courses"
+ 
+ ESS_state_and_party:0 "State and Party"
+ ESS_state_and_party_desc:0 "State and Party"
+ 
+ ESS_peoples_guards:0 "People's Guards"
+ ESS_peoples_guards_desc:0 "People's Guards"
+ 
+ ESS_birth_of_the_national_navy:0 "Birth of the National Navy"
+ ESS_birth_of_the_national_navy_desc:0 "Birth of the National Navy"
+ 
+ ESS_capture_of_merchant_fleet:0 "Capture of Merchant Fleet"
+ ESS_capture_of_merchant_fleet_desc:0 "Capture of Merchant Fleet"
+ 
+ ESS_white_marines:0 "White Marines"
+ ESS_white_marines_desc:0 "White Marines"
+ 
+ ESS_new_academic_policy:0 "New Academic Policy"
+ ESS_new_academic_policy_desc:0 "New Academic Policy"
+ 
+ ESS_national_network_fund:0 "National Network Fund"
+ ESS_national_network_fund_desc:0 "National Network Fund"
+ 
+ ESS_political_education:0 "Political Education"
+ ESS_political_education_desc:0 "Political Education"
+ 
+ ESS_Partocracy:0 "Partocracy"
+ ESS_Partocracy_desc:0 "Partocracy"
+ 
+ ESS_suppress_independent_warlords:0 "Suppress Independent Warlords"
+ ESS_suppress_independent_warlords_desc:0 "Suppress Independent Warlords"
+ 
+ ESS_provost:0 "Implementation of Military Provosts"
+ ESS_provost_desc:0 "Implementation of Military Provosts"
+ 
+ NSU_enserf:0 "Enserf the Peasants"
+ NSU_enserf_desc:0 "Enserf the Peasants"
+ 
+ ESS_integration_of_paramilitar_corps:0 "Integration of Paramilitary Corps"
+ ESS_integration_of_paramilitar_corps_desc:0 "Integration of Paramilitary Corps"
+ 
+ ESS_think_tanks:0 "Think Tanks"
+ ESS_think_tanks_desc:0 "Think Tanks"
+ 
+ ESS_xenocognitive_science:0 "Xenocognitive Science"
+ ESS_xenocognitive_science_desc:0 "Xenocognitive Science"
+ ESS_surveillance_capitalism:0 "Surveillance Capitalism"
+ ESS_surveillance_capitalism_desc:0 "Surveillance Capitalism"
+ 
+ ESS_epimetheus_project:0 "Epimetheus Project"
+ ESS_epimetheus_project_desc:0 "Epimetheus Project"
+ ASS_emphasis_on_discipline:0 "Emphasis on Discipline"
+ ASS_emphasis_on_discipline_desc:0 "Emphasis on Discipline"
+ 
+ ESS_mobile_defense:0 "Mobile Defense"
+ ESS_mobile_defense_desc:0 "Mobile Defense"
+ 
+ ESS_C3I:0 "C3I"
+ ESS_C3I_desc:0 "C3I"
+ 
+ ESS_shock_and_awe:0 "Shock and Awe"
+ ESS_shock_and_awe_desc:0 "Shock and Awe"
+ 
+ ESS_cyberwarfare:0 "Cyberwarfare"
+ ESS_cyberwarfare_desc:0 "Cyberwarfare"
+ 
+ ESS_amnesty_for_royal_officers:0 "Amnesty for Royal Officers"
+ ESS_amnesty_for_royal_officers_desc:0 "Amnesty for Royal Officers"
+ 
+ ESS_military_ranks:0 "Introduction of Personal Military Ranks"
+ ESS_military_ranks_desc:0 "Introduction of Personal Military Ranks"
+ 
+ ESS_restoration_of_army_prestige:0 "Restoration of Army Prestige"
+ ESS_restoration_of_army_prestige_desc:0 "Restoration of Army Prestige"
+ 
+ ESS_Noocracy:0 "Noocracy"
+ ESS_Noocracy_desc:0 "Noocracy"
+ 
+ ESS_programing_cult:0 "Programing Cult"
+ ESS_programing_cult_desc:0 "Programing Cult"
+ 
+ ESS_specialized_education:0 "Specialized Education"
+ ESS_specialized_education_desc:0 "Specialized Education"
+ 
+ ESS_aristocracy_of_the_mind:0 "Hyperstition Design"
+ ESS_aristocracy_of_the_mind_desc:0 "Aristocracy of the Mind"
+ 
+ ESS_technofetishism:0 "Technofetishism"
+ ESS_technofetishism_desc:0 "Technofetishism"
+ 
+ ESS_exaltation_of_capitalism:0 "Exaltation of Capitalism"
+ ESS_exaltation_of_capitalism_desc:0 "Exaltation of Capitalism"
+ 
+ ESS_total_privatization:0 "Total Privatization"
+ ESS_total_privatization_desc:0 "Total Privatization"
+ 
+ ESS_take_the_crown_lands:0 "Take the Crown Lands"
+ ESS_take_the_crown_lands_desc:0 "Take the Crown Lands"
+ 
+ ESS_special_entrepreneurial_privileges:0 "Special Entrepreneurial Privileges"
+ ESS_special_entrepreneurial_privileges_desc:0 "Special Entrepreneurial Privileges"
+ 
+ ESS_lobbying_committee:0 "Lobbying Committee"
+ ESS_lobbying_committee_desc:0 "Lobbying Committee"
+ 
+ ESS_corporatocracy:0 "Corporatocracy"
+ ESS_corporatocracy_desc:0 "Corporatocracy"
+ 
+ ESS_twilight_of_the_idols:0 "Twilight of the Idols"
+ ESS_twilight_of_the_idols_desc:0 "Twilight of the Idols"
+ 
+ ESS_dehumanization_of_science:0 "Dehumanization of Science"
+ ESS_dehumanization_of_science_desc:0 "Dehumanization of Science"
+ 
+ ESS_militarysciencecomplex:0 "Military-Science Complex"
+ ESS_militarysciencecomplex_desc:0 "Military-Science Complex"
+ 
+ ESS_bribe_the_germans:0 "Bribe the Germans"
+ ESS_bribe_the_germans_desc:0 "Bribe the Germans"
+ 
+ ESS_limonovs_thugs:0 "Limonov's Thugs"
+ ESS_limonovs_thugs_desc:0 "Limonov's Thugs"
+ 
+ ESS_warofthedragons:0 "War of the Dragons"
+ ESS_warofthedragons_desc:0 "War of the Dragons"
+ 
+ ESS_german_invaders:0 "German Invaders"
+ ESS_german_invaders_desc:0 "German invaders"
+ 
+ ESS_grab_german_weapons:0 "Grab German Weapons"
+ ESS_grab_german_weapons_desc:0 "Grab German Weapons"
+ 
+ ESS_amnesty_for_service:0 "Amnesty for Service"
+ ESS_amnesty_for_service_desc:0 "Amnesty for Service"
+ 
+ ESS_east_of_england:0 "East of England"
+ ESS_east_of_england_desc:0 "East of England"
+ 
+ ESS_death_to_folcists:0 "Death to Folcists!"
+ ESS_death_to_folcists_desc:0 "Death to Folcists!"
+ 
+ ESS_anti_folcist_action:0 "Anti-Folcist Action"
+ ESS_anti_folcist_action_desc:0 "Anti-Folcist Action"
+ 
+ ESS_mobilization_company:0 "Mobilization Company"
+ ESS_mobilization_company_desc:0 "Mobilization Company"
+ 
+ ESS_Mercia:0 "Mercia"
+ ESS_Mercia_desc:0 "Mercia"
+ 
+ ESS_eurasian_lapdogs:0 "Eurasian Lapdogs"
+ ESS_eurasian_lapdogs_desc:0 "Eurasian Lapdogs"
+ 
+ ESS_labor_militia:0 "Labor Militia"
+ ESS_labor_militia_desc:0 "Labor Militia"
+ 
+ ESS_resbuild_cumbrian_docks:0 "Resbuild Cumbrian Docks"
+ ESS_resbuild_cumbrian_docks_desc:0 "Resbuild Cumbrian Docks"
+ 
+ ESS_Northumbria:0 "Northumbria"
+ ESS_Northumbria_desc:0 "Northumbria"
+ 
+ ESS_papists:0 "Deal with the Papists"
+ ESS_papists_desc:0 "Deal with the Papists"
+ 
+ ESS_anti_catholic_laws:0 "Anti-Catholic Laws"
+ ESS_anti_catholic_laws_desc:0 "Anti-Catholic Laws"
+ 
+ ESS_secularization:0 "Secularization"
+ ESS_secularization_desc:0 "Secularization"
+ 
+ ESS_kent:0 "Kent"
+ ESS_kent_desc:0 "Kent"
+ 
+ ESS_royal_matters:0 "Royal Matters"
+ ESS_royal_matters_desc:0 "Royal Matters" 
+ 
+ ESS_false_king:0 "False King"
+ ESS_false_king_desc:0 "False King" 
+ 
+ ESS_capture_the_royal_navy:0 "Capture the Royal Navy"
+ ESS_capture_the_royal_navy_desc:0 "Capture the Royal Navy" 
+ 
+ ESS_defeodalization:0 "Defeodalization"
+ ESS_defeodalization_desc:0 "Defeodalization" 
+ 
+ ESS_wessex:0 "Wessex"
+ ESS_wessex_desc:0 "Wessex" 
+
+ ESS_compromise_with_the_absolutists:0 "Compromise with the Absolutists"
+ ESS_compromise_with_the_absolutists_desc:0 "Compromise with the Absolutists" 
+ 
+ ESS_suppress_the_absolutists:0 "Suppress the Absolutists"
+ ESS_suppress_the_absolutists_desc:0 "Compromise with the Absolutists" 
+ 
+ ESS_assign_royal_property:0 "Assign Royal Property"
+ ESS_assign_royal_property_desc:0 "Assign Royal Property" 
+ 
+ ESS_fate_of_the_royal_family:0 "Fate of the Royal Family"
+ ESS_fate_of_the_royal_family_desc:0 "Fate of the Royal Family" 
+
+ ESS_destroy_the_memory:0 "Destroy the Memory"
+ ESS_destroy_the_memory_desc:0 "Destroy the Memory" 
+
+ ESS_rule_england:0 "Rule, England!"
+ ESS_rule_england_desc:0 "Rule, England!" 
+
+ ESS_strong_realm_with_a_strong_king:0 "Strong Realm with a Strong King"
+ ESS_strong_realm_with_a_strong_king_desc:0 "Strong Realm with a Strong King" 
+
+ ESS_approve_noble_privileges:0 "Approve Noble Privileges"
+ ESS_approve_noble_privileges_desc:0 "Approve Noble Privileges" 
+
+ ESS_amnesty_for_BRUH_members:0 "Amnesty for the BRUH Members"
+ ESS_amnesty_for_BRUH_members_desc:0 "Amnesty for the BRUH Members" 
+
+ ESS_the_royal_paras:0 "Royal Paras"
+ ESS_the_royal_paras_desc:0 "Royal Paras"
+
+ ESS_conversion_of_civil_aviation:0 "Conversion of Civil Aviation"
+ ESS_conversion_of_civil_aviation_desc:0 "Conversion of Civil Aviation"  
+ 
+ ESS_work_projects_administration:0 "Work Projects Administration"
+ ESS_work_projects_administration_desc:0 "Work Projects Administration"  
+
+ ESS_recovery_growth:0 "Recovery Growth"
+ ESS_recovery_growth_desc:0 "Recovery Growth"  
+ 
+ ESS_dirigisme:0 "Dirigisme"
+ ESS_dirigisme_desc:0 "Dirigisme"  
+ 
+ ESS_social_darwinism:0 "Social Darwinism"
+ ESS_social_darwinism_desc:0 "Social Darwinism"  
+ 
+ ESS_thelema:0 "Thelemic England"
+ ESS_thelema_desc:0 "Thelemic England"  
+ 
+ ESS_encourage_rivalry:0 "Encourage Rivalry"
+ ESS_encourage_rivalry_desc:0 "Encourage Rivalry"  
+ 
+ ESS_eternal_acceleration:0 "Eternal Acceleration"
+ ESS_eternal_acceleration_desc:0 "Eternal Acceleration"  
+ 
+ ESS_happiness_is_a_warm_gun:0 "Happiness is a Warm Gun"
+ ESS_happiness_is_a_warm_gun_desc:0 "Happiness is a Warm Gun"  
+ 
+ ESS_revival_of_formula_one:0 "Revival of Formula One"
+ ESS_revival_of_formula_one_desc:0 "Revival of Formula One"  
+ 
+ ###guns###
+ 

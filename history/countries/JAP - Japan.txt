@@ -1,6 +1,6 @@
 ﻿capital = 282
 
-oob = "JAP_2019"
+oob = "JAP_2020"
 
 set_stability = 0.2 
 set_war_support = 0.8
@@ -28,7 +28,7 @@ create_country_leader = {
 	name = "Naruhito"
 	desc = "POLITICS_Naruhito_DESC"
 	picture = "Portrait_Japan_Naruhito.dds"
-	ideology = absolute_monarchy
+	ideology = autocracy
 	traits = {
 	}
 }

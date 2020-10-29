@@ -1,0 +1,14 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		4472 5008 5820 6490 6536 7081 7857 10242 10776 11176 11199 11201 11216 11218 11229 11239 11243 
+	}
+	manpower=757302
+	buildings_max_level_factor=1.000
+	history={
+		owner = CAT
+		
+		add_core_of = ALV
+	}	
+}

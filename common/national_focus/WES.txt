@@ -1,0 +1,30 @@
+focus_tree = {
+	id = WES_secret
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = WES_retrun_king
+    #shared_focus = WES_curious_proposal
+    shared_focus = WES_rule_george
+    #shared_focus = WES_secret_orthodox
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = WES
+		}
+	}
+}
+
+focus_tree = {
+	id = WES_normal
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = WES
+		}
+	}
+}
+

@@ -1,4 +1,4 @@
-﻿capital = 12
+﻿capital = 58
 
 oob = "BAL_2020"
 
@@ -27,7 +27,7 @@ create_country_leader = {
 	name = "Beness Aijo"
 	picture = "BAL_Beness_Aijo.dds"
 	expire = "1953.3.1"
-	ideology = accelerationist_nazbol 
+	ideology = nazbol_gang
 	traits = { black_lenin
 	}
 }

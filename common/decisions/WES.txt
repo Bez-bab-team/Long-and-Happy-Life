@@ -1,0 +1,48 @@
+WES_love_letters = {
+    WES_Dugin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_Eugenius = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+}
+
+WES_ai_mechanic = {
+    WES_specialists = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = WES_ai_condition
+                value = 10
+			}
+		}
+	}
+    WES_turing_test = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = WES_ai_brain
+                value = 20
+			}
+		}
+	}
+}
+
+WES_create_guilds = {
+    WES_tank_guild = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    WES_gun_guild = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+}		    

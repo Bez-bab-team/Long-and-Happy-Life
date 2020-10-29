@@ -1,0 +1,14 @@
+state={
+	id=346
+	name="STATE_346"
+	provinces={
+		1542 3783 4000 5595 7683 7954 8973 9657 10402 12799 12815 12835 12850 12869 12886 12903 12966 12979 
+	}
+	manpower=5801692
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUM
+		
+		add_core_of = LUM
+	}	
+}

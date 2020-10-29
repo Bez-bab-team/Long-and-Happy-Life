@@ -1,6 +1,6 @@
 ﻿capital = 253
 
-oob = "UST_2019"
+oob = "FRS_2020"
 
 # Starting tech
 set_technology = {
@@ -9,23 +9,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism  
+	ruling_party = national_bolshevism  
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	national_bolshevism = 100
 }
 
 create_country_leader = {
 	name = "Mikhail Svetov"
-	desc = ""
+	desc = "POLITICS_SVETOV_DESC"
 	picture = "Portrait_Mikhail_Sovetov.dds"
-	expire = "1965.1.1"
-	ideology = hoppean_libertarianism 
-	traits = {
-		#
-	}
+	ideology = national_anarchism 
+	traits = { great_lustrator }
 }
 

@@ -2,8 +2,8 @@ bookmarks = {
 	bookmark = {
 		name = "LHLBOOKMARK_NAME"
 		desc = "LHLBOOKMARK_DESC"
-		date = 2019.8.22.14
-		picture = "GFX_select_date_1939"
+		date = 2020.1.1.14
+		picture = "GFX_select_date_1936"
 		default_country = "RTS"
 
 		RTS = {
@@ -30,15 +30,18 @@ bookmarks = {
 			history = NSU_LHLBOOKMARK_DESC
 			ideology = commendationism
 			ideas={
-				#
+				russian_civl_war_disaster
+				extraordinary_commission
 			}
 			focuses = {
-				#
+				NSU_police_coup
+				NSU_predel
+				NSU_sacralisationofindustry
 			}
 		}
-		GAZ = {
-			history = GAZ_LHLBOOKMARK_DESC
-			ideology = neocameralism
+		NRU = {
+			history = NRU_LHLBOOKMARK_DESC
+			ideology = regressionsim
 			ideas={
 				#
 			}
@@ -83,17 +86,6 @@ bookmarks = {
 
 		# Minors
 
-		NRU = {
-			minor = yes
-			history = "NRU_LHLBOOKMARK_DESC"
-			ideology = regressionism
-			ideas = {
-				#
-			}
-			focuses = {
-				#
-			}
-		}
 		CHS = {
 			minor = yes
 			history = "CHS_LHLBOOKMARK_DESC"

@@ -1,0 +1,29 @@
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		1818 5160 6219 7088 7824 8913 9127 11071 11080 11082 11091 11121 11124 11126 11135 11139 11141 10927 1461 1804
+	}
+	
+	history={
+		owner = WES
+		add_core_of = WES
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9127 5
+		}
+		victory_points = {
+			11141 3
+		}
+		victory_points = {
+			11135 3
+		}
+	}	
+	
+	manpower=6102304
+	buildings_max_level_factor=1.000
+}

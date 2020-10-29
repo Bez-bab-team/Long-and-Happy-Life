@@ -1,0 +1,21 @@
+state={
+	id=214
+	name="STATE_214"
+	provinces={
+		1737 2194 3844 3943 4354 4790 6418 6460 10156 10667 12433 12475 12505 12510 12514 12534 12545 12625 12678 
+	}
+	manpower=3101935
+	buildings_max_level_factor=1.000
+	history={
+		owner = SLO
+		
+		add_core_of = SLO
+
+		victory_points={
+			12505 37
+		}
+		victory_points={
+			12545 13
+		}
+	}
+}

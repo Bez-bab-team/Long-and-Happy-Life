@@ -1,0 +1,25 @@
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		1766 3297 4340 6109 6688 7584 8233 8615 9563 9718 10044 10538 12680 12732 12769 12770 12775 12779 12812 12824 12834 12852 12866 12878 12879 12922 12947 
+	}
+	manpower=1093654
+	buildings_max_level_factor=1.000
+	history={
+		owner = UST
+		add_core_of = UST
+
+		victory_points={
+			12775 15
+		}
+		victory_points={
+			6109 10
+		}
+		victory_points={
+			6688 4
+		}
+	}
+	state_category=city
+}
+

@@ -1,0 +1,16 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		14458 
+	}
+	manpower=521889
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+	}	
+	state_category=pastoral
+	
+}

@@ -1,0 +1,18 @@
+state={
+	id=354
+	name="STATE_354"
+	provinces={
+		12104 
+	}
+	history={
+	victory_points = {
+		16880 2 }	
+	
+	owner = MNC
+	add_core_of = MNC
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+	}
+}

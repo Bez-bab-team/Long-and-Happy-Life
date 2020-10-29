@@ -1,0 +1,40 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		680 2039 2147 2415 2558 3880 6054 6072 6074 6782 7178 7485 7682 7852 7871 8283 9559 9785 9823 9926 9990 10321 10371 13430 13431 13470 13536 13572 13580 13583 13590 13618 13621 13662 13680 13686 
+	}
+	manpower=5127065
+	Resources={
+	oil=30
+}
+	buildings_max_level_factor=1.000
+		history={
+		owner = TAT	
+		add_core_of = TAT
+		victory_points = {
+			680 40
+		}
+		victory_points = {
+			6054 25
+		}
+		victory_points = {
+			7682 10
+		}
+		victory_points = {
+			7178 25
+		}
+		victory_points = {
+			13430 2
+		}
+		victory_points = {
+			7871 17
+		}
+		victory_points = {
+			8283 20
+		}
+	}
+
+	}
+	state_category=large_city
+}

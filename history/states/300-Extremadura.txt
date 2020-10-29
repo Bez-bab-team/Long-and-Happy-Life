@@ -1,0 +1,15 @@
+state={
+	id=300
+	name="STATE_300"
+	provinces={
+		516 667 3630 4645 5430 5839 6123 7216 7310 8730 8921 9147 9483 11205 11219 11230 11237 11254 11280 11322 11354 
+	}
+	manpower=1079224
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CAT
+		
+		add_core_of = AND
+	}	
+}

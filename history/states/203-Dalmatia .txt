@@ -1,0 +1,14 @@
+state={
+	id=203
+	name="STATE_203"
+	provinces={
+		8672 9818 10291 10676 12772 12800 12829 12836 12838 13002 16872 16873 16874 16875 16876 16877 16878 16879 
+	}
+	manpower=852068
+	buildings_max_level_factor=1.000
+	history={
+		owner = YUG
+		
+		add_core_of = YUG
+	}
+}

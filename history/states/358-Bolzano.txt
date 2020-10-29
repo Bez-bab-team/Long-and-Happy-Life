@@ -1,0 +1,14 @@
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		4913 5313 10216 12173 
+	}
+	manpower=313024
+	buildings_max_level_factor=1.000
+	history={
+		owner = PAD
+		
+		add_core_of = PAD
+	}	
+}

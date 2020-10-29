@@ -1,0 +1,30 @@
+
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		1994 2829 2855 4868 5050 5767 6479 7779 7887 9185 10295 12178 12181 12215 12230 12254 
+	}
+	manpower=1433945
+	Resources={
+	steel=10
+}
+	buildings_max_level_factor=1.000
+	history={
+	victory_points = {
+		834 2 }	
+	owner = PDE
+	add_core_of = PDE
+
+		victory_points = {
+			5050 15
+		}
+		victory_points = {
+			1994 17
+		}
+		victory_points = {
+			2829 11
+		}
+	}
+	state_category = pastoral
+}

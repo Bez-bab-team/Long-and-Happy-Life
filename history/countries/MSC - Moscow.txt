@@ -1,6 +1,6 @@
 ﻿capital = 792
 
-oob = "MSC_1936"
+oob = "MSC_2020"
 
 set_research_slots = 3
 
@@ -15,7 +15,6 @@ set_technology = {
 
 set_politics = {
 	ruling_party = national_bolshevism
-	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -37,6 +36,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Aleksandr Dugin"
 	picture = "MOS_Aleksandr_Dugin.dds"
+	desc = "POLITICS_DUGIN_DESC"
 	ideology = neo_feudalism 
 	traits = {
 		greatraven
@@ -58,8 +58,80 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Philosopher King"
+	picture = "MOS_Philosopher_King.dds"
+	desc = "POLITICS_PHILOSOPHER_KING_DESC"
+	ideology = ultrahegelianism
+	traits = {	the_kings_two_bodies  }
+}
+
+create_country_leader = {
 	name = "Interregnum"
 	picture = "MOS_White_House.dds"
 	expire = "1953.3.1"
 	ideology = nazbol_gang 
 }
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Anna Chapman"
+		GFX = GFX_portrait_anna_chapman
+		traits = { operative_seducer operative_linguist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { MSC }
+	}
+}
+
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = NVS
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = NVS
+	}
+}
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = KHA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = KHA
+	}
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = MON
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = MON
+	}
+}
+create_faction = amphictyony_of_freedom
+

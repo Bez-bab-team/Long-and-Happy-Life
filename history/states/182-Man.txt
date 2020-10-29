@@ -1,0 +1,17 @@
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		10761 
+	}
+	history={
+	victory_points = {
+		10761 1	}	
+	
+	owner = WES
+	add_core_of = WES
+	}	
+	state_category=pastoral
+	manpower = 100394
+	buildings_max_level_factor=1.000
+}

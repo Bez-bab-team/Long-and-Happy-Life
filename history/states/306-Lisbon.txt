@@ -1,0 +1,14 @@
+state={
+	id=306
+	name="STATE_306"
+	provinces={
+		1566 2202 3854 8057 8979 9211 9279 11107 11108 11113 11117 11125 11134 11153 
+	}
+	manpower=2821876
+	buildings_max_level_factor=1.000
+	history={
+		owner = CAT
+		
+		add_core_of = POR
+	}	
+}

@@ -1,0 +1,39 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		70 973 1080 1748 2323 2428 2700 3338 3571 3665 4380 4724 4990 5144 5632 5899 6083 6191 6443 6727 7815 8581 10298 10460 10507 13685 13692 13733 13749 13781 13807 13811 13828 13843 13875 13878 13898 13902 13925 13956 13965 13969 14012 14055 
+	}
+	manpower=2712399
+	buildings_max_level_factor=1.000
+		history={
+		owner = RST
+		add_core_of = RST
+
+		victory_points = {
+			10298 40
+		}
+		victory_points = {
+			3665 20
+		}
+		victory_points = {
+			13898 10
+		}
+		victory_points = {
+			5899 25
+		}
+		victory_points = {
+			973 5
+		}
+		victory_points = {
+			13828 17
+		}
+		victory_points = {
+			3338
+		}
+		victory_points = {
+			4724 8
+		}
+	}
+	state_category=city
+}

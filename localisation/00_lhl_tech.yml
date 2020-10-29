@@ -1,0 +1,17 @@
+﻿l_english:
+ ###Angeln###
+ ESS_outdated_main_battle_tank:0 "Chieftain"
+ ESS_outdated_main_battle_tank_short:0 "Chieftain"
+ ESS_infantry_equipment_0:0 "L1A2"
+ ESS_infantry_equipment_0_short:0 "L1A2"
+ ESS_infantry_equipment_1:0 "L85A1"
+ ESS_infantry_equipment_1_short:0 "L85A1"
+ ESS_infantry_equipment_2:0 "L85A2"
+ ESS_infantry_equipment_2_short:0 "L85A2"
+ ESS_infantry_equipment_3:0 "L85A3"
+ ESS_infantry_equipment_3_short:0 "L85A3"
+ ESS_infantry_equipment_4:0 "L119A2"
+ ESS_infantry_equipment_4_short:0 "L119A2"
+ ###Dzheneriki###
+ outdated_main_battle_tank:0 "Outdated Main Battle Tank"
+ outdated_main_battle_tank_short:0 "Outdated MBT"

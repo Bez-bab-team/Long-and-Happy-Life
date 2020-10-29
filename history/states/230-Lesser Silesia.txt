@@ -1,0 +1,27 @@
+state={
+	id=230
+	name="STATE_230"
+	provinces={
+		1655 1733 2032 2818 4890 5174 5664 6657 9076 9349 12105 12221 12262 
+	}
+	manpower=3286539
+	Resources={
+	steel=10
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = PDE
+		
+		add_core_of = PDE
+
+		victory_points={
+			1733 37
+		}
+		victory_points={
+			12221 16
+		}
+		victory_points={
+			6657 12
+		}
+	}
+}

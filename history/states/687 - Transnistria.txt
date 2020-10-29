@@ -1,0 +1,18 @@
+state={
+	id=687
+	name="STATE_687"
+	provinces={
+		13496 13286 8072 13362
+	}
+	history={
+		owner = NRS
+		
+		add_core_of = NRS
+
+		victory_points = {
+			13496 16
+		}
+	}
+	manpower=2549000 
+	buildings_max_level_factor=1.000
+}

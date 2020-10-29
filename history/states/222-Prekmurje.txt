@@ -1,0 +1,14 @@
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		12541 
+	}
+	manpower=119349
+	buildings_max_level_factor=1.000
+	history={
+		owner = SLV
+		
+		add_core_of = SLV
+	}
+}

@@ -1,0 +1,129 @@
+###NORMAL TREE###
+
+shared_focus = {
+	id = NVS_colonel_turn
+	icon = GFX_NVS_colonel_turn
+	cost = 10
+	x = 17
+	y = 0
+}
+
+shared_focus = {
+	id = NVS_russia_cross
+	icon = GFX_NVS_russia_cross
+	prerequisite = {
+        focus = NVS_colonel_turn
+	}
+	cost = 10
+	x = 17
+	y = 1
+}
+
+shared_focus = {
+	id = NVS_dreams_peace
+	icon = GFX_NVS_all_is_now_against_us
+	prerequisite = {
+        focus = NVS_russia_cross
+	}
+	cost = 10
+	x = 17
+	y = 2
+}
+
+shared_focus = {
+	id = NVS_reshape_district
+	icon = GFX_NVS_shoulder_of_a_comrade
+	prerequisite = {
+        focus = NVS_dreams_peace
+	}
+	cost = 10
+	x = 16
+	y = 3
+}
+
+shared_focus = {
+	id = NVS_order_one
+	icon = GFX_NVS_order_no_1
+	prerequisite = {
+        focus = NVS_dreams_peace
+	}
+	cost = 10
+	x = 18
+	y = 3
+}
+
+shared_focus = {
+	id = NVS_war_principles
+	icon = GFX
+	prerequisite = {
+        focus = NVS_reshape_district
+	}
+	prerequisite = {
+        focus = NVS_order_one
+	}
+	cost = 10
+	x = 17
+	y = 4
+}
+
+shared_focus = {
+	id = NVS_swan_wings
+	icon = GFX
+	prerequisite = {
+        focus = NVS_war_principles
+	}
+	cost = 10
+	x = 17
+	y = 5
+}
+
+shared_focus = {
+	id = NVS_loyal_revolver
+	icon = GFX
+	prerequisite = {
+        focus = NVS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = NVS_general_violin
+	}
+	mutually_exclusive = {
+        focus = NVS_yes_no
+	}
+	cost = 10
+	x = 14
+	y = 6
+}
+
+shared_focus = {
+	id = NVS_general_violin
+	icon = GFX
+	prerequisite = {
+        focus = NVS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = NVS_loyal_revolver
+	}
+	mutually_exclusive = {
+        focus = NVS_yes_no
+	}
+	cost = 10
+	x = 17
+	y = 6
+}
+
+shared_focus = {
+	id = NVS_yes_no
+	icon = GFX
+	prerequisite = {
+        focus = NVS_swan_wings
+	}
+    mutually_exclusive = {
+        focus = NVS_loyal_revolver
+	}
+	mutually_exclusive = {
+        focus = NVS_general_violin
+	}
+	cost = 10
+	x = 20
+	y = 6
+}

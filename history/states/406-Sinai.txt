@@ -1,0 +1,14 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		589 2404 4743 5362 5983 8400 8481 8763 9574 10074 10146 10214 14918 14943 15001 15024 15155 
+	}
+	manpower=1400000
+	buildings_max_level_factor=1.000
+	history={
+		owner = ISR
+		
+		add_core_of = ISR
+	}
+}

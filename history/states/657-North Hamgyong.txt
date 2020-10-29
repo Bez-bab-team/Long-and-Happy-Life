@@ -1,0 +1,14 @@
+state={
+	id=657
+	name="STATE_657"
+	provinces={
+		391 1300 6196 7329 7752 7893 9619 15144 15146 15161 15163 15232 15233 15251 15253 15258 
+	}
+	manpower=2164574
+	buildings_max_level_factor=1.000
+		history={
+		owner = KOR
+		
+		add_core_of = KOR
+	}
+}

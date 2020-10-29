@@ -1,0 +1,24 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		4114 4917 6597 6752 6963 7766 9958 10551 10683 12661 12685 12699 12712 12721 12739 12806 
+	}
+	manpower=1142303
+	buildings_max_level_factor=1.000
+	history={
+		owner = KHA
+		
+		add_core_of = KHA
+
+		victory_points = {
+			12086 20
+		}
+		victory_points = {
+			12721 13
+		}
+		victory_points = {
+			12739 10
+		}
+	}
+}

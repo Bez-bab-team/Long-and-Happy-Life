@@ -1,0 +1,14 @@
+state={
+	id=477
+	name="STATE_477"
+	provinces={
+		3966 5974 7845 8564 9671 10116 15138 15210 15256 
+	}
+	manpower=2404861
+	buildings_max_level_factor=1.000
+	history={
+		owner = PER
+		
+		add_core_of = PER
+	}
+}

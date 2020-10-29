@@ -1,0 +1,18 @@
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		307 3570 4566 6826 8212 9614 10428 10442 12189 12229 
+	}
+	manpower=270869
+	buildings_max_level_factor=1.000
+			history={
+		owner = EST
+		
+		add_core_of = EST
+
+		victory_points={
+			3570 15
+		}
+	}
+}

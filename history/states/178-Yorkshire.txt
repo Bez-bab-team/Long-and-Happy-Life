@@ -1,0 +1,23 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		3656 5931 7620 9714 11035 11050 6379
+	}
+	
+	history={
+		owner = NTH
+		add_core_of = NTH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7620 1
+		}
+	}	
+	
+	manpower=2710327
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		1492 3736 5139 6507 6795 6797 6879 7656 7728 7851 9362 9484 9797 9846 10360 10384 15581 15635 15660 15678 15704 15705 15716 15766 15785 15788 15815 15824 15840 
+	}
+	manpower=4274979
+	Resources={
+	oil=70
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = PER
+		
+		add_core_of = PER
+	}
+}

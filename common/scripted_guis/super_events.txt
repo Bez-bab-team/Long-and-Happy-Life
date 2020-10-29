@@ -1,0 +1,127 @@
+scripted_gui = {
+
+	Pax_Super_Event_Window = {
+		context_type = player_context
+		window_name = "Super_Event_Window"
+
+		visible = {
+			has_global_flag  = Super_Event_Visible
+		}
+
+		triggers = {
+			Super_Event_Absolutist_Victory_visible = {
+				has_global_flag  = Absolutist_Victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_Anarchist_victory_visible = {
+				has_global_flag  = Anarchist_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_distributist_victory_visible = {
+				has_global_flag  = distributist_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_folcist_victory_visible = {
+				has_global_flag  = folcist_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_jacobite_victory_visible = {
+				has_global_flag  = jacobite_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_nationalist_victory_visible = {
+				has_global_flag  = nationalist_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_republicanist_victory_visible = {
+				has_global_flag  = republicanist_victory
+			}
+		}
+		
+		triggers = {
+			Super_Event_royalist_victory_visible = {
+				has_global_flag  = royalist_victory
+			}
+		}
+
+		properties = {
+			Super_Event_Default = {
+				image = "[get_my_superevent_texture]"
+			}
+		}
+
+		effects = {
+			Super_Event_Close_click = {
+				clr_global_flag = Super_Event_Visible
+
+				if = {
+					limit = {	
+						has_global_flag = Absolutist_Victory
+					}
+					clr_global_flag  = Absolutist_Victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = Anarchist_victory
+					}
+					clr_global_flag  = Anarchist_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = distributist_victory
+					}
+					clr_global_flag  = distributist_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = folcist_victory
+					}
+					clr_global_flag  = folcist_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = jacobite_victory
+					}
+					clr_global_flag  = jacobite_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = nationalist_victory
+					}
+					clr_global_flag  = nationalist_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = republicanist_victory
+					}
+					clr_global_flag  = republicanist_victory
+				}
+				
+				if = {
+					limit = {	
+						has_global_flag = royalist_victory
+					}
+					clr_global_flag  = royalist_victory
+				}
+			}
+		}
+	}
+}

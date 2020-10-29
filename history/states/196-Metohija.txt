@@ -1,0 +1,14 @@
+state={
+	id=196
+	name="STATE_196"
+	provinces={
+		3034 6743 13256 
+	}
+	manpower=700577
+	buildings_max_level_factor=1.000
+	history={
+		owner = YUG
+		
+		add_core_of = YUG
+	}
+}

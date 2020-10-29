@@ -1,0 +1,22 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		5553 6454 9086 10224 14305 14322 14344 14352 14403 
+	}
+	manpower=245246
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+
+		victory_points = {
+			10224 7
+		}
+		victory_points = {
+			14344 2
+		}
+	}
+	state_category=rural
+}

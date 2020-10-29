@@ -1,0 +1,174 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_ESS_aristocracy_of_the_mind"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_aristocracy_of_the_mind.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_consumer_society"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_consumer_society.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_corporatocracy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_corporatocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_cultural_revolution"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_cultural_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_deadly_race"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_deadly_race.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_dehumanization_of_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dehumanization_of_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_dirigisme"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_dirigisme.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_encourage_rivalry"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_encourage_rivalry.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_encourage_wastefullness"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_encourage_wastefullness.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_epimetheus_project"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_epimetheus_project.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_eternal_acceleration"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_eternal_acceleration.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_exaltation_of_capitalism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_exaltation_of_capitalism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_information_revolution"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_information_revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_lobbying_committee"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_lobbying_committee.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_militarysciencecomplex"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_militarysciencecomplex.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_national_network_fund"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_national_network_fund.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_new_academic_policy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_new_academic_policy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_Noocracy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_Noocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_Partocracy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_Partocracy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_peoples_guards"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_peoples_guards.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_postsecularism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_postsecularism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_programing_cult"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_programing_cult.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_propaganda_of_hedonism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_propaganda_of_hedonism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_protective_economy"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_protective_economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_psychical_nomadism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_psychical_nomadism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_recovery_growth"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_recovery_growth.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_social_darwinism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_social_darwinism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_special_entrepreneurial_privileges"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_special_entrepreneurial_privileges.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_specialized_education"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_specialized_education.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_state_and_party"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_state_and_party.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_take_the_crown_lands"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_take_the_crown_lands.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_tame_the_leviathan"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_tame_the_leviathan.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_technofetishism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_technofetishism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_thelema"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_thelema.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_think_tanks"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_think_tanks.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_total_privatization"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_total_privatization.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_trade_unionism"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_trade_unionism.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_twilight_of_the_idols"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_twilight_of_the_idols.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_universal_basic_income"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_universal_basic_income.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_utopia_under_protection"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_utopia_under_protection.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_work_projects_administration"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_work_projects_administration.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_xenocognitive_science"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_xenocognitive_science.dds"
+	}
+	SpriteType = {
+		name = "GFX_ESS_political_education"
+		texturefile = "gfx/interface/goals/ESS/goal_ESS_political_education.dds"
+	}	
+}

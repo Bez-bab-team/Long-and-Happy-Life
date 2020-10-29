@@ -1,0 +1,28 @@
+state={
+	id=224
+	name="STATE_224"
+	provinces={
+		1399 1622 2493 5896 6091 6770 9583 10077 10413 12521 12566 12574 12597 12608 12624 12643 12653 12684 
+	}
+	manpower=2156150
+	buildings_max_level_factor=1.000
+	history={
+
+	owner = PLP
+	add_core_of = PLP
+
+		victory_points={
+			5896 26
+		}
+		victory_points={
+			10413 12
+		}
+		victory_points={
+			12653 7
+		}
+		victory_points={
+			12566 10
+		}
+	}
+	state_category = pastoral
+}

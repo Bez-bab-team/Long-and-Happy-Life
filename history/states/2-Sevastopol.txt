@@ -1,0 +1,18 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		13871 13885 
+	}
+	manpower=493712
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		add_core_of = RGD
+		
+		victory_points={
+		13885 30
+		}
+	}	
+	state_category=city	
+}

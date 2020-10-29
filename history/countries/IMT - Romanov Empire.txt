@@ -1,6 +1,6 @@
 ﻿capital = 569
 
-oob = "SOV_1936"
+oob = "IMT_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -13,19 +13,114 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = hegemonism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism  = 100
+	hegemonism  = 68
+	socialism = 10
+	left_authoritarianism = 7
+	national_bolshevism = 15
 }
 
 create_country_leader = {
 	name = "Anton Bakov"
-	desc = ""
+	desc = "POLITICS_BAKOV_DESC"
 	picture = "Portrait_IMT_Anton_Bakov.dds"
-	ideology = authoritarian_technocracy
+	ideology = autocracy
+	traits = { 
+	         patron_of_cybernetics 
+			 eccentric_billionaire
+	}
+}
+
+create_country_leader = {
+	name = "Nicholas III"
+	desc = "POLITICS_NICHOLASIII_DESC"
+	picture = "Portrait_IMT_Nicholas_III.dds"
+	ideology = social_conservatism
+	traits = {
+		     heir_of_the_throne
+	}
+}
+
+create_country_leader = {
+	name = "Anastasia A.I"
+	desc = "POLITICS_ANASTASIA_AI_DESC"
+	picture = "Portrait_IMT_Evil_Anastasia_A.I..dds"
+	ideology = ethical_millennialism
+	traits = {
+		     haywire_ai
+	}
+}
+
+create_country_leader = {
+	name = "Anastasia"
+	desc = "POLITICS_ANASTASIA_DESC"
+	picture = ".dds"
+	ideology = charismatic_dictatorship
+	traits = {
+		      artifical_goddess
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Megre"
+	desc = "POLITICS_MEGRE_DESC"
+	picture = "Portrait_IMT_Vladimir_Megre.dds"
+	ideology = agrarian_socialism
+	traits = {
+		      chosen_of_anastasia
+	}
+}
+
+create_country_leader = {
+	name = "Grigori Graboboi"
+	desc = ""
+	picture = ".dds"
+	ideology = leftwing_chauvinism
 	traits = {
 		
+	}
+}
+
+create_country_leader = {
+	name = "Victor Argonov"
+	desc = ""
+	picture = ".dds"
+	ideology = soviet_marxism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Anastasia A.I"
+	desc = "POLITICS_ANASTASIA_AI_DESC"
+	picture = "Portrait_IMT_Anastasia_A.I..dds"
+	ideology = autocracy
+	traits = {
+		      the_ai_tsarina
+	}
+}
+
+create_country_leader = {
+	name = "Sergey Kuryokhin"
+	desc = "POLITICS_ANASTASIA_AI_DESC"
+	picture = ".dds"
+	ideology = nazbol_gang
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Vladimir Megre"
+	desc = "POLITICS_MEGRE_DESC"
+	picture = "Portrait_IMT_Vladimir_Megre.dds"
+	ideology = neoluddism 
+	traits = {
+		      scourge_of_technology
+			  chosen_of_anastasia
 	}
 }

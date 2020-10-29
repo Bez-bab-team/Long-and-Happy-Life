@@ -1,0 +1,581 @@
+technologies = {
+
+	motorised_infantry = {
+
+		enable_subunits = {
+			motorized
+		}
+
+		enable_equipments = {
+			motorized_equipment_1
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {
+					has_template_containing_unit = motorized
+				}
+			}
+			hidden_effect = {
+				load_oob = "unlock_motorized"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = basic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = basic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = basic_armored_car
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+				
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -6 y = 0 }
+		}		
+		categories = {
+			motorized_equipment
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+			}
+	}
+
+	outdated_main_battle_tank = { 
+
+		enable_equipments = {
+			outdated_main_battle_tank_equipment
+		}
+		enable_subunits = {
+			medium_armor
+		}
+
+		on_research_complete = {
+			limit = {
+				NOT = {	has_template_containing_unit = light_armor }
+				NOT = {	has_template_containing_unit = heavy_armor }
+				NOT = {	has_template_containing_unit = medium_armor }
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = motorised_infantry
+					}
+
+					load_oob = "unlock_tanks_mot"
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = motorised_infantry }
+					}
+
+					load_oob = "unlock_tanks"
+				}
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+		
+		path = {
+			leads_to_tech = basic_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1918
+
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 0 }
+		}		
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = 0 }
+		}
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+	basic_main_battle_tank = {
+		enable_equipments = {
+			main_battle_tank_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = improved_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 2 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	improved_main_battle_tank = { 
+	
+		enable_equipments = {
+			main_battle_tank_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = advanced_main_battle_tank
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	
+	advanced_main_battle_tank = { 
+
+		enable_equipments = {
+			main_battle_tank_equipment_3 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = futuristic_main_battle_tank
+			research_cost_coeff = 1
+		}		
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	futuristic_main_battle_tank = { 
+
+		enable_equipments = {
+			main_battle_tank_equipment_4 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+				
+		folder = {
+			name = armour_folder
+			position = { x = -8 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	basic_armoured_personnel_carrier = {
+		enable_equipments = {
+			armoured_personnel_carrier_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = improved_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 2 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	improved_armoured_personnel_carrier = { 
+	
+		enable_equipments = {
+			armoured_personnel_carrier_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = advanced_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	
+	advanced_armoured_personnel_carrier = { 
+
+		enable_equipments = {
+			armoured_personnel_carrier_equipment_3 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = futuristic_armoured_personnel_carrier
+			research_cost_coeff = 1
+		}		
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	futuristic_armoured_personnel_carrier = { 
+
+		enable_equipments = {
+			armoured_personnel_carrier_equipment_4 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+				
+		folder = {
+			name = armour_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	basic_infantry_fighting_vehicle = {
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = improved_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	improved_infantry_fighting_vehicle = { 
+	
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = advanced_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	
+	advanced_infantry_fighting_vehicle = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_3 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = futuristic_infantry_fighting_vehicle
+			research_cost_coeff = 1
+		}		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	futuristic_infantry_fighting_vehicle = { 
+
+		enable_equipments = {
+			infantry_fighting_vehicle_equipment_4 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+				
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}	
+	
+	basic_armored_car = {
+		enable_equipments = {
+			armored_car_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
+		}	
+		path = {
+			leads_to_tech = improved_armored_car
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1934
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 2 }
+		}
+				
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	improved_armored_car = { 
+	
+		enable_equipments = {
+			armored_car_equipment_2 
+		}
+		
+		path = {
+			leads_to_tech = advanced_armored_car
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+	
+	
+	advanced_armored_car = { 
+
+		enable_equipments = {
+			armored_car_equipment_3 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+		
+		path = {
+			leads_to_tech = futuristic_armored_car
+			research_cost_coeff = 1
+		}		
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+
+	futuristic_armored_car = { 
+
+		enable_equipments = {
+			armored_car_equipment_4 
+		}	
+		
+		research_cost = 2
+		start_year = 1941
+				
+		folder = {
+			name = armour_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+		
+		categories = {
+			armor
+			cat_light_armor
+		}
+	}
+}

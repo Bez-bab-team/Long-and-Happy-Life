@@ -1,0 +1,19 @@
+state={
+	id=151
+	name="STATE_151"
+	provinces={
+		1991 3464 3781 5380 6079 6151 7652 7755 8173 8381 8551 8824 9805 13518 13545 13565 13586 13609 13619 13637 13657 13687 13702 13707 13742 13756 
+	}
+	history={
+	victory_points = {
+		13565 5 }	
+	victory_points = {
+		6079 3 }	
+	owner = BUL
+	add_core_of = BUL
+	}	
+	state_category=pastoral
+	manpower =2262024
+	buildings_max_level_factor=1.000
+	}
+}

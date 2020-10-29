@@ -1,0 +1,14 @@
+state={
+	id=608
+	name="STATE_608"
+	provinces={
+		164 213 251 1046 1383 1506 2423 3559 5537 6346 6440 7192 7744 8762 9551 10259 10724 16313 16361 16387 16467 16515 
+	}
+	manpower=7990000
+	buildings_max_level_factor=1.000
+		history={	
+	
+	owner = NRC
+	add_core_of = NRC
+	}
+}

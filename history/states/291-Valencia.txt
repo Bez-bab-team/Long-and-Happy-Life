@@ -1,0 +1,15 @@
+state={
+	id=291
+	name="STATE_291"
+	provinces={
+		3036 3737 3882 4883 5487 5514 5593 7925 8084 8509 11697 11725 11728 11737 11750 11757 11766 11771 11772 11778 11796 11810 11824 11833 
+	}
+	manpower=4935010
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CAT
+		
+		add_core_of = CAT
+	}	
+}

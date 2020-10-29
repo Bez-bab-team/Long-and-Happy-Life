@@ -1,0 +1,23 @@
+focus_tree = {
+	id = diplomat
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1500 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 2
+			tag = RGD
+		}
+	}
+
+	focus = {
+		id = RGD_diplomat
+		icon = GFX_RGD
+		cost = 10
+		x = 9
+		y = 0
+	}
+}

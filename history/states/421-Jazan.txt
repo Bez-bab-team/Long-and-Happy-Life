@@ -1,0 +1,14 @@
+state={
+	id=421
+	name="STATE_421"
+	provinces={
+		3208 5762 7956 16253 16273 16306 16321 16322 16328 16339 16370 
+	}
+	manpower=1872753
+	buildings_max_level_factor=1.000
+	history={
+		owner = HAR
+		
+		add_core_of = HAR
+	}	
+}

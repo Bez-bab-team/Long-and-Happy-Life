@@ -1,0 +1,19 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		12108 12112 
+	}
+	manpower=136240
+	buildings_max_level_factor=1.000
+	history={
+		owner = LEN
+		
+		add_core_of = LEN
+
+		victory_points={
+			12108 10
+		}
+	}
+
+}

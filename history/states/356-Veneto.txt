@@ -1,0 +1,15 @@
+
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		5640 5945 6177 7568 8413 9266 10465 10609 10772 10908 12260 12264 12270 12273 12291 12292 12293 12300 12314 12318 12323 12328 12341 12345 
+	}
+	manpower=4905854
+	buildings_max_level_factor=1.000
+	history={
+		owner = PAD
+		
+		add_core_of = PAD
+	}	
+}

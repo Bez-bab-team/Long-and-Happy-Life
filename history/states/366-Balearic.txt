@@ -1,0 +1,17 @@
+state={
+	id=366
+	name="STATE_366"
+	provinces={
+		8548 11988 12000 12011 16867 16868 
+	}
+	history={
+	victory_points = {
+		8548 2 }	
+	
+	owner = CAT
+	add_core_of = CAT
+	}	
+	state_category=pastoral
+	manpower =1225035
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,30 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		1675 3519 3617 3913 4755 5600 6228 6918 8570 8652 10866 13502 13547 13557 13567 13578 13579 13581 13601 13606 13615 13633 13634 13650 13665 13703 13709 
+	}
+	manpower=3360386
+	buildings_max_level_factor=1.000
+	history={
+		owner = NRS
+		
+		add_core_of = NRS
+
+		victory_points = {
+			13606 42
+		}
+		victory_points = {
+			5600 37
+		}
+		victory_points = {
+			13579 23
+		}
+		victory_points = {
+			13633 15
+		}
+		victory_points = {
+			13655 15
+		}
+	}
+}

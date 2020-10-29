@@ -1,0 +1,28 @@
+state={
+	id=237
+	name="STATE_237"
+	provinces={
+		264 4296 7875 9741 12128 12142 12151 12177 12200 12222 
+	}
+	manpower=2082944
+	buildings_max_level_factor=1.000
+	history={
+	owner = PDE
+	
+	add_core_of = PDE
+
+		victory_points={
+			12151 27
+		}
+		victory_points={
+			264 20
+		}
+		victory_points={
+			9741 15
+		}
+		victory_points={
+			12142 14
+		}
+	}
+	state_category = pastoral
+}

@@ -1,0 +1,27 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		719 1490 3117 4075 6663 7567 8524 12744 12752 12762 12763 12784 12788 12796 12805 12821 12822 12833 12857 
+	}
+	manpower=2706681
+	Resources={
+	oil=5
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = KHA
+		
+		add_core_of = KHA
+
+		victory_points = {
+			12788 38
+		}
+		victory_points = {
+			3117 12
+		}
+		victory_points = {
+			12784 11
+		}
+	}
+}

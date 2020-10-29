@@ -1,0 +1,14 @@
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		716 16268 
+	}
+	manpower=47279
+	buildings_max_level_factor=1.000
+	history={
+		owner = OMA
+		
+		add_core_of = OMA
+	}	
+}

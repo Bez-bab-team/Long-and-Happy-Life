@@ -1,0 +1,17 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		1552 8435 9628 12374 12424 12453 
+	}
+	manpower=1339102
+	Resources={
+	steel=1
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = CZE
+		
+		add_core_of = CZE
+	}
+}

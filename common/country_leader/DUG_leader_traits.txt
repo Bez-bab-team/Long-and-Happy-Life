@@ -1,0 +1,38 @@
+leader_traits = {
+
+	the_kings_two_bodies = {
+		random = no
+		stability_factor = 0.40 
+		political_power_factor = -0.5
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	maenad = {
+		random = no
+		enemy_partisan_effect = -0.05
+		army_morale_factor = 0.02
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	renaissance_man = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	black_monk = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

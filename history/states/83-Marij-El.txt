@@ -1,0 +1,22 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		461 1137 4693 6987 7401 7513 8457 10498 10548 13313 13328 13345 13389 
+	}
+	manpower=719804
+	buildings_max_level_factor=1.000
+			history={
+		owner = RWR
+		
+		add_core_of = RWR
+
+		victory_points={
+			13313 25
+		}
+		victory_points={
+			10548 4
+		}
+	}
+	state_category=large_town
+}

@@ -1,0 +1,25 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		272 4121 5603 5842 7031 9963 10478 14495 14496 14515 
+	}
+	manpower=1772102
+	Resources={
+	oil=4
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+
+		victory_points = {
+			272 25
+		}
+		victory_points = {
+			4121 10
+		}
+	state_category=large_city
+	
+}

@@ -1,0 +1,14 @@
+state={
+	id=317
+	name="STATE_317"
+	provinces={
+		6855 8981 10232 11454 11477 11489 11534 11551 
+	}
+	manpower=1001419
+	buildings_max_level_factor=1.000
+	history={
+		owner = DEN
+		
+		add_core_of = DEN
+	}
+}

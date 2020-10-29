@@ -1,0 +1,14 @@
+state={
+	id=635
+	name="STATE_635"
+	provinces={
+		573 718 838 1319 4221 4660 5191 6729 7514 7673 7980 8777 8793 8937 9181 15803 15850 15852 15905 
+	}
+	manpower=884700
+	buildings_max_level_factor=1.000
+	history={
+		owner = AFG
+		
+		add_core_of = AFG
+	}
+}

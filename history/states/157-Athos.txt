@@ -1,0 +1,17 @@
+state={
+	id=157
+	name="STATE_157"
+	provinces={
+		1965 
+	}
+	history={
+	victory_points = {
+		1965 2	}	
+	
+	owner = ATH
+	add_core_of = ATH
+	}	
+	state_category=pastoral
+	manpower =1811
+	buildings_max_level_factor=1.000
+}

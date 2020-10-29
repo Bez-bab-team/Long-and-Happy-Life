@@ -1,0 +1,29 @@
+
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		5099 6825 7294 7340 8238 8453 8501 8701 10091 10119 10311 13768 13770 13777 13784 13833 13842 13846 13860 13865 13883 13891 13893 13901 13907 13913 13914 13915 13918 13919 13926 13929 13933 13942 13963 13977 13978 13985 
+	}
+	manpower=1988506
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points={
+		13978 15
+		}
+
+		victory_points={
+		13915 15
+		}
+
+		victory_points={
+		8453 25
+		}
+	}
+	state_category = city	
+		
+}

@@ -1,0 +1,15 @@
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		2118 4843 5371 6718 6952 9897 11742 11759 11776 11777 11801 11815 
+	}
+	manpower=1478509
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CAT
+		
+		add_core_of = AND
+	}	
+}

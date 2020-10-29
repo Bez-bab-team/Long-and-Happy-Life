@@ -1,0 +1,14 @@
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		1204 4634 8687 12237 12249 
+	}
+	manpower=531586
+	buildings_max_level_factor=1.000
+	history={
+		owner = AUS
+		
+		add_core_of = AUS
+	}
+}

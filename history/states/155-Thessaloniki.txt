@@ -1,0 +1,18 @@
+
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		4985 6817 6944 7046 7497 8184 9530 9733 9824 10903 13400 13474 13515 13549 13587 13595 16887 16888 16889 13585 13612
+	}
+	history={
+	victory_points = {
+		9733 5	}	
+	
+	owner = GRE
+	add_core_of = GRE
+	}	
+	state_category=pastoral
+	manpower =1880058
+	buildings_max_level_factor=1.000
+}

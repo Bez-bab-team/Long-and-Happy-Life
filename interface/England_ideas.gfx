@@ -1,0 +1,40 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idea_salma_yaqoob"
+		texturefile = "gfx/interface/ideas/ENG/idea_salma_yaqoob.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_jeremy_corbyn"
+		texturefile = "gfx/interface/ideas/ENG/idea_jeremy_corbyn.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_roger_scruton"
+		texturefile = "gfx/interface/ideas/ENG/idea_roger_scruton.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_regency_councilmer"
+		texturefile = "gfx/interface/ideas/ENG/idea_regency_councilmer.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_nick_land"
+		texturefile = "gfx/interface/ideas/ENG/idea_nick_land.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_patrick_cormack"
+		texturefile = "gfx/interface/ideas/ENG/idea_patrick_cormack.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_reinhard_gunzel"
+		texturefile = "gfx/interface/ideas/ENG/idea_reinhard_gunzel.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_NTH_landsknecht_new"
+		texturefile = "gfx/interface/ideas/ENG/idea_NTH_landsknecht_new.dds"
+	}	
+		spriteType = {
+		name = "GFX_idea_ENG_dynastic_crisis"
+		texturefile = "gfx/interface/ideas/ENG/idea_ENG_dynastic_crisis.dds"
+	}	
+}
+

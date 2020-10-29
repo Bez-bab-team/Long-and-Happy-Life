@@ -1,0 +1,24 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		2100 2145 2451 2497 3952 5385 6325 6938 7493 7805 9115 9621 10459 10555 14736 
+	}
+	manpower=279578
+	Resources={
+	steel=10
+	tungsten=3
+	aluminium=20
+}
+	buildings_max_level_factor=1.000
+		history={
+		owner = TVA
+		
+		add_core_of = TVA
+
+		victory_points = {
+			2451 10
+		}
+	}
+	state_category=rural
+}

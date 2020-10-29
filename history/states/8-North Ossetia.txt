@@ -1,0 +1,22 @@
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		915 7705 8935 14439 14453 14455 14479 
+	}
+	manpower=60491
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+
+		victory_points = {
+			915 25
+		}
+		victory_points = {
+			14439 12
+		}
+	}
+		state_category=rural
+}

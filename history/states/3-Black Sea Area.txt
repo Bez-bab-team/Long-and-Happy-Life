@@ -1,0 +1,23 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		463 3340 7397 7408 7876 8035 8502 8532 9454 10058 10272 10445 10858 14039 14051 14059 14069 14083 14084 14104 14129 14155 14170 14178 14194 14236 14253 14255 14268 14277 14285 14298 
+	}
+	manpower=2001394
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		add_core_of = RGD
+		
+		victory_points={
+		14083 20
+		}
+
+		victory_points={
+		14268 31
+		}
+	}	
+	state_category=city
+	
+}

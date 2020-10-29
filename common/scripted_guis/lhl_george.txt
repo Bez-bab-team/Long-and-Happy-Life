@@ -1,0 +1,66 @@
+scripted_gui = {
+	lhl_table_upper_tab_button = {
+		context_type = player_context
+		parent_window_token = politics_tab 
+		window_name = "lhl_table_opening_screen_upper_button"
+		visible = {
+			tag = WES
+		}
+
+		effects = {
+			table_upper_tab_button_click = {
+				if = {
+					limit = { has_country_flag = lhl_table_opening_screen_open }
+					clr_country_flag = lhl_table_opening_screen_open
+				}
+				else = {
+					set_country_flag = lhl_table_opening_screen_open
+				}
+			}
+		}
+	}
+	
+	lhl_table_opening_screen_body = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "lhl_table_opening_screen_full"
+
+		visible = {
+			has_country_flag = lhl_table_opening_screen_open
+			tag = WES
+		}
+		
+		triggers = {
+            lhl_slot_1_george_alive_visible = {
+               check_variable = {
+                    var = george_slot_1
+                    value = 1				
+                }
+		    }
+            lhl_slot_1_george_dead_visible = {
+               check_variable = {
+                    var = george_slot_1
+                    value = 2		
+               }	
+            }
+            lhl_slot_12_visible = {
+               check_variable = {
+                    var = slot_12
+                    value = 1				
+                }
+		    }
+            lhl_slot_12_traitor_visible = {
+               check_variable = {
+                    var = slot_12
+                    value = 2		
+               }	
+            }				
+        }
+
+		effects = {
+			lhl_table_opening_screen_escape_click = {
+				clr_country_flag = lhl_table_opening_screen_open
+			}
+		}	
+	}
+}

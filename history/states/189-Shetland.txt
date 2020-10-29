@@ -1,0 +1,17 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		16814  
+	}
+	history={
+	victory_points = {
+		16814 2 }	
+	
+	owner = DEN
+	add_core_of = DEN
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

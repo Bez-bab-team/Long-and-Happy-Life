@@ -1,0 +1,17 @@
+state={
+	id=455
+	name="STATE_455"
+	provinces={
+		3829 4145 4879 6426 9658 9959 14981 15050 
+	}
+	manpower=2483530
+	Resources={
+	oil=50
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = SYR
+		
+		add_core_of = SYR
+	}	
+}

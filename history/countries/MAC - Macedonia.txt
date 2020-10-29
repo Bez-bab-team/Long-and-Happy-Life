@@ -1,0 +1,40 @@
+capital = 141
+
+oob = "MAC_2020"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+
+	MAC_antiquization
+}
+
+set_convoys = 50
+
+
+set_politics = {
+	ruling_party = regressionism
+	elections_allowed = no
+}
+
+set_popularities = {
+	regressionism  = 100
+}
+
+create_country_leader = {
+	name = "Nikola Gruevski"
+	picture = "Portrait_MAC_Nikola_Gruevski.dds"
+	ideology = neo_feudalism
+	traits = { 
+	}
+}

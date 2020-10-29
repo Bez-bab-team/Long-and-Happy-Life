@@ -1,0 +1,25 @@
+
+state={
+	id=352
+	name="STATE_352"
+
+	history={
+		owner = PAD
+		add_core_of = PAD
+
+		victory_points={
+			1606 25
+		}
+
+		victory_points={
+			2740 15
+		}
+
+	}
+
+	provinces={
+		1606 2396 2740 5296 6966 6980 8200 8490 9084 9763 9973 10220 10427 10643 10647 10766 12338 
+	}
+	manpower=3729641
+	buildings_max_level_factor=1.000
+}

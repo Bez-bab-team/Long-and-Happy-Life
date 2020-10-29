@@ -1,6 +1,6 @@
-﻿capital = 651
+﻿capital = 76
 
-oob = "BSK_2019"
+oob = "BSK_2020"
 
 set_research_slots = 3
 
@@ -14,20 +14,20 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = right_populism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	right_populism = 100
 }
 
 create_country_leader = {
 	name = "Radij Khabirov"
 	desc = "POLITICS_KHABIROV_DESC"
 	picture = "Portrait_BSK_KHABIROV.dds"
-	ideology = authoritarian_technocracy 
+	ideology = social_conservatism 
 	traits = {
 		moderate_technocrat
 	}

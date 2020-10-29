@@ -1,0 +1,15 @@
+
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		4463 6229 7750 9375 9659 14948 14960 14982 14994 18759 
+	}
+	manpower=3329180
+	buildings_max_level_factor=1.000
+	history={
+		owner = ISR
+		
+		add_core_of = ISR
+	}
+}

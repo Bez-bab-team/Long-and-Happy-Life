@@ -1,0 +1,19 @@
+
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		7557 10774 
+	}
+	manpower=300062
+	buildings_max_level_factor=1.000
+		history={
+		owner = FRG
+		
+		add_core_of = FRG
+
+		victory_points = {
+			10774 25
+		}
+	}
+}

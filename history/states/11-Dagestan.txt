@@ -1,0 +1,27 @@
+state={
+	id=11
+	name="STATE_11"
+	provinces={
+		1205 3066 4057 4585 4945 5292 6558 6835 8058 8243 8731 8761 9059 10069 10099 10270 14503 14536 14549 14593 14598 14606 14609 14622 14632 14662 14674 14679 14694 14702 14706 14724 14728 14751 14770 
+	}
+	manpower=3266921
+	Resources={
+	oil=20
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		add_core_of = RGD
+
+		victory_points = {
+			14593 30
+		}
+		victory_points = {
+			3066 15
+		}
+		victory_points = {
+			14702 14
+		}
+	}
+	state_category=city
+}

@@ -1,0 +1,132 @@
+equipments = {
+
+	support_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_support_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+
+	support_equipment_1 = {
+		year = 1918
+
+		archetype = support_equipment
+		priority = 20	
+	}
+	transport_helicopters_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_transport_helicopters_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	transport_helicopters_equipment_1 = {
+		year = 1918
+
+		archetype = transport_helicopters_equipment
+		priority = 20	
+	}	
+
+	uav_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_uav_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	uav_equipment_1 = {
+		year = 1918
+
+		archetype = uav_equipment
+		priority = 20	
+	}
+	assault_helicopters_equipment = {
+		year = 1918
+
+		is_archetype = yes
+		picture = archetype_assault_helicopters_equipment
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+
+		#Space taken in convoy
+		lend_lease_cost = 1
+
+		build_cost_ic = 4
+		resources = {
+			aluminium = 1
+			steel = 2
+		}
+	}
+	
+	assault_helicopters_equipment_1 = {
+		year = 1918
+
+		archetype = assault_helicopters_equipment
+		priority = 20	
+	}	
+}

@@ -1,0 +1,14 @@
+state={
+	id=293
+	name="STATE_293"
+	provinces={
+		2988 10132 11434 11439 11516 11525 
+	}
+	manpower=647554
+	buildings_max_level_factor=1.000
+	history={
+		owner = CAT
+		
+		add_core_of = NAV
+	}	
+}

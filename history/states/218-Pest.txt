@@ -1,0 +1,14 @@
+state={
+	id=218
+	name="STATE_218"
+	provinces={
+		5238 9640 9832 12673 
+	}
+	manpower=2971246
+	buildings_max_level_factor=1.000
+	history={
+		owner = HUN
+		
+		add_core_of = HUN
+	}
+}

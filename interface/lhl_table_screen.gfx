@@ -1,0 +1,37 @@
+spriteTypes = {
+
+	# Backgrounds
+	spriteType = {
+		name = "GFX_lhl_table_opening_screen"
+		textureFile = "gfx/interface/knights_table/knights_table.dds"
+	}
+	
+	# Buttons
+	spriteType = {
+		name = "GFX_lhl_table_opening_button"
+		textureFile = "gfx/interface/knights_table/knights_close_button.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_lhl_table_upper_tab_button"
+		textureFile = "gfx/interface/knights_table/button.dds"
+	}
+
+	# Posters
+	spriteType = {
+		name = "GFX_lhl_table_opening_picture_default"
+		textureFile = "gfx/interface/knights_table/no_knight.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_george_knight"
+		textureFile = "gfx/interface/knights_table/georgevii.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_henry_knight"
+		textureFile = "gfx/interface/knights_table/henrywindsor.dds"
+	}
+	spriteType = {
+		name = "GFX_lhl_george_knight_dead"
+		textureFile = "gfx/interface/knights_table/george_dead.dds"
+	}
+}

@@ -1,0 +1,29 @@
+state={
+	id=177
+	name="STATE_177"
+	provinces={
+		7151 9643 10710 11053 11075 12256 8738
+	}
+	
+	history={
+		owner = MRC
+		add_core_of = MRC
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9643 5
+		}
+		victory_points = {
+			11053 10
+		}
+		victory_points = {
+			10710 3
+		}
+	}
+	
+	manpower=3801302
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		1491 1493 4202 5271 6238 7578 7912 9144 10258 10830 13570 13589 13616 13617 13645 13674 13683 13711 
+	}
+	manpower=1438734
+	buildings_max_level_factor=1.000
+		history={
+		owner = RST
+		
+		add_core_of = RST
+
+		victory_points = {
+			7578 35
+		}
+		victory_points = {
+			13711 20
+		}
+	}
+	state_category = city
+}

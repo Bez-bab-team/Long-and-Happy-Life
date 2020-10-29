@@ -1,0 +1,19 @@
+
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		1227 1334 10231 13110 13141 
+	}
+	manpower=790369
+	buildings_max_level_factor=1.000
+			history={
+		owner = ROM
+		
+		add_core_of = ROM
+
+		victory_points={
+			1227 15
+		}
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=652
+	name="STATE_652"
+	provinces={
+		3203 3354 3634 4176 4750 5125 7593 10090 10279 10914 16348 16377 16394 16447 16449 
+	}
+	manpower=25353081
+	buildings_max_level_factor=1.000
+	history={
+		owner = IND
+		
+		add_core_of = IND
+	}
+}

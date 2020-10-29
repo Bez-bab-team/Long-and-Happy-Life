@@ -1,0 +1,21 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		1082 8669 9210 9841 10144 10530 13275 13276 13278 13297 13300 13318 
+	}
+	manpower=1330196
+	buildings_max_level_factor=1.000
+	history={
+		owner = KHA
+		
+		add_core_of = KHA
+
+		victory_points = {
+			13318 24
+		}
+		victory_points = {
+			13300 15
+		}
+	}
+}

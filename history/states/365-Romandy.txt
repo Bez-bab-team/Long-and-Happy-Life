@@ -1,0 +1,19 @@
+state={
+	id=365
+	name="STATE_365"
+	provinces={
+		1599 7809 10773 10824 11892 11946 11966 18732 
+	}
+	manpower=1489321
+	buildings_max_level_factor=1.000
+	history={
+		owner = SWI	
+		add_core_of = SWI
+	victory_points = {
+		1599 2 }	
+	
+	owner = SWI
+	add_core_of = SWI
+	}	
+	state_category = pastoral
+}

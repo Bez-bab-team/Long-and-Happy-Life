@@ -1,7 +1,11 @@
-﻿capital = 249
-oob = "TAT_2019"
-set_research_slots = 3
+﻿capital = 680
 
+create_faction = Idelural
+add_to_faction = CHS
+add_to_faction = BSK
+
+oob = "TAT_2020"
+set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -20,7 +24,7 @@ create_country_leader = {
 	name = "Mintimer Shaimiev"
 	desc = "POLITICS_SHAMIEV_DESC"
 	picture = "Portrait_TAT_SHAMIEV.dds"
-	ideology = left_wing_nationalism 
+	ideology = paternalism 
 	traits = {
 		old_boar
 	}

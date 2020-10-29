@@ -1,0 +1,14 @@
+state={
+	id=508
+	name="STATE_508"
+	provinces={
+		2788 5198 5588 6212 8032 8068 8397 9561 10205 15584 15601 15610 15624 15679 15702 
+	}
+	manpower=3123102
+	buildings_max_level_factor=1.000
+history={
+		owner = KAZ
+		
+		add_core_of = KAZ
+	}
+}

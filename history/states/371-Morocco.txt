@@ -1,0 +1,14 @@
+state={
+	id=371
+	name="STATE_371"
+	provinces={
+		135 241 2182 2224 3454 3655 4155 5823 6119 6445 6626 7350 8236 8700 8996 9167 9677 10588 11563 11617 11689 11886 
+	}
+	manpower=31237956
+	buildings_max_level_factor=1.000
+	history={
+		owner = UAS
+		
+		add_core_of = UAS
+	}
+}

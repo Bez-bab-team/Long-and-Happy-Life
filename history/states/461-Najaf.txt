@@ -1,0 +1,14 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		305 2701 2791 2838 4188 4377 5323 6265 6572 6796 8506 9113 9736 9957 15575 15619 15676 15761 
+	}
+	manpower=823039
+	buildings_max_level_factor=1.000
+	history={
+		owner = IRQ
+		
+		add_core_of = IRQ
+	}	
+}

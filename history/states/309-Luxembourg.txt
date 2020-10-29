@@ -1,0 +1,14 @@
+state={
+	id=309
+	name="STATE_309"
+	provinces={
+		11640 11674 11693 
+	}
+	manpower=628103
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUX
+		
+		add_core_of = LUX
+	}	
+}

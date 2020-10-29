@@ -1,0 +1,39 @@
+﻿l_english:
+ ###Tags###
+SUS_left_authoritarianism:0 "Absolutists"
+SUS_left_authoritarianism_DEF:0 "British Provisional Government"
+ESS_neocameralism:0 "Nationalists"
+ESS_neocameralism_DEF:0 "State of Great Britain"
+KNT_right_populism:0 "Jacobites"
+KNT_right_populism_DEF:0 "Kingdom of Great Britain"
+EAG_hegemonism:0 "Interventionists"
+EAG_hegemonism_DEF:0 "East Anglia Intervention"
+MRC_ur_fascism:0 "Folcists"
+MRC_ur_fascism_DEF:0 "Black Army of Britain"
+NTH_national_bolshevism:0 "Republicans"
+NTH_national_bolshevism_DEF:0 "Republic of England"
+
+###Ideas###
+salma_yaqoob:0 "Salma Yaqoob"
+jeremy_corbyn:0 "Jeremy Corbyn"
+roger_scruton:0 "Roger Scruton"
+regency_councilmer:0 "Regency Council"
+nick_land:0 "Nick Land"
+patrick_cormack:0 "Patrick Cormack"
+reinhard_gunzel:0 "Reinhard Günzel"
+
+###event###
+albionflw.1.t:0 "Play on Words"
+albionflw.1.d:0 "The government of George Galloway  announced a series of new reforms aimed at further transformation of Allbion on the path of Progress and Development. A new object of attention of the Republicans became the “inefficient and outdated” Latin alphabet, which is going to be replaced with a “clearly superior” Cyrillic Alphabet, mainly used in Eastern European countries and former Eurasia. The transition was announced to the public in a speech by Galloway in which he orated about the downsides of the Latin alphabet such as it being a mark of Germanic occupation of English people, its poor ability to express emotions and the low count of letters, which are incapable of delivering many sounds the English language possesses. Galloway also talked about the deep connection inhabitants of British Isles have to Saints Cyril and Methodius, the founders of the Cyrillic alphabet.\n\nRivals of the Republicans did not miss the chance to once again blame their Vozhd for being traitor to the English folk and even called him a “Russian mongrel”.\n\nAt this moment, it is impossible to tell if such a drastic decision would have any success on the British soil. One can be said for sure though. If George Galloway is to gain control of the former Great Britain, the nation's language would never be the same again."
+albionflw.1.a:0 "Грейт Џоб!"
+
+RWR_infantry_equipment_0:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_0_short:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_1:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_1_short:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_2:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_2_short:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_3:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_3_short:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_4:0 "Lobanov's Modified Rifle"
+RWR_infantry_equipment_4_short:0 "Lobanov's Rifle"

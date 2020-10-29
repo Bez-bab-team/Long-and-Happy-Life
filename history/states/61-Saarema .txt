@@ -1,0 +1,18 @@
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		8423 
+	}
+	manpower=33108
+	buildings_max_level_factor=1.000
+	history={
+		owner = TRG
+		
+		add_core_of = TRG
+
+		victory_points={
+			8423 4
+		}
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		8078 10913 12441 12460 12464 12482 12499 12523 12525 12565 12568 12590 12593 12603 12610 
+	}
+	history={
+	victory_points = {
+		8078 2 }	
+	
+	owner = PSP
+	add_core_of = PSP
+	}	
+	state_category=pastoral
+	manpower = 2000
+	buildings_max_level_factor=1.000
+}

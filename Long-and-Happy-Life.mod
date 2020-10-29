@@ -31,8 +31,10 @@ replace_path="history"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/units"
+replace_path="map/strategicregions"
+replace_path="map/supplyareas"
 tags={
 	"Ideologies"
 	"Alternative History"
 }
-supported_version="1.9.*"
+supported_version="1.10.*"

@@ -1,0 +1,21 @@
+state={
+	id=438
+	name="STATE_438"
+	provinces={
+		3013 14486 14535 
+	}
+	manpower=53532
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+
+		victory_points = {
+			3013 5
+		}
+		victory_points = {
+			14535 2
+		}
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		480 513 559 5717 5865 6003 6553 6637 6930 7008 7614 8341 8711 8929 9225 10145 10571 10697 12361 12363 12420 12564 12570 12592 18740 
+	}
+	manpower=715408
+	buildings_max_level_factor=1.000
+	history={
+		owner = RNE
+		add_core_of = RNE
+
+		victory_points={
+			6003 20
+		}
+		victory_points={
+			10697 10
+		}
+		victory_points={
+			9225 5
+		}
+		victory_points={
+			6930 5
+		}
+		add_core_of = RNE
+	}
+	state_category=city
+}

@@ -1,0 +1,18 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		2626 10517 12301 12336 12375 12393 
+	}
+	manpower=990069
+	buildings_max_level_factor=1.000
+	history={
+		owner = PDE
+		
+		add_core_of = PDE
+
+		victory_points={
+			12336 16
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		1645 1650 2431 2496 6156 7075 9519 13388 13397 13398 13425 13433 
+	}
+	manpower=1512671
+	buildings_max_level_factor=1.000
+		history={
+		owner = CHS
+		add_core_of = CHS
+
+		victory_points={
+			1645 37
+		}
+		victory_points={
+			2431 10
+		}
+	}
+	state_category=city
+}

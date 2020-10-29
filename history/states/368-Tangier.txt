@@ -1,0 +1,14 @@
+state={
+	id=368
+	name="STATE_368"
+	provinces={
+		8434 
+	}
+	manpower=1125572
+	buildings_max_level_factor=1.000
+	history={
+		owner = UAS
+		
+		add_core_of = UAS
+	}
+}

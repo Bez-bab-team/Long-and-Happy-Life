@@ -1,0 +1,8 @@
+
+soundeffect = {
+	name = "absolutistsev_vic"
+	sounds = {
+		sound = "absolutists_vic"
+	}
+	volume = 1
+}

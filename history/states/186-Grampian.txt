@@ -1,0 +1,17 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		1508 9122 9403 10992 10995 
+	}
+	history={
+	victory_points = {
+		1508 2 }	
+	
+	owner = SCO
+	add_core_of = SCO
+	}	
+	state_category=pastoral
+	manpower = 554967
+	buildings_max_level_factor=1.000
+}

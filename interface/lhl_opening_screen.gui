@@ -1,0 +1,101 @@
+guiTypes = {
+	containerWindowType = {
+		name = "lhl_opening_screen_upper_button"
+		position = { x = 980 y = -1 }
+		size = { width = 100% height = 100% }
+
+		buttonType = {
+			name = "upper_tab_button"
+			position = { x = 0  y = -1 }
+			quadTextureSprite = "GFX_lhl_upper_tab_button"
+			Orientation = "UPPER_LEFT"
+			scale = 1.0
+		}
+	}
+
+	containerWindowType = {
+		name = "lhl_opening_screen_full"
+		size = { width = 1108 height = 720 }
+		position = { x = 155 y = 155 }
+		moveable = yes
+		
+		background = {
+			name = "lhl_opening_screen_background_1"
+			spriteType = "GFX_tiled_window_transparent"
+		}
+
+        buttonType = {
+			name = "lhl_opening_screen_country"
+			position = { x = 890 y = 425 }
+			quadTextureSprite = "GFX_lhl_opening_button"
+			buttonFont = "hoi_24header"
+			text = "Country"
+		}
+			
+		buttonType = {
+			name = "lhl_opening_screen_region"
+			position = { x = 890 y = 460 }
+			quadTextureSprite = "GFX_lhl_opening_button"
+			buttonFont = "hoi_24header"
+			text = "Region"
+		}
+			
+		buttonType = {
+			name = "lhl_opening_screen_updates"
+			position = { x = 890 y = 495 }
+			quadTextureSprite = "GFX_lhl_opening_button"
+			buttonFont = "hoi_24header"
+			text = "Updates"
+		}
+		
+		buttonType = {
+			name = "lhl_opening_screen_mod_info"
+			position = { x = 890 y = 530 }
+			quadTextureSprite = "GFX_lhl_opening_button"
+			buttonFont = "hoi_24header"
+			text = "Mod Info"
+		}
+			
+		buttonType = {
+			name = "lhl_opening_screen_escape"
+			position = { x = 890 y = 565 }
+			quadTextureSprite = "GFX_lhl_opening_button"
+			buttonFont = "hoi_24header"
+			text = "Exit"
+		}
+			
+		iconType = {
+			name = "lhl_opening_screen_picture"
+			position = { x = 846 y = 59 }
+		}
+		
+		iconType = {
+			name = "lhl_opening_screen_background"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_lhl_opening_screen"
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "lhl_opening_screen_text"
+			position = { x = 55 y = 170 }
+			font = "aldrich_24_outline"
+			text = "lhl_opening_screen_text"
+			maxWidth = 750
+			maxHeight = 480
+			alwaystransparent = yes
+			scrollbarType = standardtext_slider
+		}
+		
+		instantTextboxType = {
+			name = "lhl_opening_screen_title"
+			position = { x = -700 y = 91 }
+			font = "hoi_24header"
+			text = "Welcome To Long And Happy Life!"
+			Orientation = center_up
+			format = center
+			maxWidth = 1150
+			maxHeight = 30
+		}
+	}
+}

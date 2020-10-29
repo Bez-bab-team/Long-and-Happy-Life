@@ -1,0 +1,14 @@
+state={
+	id=597
+	name="STATE_597"
+	provinces={
+		1623 2028 3554 3555 6188 15722 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={	
+	
+	owner = WRC
+	add_core_of = WRC
+	}
+}

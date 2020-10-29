@@ -1,0 +1,16 @@
+
+state={
+	id=675
+	name="STATE_675"
+	provinces={
+		33 1563 2538 2913 3797 3840 4012 4068 4089 5518 5824 6024 6498 6798 8291 8712 9392 9830 11060 11100 11112 11143 11146 11169 11175 11183 11214 11242 11303 16853 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = VOL
+		add_core_of = VOL
+	}
+	state_category = wasteland
+}

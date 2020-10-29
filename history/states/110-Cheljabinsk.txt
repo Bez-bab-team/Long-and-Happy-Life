@@ -1,0 +1,40 @@
+state={
+	id=110
+	name="STATE_110"
+	provinces={
+		1012 1100 1375 1913 1947 2635 2668 3011 4828 5429 5443 6799 7072 7126 7194 7346 8028 9212 9366 9580 10112 10752 13869 13888 13889 13894 13909 13921 13930 13948 13957 13979 13992 14020 14049 14072 14160 
+	}
+	manpower=3674978
+	resources={
+	steel=120
+	aluminium=30
+}
+	buildings_max_level_factor=1.000
+		history={
+		owner = RNG
+		add_core_of = RNG
+
+		victory_points = {
+			13948 50
+		}
+		victory_points = {
+			7194 45
+		}
+		victory_points = {
+			13894 25
+		}
+		victory_points = {
+			9366 25
+		}
+		victory_points = {
+			13992 20
+		}
+		victory_points = {
+			3889 15
+		}
+		victory_points = {
+			14072 20
+		}
+	}
+	state_category=city
+}

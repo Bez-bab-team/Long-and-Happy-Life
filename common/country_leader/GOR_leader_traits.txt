@@ -1,0 +1,201 @@
+leader_traits = {
+
+	
+	dark_prince = {
+		random = no
+		political_power_gain = 0.15
+		foreign_subversive_activites = -0.20
+		stability_factor = -0.05
+		non_core_manpower = 0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Bone_breaker = {
+		random = no
+			army_leader_start_attack_level = 1
+		training_time_army_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Scientist_showman = {
+		random = no
+		research_speed_factor = 0.05
+		foreign_subversive_activites = -0.15
+		opinion_gain_monthly_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	young_vozhd = {
+		random = no
+		stability_factor = 0.05
+		political_power_gain = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	tundra = {
+		random = no
+		production_speed_infrastructure_factor = 0.2
+		stability_factor = -0.10
+		local_resources_factor = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anarchist_economist = {
+		random = no
+		economy_cost_factor = 0.25
+			production_factory_max_efficiency_factor = 0.1
+			line_change_production_efficiency_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	truth_telleritsa = {
+		random = no
+		drift_defence_factor = 0.20
+		decryption_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strong_juist = {
+		random = no
+		political_power_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	orthodox_anarchist = {
+		random = no
+		army_org_factor = -0.05
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Kipelych = {
+		random = yes
+		sprite = 13
+		opinion_gain_monthly_factor = 0.15
+		encryption_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Former_Architect = {
+		random = no
+		production_speed_industrial_complex_factor = 0.2
+		production_speed_infrastructure_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	Radical_feminist = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.025
+		MONTHLY_POPULATION = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Revolt_gen = {
+		random = no
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1		
+		experience_gain_army = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	anarchist_theorist = {
+		random = no
+		political_power_factor = 0.05
+		opinion_gain_monthly_same_ideology_factor = 0.5
+		Planning_speed = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Submarine_sailor = {
+		random = no
+		navy_submarine_attack_factor = 0.2
+		navy_submarine_defence_factor = 0.2
+		spotting_chance = 0.1
+		convoy_raiding_efficiency_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Bombardier = {
+		random = no
+		air_strategic_bomber_attack_factor = 0.01
+		air_strategic_bomber_defence_factor = 0.01
+		air_strategic_bomber_agility_factor = 0.01
+		air_strategic_bomber_bombing_factor = 0.03
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Starshina = {
+		random = no
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+			planning_speed = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Electric_partisan = {
+		random = no
+			army_org_factor = 0.05
+			army_artillery_defence_factor = 0.05
+			army_artillery_attack_factor = 0.15
+			planning_speed = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Socrates = {
+		random = no
+		training_time_army_factor = -0.1
+			partisan_effect = 0.1
+				enemy_partisan_effect = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	battle_bard = {
+		random = no
+		army_org_factor = 0.05
+		army_org = 5
+		army_speed_factor = 0.05
+		army_attack_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+}

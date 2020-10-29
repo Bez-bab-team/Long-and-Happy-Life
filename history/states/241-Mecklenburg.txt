@@ -1,0 +1,14 @@
+state={
+	id=241
+	name="STATE_241"
+	provinces={
+		938 1719 2088 3055 3142 5275 7693 8801 9918 10357 10456 11794 11808 11858 
+	}
+	manpower=1712906
+	buildings_max_level_factor=1.000
+	history={
+		owner = GER
+		
+		add_core_of = GER
+	}
+}

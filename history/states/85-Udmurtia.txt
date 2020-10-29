@@ -1,0 +1,31 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		2550 2945 4037 4780 5331 5370 5551 5981 7732 8714 13282 13353 13405 13454 13482 13507 13508 13552 
+	}
+	manpower=1666116
+	buildings_max_level_factor=1.000
+			history={
+		owner = RWR
+		
+		add_core_of = RWR
+
+		victory_points={
+			5331 37
+		}
+		victory_points={
+			5551 15
+		}
+		victory_points={
+			13282 15
+		}
+		victory_points={
+			4780 10
+		}
+		victory_points={
+			13552 15
+		}
+	}
+	state_category=city
+}

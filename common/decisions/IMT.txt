@@ -1,0 +1,75 @@
+IMT_love_letters = {
+    IMT_Dugin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Eugenius = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Land = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Goblin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Medvedev = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Putin = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Natalia = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Uncle = {
+		cost = 10
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Unabomber = {
+		cost = 50
+		days_remove = 30
+        complete_effect = { }
+	}
+    IMT_Mavrodi = {
+		cost = 100
+		days_remove = 30
+        complete_effect = { }
+	}
+}
+
+IMT_ai_mechanic = {
+    IMT_specialists = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = IMT_ai_condition
+                value = 10
+			}
+		}
+	}
+    IMT_turing_test = {
+	    cost = 10
+		days_remove = 30
+		complete_effect = {
+            add_to_variable = {
+                var = IMT_ai_brain
+                value = 20
+			}
+		}
+	}
+}		    

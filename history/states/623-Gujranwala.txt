@@ -1,0 +1,14 @@
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		491 1054 1558 2103 2354 2879 4481 4912 6222 6321 7218 7373 7592 7822 8098 9330 16061 16138 16160 16220 16262 
+	}
+	manpower=3400940
+	buildings_max_level_factor=1.000
+	history={
+		owner = IND
+		
+		add_core_of = IND
+	}
+}

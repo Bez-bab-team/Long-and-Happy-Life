@@ -1,0 +1,25 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		8811 10013 12157 
+	}
+	manpower=3990814
+	buildings_max_level_factor=1.000
+	history={
+		owner = NSU
+		add_core_of = NSU
+
+		victory_points={
+			8811 50
+		}
+		victory_points={
+			12157 10
+		}
+		victory_points={
+			10013 10
+		}
+	}
+
+	state_category=metropolis	
+}

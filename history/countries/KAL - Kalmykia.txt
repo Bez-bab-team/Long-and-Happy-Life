@@ -1,6 +1,6 @@
 ﻿capital = 237
 
-oob = "KAL_2019"
+oob = "KAL_2020"
 
 set_research_slots = 3
 
@@ -29,7 +29,7 @@ create_country_leader = {
 	desc = "POLITICS_RINPOCHE_DESC"
 	picture = "Portrait_KAL_Rinpoche.dds"
 	expire = "1953.3.1"
-	ideology = clerical_fascism 
+	ideology = charismatic_dictatorship 
 	traits = {
 		
 	}

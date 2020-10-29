@@ -1,0 +1,17 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		1393 1903 2117 2120 5439 5602 6055 6347 6934 7202 9360 9472 14795 14811 14814 14837 14842 14870 14892 14899 14900 14913 
+	}
+	manpower=2794118
+	Resources={
+	oil=10
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = SKD
+		
+		add_core_of = SKD
+	}	
+}

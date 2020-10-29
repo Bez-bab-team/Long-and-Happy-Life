@@ -1,0 +1,17 @@
+IMT_love_letters = {
+
+	icon = GFX_decision_IMT_love_letters_2
+	picture = GFX_decision_IMT_love_letters
+
+	visible = { is_puppet = no }
+	allowed = { original_tag =  }
+}
+
+IMT_ai_mechanic = {
+
+	icon = GFX_
+	picture = GFX_decision_IMT_ai_mechanic
+
+	visible = { is_puppet = no }
+	allowed = { original_tag = IMT }
+}

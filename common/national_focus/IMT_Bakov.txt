@@ -1,0 +1,43 @@
+focus_tree = {
+	id = IMT_Original
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+    shared_focus = IMT_1_beacon
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = IMT
+		}
+	}
+}
+
+focus_tree = {
+	id = IMT_ai
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = IMT_1_rule_tsarina
+	shared_focus = IMT_1_melancholy_anastasia
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = IMT
+		}
+	}
+}
+
+focus_tree = {
+	id = IMT_nikolai
+	default = no
+	continuous_focus_position = { x = 20 y = 4000 }
+	shared_focus = IMT_1_tsars_reign
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = IMT
+		}
+	}
+}
+

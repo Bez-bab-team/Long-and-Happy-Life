@@ -1,0 +1,51 @@
+﻿###########################
+# Albion events
+###########################
+
+add_namespace = albion
+
+country_event = {
+	id = albion.1
+	title = albion.1.t
+	desc = albion.1.d
+	
+	immediate = {
+		
+	}
+	trigger = {
+	}
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = albion.1.a
+		ai_chance = {
+			base = 100
+		}
+		set_province_name = { id = 9280		name = VICTORY_POINTS_9280_NTH  }
+		set_province_name = { id = 7883		name = VICTORY_POINTS_7883_NTH  }
+		set_province_name = { id = 8326		name = VICTORY_POINTS_8326_NTH  }
+		set_province_name = { id = 11180	name = VICTORY_POINTS_11180_NTH }
+		set_province_name = { id = 9127		name = VICTORY_POINTS_9127_NTH  }
+		set_province_name = { id = 9424		name = VICTORY_POINTS_9424_NTH  }
+		set_province_name = { id = 9910		name = VICTORY_POINTS_9910_NTH  }
+		set_province_name = { id = 11077	name = VICTORY_POINTS_11077_NTH }
+		set_province_name = { id = 11141	name = VICTORY_POINTS_11141_NTH }
+		set_province_name = { id = 11154	name = VICTORY_POINTS_11154_NTH }
+		set_province_name = { id = 11135	name = VICTORY_POINTS_11135_NTH }
+		set_province_name = { id = 11056	name = VICTORY_POINTS_11056_NTH }
+		set_province_name = { id = 11053	name = VICTORY_POINTS_11053_NTH }
+		set_province_name = { id = 8401		name = VICTORY_POINTS_8401_NTH  }
+		set_province_name = { id = 5427		name = VICTORY_POINTS_5427_NTH  }
+		set_province_name = { id = 4991		name = VICTORY_POINTS_4991_NTH  }
+		set_province_name = { id = 11207	name = VICTORY_POINTS_11207_NTH }
+		set_province_name = { id = 8898		name = VICTORY_POINTS_8898_NTH  }
+		set_province_name = { id = 11157	name = VICTORY_POINTS_11157_NTH }
+		set_province_name = { id = 11116	name = VICTORY_POINTS_11116_NTH }
+		set_province_name = { id = 10710	name = VICTORY_POINTS_10710_NTH }
+		set_province_name = { id = 11015	name = VICTORY_POINTS_11015_NTH }
+		set_province_name = { id = 10855	name = VICTORY_POINTS_10855_NTH }
+		set_province_name = { id = 7620		name = VICTORY_POINTS_7620_NTH  }
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		5179 7917 13289 13310 13337 
+	}
+	history={
+	victory_points = {
+		13337 1 }	
+	
+	owner = MAC
+	add_core_of = MAC
+	}	
+	state_category=pastoral
+	manpower =525670
+	buildings_max_level_factor=1.000
+}

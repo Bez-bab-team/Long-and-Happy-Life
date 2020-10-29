@@ -1,0 +1,21 @@
+state={
+	id=349
+	name="STATE_349"
+	provinces={
+		361 820 1023 1190 1660 2920 2946 3004 3155 3412 4081 5027 10614 10816 12529 12609 12619 12647 12659 12670 12683 12713 12737 
+	}
+	manpower=5879082
+	buildings_max_level_factor=1.000
+	history={
+		owner = SOC
+		add_core_of = SOC
+		
+		victory_points={
+			10614 50
+		}
+
+		victory_points={
+			4081 15
+		}
+	}	
+}

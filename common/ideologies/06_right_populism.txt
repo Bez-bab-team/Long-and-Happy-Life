@@ -5,10 +5,10 @@ ideologies = {
 		types = {
 		
 			national_populism = {
-			}		
-			limited_monarchy = {
-			}		
-			authoritarian_republic = {
+			}			
+			social_conservatism = {
+			}
+			christian_democracy = {
 			}
 		}
 		

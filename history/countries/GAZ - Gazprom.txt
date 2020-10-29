@@ -1,6 +1,6 @@
 ﻿capital = 403
 
-oob = "GAZ_2019"
+oob = "GAZ_2020"
 
 # Starting tech
 set_technology = {
@@ -9,18 +9,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neocameralism
+	ruling_party = right_populism
 	elections_allowed = no
 }
 set_popularities = {
-	neocameralism = 100
+	right_populism = 100
 }
 
 create_country_leader = {
-	name = "Vladislav Surkov"
+	name = "Vladimir Shamanov"
 	desc = ""
-	picture = "Portrait_GAZ_Vladislav_Surkov.dds"
-	ideology = statecorporation
+	picture = "Portrait_GAZ_Shamanov.dds"
+	ideology = social_conservatism
 	traits = {
 		
 	}

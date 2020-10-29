@@ -1,0 +1,20 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		16836 16837 
+	}
+	history={
+	victory_points = {
+		16836 2 }	
+	
+	owner = SCO
+	add_core_of = SCO
+	}	
+	state_category=pastoral
+	manpower = 17000
+	Resources={
+	oil=22
+}
+	buildings_max_level_factor=1.000
+}

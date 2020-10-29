@@ -1,0 +1,14 @@
+state={
+	id=633
+	name="STATE_633"
+	provinces={
+		1365 2703 3583 3697 4129 5308 6594 7834 7913 8163 10333 15833 15845 15859 15864 15872 15876 15908 15909 15983 
+	}
+	manpower=1762157
+	buildings_max_level_factor=1.000
+	history={
+		owner = AFG
+		
+		add_core_of = AFG
+	}
+}

@@ -1,0 +1,14 @@
+state={
+	id=659
+	name="STATE_659"
+	provinces={
+		2069 2385 5926 6643 6935 9148 9743 9765 10754 10794 15279 15474 15508 
+	}
+	manpower=5096648
+	buildings_max_level_factor=1.000
+		history={
+		owner = KOR
+		
+		add_core_of = KOR
+	}
+}

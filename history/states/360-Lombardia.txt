@@ -1,0 +1,19 @@
+
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		161 3383 3619 6249 7302 7542 8175 8625 9177 12066 12087 12100 12103 12115 12126 12127 12129 12176 12208 12214 
+	}
+	manpower=10060574
+	Resources={
+	oil=2
+	steel=8
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = PAD
+		
+		add_core_of = PAD
+	}	
+}

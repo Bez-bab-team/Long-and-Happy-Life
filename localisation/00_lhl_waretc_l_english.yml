@@ -1,0 +1,23 @@
+﻿l_english:
+ ###categories###
+ category_mobile_artillery:0 "Self-propelled artillery"
+ category_anti_air:0 "Anti-air artillery"
+
+ ###tactic###
+ tactic_blitz:0 "Combined Assault"
+ tactic_banzai_charge:0 "Shok Charge"
+
+ ###Units###
+ armoured_personnel_carrier:0 "APC"
+ infantry_fighting_vehicle:0 "MIFV"
+ assault_helicopters:0 "Assault Helicopters"
+ transport_helicopters:0 "Transport Helicopters"
+ uav_brigade:0 "UAV"
+ tactical_ballistic_missile_brigade:0 "Tactical Ballistic Missile"
+ nbcb_brigade:0 "NBC Protection Brigade"
+ 
+ mobile_warfare:0 "Deep Operation"
+ delay:0 "Combat Vehicle Emphasis"
+ elastic_defence:0 "Air Defence Integration"
+ mobile_infantry:0 "Airborne Operation"
+ mass_motorization:0 "Field Adaptation"

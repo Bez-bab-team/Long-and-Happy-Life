@@ -1,6 +1,6 @@
 ﻿capital = 537 
 
-oob = "SAH_2019"
+oob = "SAH_2020"
 
 # Starting tech
 set_technology = {

@@ -1,0 +1,21 @@
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		2787 5462 5710 8000 10469 11984 11990 11999 12015 12038 12054 12073 
+	}
+	manpower=720981
+	buildings_max_level_factor=1.000
+	history={
+		owner = EST
+		
+		add_core_of = EST
+
+		victory_points={
+			11984 15
+		}
+		victory_points={
+			12073 3
+		}
+	}
+}

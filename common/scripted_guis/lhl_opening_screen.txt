@@ -1,0 +1,88 @@
+scripted_gui = {
+	lhl_upper_tab_button = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "lhl_opening_screen_upper_button"
+
+		effects = {
+			upper_tab_button_click = {
+				if = {
+					limit = { has_country_flag = lhl_opening_screen_open }
+					clr_country_flag = lhl_opening_screen_open
+					clr_country_flag = opening_screen_country
+					clr_country_flag = opening_screen_region
+					clr_country_flag = opening_screen_mod_info
+					clr_country_flag = opening_screen_updates
+				}
+				else = {
+					set_country_flag = lhl_opening_screen_open
+					set_country_flag = opening_screen_country
+				}
+			}
+		}
+	}
+	
+	lhl_opening_screen_body = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "lhl_opening_screen_full"
+
+		visible = {
+			has_country_flag = lhl_opening_screen_open
+		}
+
+		effects = {
+			lhl_opening_screen_escape_click = {
+				clr_country_flag = lhl_opening_screen_open
+				clr_country_flag = opening_screen_country
+				clr_country_flag = opening_screen_region
+				clr_country_flag = opening_screen_mod_info
+				clr_country_flag = opening_screen_updates
+			}
+			
+			lhl_opening_screen_country_click = {
+				set_country_flag = opening_screen_country
+				
+				clr_country_flag = opening_screen_region
+				clr_country_flag = opening_screen_mod_info
+				clr_country_flag = opening_screen_updates
+			}
+
+			lhl_opening_screen_region_click = {
+				set_country_flag = opening_screen_region
+				
+				clr_country_flag = opening_screen_country
+				clr_country_flag = opening_screen_mod_info
+				clr_country_flag = opening_screen_updates
+			}
+			
+			lhl_opening_screen_updates_click = {
+				set_country_flag = opening_screen_updates
+				
+				clr_country_flag = opening_screen_region
+				clr_country_flag = opening_screen_country
+				clr_country_flag = opening_screen_mod_info
+			}
+
+			lhl_opening_screen_mod_info_click = {
+				set_country_flag = opening_screen_mod_info
+				
+				clr_country_flag = opening_screen_region
+				clr_country_flag = opening_screen_country
+				clr_country_flag = opening_screen_updates
+			}
+		}
+		
+		triggers = {
+			lhl_opening_screen_text_visible = {
+			}
+		}
+		
+		properties = {
+			
+			lhl_opening_screen_picture = {
+				image = "[SET_PICTURE]"
+			}
+		}
+	}
+}

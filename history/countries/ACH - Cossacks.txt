@@ -1,6 +1,6 @@
-﻿capital = 792
+﻿capital = 16
 
-oob = "COS_2019"
+oob = "ACH_2020"
 
 
 set_research_slots = 3

@@ -1,0 +1,14 @@
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		808 2340 2815 8804 16366 
+	}
+	manpower=181310
+	buildings_max_level_factor=1.000
+	history={
+		owner = IND
+		
+		add_core_of = IND
+	}
+}

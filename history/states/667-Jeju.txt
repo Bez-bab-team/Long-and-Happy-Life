@@ -1,0 +1,14 @@
+state={
+	id=667
+	name="STATE_667"
+	provinces={
+		8709 15992 
+	}
+	manpower=537658
+	buildings_max_level_factor=1.000
+		history={
+		owner = KOR
+		
+		add_core_of = KOR
+	}
+}

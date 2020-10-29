@@ -1,0 +1,14 @@
+state={
+	id=453
+	name="STATE_453"
+	provinces={
+		7447 15036 
+	}
+	manpower=123536
+	buildings_max_level_factor=1.000
+	history={
+		owner = DRU
+		
+		add_core_of = DRU
+	}	
+}

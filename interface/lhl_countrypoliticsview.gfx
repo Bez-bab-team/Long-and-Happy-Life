@@ -1,5 +1,10 @@
 spriteTypes = {
-	
+
+	spriteType = {
+		name = "GFX_idea_slot_head_of_government"
+		textureFile = "gfx/interface/idea_slot_head_of_government.dds"
+	}
+
 	spriteType = {
 		name = "GFX_ideology_right_populism_group"
 		texturefile = "gfx/interface/ideologies/right_populism_group.dds"
@@ -49,5 +54,24 @@ spriteTypes = {
 		name = "GFX_ideology_ur_fascism_group"
 		texturefile = "gfx/interface/ideologies/ur_fascism_group.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_IMT_neocameralism_group"
+		texturefile = "gfx/interface/ideologies/unique/IMT/imperial_throne_neocameralism.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_ideology_EAG_national_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/unique/EAG/east_england_debitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_KNT_national_bolshevism_group"
+		texturefile = "gfx/interface/ideologies/unique/KNT/kent_debitalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_GOR_left_authoritarianism_group"
+		texturefile = "gfx/interface/ideologies/unique/GOR/gorshok_paternalism.dds"
+	}
 }

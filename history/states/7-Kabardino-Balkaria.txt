@@ -1,0 +1,23 @@
+state={
+	id=7
+	name="STATE_7"
+	provinces={
+		1408 2643 7947 8304 14390 14394 14396 14412 14434 14445 
+	}
+	manpower=928946
+	resources={
+	tungsten=20
+}
+	buildings_max_level_factor=1.000
+	history={
+		owner = RGD
+		
+		add_core_of = RGD
+
+		victory_points = {
+			8304 23
+		}
+	}
+	state_category=rural
+	
+}

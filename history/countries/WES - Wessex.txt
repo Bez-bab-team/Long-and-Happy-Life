@@ -1,0 +1,256 @@
+﻿capital = 338
+
+oob = "WES_2020"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.8
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+set_convoys = 50
+
+set_politics = {
+	ruling_party = regressionism
+	elections_allowed = no
+}
+set_popularities = {
+	regressionism  = 30
+	millenarism = 3
+	commendationism = 12
+	left_authoritarianism = 5
+	socialism = 10
+	neocameralism = 15
+	national_bolshevism = 3
+	right_populism = 10
+	hegemonism = 7
+	ur_fascism = 5
+}
+
+country_event = { id = WES_event.2 days = 1 }
+
+create_country_leader = {
+	name = "George VII"
+	desc = "POLITICS_GEORGE_WEAK_DESC"
+	picture = "george_sad.dds"
+	ideology = neo_feudalism
+	traits = {
+		fisher_king
+	}
+}
+
+create_corps_commander = {
+	name = "Sir Mike Jackson"
+		picture = ".dds"
+	traits = { harsh_leader	 old_guard }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Nick Houghton"
+		picture = ".dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Graeme Lamb"
+		picture = ".dds"
+	traits = { trait_reckless }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Patrick Sanders"
+		picture = ".dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Nick Parker"
+		picture = ".dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Richard Dannatt"
+		picture = ".dds"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Dave Gahan"
+		picture = ".dds"
+	traits = { substance_abuser media_personality}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Richard Barrons"
+		picture = ".dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Timothy Cross"
+		picture = ".dds"
+	traits = { trait_cautious }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "John Drewienkiewicz"
+		picture = ".dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Peter Thomas Clayton Pearson"
+		picture = ".dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Jonathon Riley"
+		picture = ".dds"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Ashley Truluck"
+		picture = ".dds"
+	traits = { urban_assault_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+
+####USELESS PEOPLE####
+create_country_leader = {
+	name = "Davyth Fear"
+	desc = ""
+	picture = ".dds"
+	ideology = religious_millennialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Robert Griffiths"
+	desc = ""
+	picture = ".dds"
+	ideology = ultrahegelianism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daniel Radcliffe"
+	desc = ""
+	picture = ".dds"
+	ideology = paternalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Dick Cole"
+	desc = ""
+	picture = ".dds"
+	ideology = agrarian_socialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Daisy Cooper"
+	desc = ""
+	picture = ".dds"
+	ideology = atlantic_liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Troy Southgate"
+	desc = ""
+	picture = ".dds"
+	ideology = national_anarchism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Androw Hawke"
+	desc = ""
+	picture = ".dds"
+	ideology = national_populism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Redmond Watt"
+	desc = ""
+	picture = ".dds"
+	ideology = stratocracy
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Paul Golding"
+	desc = ""
+	picture = ".dds"
+	ideology = charismatic_dictatorship
+	traits = {
+	}
+}

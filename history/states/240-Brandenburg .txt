@@ -1,0 +1,14 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		1122 1810 4096 4863 5947 7115 7196 7495 10375 10377 11877 11982 12023 
+	}
+	manpower=7130212
+	buildings_max_level_factor=1.000
+	history={
+		owner = GER
+		
+		add_core_of = GER
+	}
+}

@@ -1,0 +1,22 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_NVS_colonel_turn"
+		texturefile = "gfx/interface/goals/NVS/NVS_colonel_turn.dds"
+	}
+	SpriteType = {
+		name = "GFX_NVS_russia_cross"
+		texturefile = "gfx/interface/goals/NVS/NVS_russia_cross.dds"
+	}
+	SpriteType = {
+		name = "GFX_NVS_all_is_now_against_us"
+		texturefile = "gfx/interface/goals/NVS/NVS_all_is_now_against_us.dds"
+	}
+	SpriteType = {
+		name = "GFX_NVS_order_no_1"
+		texturefile = "gfx/interface/goals/NVS/NVS_order_no_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NVS_shoulder_of_a_comrade"
+		texturefile = "gfx/interface/goals/NVS/NVS_shoulder_of_a_comrade.dds"
+	}
+}

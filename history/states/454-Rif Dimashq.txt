@@ -1,0 +1,14 @@
+state={
+	id=454
+	name="STATE_454"
+	provinces={
+		1 1374 2241 2481 3418 3463 5914 6137 7183 8191 10135 14844 14905 14906 14921 14926 
+	}
+	manpower=5151110
+	buildings_max_level_factor=1.000
+	history={
+		owner = SYR
+		
+		add_core_of = SYR
+	}	
+}

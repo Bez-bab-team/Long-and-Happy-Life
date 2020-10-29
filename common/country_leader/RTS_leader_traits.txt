@@ -1,0 +1,272 @@
+leader_traits = {
+
+	Patriarch_of_All_Russia = {
+		random = no
+		political_power_gain = 0.5
+		stability_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	helpful_bureaucrat = {
+		random = no
+		political_power_factor = 0.55
+		political_advisor_cost_factor = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Man_of_Culture = {
+		random = no
+		war_support_factor = 0.10 
+		foreign_subversive_activites = -0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Russian_bogatyr = {
+		random = no
+		justify_war_goal_time = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Court_Philosopher = {
+		random = no
+		political_power_gain = 0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Man_of_compromise = {
+		random = no
+		stability_factor = 0.05
+		political_power_gain = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Peoples_hero = {
+		random = no
+		stability_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Honest_journalist = {
+		random = no
+		drift_defence_factor = 0.20
+		decryption_factor = 0.2
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Internet_overseer = {
+		random = no
+		drift_defence_factor = 0.10
+		stability_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Knight_of_the_regime = {
+		random = yes
+		sprite = 13
+		opinion_gain_monthly_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Successful_businessman = {
+		random = no
+		production_speed_industrial_complex_factor = 0.2
+		production_speed_infrastructure_factor = 0.1
+		production_speed_synthetic_refinery_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Okhranka_chief = {
+		random = no
+		sprite = 13
+
+		resistance_damage_to_garrison = -0.10
+		foreign_subversive_activites = -0.20
+		drift_defence_factor = 0.20
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+	Recognizable_media = {
+		random = no
+		political_power_factor = 0.05
+		stability_factor = 0.025
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	military_baron = {
+		random = no
+		production_speed_arms_factory_factor = 0.1
+		production_speed_dockyard_factor = 0.1		
+		production_speed_fuel_silo_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Excellent_marketer = {
+		random = no
+		trade_laws_cost_factor = -0.25
+		trade_opinion_factor = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Mother_teresa = {
+		random = no
+		production_speed_infrastructure_factor = 0.1
+		MONTHLY_POPULATION = 0.5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Ardent_preacher = {
+		random = no
+		political_power_factor = 0.05
+		opinion_gain_monthly_same_ideology_factor = 0.5
+		army_core_attack_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	chief_propagandist = {
+		random = no
+		political_power_factor = 0.05
+		trade_opinion_factor = 0.05
+		improve_relations_maintain_cost_factor = -0.75
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	eminent_oceanologist = {
+		random = no
+		experience_gain_navy = 0.05
+		convoy_escort_efficiency = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Aichi_specialist = {
+		random = no
+		decryption_factor = 0.2
+		encryption_factor = 0.2
+			research_speed_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Hothead = {
+		random = no
+		army_attack_factor = 0.1
+		Planning_speed = 0.10
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	MVD_Minister = {
+		random = no
+				army_org_factor = 0.1
+		defence = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Pirate_hunter = {
+		random = no
+		navy_submarine_attack_factor = 0.2
+		navy_submarine_defence_factor = 0.2
+		spotting_chance = 0.1
+		convoy_raiding_efficiency_factor = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Destroyer_Lover = {
+		random = no
+		naval_speed_factor = 0.1
+		navy_capital_ship_attack_factor = 0.05
+		navy_capital_ship_defence_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Airborne_assault = {
+		random = no
+		air_paradrop_agility_factor = 0.03
+		air_paradrop_defence_factor = 0.03
+		air_paradrop_attack_factor = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Battle_Angel = {
+		random = no
+		air_interception_attack_factor = 0.02
+		air_interception_defence_factor = 0.02
+		air_interception_agility_factor = 0.02
+		air_air_superiority_attack_factor = 0.02
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Head_of_the_Yunarmiya = {
+		random = no
+		training_time_army_factor = -0.1
+		conscription = 0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	White_Ataman = {
+		random = no
+		cavalry_defence_factor = 0.05
+		cavalry_attack_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	Tank_General = {
+		random = no
+		army_armor_speed_factor = 0.05
+		army_armor_attack_factor = 0.1
+		army_armor_defence_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MotoGusar = {
+		random = no
+		motorized_attack_factor = 0.05
+		motorized_defence_factor = 0.05
+		army_speed_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		1695 5862 7710 9105 12347 12402 12409 
+	}
+	manpower=281581
+	buildings_max_level_factor=1.000
+			history={
+		owner = UST
+		
+		add_core_of = UST
+
+		victory_points = {
+			12409 15
+		}
+		victory_points = {
+			12347 5
+		}
+	}
+}

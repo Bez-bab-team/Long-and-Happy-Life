@@ -1,0 +1,165 @@
+ideas = {
+
+	country = {
+	
+		NTH_landsknecht_new = {
+			
+			picture = NTH_landsknecht_new
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+	
+		ENG_dynastic_crisis = {
+			
+			picture = ENG_dynastic_crisis
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			war_support_factor = 0.10
+			political_power_factor = 0.05
+			}
+		}
+	}
+
+
+	head_of_government = {
+
+		salma_yaqoob = {
+
+			picture = darja_dugina
+			allowed = {
+				original_tag = "NTH"
+			}
+
+			traits = { ideological_crusader }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		jeremy_corbyn = {
+
+			picture = jeremy_corbyn
+			allowed = {
+				original_tag = "SUS"
+			}
+
+			traits = { maenad }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		roger_scruton = {
+
+			picture = roger_scruton
+			allowed = {
+				original_tag = "WES"
+			}
+
+			traits = { renaissance_man }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	
+		regency_councilmer = {
+
+			picture = regency_councilmer
+			allowed = {
+				original_tag = "MRC"
+			}
+
+			traits = { black_monk }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		nick_land = {
+
+			picture = nick_land
+			allowed = {
+				original_tag = "ESS"
+			}
+
+			traits = { black_monk }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		patrick_cormack = {
+
+			picture = patrick_cormack
+			allowed = {
+				original_tag = "KNT"
+			}
+
+			traits = { black_monk }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		reinhard_gunzel = {
+
+			picture = reinhard_gunzel
+			allowed = {
+				original_tag = "EAG"
+			}
+
+			traits = { black_monk }
+
+			do_effect = {
+				#
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

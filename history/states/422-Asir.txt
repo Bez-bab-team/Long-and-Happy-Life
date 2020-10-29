@@ -1,0 +1,14 @@
+state={
+	id=422
+	name="STATE_422"
+	provinces={
+		57 2610 3210 3488 4491 5040 5044 5321 5474 5698 5766 5832 6808 9834 9853 9869 16159 16166 16179 16200 16203 16236 16247 16276 
+	}
+	manpower=1647661
+	buildings_max_level_factor=1.000
+	history={
+		owner = HAR
+		
+		add_core_of = HAR
+	}	
+}

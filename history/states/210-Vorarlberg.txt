@@ -1,0 +1,14 @@
+state={
+	id=210
+	name="STATE_210"
+	provinces={
+		9811 12027 12043 12052 
+	}
+	manpower=369922
+	buildings_max_level_factor=1.000
+	history={
+		owner = AUS
+		
+		add_core_of = AUS
+	}
+}

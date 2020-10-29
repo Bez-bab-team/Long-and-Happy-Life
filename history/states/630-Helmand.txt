@@ -1,0 +1,14 @@
+state={
+	id=630
+	name="STATE_630"
+	provinces={
+		260 894 913 926 958 1404 2333 2537 2837 3206 3668 3778 4808 5687 7044 8285 8681 8739 8758 9160 10141 10239 10450 10638 16079 16110 16143 16172 16219 
+	}
+	manpower=859600
+	buildings_max_level_factor=1.000
+	history={
+		owner = AFG
+		
+		add_core_of = AFG
+	}
+}

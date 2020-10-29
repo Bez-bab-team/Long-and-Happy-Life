@@ -1,0 +1,27 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		860 2851 3085 3516 4422 6526 6680 7994 8086 8597 13130 13159 13179 13188 
+	}
+	manpower=1744570
+	buildings_max_level_factor=1.000
+		history={
+		owner = RTS
+		add_core_of = RTS
+
+		victory_points={
+			7994 30
+		}
+		victory_points={
+			13130 5
+		}
+		victory_points={
+			3085 15
+		}
+		victory_points={
+			8086 4
+		}
+	}
+	state_category=city
+}

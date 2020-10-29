@@ -1,0 +1,14 @@
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		567 1214 1614 5355 8113 8389 8843 10515 12801 12807 12832 12839 12860 12868 12872 12876 12918 
+	}
+	manpower=2265551
+	buildings_max_level_factor=1.000
+	history={
+		owner = HUN
+		
+		add_core_of = HUN
+	}
+}

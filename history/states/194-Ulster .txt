@@ -1,0 +1,17 @@
+state={
+	id=194
+	name="STATE_194"
+	provinces={
+		10582 10942 10943 
+	}
+	history={
+	victory_points = {
+		10582 2	}	
+	
+	owner = IRE
+	add_core_of = IRE
+	}	
+	state_category=pastoral
+	manpower = 2105656
+	buildings_max_level_factor=1.000
+}

@@ -5,8 +5,6 @@ ideologies = {
 		types = {
 			ultrahegelianism = {
 			}	
-			leftwing_monarchy = {
-			}	
 			leftwing_chauvinism = {
 			}				
 		}

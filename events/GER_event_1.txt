@@ -1,0 +1,109 @@
+﻿add_namespace = GER_event
+
+country_event = {
+	id = GER_event.1
+	title = GER_event.1.t
+	desc = GER_event.1.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = GER_event.1.a
+		add_political_power = -100
+		create_country_leader = {
+	        name = "Domik"
+            desc = ""
+	        picture = ".dds"
+	        expire = "9999.1.1"
+	        ideology = agrarian_socialism
+	        traits = {}
+		}
+		hidden_effect = {
+			news_event = { id = lhl_news.1 days = 1 }
+		}
+		hidden_effect = {
+		    GER = {
+			    country_event = { id = GER_event.3 days = 20 }
+		    }
+		}
+		custom_effect_tooltip = GER_1
+    }   	
+}
+
+country_event = {
+	id = GER_event.3
+	title = GER_event.3.t
+	desc = GER_event.3.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = GER_event.3.a
+		hidden_effect = {
+		    EAG = {
+			    country_event = { id = EAG_event.1 days = 10 }
+		    }
+		}
+    }   	
+}
+
+country_event = {
+	id = GER_event.4
+	title = GER_event.4.t
+	desc = GER_event.4.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = GER_event.4.a
+		hidden_effect = {
+		    EAG = {
+			    country_event = { id = EAG_event.3 days = 10 }
+		    }
+		}
+    }   	
+}
+
+country_event = {
+	id = GER_event.5
+	title = GER_event.5.t
+	desc = GER_event.5.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = GER_event.5.a
+		hidden_effect = {
+			news_event = { id = lhl_news.2 days = 1 }
+			GER = {
+			    country_event = { id = GER_event.6 days = 5 }
+		    }
+	    }
+    }   	
+}
+
+country_event = {
+	id = GER_event.6
+	title = GER_event.6.t
+	desc = GER_event.6.d
+	picture = 
+	major = no
+    fire_only_once = true	
+	is_triggered_only = yes
+    option = {
+		name = GER_event.6.a
+    }
+    option = {
+		name = GER_event.6.b
+    } 
+    option = {
+		name = GER_event.6.c
+    } 
+    option = {
+		name = GER_event.6.e
+    } 	
+}

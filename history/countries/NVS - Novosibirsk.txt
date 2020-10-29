@@ -1,6 +1,6 @@
 ﻿capital = 570
 
-oob = "SOV_1936"
+oob = "NVS_2020"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -13,19 +13,21 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = left_authoritarianism
 	elections_allowed = no
 }
 set_popularities = {
-	socialism  = 100
+	left_authoritarianism = 100
 }
 
 create_country_leader = {
 	name = "Alexander Lebed"
 	desc = ""
-	picture = "Portrait_RST_KURGINJAN.dds"
-	ideology = agrarian_socialism
+	picture = "Portrait_NVS_Lebed.dds"
+	ideology = soviet_marxism
 	traits = {
 		
 	}
+}
+
 }

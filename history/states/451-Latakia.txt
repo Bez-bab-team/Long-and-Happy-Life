@@ -1,0 +1,14 @@
+state={
+	id=451
+	name="STATE_451"
+	provinces={
+		81 9972 14666 14676 14730 14748 14788 
+	}
+	manpower=2527756
+	buildings_max_level_factor=1.000
+	history={
+		owner = ASS
+		
+		add_core_of = ASS
+	}	
+}
